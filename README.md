@@ -4,7 +4,7 @@ A small installable web app (PWA) for learning Russian: daily lessons with pictu
 grammar notes, plus Anki-style flashcards with spaced repetition. It works offline, on Android
 and on desktop, and has no server or account.
 
-**Open it:** https://hellozakria-dotcom.github.io/russian/
+**Open it:** https://hellozakria-dotcom.github.io/Russian/
 
 - **Android:** open the link in Chrome → ⋮ menu → *Install app* (or *Add to Home screen*).
 - **Windows / Mac / Linux:** open in Chrome or Edge → the install icon in the address bar.
