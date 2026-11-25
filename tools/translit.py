@@ -3,7 +3,7 @@ Mark stress in the input with a combining acute (U+0301) after the vowel, e.g. "
 """
 # ---------- pronunciation in English letters, stressed syllable in CAPS ----------
 VOW = "аеёиоуыэюя"
-SPECIAL = {"здра́вствуйте": "ZDRAST-vui-tye", "что": "shto", "сего́дня": "si-VOD-nya", "пожа́луйста": "pa-ZHA-lus-ta",
+SPECIAL = {"его́": "yi-VO", "чего́": "chi-VO", "здра́вствуйте": "ZDRAST-vui-tye", "что": "shto", "сего́дня": "si-VOD-nya", "пожа́луйста": "pa-ZHA-lus-ta",
            "вчера́": "fchi-RA", "в": "v", "с": "s", "мне": "mnye", "нет": "nyet", "где": "gdye",
            "друг": "druk", "кого́": "ka-VO", "чего́": "chi-VO", "краси́вый": "kra-SI-vih", "о": "a", "не": "ni", "по": "pa", "у": "u", "волейбо́л": "va-lei-BOL", "э́то": "E-ta", "пью": "pyu", "без": "byez"}
 CON = dict(б="b", в="v", г="g", д="d", ж="zh", з="z", й="y", к="k", л="l", м="m", н="n", п="p", р="r",

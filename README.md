@@ -14,9 +14,18 @@ and on desktop, and has no server or account.
   Russian voice, conjugation and case tables, example sentences and the lesson video.
 - **Cards**: spaced repetition (Again / Hard / Good / Easy), Russian → English, English → Russian
   or mixed, one deck per day or everything. Keyboard: space, 1–4, P.
+- **Read**: LingQ-style graded texts. Hover (desktop) or tap (phone) any word for its meaning,
+  pronunciation, voice, grammar and an example; add it to your cards or mark it as known.
+  Blue = new, yellow = learning. Each sentence has voice and an English translation.
 - **Add**: your own words and sets (type `'` after the stressed vowel: `соба'ка`).
 - **Backup**: progress and your words are stored on the device. *Save backup* / *Load backup*
   moves them between phone and computer (loading merges, nothing is lost).
+
+## Adding a reading text
+`content/texts/tN.json`: `title`, `en`, `level`, `after` (unit), `pic`, `sentences` (`ru` with stress marks + `en`)
+and `gloss`: one entry per word form in the text, keyed by the form without stress
+(`"живу": {"w": "живу́", "lemma": "жить", "en": "(I) live", "info": "verb жить, я form…"}`).
+`tools/build.py` stops and lists any word that has no gloss, then makes the voice for every word and sentence.
 
 ## Learning path
 The days follow an A1 → A2 path built on the topics of the official Russian state exam for foreigners (TORFL / ТРКИ).

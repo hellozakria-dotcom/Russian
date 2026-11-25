@@ -126,9 +126,34 @@ json.dump(dict(days=index), open("days/index.json", "w", encoding="utf-8"), ensu
 if os.path.exists("content/plan.json"):
     json.dump(json.load(open("content/plan.json", encoding="utf-8")), open("days/plan.json", "w", encoding="utf-8"), ensure_ascii=False)
 
+# ---- graded reading texts ----
+os.makedirs("texts", exist_ok=True)
+norm = lambda w: w.lower().replace("\u0301", "").replace("ё", "е")
+WORD_RE = re.compile(r"[А-Яа-яЁё\u0301]+(?:-[А-Яа-яЁё\u0301]+)*")
+tindex = []
+for path in sorted(glob.glob("content/texts/t*.json"), key=lambda p: int(re.findall(r"\d+", p)[-1])):
+    t = json.load(open(path, encoding="utf-8"))
+    print(f"Text {t['id']}: {t['title']}")
+    gloss = {norm(k): v for k, v in t["gloss"].items()}
+    missing = set()
+    for s in t["sentences"]:
+        s["audio"] = audio(s["ru"])
+        for tok in WORD_RE.findall(s["ru"]):
+            if norm(tok) not in gloss: missing.add(tok)
+    if missing: raise SystemExit(f"  words without a gloss in {path}: {sorted(missing)}")
+    for g in gloss.values():
+        g["pr"] = g.get("pr") or word_tr(g["w"])
+        g["audio"] = audio(g["w"])
+    t["gloss"] = gloss
+    if t.get("pic"): t["pic"] = pic(t["pic"])
+    json.dump(t, open(f"texts/t{t['id']}.json", "w", encoding="utf-8"), ensure_ascii=False)
+    tindex.append(dict(id=t["id"], file=f"texts/t{t['id']}.json", title=t["title"], en=t.get("en", ""), level=t.get("level", ""),
+                       after=t.get("after", 0), pic=t.get("pic"), words=len(gloss), sentences=len(t["sentences"])))
+json.dump(dict(texts=tindex), open("texts/index.json", "w", encoding="utf-8"), ensure_ascii=False)
+
 # ---- service worker: precache everything except videos ----
 files = ["./", "index.html", "manifest.webmanifest"] + sorted(
-    glob.glob("days/*.json") + glob.glob("audio/*.mp3") + glob.glob("pics/*.png") + glob.glob("icons/*.png"))
+    glob.glob("days/*.json") + glob.glob("texts/*.json") + glob.glob("audio/*.mp3") + glob.glob("pics/*.png") + glob.glob("icons/*.png"))
 h = hashlib.md5()
 for f in files[1:]:
     h.update(f.encode()); h.update(open(f, "rb").read())

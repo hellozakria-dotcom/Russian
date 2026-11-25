@@ -68,12 +68,27 @@ input,select,textarea{width:100%;border:1px solid var(--line);background:#fff;bo
 .empty{text-align:center;color:var(--soft);padding:30px 10px}
 .kbd{font-size:12px;color:var(--soft);text-align:center;margin-top:8px}
 a{color:var(--pr)}
+.reader{font-size:22px;line-height:1.9}
+.sent{padding:6px 0;border-bottom:1px dashed var(--line)} .sent:last-child{border-bottom:0}
+.sent .tr{font-size:15px;color:var(--soft);line-height:1.4;margin:2px 0 4px 40px;display:none} .showtr .sent .tr,.sent.open .tr{display:block}
+.sp{border:0;background:none;color:var(--soft);cursor:pointer;width:32px;height:32px;vertical-align:-6px;padding:0;margin-right:6px}
+.sp svg{width:20px;height:20px}
+.wd{cursor:pointer;border-radius:6px;padding:1px 2px;transition:background .15s}
+.st-new{background:#DCEBFA} .st-learning{background:#FBEDB8} .st-known{background:transparent}
+.wd.sel{outline:2px solid var(--pr)}
+.nostress .s{color:inherit}
+#pop{position:absolute;z-index:30;background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:0 10px 30px rgba(0,0,0,.15);padding:14px 16px;width:320px;display:none}
+#pop.sheet{position:fixed;left:0;right:0;bottom:0;width:auto;border-radius:22px 22px 0 0;padding:18px 18px calc(18px + env(safe-area-inset-bottom));max-height:70vh;overflow:auto}
+#pop .w{font-size:28px;font-weight:700} #pop .btns{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap} #pop .btns .btn{flex:1;padding:10px 8px;font-size:14px}
+.legend{display:flex;gap:10px;font-size:12px;color:var(--soft);align-items:center;flex-wrap:wrap} .legend i{display:inline-block;width:14px;height:12px;border-radius:4px;vertical-align:-1px;margin-right:4px}
+.pct{height:6px;border-radius:9px;background:var(--line);overflow:hidden;display:flex} .pct b{background:#9cc7ee} .pct u{background:#f1d57a}
 </style>
 </head>
 <body>
 <main id="app"><div class="empty">Loading…</div></main>
 <nav class="tabs" id="tabs"></nav>
 <div class="toast" id="toast"></div>
+<div id="pop"></div>
 <script>
 (() => {
 'use strict';
@@ -98,6 +113,7 @@ const ICON = {
   cards: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="6" width="14" height="14" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/></svg>',
   book: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5"/></svg>',
   plus: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg>',
+  read: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 5h7a3 3 0 0 1 3 3v12a2 2 0 0 0-2-2H2zM22 5h-7a3 3 0 0 0-3 3v12a2 2 0 0 1 2-2h8z"/></svg>',
   spk: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12"/></svg>'
 };
 
@@ -105,7 +121,7 @@ const ICON = {
 const VOW = 'аеёиоуыэюя';
 const CON = {б:'b',в:'v',г:'g',д:'d',ж:'zh',з:'z',й:'y',к:'k',л:'l',м:'m',н:'n',п:'p',р:'r',с:'s',т:'t',ф:'f',х:'kh',ц:'ts',ч:'ch',ш:'sh',щ:'shch',ъ:'',ь:"'"};
 const DEV = {б:'п',в:'ф',г:'к',д:'т',ж:'ш',з:'с'}; const HARD = 'шжц';
-const SPECIAL = {'здра́вствуйте':'ZDRAST-vui-tye','что':'shto','сего́дня':'si-VOD-nya','пожа́луйста':'pa-ZHA-lus-ta','в':'v','с':'s','мне':'mnye','нет':'nyet','где':'gdye','друг':'druk','э́то':'E-ta','о':'a','не':'ni','по':'pa','у':'u','кого́':'ka-VO','чего́':'chi-VO'};
+const SPECIAL = {'его́':'yi-VO','здра́вствуйте':'ZDRAST-vui-tye','что':'shto','сего́дня':'si-VOD-nya','пожа́луйста':'pa-ZHA-lus-ta','в':'v','с':'s','мне':'mnye','нет':'nyet','где':'gdye','друг':'druk','э́то':'E-ta','о':'a','не':'ni','по':'pa','у':'u','кого́':'ka-VO','чего́':'chi-VO'};
 function wordTr(w) {
   let raw = w.toLowerCase();
   if (SPECIAL[raw]) return SPECIAL[raw];
@@ -183,7 +199,7 @@ const S = {
 };
 let cards = [], cardById = {};
 function buildCards() {
-  cards = [];
+  cards = []; lemmaCards = null;
   for (const d of S.days) {
     const sByWord = {};
     for (const s of d.sentences) (sByWord[s.word || '_'] ??= []).push(s);
@@ -195,7 +211,7 @@ function buildCards() {
   }
   const cs = [...S.custom].sort((a, b) => (a.created || 0) - (b.created || 0));
   for (const c of cs) {
-    const w = {id: 'c-' + c.id, kind: c.g === 'verb' ? 'verb' : (c.g === 'adj' ? 'adj' : 'noun'), g: c.g, ru: c.ru, en: c.en, pr: c.pr || trText(c.ru), custom: true, deckName: c.deck || 'My words', ex: c.ex, exEn: c.exEn};
+    const w = {id: 'c-' + c.id, kind: c.g === 'verb' ? 'verb' : (c.g === 'adj' ? 'adj' : 'noun'), g: c.g, ru: c.ru, en: c.en, pr: c.pr || trText(c.ru), custom: true, deckName: c.deck || 'My words', ex: c.ex, exEn: c.exEn, note: c.info || ''};
     cards.push({id: w.id, type: 'word', deck: 'my', w});
   }
   cardById = Object.fromEntries(cards.map(c => [c.id, c]));
@@ -301,7 +317,7 @@ function importData(file) {
 
 // ---------------- views ----------------
 function tabs() {
-  const t = [['home', 'Home', ICON.home], ['review', 'Cards', ICON.cards], ['lessons', 'Lessons', ICON.book], ['add', 'Add', ICON.plus]];
+  const t = [['home', 'Home', ICON.home], ['review', 'Cards', ICON.cards], ['lessons', 'Lessons', ICON.book], ['read', 'Read', ICON.read], ['add', 'Add', ICON.plus]];
   $('#tabs').innerHTML = t.map(([k, l, i]) => `<button data-tab="${k}" class="${S.view === k ? 'on' : ''}">${i}${l}</button>`).join('');
 }
 function deckChips() {
@@ -442,6 +458,140 @@ function planHTML() {
   if (!next.length) return '';
   return `<h3>Coming next</h3><div class="card"><p class="en small" style="margin-top:0">${esc(S.plan.approach || '')}</p>${next.map(p => `<div class="item"><div class="stat" style="padding:6px 10px;flex:none;text-align:center"><b style="font-size:18px">${p.day}</b><span>${esc(p.level || '')}</span></div><div class="grow">${stress(p.title)}</div></div>`).join('')}</div>`;
 }
+// ---------------- reader (LingQ-style) ----------------
+const nk = w => String(w || '').toLowerCase().replace(/́/g, '').replace(/ё/g, 'е');
+const WORD_RE = /[А-Яа-яЁё́]+(?:-[А-Яа-яЁё́]+)*/g;
+let lemmaCards = null;
+function lemmaIndex() {
+  if (lemmaCards) return lemmaCards;
+  lemmaCards = {};
+  for (const c of cards) if (c.type === 'word') for (const part of c.w.ru.split('/')) { const k = nk(part.replace(/[…?!.]/g, '').trim()); if (k) lemmaCards[k] ??= c.id; }
+  return lemmaCards;
+}
+function wordStatus(g) {
+  const k = nk(g.lemma); const set = (S.prog.words || {})[k]; if (set) return set;
+  const cid = lemmaIndex()[k];
+  if (cid) { const x = st(cid); if (x && x.state === 'review' && x.ivl >= 21) return 'known'; return 'learning'; }
+  return 'new';
+}
+function setStatus(g, s) { (S.prog.words ??= {})[nk(g.lemma)] = s; saveProg(); }
+async function loadText(id) {
+  S.textCache ??= {};
+  if (!S.textCache[id]) { const meta = S.texts.find(t => t.id === id); S.textCache[id] = await (await fetch(meta.file)).json(); }
+  return S.textCache[id];
+}
+function textPct(t) {
+  const lem = [...new Set(Object.values(t.gloss).map(g => nk(g.lemma)))];
+  const byL = {}; for (const g of Object.values(t.gloss)) byL[nk(g.lemma)] = g;
+  let known = 0, learning = 0; for (const l of lem) { const s = wordStatus(byL[l]); if (s === 'known') known++; else if (s === 'learning') learning++; }
+  return {known, learning, total: lem.length};
+}
+function readView() {
+  if (S.textOpen) {
+    const t = S.textCache && S.textCache[S.textOpen];
+    if (!t) { loadText(S.textOpen).then(render); return '<div class="empty">Loading…</div>'; }
+    const showStress = S.prog.prefs.stress !== false;
+    const sents = t.sentences.map((s, i) => {
+      let html = '', last = 0;
+      for (const m of s.ru.matchAll(WORD_RE)) {
+        html += stress(s.ru.slice(last, m.index));
+        const g = t.gloss[nk(m[0])];
+        html += g ? `<span class="wd st-${wordStatus(g)}" data-k="${esc(nk(m[0]))}" data-si="${i}">${stress(m[0])}</span>` : stress(m[0]);
+        last = m.index + m[0].length;
+      }
+      html += stress(s.ru.slice(last));
+      return `<div class="sent" data-sent="${i}"><button class="sp" data-play="${esc(s.audio || '')}" data-text="${esc(s.ru)}" aria-label="Play sentence">${ICON.spk}</button>${html}<div class="tr">${esc(s.en)}</div></div>`;
+    }).join('');
+    const p = textPct(t);
+    return `<button class="btn ghost" data-closetext="1">← Texts</button>
+    <div class="row" style="margin-top:12px">${t.pic ? `<img src="pics/${esc(t.pic)}" alt="" style="width:64px;height:64px">` : ''}<div class="grow"><h2>${stress(t.title)}</h2><div class="en small">${esc(t.en || '')} · ${esc(t.level || '')}</div></div></div>
+    <div class="legend" style="margin:10px 0"><span><i style="background:#DCEBFA"></i>new</span><span><i style="background:#FBEDB8"></i>learning</span><span><i style="border:1px solid var(--line)"></i>known</span>
+     <span class="grow"></span><span>${Math.round(100 * (p.known + p.learning) / Math.max(1, p.total))}% familiar</span></div>
+    <div class="row chips"><button class="chip ${S.showTr ? 'on' : ''}" data-togtr="1">English</button><button class="chip ${showStress ? 'on' : ''}" data-togstress="1">Stress marks</button><button class="chip" data-playall="1">▶ Read aloud</button></div>
+    <div class="card reader ${S.showTr ? 'showtr' : ''} ${showStress ? '' : 'nostress'}">${sents}</div>
+    <p class="en small">${matchMedia('(hover: hover)').matches ? 'Hover a word for its meaning, click to keep it open.' : 'Tap a word for its meaning.'} Tap ▶ to hear a sentence, and tap the sentence's empty space to see it in English.</p>
+    <button class="btn wide" data-finish="${t.id}">Finish: mark the blue words as known</button>
+    ${(S.prog.read || {})[t.id] ? `<p class="en small" style="text-align:center">Read on ${esc(S.prog.read[t.id])}</p>` : ''}`;
+  }
+  const list = (S.texts || []).map(m => {
+    const t = S.textCache && S.textCache[m.id]; const p = t ? textPct(t) : null;
+    return `<div class="card row" data-text="${m.id}" style="cursor:pointer">${m.pic ? `<img src="pics/${esc(m.pic)}" alt="" style="width:56px;height:56px">` : ''}
+     <div class="grow"><div class="word">${stress(m.title)}</div><div class="en small">${esc(m.en)} · ${esc(m.level)} · ${m.sentences} sentences${(S.prog.read || {})[m.id] ? ' · ✓ read' : ''}</div>
+     ${p ? `<div class="pct" style="margin-top:6px"><b style="width:${100 * p.known / p.total}%"></b><u style="width:${100 * p.learning / p.total}%"></u></div>` : ''}</div><span class="en">›</span></div>`;
+  }).join('');
+  if (S.texts && S.texts.some(m => !(S.textCache || {})[m.id])) Promise.all(S.texts.map(m => loadText(m.id))).then(() => { if (S.view === 'read' && !S.textOpen) render(); });
+  return `<h1>Read</h1><p class="en">Short texts at your level. Words you haven't met are blue, words you're learning are yellow. Hover or tap any word.</p>${list || '<div class="empty">No texts yet.</div>'}`;
+}
+let popPinned = false, popTimer = null;
+function showPop(el, pin) {
+  const t = S.textCache[S.textOpen]; const g = t.gloss[el.dataset.k]; if (!g) return;
+  const s = t.sentences[+el.dataset.si];
+  document.querySelectorAll('.wd.sel').forEach(x => x.classList.remove('sel')); el.classList.add('sel');
+  const status = wordStatus(g); const inCards = !!lemmaIndex()[nk(g.lemma)];
+  let ex = null;
+  for (const d of S.days) { for (const x of d.sentences) if ((x.ru.match(WORD_RE) || []).some(w => nk(w) === nk(g.w) || nk(w) === nk(g.lemma))) { ex = x; break; } if (ex) break; }
+  if (!ex || nk(ex.ru) === nk(s.ru)) ex = null;
+  const pop = $('#pop');
+  pop.innerHTML = `<div class="row"><div class="grow"><div class="w">${stress(g.w)}</div><div class="pr" style="font-size:16px">${esc(g.pr || trText(g.w))}</div></div>${spkBtn(g.audio, g.w)}</div>
+   <div style="font-size:20px;font-weight:600;margin-top:6px">${esc(g.en)}</div>
+   ${nk(g.lemma) !== nk(g.w) ? `<div class="small" style="margin-top:4px">Dictionary form: <b>${stress(g.lemma)}</b></div>` : ''}
+   <div class="note">${stress(g.info || '')}</div>
+   <div class="small" style="margin-top:8px"><span class="en">Usage:</span> ${stress((ex || s).ru)}<div class="en small">${esc((ex || s).en)}</div></div>
+   <div class="btns">${status === 'new' || (!inCards && status !== 'known') ? `<button class="btn" data-addread="1">${status === 'learning' && !inCards ? 'Add to cards' : 'Add to cards'}</button>` : ''}
+    ${status !== 'known' ? '<button class="btn ghost" data-known="1">I know this ✓</button>' : '<button class="btn ghost" data-relearn="1">Still learning</button>'}</div>`;
+  pop.dataset.k = el.dataset.k; pop.dataset.si = el.dataset.si;
+  const sheet = !matchMedia('(hover: hover) and (pointer: fine)').matches || innerWidth < 560;
+  pop.classList.toggle('sheet', sheet); pop.style.display = 'block';
+  if (!sheet) {
+    const r = el.getBoundingClientRect(); const w = pop.offsetWidth;
+    pop.style.left = Math.max(8, Math.min(innerWidth - w - 8, r.left + scrollX + r.width / 2 - w / 2)) + 'px';
+    const below = r.bottom + scrollY + 8, h = pop.offsetHeight;
+    pop.style.top = (r.bottom + h + 16 > innerHeight && r.top > h + 16 ? r.top + scrollY - h - 8 : below) + 'px';
+  } else { pop.style.left = ''; pop.style.top = ''; }
+  popPinned = !!pin;
+}
+function hidePop(force) { if (popPinned && !force) return; const p = $('#pop'); if (p) p.style.display = 'none'; popPinned = false; document.querySelectorAll('.wd.sel').forEach(x => x.classList.remove('sel')); }
+function readerAction(kind) {
+  const pop = $('#pop'); const t = S.textCache[S.textOpen]; const g = t.gloss[pop.dataset.k]; const s = t.sentences[+pop.dataset.si];
+  if (kind === 'known') { setStatus(g, 'known'); toast('Marked as known'); }
+  if (kind === 'relearn') { setStatus(g, 'learning'); }
+  if (kind === 'add') {
+    if (lemmaIndex()[nk(g.lemma)]) { setStatus(g, 'learning'); toast('Already in your cards'); }
+    else {
+      const doc = {id: 'w' + Date.now().toString(36), ru: g.lemma, en: g.en, g: 'x', pr: trText(g.lemma), ex: s.ru, exEn: s.en, deck: 'From reading', created: Date.now(), info: g.info};
+      S.custom.push(doc); saveWords(); buildCards(); lemmaCards = null; setStatus(g, 'learning'); toast('Added to cards: ' + g.lemma.replace(/́/g, ''));
+    }
+  }
+  popPinned = false; render();
+}
+let playQueue = null;
+function playAll(t) {
+  const files = t.sentences.map(s => s.audio).filter(Boolean); let i = 0;
+  if (playQueue) { playQueue.pause(); playQueue = null; return; }
+  const next = () => { if (i >= files.length) { playQueue = null; return; } const a = new Audio('audio/' + files[i]); playQueue = a; const el = document.querySelector(`[data-sent="${i}"]`); document.querySelectorAll('.sent').forEach(x => x.style.background = ''); if (el) { el.style.background = '#FFF6DA'; el.scrollIntoView({block: 'center', behavior: 'smooth'}); } i++; a.onended = next; a.play().catch(() => { playQueue = null; }); };
+  next();
+}
+function finishText(id) {
+  const t = S.textCache[id]; let n = 0;
+  for (const g of Object.values(t.gloss)) if (wordStatus(g) === 'new') { setStatus(g, 'known'); n++; }
+  (S.prog.read ??= {})[id] = today(); saveProg(); toast(n ? `${n} words marked as known` : 'Text finished'); render();
+}
+document.addEventListener('mouseover', e => {
+  const el = e.target.closest && e.target.closest('.wd');
+  if (!el || popPinned || !matchMedia('(hover: hover) and (pointer: fine)').matches) return;
+  clearTimeout(popTimer); showPop(el, false);
+});
+document.addEventListener('mouseout', e => {
+  const el = e.target.closest && e.target.closest('.wd, #pop'); if (!el || popPinned) return;
+  clearTimeout(popTimer); popTimer = setTimeout(() => { if (!$('#pop').matches(':hover') && !document.querySelector('.wd:hover')) hidePop(); }, 250);
+});
+document.addEventListener('click', e => {
+  if (e.target.closest('#pop')) return;
+  const w = e.target.closest('.wd'); if (w) { e.stopPropagation(); showPop(w, true); return; }
+  const sent = e.target.closest('.sent'); if (sent && !e.target.closest('button')) { sent.classList.toggle('open'); }
+  if (!e.target.closest('.wd')) hidePop(true);
+}, true);
+
 function addView() {
   const decks = [...new Set(S.custom.map(c => c.deck || 'My words'))]; if (!decks.includes('My words')) decks.unshift('My words');
   const groups = {}; for (const c of S.custom) (groups[c.deck || 'My words'] ??= []).push(c);
@@ -462,7 +612,8 @@ function addView() {
 }
 function render() {
   tabs();
-  const v = S.view === 'home' ? homeView() : S.view === 'review' ? reviewView() : S.view === 'lessons' ? lessonsView() : addView();
+  hidePop(true);
+  const v = S.view === 'home' ? homeView() : S.view === 'review' ? reviewView() : S.view === 'lessons' ? lessonsView() : S.view === 'read' ? readView() : addView();
   $('#app').innerHTML = v;
   if (S.view === 'add') {
     const ru = $('#f-ru'), g = $('#f-g');
@@ -498,7 +649,7 @@ function autoplayFront() { if (S.view === 'review' && cur && frontDir === 'ru') 
 
 // ---------------- events ----------------
 document.addEventListener('click', e => {
-  const t = e.target.closest('button,[data-day],[data-go]'); if (!t) return;
+  const t = e.target.closest('button,[data-day],[data-go],[data-text]'); if (!t) return;
   if (t.dataset.tab) { S.view = t.dataset.tab; if (S.view === 'lessons') S.dayOpen = null; shown = false; render(); window.scrollTo(0, 0); if (S.view === 'review') setTimeout(autoplayFront, 50); return; }
   if (t.dataset.go) { S.view = t.dataset.go; shown = false; render(); window.scrollTo(0, 0); if (S.view === 'review') setTimeout(autoplayFront, 50); return; }
   if (t.dataset.deck) { S.deck = t.dataset.deck; cur = null; shown = false; render(); return; }
@@ -507,6 +658,15 @@ document.addEventListener('click', e => {
   if (t.dataset.back) { S.dayOpen = null; render(); return; }
   if (t.dataset.study) { S.deck = t.dataset.study; S.view = 'review'; cur = null; shown = false; render(); window.scrollTo(0, 0); return; }
   if (t.dataset.grade) { grade(+t.dataset.grade); return; }
+  if (t.dataset.text) { S.textOpen = +t.dataset.text; render(); window.scrollTo(0, 0); return; }
+  if (t.dataset.closetext) { S.textOpen = null; if (playQueue) { playQueue.pause(); playQueue = null; } render(); return; }
+  if (t.dataset.togtr) { S.showTr = !S.showTr; render(); return; }
+  if (t.dataset.togstress) { S.prog.prefs.stress = S.prog.prefs.stress === false; saveProg(); render(); return; }
+  if (t.dataset.playall) { playAll(S.textCache[S.textOpen]); return; }
+  if (t.dataset.finish) { finishText(+t.dataset.finish); return; }
+  if (t.dataset.addread) { readerAction('add'); return; }
+  if (t.dataset.known) { readerAction('known'); return; }
+  if (t.dataset.relearn) { readerAction('relearn'); return; }
   if (t.dataset.del) { delWord(t.dataset.del); return; }
   if (t.id === 'show') { shown = true; render(); if (frontDir === 'en') { const b = document.querySelector('.ans .spk'); if (b) b.click(); } return; }
   if (t.id === 'save') { addWord(); return; }
@@ -533,6 +693,7 @@ document.addEventListener('keydown', e => {
     const idx = await (await fetch('days/index.json')).json();
     S.days = await Promise.all(idx.days.map(async d => (await fetch(d.file)).json()));
     try { S.plan = await (await fetch('days/plan.json')).json(); } catch (e) { S.plan = null; }
+    try { S.texts = (await (await fetch('texts/index.json')).json()).texts; } catch (e) { S.texts = []; }
   } catch (e) { $('#app').innerHTML = '<div class="empty">Could not load the lessons. Check your connection and reopen.</div>'; return; }
   buildCards(); render();
   setupStandalone();
