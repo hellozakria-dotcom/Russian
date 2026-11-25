@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Русский — Zakria's Russian</title>
+<meta name="theme-color" content="#F6F1E7">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap&subset=cyrillic" rel="stylesheet">
+<style>
+:root{--bg:#F6F1E7;--card:#FFFDF8;--ink:#211E1C;--soft:#8C847A;--line:#E4DACA;--acc:#B23A2E;--pr:#2E62A0;
+--m:#2E62A0;--f:#C44070;--n:#2E8C5A;--pl:#7850AA;--adj:#C87814;--good:#2E8C5A;--again:#B23A2E;--hard:#C87814;--easy:#2E62A0}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.45 "Fira Sans",system-ui,sans-serif}
+button,input,select,textarea{font:inherit;color:inherit}
+main{max-width:620px;margin:0 auto;padding:calc(14px + env(safe-area-inset-top)) 16px calc(96px + env(safe-area-inset-bottom))}
+h1{font-size:30px;margin:4px 0 0} h2{font-size:24px;margin:0} h3{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--soft);margin:22px 0 8px}
+.s{color:var(--acc)} .pr{color:var(--pr);font-weight:500;font-size:14px} .en{color:var(--soft)} .small{font-size:13px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px;margin:12px 0}
+.row{display:flex;gap:10px;align-items:center} .grow{flex:1;min-width:0}
+.btn{border:0;border-radius:14px;padding:12px 16px;font-weight:600;background:var(--ink);color:#fff;cursor:pointer}
+.btn.ghost{background:var(--card);color:var(--ink);border:1px solid var(--line)} .btn.wide{width:100%}
+.btn:disabled{opacity:.4}
+.chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding:2px 0}
+.chip{flex:none;border:1px solid var(--line);background:var(--card);border-radius:99px;padding:6px 13px;font-weight:500;cursor:pointer}
+.chip.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.tag{display:inline-block;color:#fff;border-radius:99px;padding:1px 9px;font-size:12px;font-weight:600;vertical-align:2px}
+.t-m{background:var(--m)} .t-f{background:var(--f)} .t-n{background:var(--n)} .t-pl{background:var(--pl)} .t-adj{background:var(--adj)} .t-verb{background:#555} .t-x{background:#999}
+.c-m{color:var(--m)} .c-f{color:var(--f)} .c-n{color:var(--n)} .c-pl{color:var(--pl)}
+.mk{text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:4px} .mk b{font-weight:700}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px}
+.stat b{display:block;font-size:24px;line-height:1.1} .stat span{font-size:12px;color:var(--soft)}
+.due{background:var(--ink);color:#fff;border-radius:22px;padding:18px;margin:14px 0}
+.due .n{font-size:40px;font-weight:700;line-height:1} .due .en{color:#cfc6ba}
+.due .btn{background:#fff;color:var(--ink);margin-top:14px}
+nav.tabs{position:fixed;left:0;right:0;bottom:0;background:rgba(255,253,248,.96);backdrop-filter:blur(8px);border-top:1px solid var(--line);
+display:flex;justify-content:center;padding:6px 6px calc(6px + env(safe-area-inset-bottom));z-index:10}
+nav.tabs button{flex:1;max-width:150px;background:none;border:0;padding:6px 0;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:12px;color:var(--soft);cursor:pointer}
+nav.tabs button.on{color:var(--ink);font-weight:600} nav.tabs svg{width:24px;height:24px}
+.pics{display:flex;justify-content:center;background:var(--bg);border-radius:20px;padding:12px}
+.pics img{width:120px;height:120px;margin:0 -6px} .pics.one img{width:150px;height:150px}
+.flash{text-align:center;min-height:420px;display:flex;flex-direction:column;gap:10px}
+.flash .ru{font-size:34px;font-weight:600;line-height:1.2;margin-top:8px}
+.flash .ensh{font-size:26px;font-weight:600;margin-top:8px}
+.ans{border-top:1px dashed var(--line);padding-top:12px;display:flex;flex-direction:column;gap:4px;align-items:center}
+.grades{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:auto}
+.grades button{border:0;border-radius:14px;padding:10px 4px;color:#fff;font-weight:600;cursor:pointer}
+.grades small{display:block;font-weight:400;opacity:.85;font-size:12px}
+.g1{background:var(--again)} .g2{background:var(--hard)} .g3{background:var(--good)} .g4{background:var(--easy)}
+.spk{border:1px solid var(--line);background:var(--card);border-radius:99px;width:44px;height:44px;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;flex:none}
+.spk svg{width:22px;height:22px}
+.item{display:flex;gap:12px;align-items:center;padding:10px 0;border-top:1px solid var(--line)} .item:first-child{border-top:0}
+.item img{width:52px;height:52px;flex:none} .ims{display:flex;flex:none;background:var(--bg);border-radius:12px;padding:4px} .ims img{width:40px;height:40px;margin:0 -3px}
+.word{font-size:20px;font-weight:600}
+table{width:100%;border-collapse:collapse;font-size:14px;margin-top:8px} th,td{text-align:left;padding:5px 4px;border-top:1px solid var(--line);vertical-align:top} thead th{border-top:0;color:var(--soft);font-weight:600}
+.note{background:#F9EFE3;border-radius:10px;padding:8px 12px;font-size:14px;margin-top:8px}
+details summary{cursor:pointer;font-weight:600} details ul{margin:8px 0 0;padding-left:18px} details li{margin:4px 0}
+label{display:block;font-size:13px;color:var(--soft);font-weight:600;margin:12px 0 4px}
+input,select,textarea{width:100%;border:1px solid var(--line);background:#fff;border-radius:12px;padding:10px 12px}
+.prog{height:6px;background:var(--line);border-radius:9px;overflow:hidden} .prog i{display:block;height:100%;background:var(--good)}
+.toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 16px;border-radius:12px;font-size:14px;z-index:20;opacity:0;transition:opacity .2s;pointer-events:none}
+.toast.on{opacity:1}
+.empty{text-align:center;color:var(--soft);padding:30px 10px}
+.kbd{font-size:12px;color:var(--soft);text-align:center;margin-top:8px}
+a{color:var(--pr)}
+</style>
+</head>
+<body>
+<main id="app"><div class="empty">Loading…</div></main>
+<nav class="tabs" id="tabs"></nav>
+<div class="toast" id="toast"></div>
+<script>
+(() => {
+'use strict';
+// ---------------- helpers ----------------
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const stress = s => esc(s).replace(/(.́|ё|Ё)/g, '<span class="s">$1</span>');
+const GN = {m:'masculine', f:'feminine', n:'neuter', pl:'plural', adj:'adjective', verb:'verb', x:'phrase'};
+function marked(t, g) { // {stem|end} highlighting
+  const h = esc(t).replace(/\{([^}]*)\}/g, (_, inner) => {
+    if (inner.includes('|')) { const [a, b] = inner.split('|'); return `<span class="mk c-${g}">${a}<b>${b}</b></span>`; }
+    return `<span class="mk c-${g}"><b>${inner}</b></span>`;
+  });
+  return h.replace(/(.́|ё)/g, '<span class="s">$1</span>');
+}
+const MIN = 60000, DAY = 86400000;
+const today = () => { const d = new Date(); return d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate(); };
+const endOfToday = () => { const d = new Date(); d.setHours(23, 59, 59, 999); return d.getTime(); };
+function toast(msg) { const t = $('#toast'); t.textContent = msg; t.classList.add('on'); clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove('on'), 2200); }
+const ICON = {
+  home: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></svg>',
+  cards: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="6" width="14" height="14" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/></svg>',
+  book: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5"/></svg>',
+  plus: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg>',
+  spk: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12"/></svg>'
+};
+
+// ---------------- pronunciation (English letters, CAPS = stress) ----------------
+const VOW = 'аеёиоуыэюя';
+const CON = {б:'b',в:'v',г:'g',д:'d',ж:'zh',з:'z',й:'y',к:'k',л:'l',м:'m',н:'n',п:'p',р:'r',с:'s',т:'t',ф:'f',х:'kh',ц:'ts',ч:'ch',ш:'sh',щ:'shch',ъ:'',ь:"'"};
+const DEV = {б:'п',в:'ф',г:'к',д:'т',ж:'ш',з:'с'}; const HARD = 'шжц';
+const SPECIAL = {'что':'shto','сего́дня':'si-VOD-nya','пожа́луйста':'pa-ZHA-lus-ta','в':'v','с':'s','мне':'mnye','нет':'nyet','где':'gdye','друг':'druk','э́то':'E-ta','о':'a','не':'ni','по':'pa','у':'u','кого́':'ka-VO','чего́':'chi-VO'};
+function wordTr(w) {
+  let raw = w.toLowerCase();
+  if (SPECIAL[raw]) return SPECIAL[raw];
+  if (raw.includes('-')) return raw.split('-').map(wordTr).join('-');
+  let stressI = raw.indexOf('́') >= 0 ? raw.indexOf('́') - 1 : -1;
+  let s = raw.replace(/́/g, '');
+  if (stressI < 0 && s.includes('ё')) stressI = s.indexOf('ё');
+  if (s.startsWith('сд')) s = 'зд' + s.slice(2);
+  if (s.length > 4 && /(ого|его)$/.test(s) && !['много','дорого','строго'].includes(s)) s = s.slice(0, -2) + 'во';
+  if (DEV[s[s.length - 1]]) s = s.slice(0, -1) + DEV[s[s.length - 1]];
+  // collapse doubled consonants
+  let t = ''; for (let i = 0; i < s.length; i++) { if (i && s[i] === s[i - 1] && !VOW.includes(s[i]) && CON[s[i]] !== undefined && s[i] !== 'ь') { if (stressI > i) stressI--; continue; } t += s[i]; } s = t;
+  const vpos = [...s].map((c, i) => VOW.includes(c) ? i : -1).filter(i => i >= 0);
+  if (stressI < 0 && vpos.length === 1) stressI = vpos[0];
+  const cuts = [];
+  for (let k = 0; k + 1 < vpos.length; k++) {
+    const a = vpos[k], b = vpos[k + 1]; const cl = []; for (let i = a + 1; i < b; i++) cl.push(i);
+    const cons = cl.filter(i => !'ьъ'.includes(s[i]));
+    if (!cons.length) cuts.push(cl.length ? cl[cl.length - 1] + 1 : a + 1);
+    else if (s[cons[cons.length - 1]] === 'й') cuts.push(cons[cons.length - 1] + 1);
+    else cuts.push(cons[cons.length - 1]);
+  }
+  const bounds = [0, ...cuts, s.length], syl = [];
+  for (let k = 0; k < bounds.length - 1; k++) {
+    let part = '';
+    for (let i = bounds[k]; i < bounds[k + 1]; i++) {
+      const c = s[i], prev = i ? s[i - 1] : '', nxt = s[i + 1] || '';
+      const afterCons = prev && !VOW.includes(prev) && !'ьъ'.includes(prev);
+      const st = i === stressI;
+      if (VOW.includes(c)) {
+        let v;
+        if (c === 'а') v = 'a'; else if (c === 'о') v = st ? 'o' : 'a'; else if (c === 'у') v = 'u'; else if (c === 'ы') v = 'ih';
+        else if (c === 'и') v = 'i'; else if (c === 'э') v = 'e'; else if (c === 'ё') v = HARD.includes(prev) ? 'o' : 'yo';
+        else if (c === 'ю') v = HARD.includes(prev) ? 'u' : 'yu'; else if (c === 'я') v = 'ya';
+        else { // е
+          if (HARD.includes(prev)) v = 'e'; else if (!afterCons) v = 'ye'; else v = st ? 'ye' : 'i';
+          if (!st && afterCons && i === s.length - 1) v = HARD.includes(prev) ? 'e' : 'ye';
+        }
+        part += v;
+      } else if (c === 'ь' && nxt && 'яеёюи'.includes(nxt)) part += '';
+      else if (c === 'й' && VOW.includes(prev)) part += 'i';
+      else part += CON[c] ?? c;
+    }
+    syl.push(stressI >= bounds[k] && stressI < bounds[k + 1] && vpos.length > 1 ? part.toUpperCase() : part);
+  }
+  let res = syl.join('-');
+  if (s.endsWith('ый')) res = res.replace(/ihi$/i, m => m === 'IHI' ? 'IH' : 'ih');
+  else if (s.endsWith('ий')) res = res.replace(/ii$/i, m => m === 'II' ? 'IY' : 'iy');
+  return res;
+}
+const trText = t => (t.match(/[а-яёА-ЯЁ́-]+/g) || []).filter(w => w !== '-').map(wordTr).join(' ');
+const fixStress = t => t.replace(/([аеёиоуыэюяАЕЁИОУЫЭЮЯ])['´`]/g, '$1́');
+
+// ---------------- audio ----------------
+let audioEl = null;
+function speakRu(text) {
+  if (window.speechSynthesis) {
+    const v = speechSynthesis.getVoices().find(v => /^ru/i.test(v.lang));
+    if (v) { speechSynthesis.cancel(); const u = new SpeechSynthesisUtterance(text.replace(/́/g, '')); u.voice = v; u.lang = v.lang; u.rate = .9; speechSynthesis.speak(u); return true; }
+  }
+  return false;
+}
+function play(file, text) {
+  if (file) { try { audioEl && audioEl.pause(); audioEl = new Audio('audio/' + file); audioEl.play().catch(() => {}); } catch (e) {} return; }
+  if (text && !speakRu(text)) toast('No Russian voice on this device');
+}
+const spkBtn = (file, text) => `<button class="spk" data-play="${esc(file || '')}" data-text="${esc(text || '')}" aria-label="Play">${ICON.spk}</button>`;
+
+// ---------------- data ----------------
+const S = {
+  days: [], custom: [], view: 'home', deck: 'all', dayOpen: null,
+  prog: {cards: {}, stats: {}, prefs: {newPerDay: 15, dir: 'ru'}},
+  canWrite: true, installEvt: null
+};
+let cards = [], cardById = {};
+function buildCards() {
+  cards = [];
+  for (const d of S.days) {
+    const sByWord = {};
+    for (const s of d.sentences) (sByWord[s.word || '_'] ??= []).push(s);
+    for (const w of d.words) {
+      cards.push({id: w.id, type: 'word', deck: 'd' + d.id, w, day: d});
+      for (const s of (sByWord[w.id] || [])) cards.push({id: s.id, type: 'sent', deck: 'd' + d.id, s, day: d, w});
+    }
+    for (const s of (sByWord['_'] || [])) cards.push({id: s.id, type: 'sent', deck: 'd' + d.id, s, day: d});
+  }
+  const cs = [...S.custom].sort((a, b) => (a.created || 0) - (b.created || 0));
+  for (const c of cs) {
+    const w = {id: 'c-' + c.id, kind: c.g === 'verb' ? 'verb' : (c.g === 'adj' ? 'adj' : 'noun'), g: c.g, ru: c.ru, en: c.en, pr: c.pr || trText(c.ru), custom: true, deckName: c.deck || 'My words', ex: c.ex, exEn: c.exEn};
+    cards.push({id: w.id, type: 'word', deck: 'my', w});
+  }
+  cardById = Object.fromEntries(cards.map(c => [c.id, c]));
+}
+const inDeck = c => S.deck === 'all' || c.deck === S.deck || (S.deck.startsWith('my:') && c.deck === 'my' && c.w.deckName === S.deck.slice(3));
+const st = id => S.prog.cards[id];
+function dayStats() { const k = today(); return (S.prog.stats[k] ??= {rev: 0, new: 0}); }
+
+// ---------------- SRS (Anki-style) ----------------
+function schedule(prev, grade, now) {
+  const c = Object.assign({state: 'new', step: 0, ivl: 0, ease: 2.5, due: 0, reps: 0, lapses: 0}, prev || {});
+  if (c.state !== 'review') {
+    const steps = c.state === 'relearn' ? [10] : [1, 10];
+    const graduate = days => { c.state = 'review'; c.ivl = days; c.due = now + days * DAY; c.step = 0; };
+    if (grade === 1) { c.step = 0; c.due = now + steps[0] * MIN; if (c.state === 'new') c.state = 'learn'; }
+    else if (grade === 2) { if (c.state === 'new') c.state = 'learn'; c.due = now + Math.round(steps[Math.min(c.step, steps.length - 1)] * 1.5) * MIN; }
+    else if (grade === 3) { if (c.state === 'new') c.state = 'learn'; c.step++; if (c.step >= steps.length) graduate(c.state === 'relearn' ? Math.max(1, c.ivl) : 1); else c.due = now + steps[c.step] * MIN; }
+    else graduate(c.state === 'relearn' ? Math.max(1, c.ivl) + 1 : 4);
+  } else {
+    if (grade === 1) { c.lapses++; c.ease = Math.max(1.3, c.ease - .2); c.ivl = Math.max(1, Math.round(c.ivl * .5)); c.state = 'relearn'; c.step = 0; c.due = now + 10 * MIN; }
+    else {
+      if (grade === 2) { c.ivl = Math.max(c.ivl + 1, Math.round(c.ivl * 1.2)); c.ease = Math.max(1.3, c.ease - .15); }
+      if (grade === 3) c.ivl = Math.max(c.ivl + 1, Math.round(c.ivl * c.ease));
+      if (grade === 4) { c.ivl = Math.max(c.ivl + 2, Math.round(c.ivl * c.ease * 1.3)); c.ease += .15; }
+      c.due = now + c.ivl * DAY;
+    }
+  }
+  c.reps++; c.last = now; c.ease = Math.round(c.ease * 100) / 100;
+  return c;
+}
+function fmtIvl(ms) {
+  const m = Math.round(ms / MIN);
+  if (m < 60) return m + ' min'; const h = Math.round(m / 60); if (h < 24) return h + ' h';
+  const d = Math.round(ms / DAY); if (d < 31) return d + ' d'; const mo = Math.round(d / 30); return mo < 12 ? mo + ' mo' : (d / 365).toFixed(1) + ' y';
+}
+function counts() {
+  const now = Date.now(), eod = endOfToday();
+  let learn = 0, rev = 0, fresh = 0;
+  for (const c of cards) {
+    if (!inDeck(c)) continue; const x = st(c.id);
+    if (!x || x.state === 'new') fresh++;
+    else if (x.state === 'review') { if (x.due <= eod) rev++; }
+    else if (x.due <= now + 20 * MIN) learn++;
+  }
+  const newLeft = Math.max(0, S.prog.prefs.newPerDay - dayStats().new);
+  return {learn, rev, fresh, newToday: Math.min(fresh, newLeft)};
+}
+let sinceNew = 0;
+function pickNext() {
+  const now = Date.now(), eod = endOfToday();
+  const pool = cards.filter(inDeck);
+  const lrn = pool.filter(c => { const x = st(c.id); return x && (x.state === 'learn' || x.state === 'relearn') && x.due <= now; }).sort((a, b) => st(a.id).due - st(b.id).due);
+  if (lrn.length) return lrn[0];
+  const rev = pool.filter(c => { const x = st(c.id); return x && x.state === 'review' && x.due <= eod; }).sort((a, b) => st(a.id).due - st(b.id).due);
+  const newOk = S.prog.prefs.newPerDay - dayStats().new > 0;
+  const fresh = newOk ? pool.filter(c => !st(c.id) || st(c.id).state === 'new') : [];
+  if (rev.length && (!fresh.length || sinceNew < 3)) { sinceNew++; return rev[0]; }
+  if (fresh.length) { sinceNew = 0; return fresh[0]; }
+  const ahead = pool.filter(c => { const x = st(c.id); return x && (x.state === 'learn' || x.state === 'relearn') && x.due <= now + 20 * MIN; }).sort((a, b) => st(a.id).due - st(b.id).due);
+  return ahead[0] || null;
+}
+
+// ---------------- storage ----------------
+const LS = 'ru-app-progress-v1', LSW = 'ru-app-mywords-v1';
+let saveTimer = null;
+function saveProg() {
+  clearTimeout(saveTimer);
+  saveTimer = setTimeout(() => { try { localStorage.setItem(LS, JSON.stringify(S.prog)); } catch (e) { toast('Could not save progress on this device'); } }, 400);
+}
+function saveWords() { try { localStorage.setItem(LSW, JSON.stringify(S.custom)); } catch (e) { toast('Could not save on this device'); } }
+function loadLocal() {
+  try { const p = JSON.parse(localStorage.getItem(LS) || 'null'); if (p && p.cards) S.prog = Object.assign(S.prog, p, {prefs: Object.assign(S.prog.prefs, p.prefs || {})}); } catch (e) {}
+  try { S.custom = JSON.parse(localStorage.getItem(LSW) || '[]'); } catch (e) { S.custom = []; }
+}
+function setupStandalone() {
+  if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(() => {});
+  if ('serviceWorker' in navigator && location.protocol !== 'file:') navigator.serviceWorker.register('sw.js').catch(() => {});
+  window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); S.installEvt = e; if (S.view === 'home') render(); });
+  window.addEventListener('appinstalled', () => { S.installEvt = null; toast('Installed!'); render(); });
+  window.addEventListener('pagehide', () => { try { localStorage.setItem(LS, JSON.stringify(S.prog)); } catch (e) {} });
+}
+function exportData() {
+  const blob = new Blob([JSON.stringify({app: 'russian', version: 1, exported: new Date().toISOString(), progress: S.prog, words: S.custom}, null, 1)], {type: 'application/json'});
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'russian-backup-' + today() + '.json';
+  document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
+  S.prog.lastBackup = Date.now(); saveProg(); render();
+}
+function importData(file) {
+  const r = new FileReader();
+  r.onload = () => {
+    try {
+      const d = JSON.parse(r.result);
+      if (!d || d.app !== 'russian' || !d.progress) throw 0;
+      for (const [k, v] of Object.entries(d.progress.cards || {})) { const mine = S.prog.cards[k]; if (!mine || (v.last || 0) > (mine.last || 0)) S.prog.cards[k] = v; }
+      for (const [k, v] of Object.entries(d.progress.stats || {})) { const m = S.prog.stats[k] || {rev: 0, new: 0}; S.prog.stats[k] = {rev: Math.max(m.rev, v.rev || 0), new: Math.max(m.new, v.new || 0)}; }
+      const ids = new Set(S.custom.map(c => c.id));
+      for (const w of (d.words || [])) if (w && w.id && w.ru && !ids.has(w.id)) S.custom.push(w);
+      saveProg(); saveWords(); buildCards(); render(); toast('Backup loaded');
+    } catch (e) { toast('That file is not a Russian app backup'); }
+  };
+  r.readAsText(file);
+}
+
+// ---------------- views ----------------
+function tabs() {
+  const t = [['home', 'Home', ICON.home], ['review', 'Cards', ICON.cards], ['lessons', 'Lessons', ICON.book], ['add', 'Add', ICON.plus]];
+  $('#tabs').innerHTML = t.map(([k, l, i]) => `<button data-tab="${k}" class="${S.view === k ? 'on' : ''}">${i}${l}</button>`).join('');
+}
+function deckChips() {
+  const myDecks = [...new Set(S.custom.map(c => c.deck || 'My words'))];
+  const list = [['all', 'All'], ...S.days.map(d => ['d' + d.id, d.title])];
+  if (S.custom.length) list.push(['my', 'All my words'], ...(myDecks.length > 1 ? myDecks.map(n => ['my:' + n, n]) : []));
+  return `<div class="chips">${list.map(([k, l]) => `<button class="chip ${S.deck === k ? 'on' : ''}" data-deck="${esc(k)}">${esc(l)}</button>`).join('')}</div>`;
+}
+function homeView() {
+  const c = counts();
+  const taughtW = S.days.reduce((a, d) => a + d.words.length, 0), taughtS = S.days.reduce((a, d) => a + d.sentences.length, 0);
+  const seen = Object.values(S.prog.cards).filter(x => x.reps > 0).length;
+  const mature = Object.values(S.prog.cards).filter(x => x.state === 'review' && x.ivl >= 21).length;
+  const ds = dayStats();
+  let streak = 0; { const d = new Date(); for (;;) { const k = d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate(); const v = S.prog.stats[k]; if (v && (v.rev || v.new)) { streak++; d.setDate(d.getDate() - 1); } else if (streak === 0 && k === today()) { d.setDate(d.getDate() - 1); } else break; } }
+  const total = c.learn + c.rev + c.newToday;
+  return `
+  <div class="row"><div class="grow"><h1>Русский</h1><div class="pr">RUS-kii · your Russian</div></div>
+  ${S.installEvt ? '<button class="btn ghost" id="install">Install app</button>' : ''}</div>
+  ${deckChips()}
+  <div class="due"><div class="en small">Due now</div><div class="n">${total}</div>
+  <div class="en small">${c.rev} reviews · ${c.learn} learning · ${c.newToday} new</div>
+  <button class="btn wide" data-go="review" ${total ? '' : 'disabled'}>${total ? 'Start cards' : 'All done for now'}</button></div>
+  <h3>Learned so far</h3>
+  <div class="stats">
+   <div class="stat"><b>${taughtW + S.custom.length}</b><span>words${S.custom.length ? ` (${S.custom.length} yours)` : ''}</span></div>
+   <div class="stat"><b>${taughtS}</b><span>sentences</span></div>
+   <div class="stat"><b>${S.days.length}</b><span>lessons</span></div>
+   <div class="stat"><b>${seen}</b><span>cards seen</span></div>
+   <div class="stat"><b>${mature}</b><span>well known (21+ d)</span></div>
+   <div class="stat"><b>${streak}</b><span>day streak</span></div>
+  </div>
+  <div class="card"><div class="row"><div class="grow"><b>Today</b><div class="en small">${ds.rev} reviewed · ${ds.new} new learned</div></div></div>
+  <div class="prog" style="margin-top:10px"><i style="width:${Math.min(100, Math.round(100 * ds.new / Math.max(1, S.prog.prefs.newPerDay)))}%"></i></div></div>
+  <h3>Settings</h3>
+  <div class="card">
+   <label>New cards per day</label><select id="npd">${[5, 10, 15, 20, 30, 50].map(n => `<option ${n === S.prog.prefs.newPerDay ? 'selected' : ''}>${n}</option>`).join('')}</select>
+   <label>Card front</label><select id="dir"><option value="ru" ${S.prog.prefs.dir === 'ru' ? 'selected' : ''}>Russian → English</option><option value="en" ${S.prog.prefs.dir === 'en' ? 'selected' : ''}>English → Russian</option><option value="mix" ${S.prog.prefs.dir === 'mix' ? 'selected' : ''}>Mixed</option></select>
+  </div>
+  <h3>Backup & sync</h3>
+  <div class="card">
+   <p class="small" style="margin-top:0">Your progress and your own words are saved on this device. To move them to another device (phone ↔ computer), or to keep a safe copy, save a backup file and load it on the other device. Loading merges, so nothing is lost.</p>
+   <div class="row"><button class="btn grow" id="export">Save backup</button><button class="btn ghost grow" id="importBtn">Load backup</button></div>
+   <input type="file" id="importFile" accept="application/json,.json" style="display:none">
+   <p class="en small">${S.prog.lastBackup ? 'Last backup: ' + new Date(S.prog.lastBackup).toLocaleDateString() : 'No backup saved yet.'}</p>
+  </div>
+  ${S.installEvt ? '' : `<p class="en small" style="text-align:center">To install: Android Chrome → ⋮ menu → “Install app” / “Add to Home screen”. Desktop Chrome/Edge → install icon in the address bar.</p>`}`;
+}
+let cur = null, shown = false, frontDir = 'ru';
+function reviewView() {
+  if (!cur) cur = pickNext();
+  if (!cur) {
+    const c = counts();
+    return `<h2>Cards</h2>${deckChips()}<div class="card empty"><div style="font-size:46px">🎉</div><b>Молоде́ц!</b><div class="pr">ma-la-DYETS</div>
+    <p>Nothing more due ${S.deck === 'all' ? '' : 'in this deck '}right now.${c.fresh ? ` ${c.fresh} new cards are waiting for tomorrow.` : ''}</p>
+    <button class="btn" data-go="home">Home</button></div>`;
+  }
+  const c = counts(), x = st(cur.id), now = Date.now();
+  frontDir = S.prog.prefs.dir === 'mix' ? (frontDir === 'ru' ? 'en' : 'ru') : S.prog.prefs.dir;
+  if (cur.type === 'sent') frontDir = S.prog.prefs.dir === 'en' ? 'en' : 'ru';
+  const isNew = !x || x.state === 'new';
+  let pics = '', ru = '', en = '', pr = '', tag = '', extra = '', audio = '', text = '';
+  if (cur.type === 'word') {
+    const w = cur.w;
+    pics = w.pic ? `<div class="pics one"><img src="pics/${esc(w.pic)}" alt=""></div>` : '';
+    ru = stress(w.ru); en = esc(w.en); pr = esc(w.pr); audio = w.audio; text = w.ru;
+    tag = `<span class="tag t-${esc(w.g || (w.kind === 'verb' ? 'verb' : 'x'))}">${esc(GN[w.g] || w.kind)}</span>`;
+    const ex = w.custom ? (w.ex ? {ru: w.ex, en: w.exEn || ''} : null) : (cur.day.sentences.find(s => s.word === w.id));
+    if (ex) extra = `<div class="note" style="text-align:left">${stress(ex.ru)}<div class="pr">${esc(ex.pr || trText(ex.ru))}</div><div class="en small">${esc(ex.en)}</div></div>`;
+    if (w.note) extra += `<div class="note" style="text-align:left">${stress(w.note)}</div>`;
+  } else {
+    const s = cur.s;
+    pics = `<div class="pics">${s.pics.map(p => `<img src="pics/${esc(p)}" alt="">`).join('')}</div>`;
+    ru = s.mk ? marked(s.mk, s.g) : stress(s.ru); en = esc(s.en); pr = esc(s.pr); audio = s.audio; text = s.ru;
+    tag = s.case ? `<span class="tag t-${esc(s.g)}">${esc(s.case)} · ${esc(GN[s.g])}</span>` : '<span class="tag t-x">sentence</span>';
+  }
+  const front = frontDir === 'ru'
+    ? `<div class="row" style="justify-content:center;gap:12px"><div class="ru">${ru}</div>${spkBtn(audio, text)}</div>`
+    : `<div class="ensh">${en}</div><div class="en small">say it in Russian</div>`;
+  const back = frontDir === 'ru'
+    ? `<div class="pr" style="font-size:18px">${pr}</div><div style="font-size:22px;font-weight:600">${en}</div>${tag}${extra}`
+    : `<div class="row" style="justify-content:center;gap:12px"><div class="ru">${ru}</div>${spkBtn(audio, text)}</div><div class="pr" style="font-size:18px">${pr}</div>${tag}${extra}`;
+  const labels = [1, 2, 3, 4].map(g => fmtIvl(schedule(x, g, now).due - now));
+  return `<div class="row"><h2 class="grow">Cards</h2><span class="en small">${c.rev} rev · ${c.learn} learn · ${c.newToday} new</span></div>${deckChips()}
+  <div class="card flash">
+   <div class="row en small"><span class="grow" style="text-align:left">${esc(cur.day ? cur.day.title : (cur.w.deckName || 'My words'))}</span>${isNew ? '<span class="tag t-adj">new</span>' : ''}</div>
+   ${pics}${front}
+   ${shown ? `<div class="ans">${back}</div>
+   <div class="grades">${['Again', 'Hard', 'Good', 'Easy'].map((l, i) => `<button class="g${i + 1}" data-grade="${i + 1}">${l}<small>${labels[i]}</small></button>`).join('')}</div>`
+   : `<button class="btn wide" id="show" style="margin-top:auto">Show answer</button>`}
+  </div>
+  <div class="kbd">Keyboard: space = show · 1 2 3 4 = grade · P = play</div>`;
+}
+function wordRow(w, d) {
+  const id = 'wr-' + w.id;
+  return `<div class="item" style="flex-wrap:wrap">
+   ${w.pic ? `<img src="pics/${esc(w.pic)}" alt="">` : `<div class="ims" style="width:52px;height:52px;align-items:center;justify-content:center">✍️</div>`}
+   <div class="grow"><div class="word">${stress(w.ru)}</div><div class="pr">${esc(w.pr)}</div>
+   <div class="en small">${esc(w.en)} ${w.g || w.kind ? `<span class="tag t-${esc(w.g || (w.kind === 'verb' ? 'verb' : 'x'))}">${esc(GN[w.g] || w.kind)}</span>` : ''}</div></div>
+   ${spkBtn(w.audio, w.ru)}
+   ${w.table ? `<details style="width:100%"><summary class="small">Forms</summary>${tableHTML(w.table)}</details>` : ''}
+   ${w.note ? `<div class="note" style="width:100%">${stress(w.note)}</div>` : ''}
+  </div>`;
+}
+function tableHTML(t) {
+  return `<div style="overflow-x:auto"><table><thead><tr>${t.cols.map(c => `<th>${stress(c)}</th>`).join('')}</tr></thead><tbody>${t.rows.map(r => `<tr>${r.map((v, i) => i ? `<td>${stress(v).replace(/ · /g, '<br>')}<div class="pr" style="font-size:11px">${esc(v.split(' · ').map(x => x.replace(/[()*]/g, '').split('/').map(y => trText(y.trim())).join(' / ')).join(' · '))}</div></td>` : `<th>${stress(v)}</th>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+}
+function lessonsView() {
+  if (S.dayOpen) {
+    const d = S.days.find(x => x.id === S.dayOpen);
+    return `<button class="btn ghost" data-back="1">← Lessons</button>
+    <h1>${esc(d.title)}</h1><div class="en">${esc(d.topic)} · ${d.words.length} words · ${d.sentences.length} sentences</div>
+    ${d.video ? `<video src="${esc(d.video)}" controls playsinline preload="none" style="width:100%;max-width:340px;display:block;margin:12px auto;border-radius:16px;background:#000"></video>` : ''}
+    <button class="btn wide" data-study="d${d.id}">Study ${esc(d.title)} cards</button>
+    ${(d.notes || []).map(n => `<div class="card"><details><summary>${esc(n.h)}</summary><ul>${n.lines.map(l => `<li>${stress(l)}</li>`).join('')}</ul></details></div>`).join('')}
+    <h3>Words</h3><div class="card">${d.words.map(w => wordRow(w, d)).join('')}</div>
+    <h3>Sentences</h3><div class="card">${d.sentences.map(s => `<div class="item"><div class="ims">${s.pics.map(p => `<img src="pics/${esc(p)}" alt="">`).join('')}</div>
+      <div class="grow">${s.case ? `<div class="small c-${esc(s.g)}" style="font-weight:700">${esc(s.case)} · ${esc(GN[s.g])}</div>` : ''}<div style="font-weight:500">${s.mk ? marked(s.mk, s.g) : stress(s.ru)}</div><div class="pr">${esc(s.pr)}</div><div class="en small">${esc(s.en)}</div></div>${spkBtn(s.audio, s.ru)}</div>`).join('')}</div>
+    ${(d.tables || []).map(t => `<h3>${stress(t.title)}</h3><div class="card">${tableHTML(t)}</div>`).join('')}`;
+  }
+  const q = (S.q || '').trim().toLowerCase();
+  let search = '';
+  if (q) {
+    const hits = [];
+    for (const d of S.days) for (const w of d.words) if ((w.ru + ' ' + w.en + ' ' + w.pr).toLowerCase().replace(/́/g, '').includes(q)) hits.push([w, d]);
+    for (const c of cards.filter(c => c.deck === 'my')) if ((c.w.ru + ' ' + c.w.en).toLowerCase().replace(/́/g, '').includes(q)) hits.push([c.w, null]);
+    search = `<div class="card">${hits.length ? hits.map(([w, d]) => wordRow(w, d)).join('') : '<div class="empty">No match</div>'}</div>`;
+  }
+  return `<h1>Lessons</h1><input id="q" placeholder="Search words (Russian or English)" value="${esc(S.q || '')}" style="margin-top:10px">${search}
+  ${S.days.map(d => `<div class="card row" data-day="${d.id}" style="cursor:pointer"><div class="grow"><div class="word">${esc(d.title)}</div><div class="en small">${esc(d.topic)} · ${d.words.length} words · ${d.sentences.length} sentences</div></div><span class="en">›</span></div>`).join('')}
+  ${S.custom.length ? `<div class="card row" data-go="add" style="cursor:pointer"><div class="grow"><div class="word">My words</div><div class="en small">${S.custom.length} words you added</div></div><span class="en">›</span></div>` : ''}`;
+}
+function addView() {
+  const decks = [...new Set(S.custom.map(c => c.deck || 'My words'))]; if (!decks.includes('My words')) decks.unshift('My words');
+  const groups = {}; for (const c of S.custom) (groups[c.deck || 'My words'] ??= []).push(c);
+  const canSave = S.canWrite;
+  return `<h1>Add words</h1>
+  <div class="card">
+   <label>Russian</label><input id="f-ru" placeholder="e.g. соба'ка — type ' after the stressed vowel" autocomplete="off">
+   <div class="pr" id="f-pr" style="margin-top:6px;min-height:20px"></div>
+   <label>English</label><input id="f-en" placeholder="dog" autocomplete="off">
+   <label>Type</label><select id="f-g"><option value="m">noun · masculine</option><option value="f">noun · feminine</option><option value="n">noun · neuter</option><option value="verb">verb</option><option value="adj">adjective</option><option value="x">phrase / other</option></select>
+   <label>Example sentence (optional)</label><input id="f-ex" placeholder="У меня́ есть соба'ка." autocomplete="off">
+   <input id="f-exen" placeholder="Translation of the example" style="margin-top:6px" autocomplete="off">
+   <label>Set of words</label><input id="f-deck" list="decks" value="My words"><datalist id="decks">${decks.map(d => `<option value="${esc(d)}">`).join('')}</datalist>
+   <button class="btn wide" id="save" style="margin-top:14px" ${canSave ? '' : 'disabled'}>Add word</button>
+   <p class="en small">Saved on this device and added to your cards. The gender is guessed from the ending; change it if needed.</p>
+  </div>
+  ${Object.entries(groups).map(([g, list]) => `<h3>${esc(g)} · ${list.length}</h3><div class="card">${list.map(c => `<div class="item"><div class="grow"><div class="word">${stress(c.ru)}</div><div class="pr">${esc(c.pr || trText(c.ru))}</div><div class="en small">${esc(c.en)} <span class="tag t-${esc(c.g || 'x')}">${esc(GN[c.g] || 'word')}</span></div>${c.ex ? `<div class="small">${stress(c.ex)} <span class="en">${esc(c.exEn || '')}</span></div>` : ''}</div>${spkBtn('', c.ru)}<button class="spk" data-del="${esc(c.id)}" aria-label="Delete">✕</button></div>`).join('')}</div>`).join('')}`;
+}
+function render() {
+  tabs();
+  const v = S.view === 'home' ? homeView() : S.view === 'review' ? reviewView() : S.view === 'lessons' ? lessonsView() : addView();
+  $('#app').innerHTML = v;
+  if (S.view === 'add') {
+    const ru = $('#f-ru'), g = $('#f-g');
+    ru.addEventListener('input', () => {
+      const v = fixStress(ru.value.trim()); $('#f-pr').textContent = v ? trText(v) : '';
+      const last = v.replace(/́/g, '').toLowerCase().slice(-1);
+      if (!ru.dataset.touched && v && !v.includes(' ')) { if (/ть$|ти$|чь$/.test(v.replace(/́/g, ''))) g.value = 'verb'; else if (/(ый|ий|ой)$/.test(v.replace(/́/g, ''))) g.value = 'adj'; else if ('ая'.includes(last)) g.value = 'f'; else if ('ое'.includes(last)) g.value = 'n'; else g.value = 'm'; }
+    });
+    g.addEventListener('change', () => ru.dataset.touched = '1');
+  }
+  if (S.view === 'lessons' && $('#q')) { const q = $('#q'); q.addEventListener('input', () => { S.q = q.value; const pos = q.selectionStart; render(); const n = $('#q'); n.focus(); n.setSelectionRange(pos, pos); }); }
+}
+function addWord() {
+  const ru = fixStress($('#f-ru').value.trim()), en = $('#f-en').value.trim();
+  if (!ru || !en) { toast('Fill in Russian and English'); return; }
+  const doc = {id: 'w' + Date.now().toString(36), ru, en, g: $('#f-g').value, pr: trText(ru), ex: fixStress($('#f-ex').value.trim()), exEn: $('#f-exen').value.trim(), deck: $('#f-deck').value.trim() || 'My words', created: Date.now()};
+  S.custom.push(doc); saveWords(); buildCards(); toast('Added: ' + ru.replace(/\u0301/g, '')); render();
+}
+function delWord(id) {
+  const w = S.custom.find(c => c.id === id); if (!w) return;
+  S.custom = S.custom.filter(c => c.id !== id); delete S.prog.cards['c-' + id]; saveWords(); saveProg(); buildCards(); render();
+  toast('Deleted: ' + w.ru.replace(/\u0301/g, ''));
+}
+function grade(g) {
+  if (!cur || !shown) return;
+  const prev = st(cur.id), ds = dayStats();
+  if (!prev || prev.state === 'new') ds.new++; else ds.rev++;
+  S.prog.cards[cur.id] = schedule(prev, g, Date.now());
+  saveProg(); cur = null; shown = false; render();
+  setTimeout(autoplayFront, 50);
+}
+function autoplayFront() { if (S.view === 'review' && cur && frontDir === 'ru') { const b = document.querySelector('.flash .spk'); if (b) b.click(); } }
+
+// ---------------- events ----------------
+document.addEventListener('click', e => {
+  const t = e.target.closest('button,[data-day],[data-go]'); if (!t) return;
+  if (t.dataset.tab) { S.view = t.dataset.tab; if (S.view === 'lessons') S.dayOpen = null; shown = false; render(); window.scrollTo(0, 0); if (S.view === 'review') setTimeout(autoplayFront, 50); return; }
+  if (t.dataset.go) { S.view = t.dataset.go; shown = false; render(); window.scrollTo(0, 0); if (S.view === 'review') setTimeout(autoplayFront, 50); return; }
+  if (t.dataset.deck) { S.deck = t.dataset.deck; cur = null; shown = false; render(); return; }
+  if (t.dataset.play !== undefined) { play(t.dataset.play, t.dataset.text); return; }
+  if (t.dataset.day) { S.dayOpen = +t.dataset.day; render(); window.scrollTo(0, 0); return; }
+  if (t.dataset.back) { S.dayOpen = null; render(); return; }
+  if (t.dataset.study) { S.deck = t.dataset.study; S.view = 'review'; cur = null; shown = false; render(); window.scrollTo(0, 0); return; }
+  if (t.dataset.grade) { grade(+t.dataset.grade); return; }
+  if (t.dataset.del) { delWord(t.dataset.del); return; }
+  if (t.id === 'show') { shown = true; render(); if (frontDir === 'en') { const b = document.querySelector('.ans .spk'); if (b) b.click(); } return; }
+  if (t.id === 'save') { addWord(); return; }
+  if (t.id === 'install' && S.installEvt) { S.installEvt.prompt(); S.installEvt.userChoice.finally(() => { S.installEvt = null; render(); }); return; }
+  if (t.id === 'export') { exportData(); return; }
+  if (t.id === 'importBtn') { $('#importFile').click(); return; }
+});
+document.addEventListener('change', e => {
+  if (e.target.id === 'importFile' && e.target.files[0]) { importData(e.target.files[0]); e.target.value = ''; return; }
+  if (e.target.id === 'npd') { S.prog.prefs.newPerDay = +e.target.value; saveProg(); render(); }
+  if (e.target.id === 'dir') { S.prog.prefs.dir = e.target.value; saveProg(); cur = null; render(); }
+});
+document.addEventListener('keydown', e => {
+  if (S.view !== 'review' || /INPUT|TEXTAREA|SELECT/.test(e.target.tagName)) return;
+  if (e.key === ' ' && !shown) { e.preventDefault(); $('#show') && $('#show').click(); }
+  else if (shown && '1234'.includes(e.key)) grade(+e.key);
+  else if (e.key.toLowerCase() === 'p') { const b = document.querySelector('.flash .spk'); b && b.click(); }
+});
+
+// ---------------- start ----------------
+(async () => {
+  loadLocal();
+  try {
+    const idx = await (await fetch('days/index.json')).json();
+    S.days = await Promise.all(idx.days.map(async d => (await fetch(d.file)).json()));
+  } catch (e) { $('#app').innerHTML = '<div class="empty">Could not load the lessons. Check your connection and reopen.</div>'; return; }
+  buildCards(); render();
+  setupStandalone();
+})();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+tools/voice/
+__pycache__/
+*.pyc

@@ -1,0 +1,746 @@
+{
+ "id": 2,
+ "title": "Day 2",
+ "topic": "The 6 cases",
+ "date": "2026-11-25",
+ "words": [
+  {
+   "id": "d2w1",
+   "kind": "noun",
+   "g": "m",
+   "ru": "брат",
+   "en": "brother",
+   "pr": "brat",
+   "pic": "boy.png",
+   "audio": "52eed4f175.mp3",
+   "note": ""
+  },
+  {
+   "id": "d2w2",
+   "kind": "noun",
+   "g": "m",
+   "ru": "кот",
+   "en": "cat (male)",
+   "pr": "kot",
+   "pic": "cat.png",
+   "audio": "0601515e32.mp3",
+   "note": ""
+  },
+  {
+   "id": "d2w3",
+   "kind": "noun",
+   "g": "f",
+   "ru": "сестра́",
+   "en": "sister",
+   "pr": "sist-RA",
+   "pic": "girl.png",
+   "audio": "876bc80644.mp3",
+   "note": ""
+  },
+  {
+   "id": "d2w4",
+   "kind": "noun",
+   "g": "f",
+   "ru": "маши́на",
+   "en": "car",
+   "pr": "ma-SHI-na",
+   "pic": "automobile.png",
+   "audio": "ee5c4501cc.mp3",
+   "note": ""
+  },
+  {
+   "id": "d2w5",
+   "kind": "noun",
+   "g": "n",
+   "ru": "окно́",
+   "en": "window",
+   "pr": "ak-NO",
+   "pic": "window.png",
+   "audio": "9a86408565.mp3",
+   "note": ""
+  },
+  {
+   "id": "d2w6",
+   "kind": "noun",
+   "g": "n",
+   "ru": "письмо́",
+   "en": "letter",
+   "pr": "pis'-MO",
+   "pic": "envelope.png",
+   "audio": "7786b8940e.mp3",
+   "note": ""
+  },
+  {
+   "id": "d2w7",
+   "kind": "adj",
+   "g": "adj",
+   "ru": "большо́й",
+   "en": "big",
+   "pr": "bal'-SHOI",
+   "pic": "elephant.png",
+   "audio": "4680cb4088.mp3",
+   "note": "",
+   "table": {
+    "cols": [
+     "",
+     "form"
+    ],
+    "rows": [
+     [
+      "masc.",
+      "большо́й"
+     ],
+     [
+      "fem.",
+      "больша́я"
+     ],
+     [
+      "neut.",
+      "большо́е"
+     ],
+     [
+      "plural",
+      "больши́е"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "d2w8",
+   "kind": "adj",
+   "g": "adj",
+   "ru": "ма́ленький",
+   "en": "small, little",
+   "pr": "MA-lin'-kiy",
+   "pic": "mouse.png",
+   "audio": "3688943ae4.mp3",
+   "note": "",
+   "table": {
+    "cols": [
+     "",
+     "form"
+    ],
+    "rows": [
+     [
+      "masc.",
+      "ма́ленький"
+     ],
+     [
+      "fem.",
+      "ма́ленькая"
+     ],
+     [
+      "neut.",
+      "ма́ленькое"
+     ],
+     [
+      "plural",
+      "ма́ленькие"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "d2w9",
+   "kind": "adj",
+   "g": "adj",
+   "ru": "но́вый",
+   "en": "new",
+   "pr": "NO-vih",
+   "pic": "sparkles.png",
+   "audio": "773344eb6b.mp3",
+   "note": "",
+   "table": {
+    "cols": [
+     "",
+     "form"
+    ],
+    "rows": [
+     [
+      "masc.",
+      "но́вый"
+     ],
+     [
+      "fem.",
+      "но́вая"
+     ],
+     [
+      "neut.",
+      "но́вое"
+     ],
+     [
+      "plural",
+      "но́вые"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "d2w10",
+   "kind": "adj",
+   "g": "adj",
+   "ru": "хоро́ший",
+   "en": "good",
+   "pr": "kha-RO-shiy",
+   "pic": "thumbs_up.png",
+   "audio": "48032a8ba8.mp3",
+   "note": "",
+   "table": {
+    "cols": [
+     "",
+     "form"
+    ],
+    "rows": [
+     [
+      "masc.",
+      "хоро́ший"
+     ],
+     [
+      "fem.",
+      "хоро́шая"
+     ],
+     [
+      "neut.",
+      "хоро́шее"
+     ],
+     [
+      "plural",
+      "хоро́шие"
+     ]
+    ]
+   }
+  }
+ ],
+ "sentences": [
+  {
+   "id": "d2s1",
+   "word": "d2w1",
+   "ru": "Э́то мой брат.",
+   "en": "This is my brother.",
+   "pr": "E-ta moi brat",
+   "pics": [
+    "man.png",
+    "boy.png"
+   ],
+   "audio": "342d1ecd8f.mp3"
+  },
+  {
+   "id": "d2s2",
+   "word": "d2w2",
+   "ru": "У нас есть кот.",
+   "en": "We have a cat.",
+   "pr": "u nas yest' kot",
+   "pics": [
+    "cat.png",
+    "house.png"
+   ],
+   "audio": "adbf4e5bd5.mp3"
+  },
+  {
+   "id": "d2s3",
+   "word": "d2w3",
+   "ru": "Моя́ сестра́ чита́ет.",
+   "en": "My sister is reading.",
+   "pr": "ma-YA sist-RA chi-TA-yet",
+   "pics": [
+    "girl.png",
+    "open_book.png"
+   ],
+   "audio": "e2621c91c2.mp3"
+  },
+  {
+   "id": "d2s4",
+   "word": "d2w4",
+   "ru": "Э́то но́вая маши́на.",
+   "en": "This is a new car.",
+   "pr": "E-ta NO-va-ya ma-SHI-na",
+   "pics": [
+    "automobile.png",
+    "sparkles.png"
+   ],
+   "audio": "2bb2f92c24.mp3"
+  },
+  {
+   "id": "d2s5",
+   "word": "d2w5",
+   "ru": "Окно́ большо́е.",
+   "en": "The window is big.",
+   "pr": "ak-NO bal'-SHO-ye",
+   "pics": [
+    "window.png"
+   ],
+   "audio": "bd2dde2ac1.mp3"
+  },
+  {
+   "id": "d2s6",
+   "word": "d2w6",
+   "ru": "Я пишу́ письмо́ бра́ту.",
+   "en": "I'm writing a letter to my brother.",
+   "pr": "ya pi-SHU pis'-MO BRA-tu",
+   "pics": [
+    "envelope.png",
+    "boy.png"
+   ],
+   "audio": "bcf6fb018d.mp3"
+  },
+  {
+   "id": "d2s7",
+   "word": "d2w7",
+   "ru": "Э́то большо́й дом.",
+   "en": "This is a big house.",
+   "pr": "E-ta bal'-SHOI dom",
+   "pics": [
+    "elephant.png",
+    "house.png"
+   ],
+   "audio": "75e818f419.mp3"
+  },
+  {
+   "id": "d2s8",
+   "word": "d2w8",
+   "ru": "Э́то ма́ленький дом.",
+   "en": "This is a small house.",
+   "pr": "E-ta MA-lin'-kiy dom",
+   "pics": [
+    "mouse.png",
+    "house.png"
+   ],
+   "audio": "0dfa14c01c.mp3"
+  },
+  {
+   "id": "d2s9",
+   "word": "d2w9",
+   "ru": "У меня́ но́вый телефо́н.",
+   "en": "I have a new phone.",
+   "pr": "u mi-NYA NO-vih ti-li-FON",
+   "pics": [
+    "mobile_phone.png",
+    "sparkles.png"
+   ],
+   "audio": "fceace803e.mp3"
+  },
+  {
+   "id": "d2s10",
+   "word": "d2w10",
+   "ru": "Он хоро́ший друг.",
+   "en": "He is a good friend.",
+   "pr": "on kha-RO-shiy druk",
+   "pics": [
+    "thumbs_up.png",
+    "people_hugging.png"
+   ],
+   "audio": "69ca38f4db.mp3"
+  },
+  {
+   "id": "d2s11",
+   "word": null,
+   "ru": "Хоро́ший друг звони́т.",
+   "mk": "{Хоро́ш|ий} {друг} звони́т.",
+   "g": "m",
+   "case": "Nominative",
+   "en": "A good friend is calling.",
+   "pr": "kha-RO-shiy druk zva-NIT",
+   "pics": [
+    "people_hugging.png",
+    "mobile_phone.png"
+   ],
+   "audio": "e925f6de19.mp3"
+  },
+  {
+   "id": "d2s12",
+   "word": null,
+   "ru": "Здесь но́вая маши́на.",
+   "mk": "Здесь {но́в|ая} {маши́н|а}.",
+   "g": "f",
+   "case": "Nominative",
+   "en": "Here is a new car.",
+   "pr": "zdyes' NO-va-ya ma-SHI-na",
+   "pics": [
+    "automobile.png",
+    "sparkles.png"
+   ],
+   "audio": "b73c2bae2c.mp3"
+  },
+  {
+   "id": "d2s13",
+   "word": null,
+   "ru": "Ма́ленькие коты́ до́ма.",
+   "mk": "{Ма́леньк|ие} {кот|ы́} до́ма.",
+   "g": "pl",
+   "case": "Nominative",
+   "en": "The little cats are at home.",
+   "pr": "MA-lin'-ki-ye ka-TIH DO-ma",
+   "pics": [
+    "cat.png",
+    "house.png"
+   ],
+   "audio": "3616ca5131.mp3"
+  },
+  {
+   "id": "d2s14",
+   "word": null,
+   "ru": "У меня́ нет большо́го до́ма.",
+   "mk": "У меня́ нет {больш|о́го} {до́м|а}.",
+   "g": "m",
+   "case": "Genitive",
+   "en": "I don't have a big house.",
+   "pr": "u mi-NYA nyet bal'-SHO-va DO-ma",
+   "pics": [
+    "house.png",
+    "cross_mark.png"
+   ],
+   "audio": "1832e5dca4.mp3"
+  },
+  {
+   "id": "d2s15",
+   "word": null,
+   "ru": "Э́то кни́га мое́й сестры́.",
+   "mk": "Э́то кни́га {мо|е́й} {сестр|ы́}.",
+   "g": "f",
+   "case": "Genitive",
+   "en": "This is my sister's book.",
+   "pr": "E-ta KNI-ga ma-YEI sist-RIH",
+   "pics": [
+    "girl.png",
+    "closed_book.png"
+   ],
+   "audio": "eefe86cc71.mp3"
+  },
+  {
+   "id": "d2s16",
+   "word": null,
+   "ru": "У меня́ мно́го хоро́ших друзе́й.",
+   "mk": "У меня́ мно́го {хоро́ш|их} {друз|е́й}.",
+   "g": "pl",
+   "case": "Genitive",
+   "en": "I have many good friends.",
+   "pr": "u mi-NYA MNO-ga kha-RO-shikh dru-ZYEI",
+   "pics": [
+    "people_hugging.png",
+    "party_popper.png"
+   ],
+   "audio": "06bdf50bca.mp3"
+  },
+  {
+   "id": "d2s17",
+   "word": null,
+   "ru": "Я звоню́ хоро́шему дру́гу.",
+   "mk": "Я звоню́ {хоро́ш|ему} {дру́г|у}.",
+   "g": "m",
+   "case": "Dative",
+   "en": "I'm calling a good friend.",
+   "pr": "ya zva-NYU kha-RO-she-mu DRU-gu",
+   "pics": [
+    "mobile_phone.png",
+    "people_hugging.png"
+   ],
+   "audio": "e7f2b0d9fa.mp3"
+  },
+  {
+   "id": "d2s18",
+   "word": null,
+   "ru": "Я пишу́ мое́й сестре́.",
+   "mk": "Я пишу́ {мо|е́й} {сестр|е́}.",
+   "g": "f",
+   "case": "Dative",
+   "en": "I'm writing to my sister.",
+   "pr": "ya pi-SHU ma-YEI sist-RYE",
+   "pics": [
+    "writing_hand.png",
+    "girl.png"
+   ],
+   "audio": "b29cf97b39.mp3"
+  },
+  {
+   "id": "d2s19",
+   "word": null,
+   "ru": "Я звоню́ но́вым друзья́м.",
+   "mk": "Я звоню́ {но́в|ым} {друзь|я́м}.",
+   "g": "pl",
+   "case": "Dative",
+   "en": "I'm calling new friends.",
+   "pr": "ya zva-NYU NO-vihm dru-ZYAM",
+   "pics": [
+    "telephone_receiver.png",
+    "people_hugging.png"
+   ],
+   "audio": "0186e99e35.mp3"
+  },
+  {
+   "id": "d2s20",
+   "word": null,
+   "ru": "Я ви́жу ма́ленького кота́.",
+   "mk": "Я ви́жу {ма́леньк|ого} {кот|а́}.",
+   "g": "m",
+   "case": "Accusative",
+   "en": "I see a little cat.",
+   "pr": "ya VI-zhu MA-lin'-ka-va ka-TA",
+   "pics": [
+    "eyes.png",
+    "cat.png"
+   ],
+   "audio": "d08a3422b3.mp3"
+  },
+  {
+   "id": "d2s21",
+   "word": null,
+   "ru": "Я чита́ю но́вую кни́гу.",
+   "mk": "Я чита́ю {но́в|ую} {кни́г|у}.",
+   "g": "f",
+   "case": "Accusative",
+   "en": "I'm reading a new book.",
+   "pr": "ya chi-TA-yu NO-vu-yu KNI-gu",
+   "pics": [
+    "open_book.png",
+    "sparkles.png"
+   ],
+   "audio": "af09ac3f23.mp3"
+  },
+  {
+   "id": "d2s22",
+   "word": null,
+   "ru": "Мы смо́трим но́вые фи́льмы.",
+   "mk": "Мы смо́трим {но́в|ые} {фи́льм|ы}.",
+   "g": "pl",
+   "case": "Accusative",
+   "en": "We watch new films.",
+   "pr": "mih SMOT-rim NO-vih-ye FIL'-mih",
+   "pics": [
+    "television.png",
+    "popcorn.png"
+   ],
+   "audio": "7b25d9a7af.mp3"
+  },
+  {
+   "id": "d2s23",
+   "word": null,
+   "ru": "Я игра́ю с ма́леньким бра́том.",
+   "mk": "Я игра́ю с {ма́леньк|им} {бра́т|ом}.",
+   "g": "m",
+   "case": "Instrumental",
+   "en": "I'm playing with my little brother.",
+   "pr": "ya ig-RA-yu s MA-lin'-kim BRA-tam",
+   "pics": [
+    "boy.png",
+    "soccer_ball.png"
+   ],
+   "audio": "7feaab3317.mp3"
+  },
+  {
+   "id": "d2s24",
+   "word": null,
+   "ru": "Я чита́ю с ма́ленькой сестро́й.",
+   "mk": "Я чита́ю с {ма́леньк|ой} {сестр|о́й}.",
+   "g": "f",
+   "case": "Instrumental",
+   "en": "I'm reading with my little sister.",
+   "pr": "ya chi-TA-yu s MA-lin'-kai sist-ROI",
+   "pics": [
+    "girl.png",
+    "open_book.png"
+   ],
+   "audio": "1345aa8735.mp3"
+  },
+  {
+   "id": "d2s25",
+   "word": null,
+   "ru": "Мы игра́ем с хоро́шими друзья́ми.",
+   "mk": "Мы игра́ем с {хоро́ш|ими} {друзь|я́ми}.",
+   "g": "pl",
+   "case": "Instrumental",
+   "en": "We play with good friends.",
+   "pr": "mih ig-RA-yem s kha-RO-shi-mi dru-ZYA-mi",
+   "pics": [
+    "people_hugging.png",
+    "volleyball.png"
+   ],
+   "audio": "c256ab4bd6.mp3"
+  },
+  {
+   "id": "d2s26",
+   "word": null,
+   "ru": "Я ду́маю о но́вом го́роде.",
+   "mk": "Я ду́маю о {но́в|ом} {го́род|е}.",
+   "g": "m",
+   "case": "Prepositional",
+   "en": "I'm thinking about the new city.",
+   "pr": "ya DU-ma-yu a NO-vam GO-ra-dye",
+   "pics": [
+    "thinking_face.png",
+    "cityscape.png"
+   ],
+   "audio": "c2bdb99340.mp3"
+  },
+  {
+   "id": "d2s27",
+   "word": null,
+   "ru": "Кни́га в но́вой маши́не.",
+   "mk": "Кни́га в {но́в|ой} {маши́н|е}.",
+   "g": "f",
+   "case": "Prepositional",
+   "en": "The book is in the new car.",
+   "pr": "KNI-ga v NO-vai ma-SHI-nye",
+   "pics": [
+    "closed_book.png",
+    "automobile.png"
+   ],
+   "audio": "9a1716c7ed.mp3"
+  },
+  {
+   "id": "d2s28",
+   "word": null,
+   "ru": "Мы говори́м о хоро́ших кни́гах.",
+   "mk": "Мы говори́м о {хоро́ш|их} {кни́г|ах}.",
+   "g": "pl",
+   "case": "Prepositional",
+   "en": "We're talking about good books.",
+   "pr": "mih ga-va-RIM a kha-RO-shikh KNI-gakh",
+   "pics": [
+    "speech_balloon.png",
+    "books.png"
+   ],
+   "audio": "166b754ce9.mp3"
+  }
+ ],
+ "notes": [
+  {
+   "h": "Gender from the last letter",
+   "lines": [
+    "Masculine: consonant or -й (брат, кот, дом).",
+    "Feminine: -а / -я (сестра́, маши́на).",
+    "Neuter: -о / -е (окно́, письмо́), also -мя (вре́мя).",
+    "-ь can be either: день (m), ночь (f). Male people in -а are masculine (па́па)."
+   ]
+  },
+  {
+   "h": "When each case is used",
+   "lines": [
+    "Имени́тельный (Nominative) — кто? что? The subject: who or what does the action. This is the dictionary form.",
+    "Роди́тельный (Genitive) — кого́? чего́? “of”, owning something, “there is no…” (нет), after у, из, без and numbers.",
+    "Да́тельный (Dative) — кому́? чему́? “to / for” someone: the person who receives, who you call, write or give to.",
+    "Вини́тельный (Accusative) — кого́? что? The direct object: what you see, read, drink. Also в / на + where you are going.",
+    "Твори́тельный (Instrumental) — кем? чем? “with” (с), or the tool you do something with.",
+    "Предло́жный (Prepositional) — о ком? о чём? где? “about” (о), and location with в / на (in, on, at)."
+   ]
+  },
+  {
+   "h": "Adjectives",
+   "lines": [
+    "Adjectives have their own endings but follow the noun's gender, number and case.",
+    "Neuter = masculine except nom./acc. -ое. Plural is the same for all genders.",
+    "Feminine is -ой in 4 of 6 cases; accusative -ую (но́вую кни́гу)."
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "Noun endings",
+   "cols": [
+    "case",
+    "masc. кот",
+    "fem. маши́на",
+    "neut. окно́",
+    "plural"
+   ],
+   "rows": [
+    [
+     "Nominative",
+     "кот",
+     "маши́на",
+     "окно́",
+     "коты́ · маши́ны · о́кна"
+    ],
+    [
+     "Genitive",
+     "кота́",
+     "маши́ны",
+     "окна́",
+     "кото́в · маши́н · о́кон"
+    ],
+    [
+     "Dative",
+     "коту́",
+     "маши́не",
+     "окну́",
+     "кота́м · маши́нам · о́кнам"
+    ],
+    [
+     "Accusative",
+     "кота́*",
+     "маши́ну",
+     "окно́",
+     "кото́в* · маши́ны · о́кна"
+    ],
+    [
+     "Instrumental",
+     "кото́м",
+     "маши́ной",
+     "окно́м",
+     "кота́ми · маши́нами · о́кнами"
+    ],
+    [
+     "Prepositional",
+     "(о) коте́",
+     "(о) маши́не",
+     "(об) окне́",
+     "(о) кота́х · маши́нах · о́кнах"
+    ]
+   ]
+  },
+  {
+   "title": "Adjective endings (но́вый)",
+   "cols": [
+    "case",
+    "masc.",
+    "fem.",
+    "neut.",
+    "plural"
+   ],
+   "rows": [
+    [
+     "Nominative",
+     "но́вый",
+     "но́вая",
+     "но́вое",
+     "но́вые"
+    ],
+    [
+     "Genitive",
+     "но́вого",
+     "но́вой",
+     "но́вого",
+     "но́вых"
+    ],
+    [
+     "Dative",
+     "но́вому",
+     "но́вой",
+     "но́вому",
+     "но́вым"
+    ],
+    [
+     "Accusative",
+     "но́вый / но́вого*",
+     "но́вую",
+     "но́вое",
+     "но́вые / но́вых*"
+    ],
+    [
+     "Instrumental",
+     "но́вым",
+     "но́вой",
+     "но́вым",
+     "но́выми"
+    ],
+    [
+     "Prepositional",
+     "(о) но́вом",
+     "(о) но́вой",
+     "(о) но́вом",
+     "(о) но́вых"
+    ]
+   ]
+  }
+ ],
+ "video": "videos/day2.mp4"
+}
