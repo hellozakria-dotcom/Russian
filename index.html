@@ -29,7 +29,7 @@ h1{font-size:30px;margin:4px 0 0} h2{font-size:24px;margin:0} h3{font-size:13px;
 .chip{flex:none;border:1px solid var(--line);background:var(--card);border-radius:99px;padding:6px 13px;font-weight:500;cursor:pointer}
 .chip.on{background:var(--ink);color:#fff;border-color:var(--ink)}
 .tag{display:inline-block;color:#fff;border-radius:99px;padding:1px 9px;font-size:12px;font-weight:600;vertical-align:2px}
-.t-m{background:var(--m)} .t-f{background:var(--f)} .t-n{background:var(--n)} .t-pl{background:var(--pl)} .t-adj{background:var(--adj)} .t-verb{background:#555} .t-x{background:#999}
+.t-m{background:var(--m)} .t-f{background:var(--f)} .t-n{background:var(--n)} .t-pl{background:var(--pl)} .t-adj{background:var(--adj)} .t-verb{background:#555} .t-num{background:#2E62A0} .t-x{background:#999}
 .c-m{color:var(--m)} .c-f{color:var(--f)} .c-n{color:var(--n)} .c-pl{color:var(--pl)}
 .mk{text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:4px} .mk b{font-weight:700}
 .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
@@ -81,7 +81,7 @@ a{color:var(--pr)}
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const stress = s => esc(s).replace(/(.́|ё|Ё)/g, '<span class="s">$1</span>');
-const GN = {m:'masculine', f:'feminine', n:'neuter', pl:'plural', adj:'adjective', verb:'verb', x:'phrase'};
+const GN = {m:'masculine', f:'feminine', n:'neuter', pl:'plural', adj:'adjective', verb:'verb', x:'phrase', num:'number'};
 function marked(t, g) { // {stem|end} highlighting
   const h = esc(t).replace(/\{([^}]*)\}/g, (_, inner) => {
     if (inner.includes('|')) { const [a, b] = inner.split('|'); return `<span class="mk c-${g}">${a}<b>${b}</b></span>`; }
@@ -105,7 +105,7 @@ const ICON = {
 const VOW = 'аеёиоуыэюя';
 const CON = {б:'b',в:'v',г:'g',д:'d',ж:'zh',з:'z',й:'y',к:'k',л:'l',м:'m',н:'n',п:'p',р:'r',с:'s',т:'t',ф:'f',х:'kh',ц:'ts',ч:'ch',ш:'sh',щ:'shch',ъ:'',ь:"'"};
 const DEV = {б:'п',в:'ф',г:'к',д:'т',ж:'ш',з:'с'}; const HARD = 'шжц';
-const SPECIAL = {'что':'shto','сего́дня':'si-VOD-nya','пожа́луйста':'pa-ZHA-lus-ta','в':'v','с':'s','мне':'mnye','нет':'nyet','где':'gdye','друг':'druk','э́то':'E-ta','о':'a','не':'ni','по':'pa','у':'u','кого́':'ka-VO','чего́':'chi-VO'};
+const SPECIAL = {'здра́вствуйте':'ZDRAST-vui-tye','что':'shto','сего́дня':'si-VOD-nya','пожа́луйста':'pa-ZHA-lus-ta','в':'v','с':'s','мне':'mnye','нет':'nyet','где':'gdye','друг':'druk','э́то':'E-ta','о':'a','не':'ni','по':'pa','у':'u','кого́':'ka-VO','чего́':'chi-VO'};
 function wordTr(w) {
   let raw = w.toLowerCase();
   if (SPECIAL[raw]) return SPECIAL[raw];
@@ -114,6 +114,7 @@ function wordTr(w) {
   let s = raw.replace(/́/g, '');
   if (stressI < 0 && s.includes('ё')) stressI = s.indexOf('ё');
   if (s.startsWith('сд')) s = 'зд' + s.slice(2);
+  for (const [pat, sub] of [['дц', 'ц'], ['стн', 'сн'], ['тьс', 'ц'], ['тс', 'ц']]) { let i; while ((i = s.indexOf(pat)) >= 0) { if (stressI > i) stressI -= pat.length - sub.length; s = s.slice(0, i) + sub + s.slice(i + pat.length); } }
   if (s.length > 4 && /(ого|его)$/.test(s) && !['много','дорого','строго'].includes(s)) s = s.slice(0, -2) + 'во';
   if (DEV[s[s.length - 1]]) s = s.slice(0, -1) + DEV[s[s.length - 1]];
   // collapse doubled consonants
@@ -431,7 +432,15 @@ function lessonsView() {
   }
   return `<h1>Lessons</h1><input id="q" placeholder="Search words (Russian or English)" value="${esc(S.q || '')}" style="margin-top:10px">${search}
   ${S.days.map(d => `<div class="card row" data-day="${d.id}" style="cursor:pointer"><div class="grow"><div class="word">${esc(d.title)}</div><div class="en small">${esc(d.topic)} · ${d.words.length} words · ${d.sentences.length} sentences</div></div><span class="en">›</span></div>`).join('')}
+  ${planHTML()}
   ${S.custom.length ? `<div class="card row" data-go="add" style="cursor:pointer"><div class="grow"><div class="word">My words</div><div class="en small">${S.custom.length} words you added</div></div><span class="en">›</span></div>` : ''}`;
+}
+function planHTML() {
+  if (!S.plan || !S.plan.days) return '';
+  const done = new Set(S.days.map(d => d.id));
+  const next = S.plan.days.filter(p => !done.has(p.day));
+  if (!next.length) return '';
+  return `<h3>Coming next</h3><div class="card"><p class="en small" style="margin-top:0">${esc(S.plan.approach || '')}</p>${next.map(p => `<div class="item"><div class="stat" style="padding:6px 10px;flex:none;text-align:center"><b style="font-size:18px">${p.day}</b><span>${esc(p.level || '')}</span></div><div class="grow">${stress(p.title)}</div></div>`).join('')}</div>`;
 }
 function addView() {
   const decks = [...new Set(S.custom.map(c => c.deck || 'My words'))]; if (!decks.includes('My words')) decks.unshift('My words');
@@ -523,6 +532,7 @@ document.addEventListener('keydown', e => {
   try {
     const idx = await (await fetch('days/index.json')).json();
     S.days = await Promise.all(idx.days.map(async d => (await fetch(d.file)).json()));
+    try { S.plan = await (await fetch('days/plan.json')).json(); } catch (e) { S.plan = null; }
   } catch (e) { $('#app').innerHTML = '<div class="empty">Could not load the lessons. Check your connection and reopen.</div>'; return; }
   buildCards(); render();
   setupStandalone();

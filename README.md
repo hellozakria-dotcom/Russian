@@ -18,6 +18,10 @@ and on desktop, and has no server or account.
 - **Backup**: progress and your words are stored on the device. *Save backup* / *Load backup*
   moves them between phone and computer (loading merges, nothing is lost).
 
+## Learning path
+The days follow an A1 → A2 path built on the topics of the official Russian state exam for foreigners (TORFL / ТРКИ).
+The plan is in `content/plan.json` and shows under *Coming next* in the app.
+
 ## Project layout
 ```
 index.html             the whole app (HTML + CSS + JS, no build step)
@@ -43,7 +47,7 @@ tools/                 build.py, translit.py, voice.py, setup.sh
    folder names ("Open book", "Cat"…); the build downloads and renders them.
    Optional: `table` (`cols` + `rows`) and `note` on a word; `mk` (`"Я ви́жу {кот|а́}"`, which highlights the
    ending), `g` and `case` on a sentence; `tables` on the day.
-3. Optional video: `videos/dayN.mp4`.
+3. Video: `python3 tools/video.py N` makes `videos/dayN.mp4` (voiced, with pictures), then run the build again.
 4. `python3 tools/build.py` → commit → push. GitHub Pages updates, and installed apps pick up
    the new day the next time they are opened online.
 

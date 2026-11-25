@@ -24,10 +24,45 @@ plain = lambda t: re.sub(r"[{}|]", "", t)
 FLUENT = "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/"
 
 
+def font(size):
+    from PIL import ImageFont
+    for f in ("/usr/share/fonts/truetype/google-fonts/ofl/firasans/FiraSans-Bold.ttf",
+              "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", "DejaVuSans-Bold.ttf", "arial.ttf"):
+        try: return ImageFont.truetype(f, size)
+        except OSError: continue
+    return ImageFont.load_default()
+
+
+TILE_COLORS = [(46, 98, 160), (196, 64, 112), (46, 140, 90), (120, 80, 170), (200, 120, 20), (178, 58, 46)]
+def tile(text):
+    """A picture for a number or short text: 'num:21' -> big 21 on a coloured tile, with dots for 1-10."""
+    from PIL import Image, ImageDraw
+    fn = "num_" + re.sub(r"[^0-9a-z]+", "_", text.lower()) + ".png"
+    out = os.path.join("pics", fn)
+    if os.path.exists(out): return fn
+    S = 480; im = Image.new("RGBA", (S, S), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    col = TILE_COLORS[sum(map(ord, text)) % len(TILE_COLORS)]
+    d.rounded_rectangle((16, 16, S - 16, S - 16), 90, fill=col)
+    n = int(text) if text.isdigit() else None
+    f = font(240 if len(text) <= 2 else 170)
+    w = d.textlength(text, font=f); bb = d.textbbox((0, 0), text, font=f)
+    y = (S - (bb[3] - bb[1])) / 2 - bb[1] - (40 if n and 1 <= n <= 10 else 0)
+    d.text(((S - w) / 2, y), text, font=f, fill=(255, 253, 248))
+    if n and 1 <= n <= 10:  # dots to count
+        r, gap = 16, 44; tot = (n - 1) * gap; x0 = (S - tot) / 2
+        for i in range(n): d.ellipse((x0 + i * gap - r, 380 - r, x0 + i * gap + r, 380 + r), fill=(255, 253, 248))
+    im.resize((240, 240)).save(out)
+    print("  tile:", fn)
+    return fn
+
+
 def pic(name):
-    """'Open book' -> 'open_book.png' (downloads + renders if needed); 'x.png' -> unchanged."""
+    """'Open book' -> 'open_book.png' (Fluent emoji, downloaded + rendered if needed);
+    'num:21' -> generated number tile; 'x.png' -> unchanged."""
     if name.endswith(".png"):
         return name
+    if name.startswith("num:"):
+        return tile(name[4:])
     fn = name.replace(" ", "_").lower() + ".png"
     out = os.path.join("pics", fn)
     if os.path.exists(out):
@@ -88,6 +123,8 @@ for path in sorted(glob.glob("content/day*.json"), key=lambda p: int(re.findall(
     json.dump(d, open(f"days/day{n}.json", "w", encoding="utf-8"), ensure_ascii=False)
     index.append(dict(id=n, file=f"days/day{n}.json", title=d["title"], topic=d.get("topic", "")))
 json.dump(dict(days=index), open("days/index.json", "w", encoding="utf-8"), ensure_ascii=False)
+if os.path.exists("content/plan.json"):
+    json.dump(json.load(open("content/plan.json", encoding="utf-8")), open("days/plan.json", "w", encoding="utf-8"), ensure_ascii=False)
 
 # ---- service worker: precache everything except videos ----
 files = ["./", "index.html", "manifest.webmanifest"] + sorted(

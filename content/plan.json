@@ -1,0 +1,30 @@
+{
+ "approach": "A1 → A2 path, following the topics of the official Russian state exam for foreigners (TORFL / ТРКИ, Elementary then Basic level). Each day: about 10 high-frequency words, one grammar step, example sentences with pictures and voice, then spaced-repetition cards. Phrases first, grammar explained inside them.",
+ "days": [
+  {"day": 1, "title": "First verbs & nouns", "level": "A1"},
+  {"day": 2, "title": "The 6 cases", "level": "A1"},
+  {"day": 3, "title": "Numbers 0–100, age and prices", "level": "A1"},
+  {"day": 4, "title": "Hello! Introducing yourself", "level": "A1"},
+  {"day": 5, "title": "Me, you, him: pronouns and “I have” (у меня́ есть)", "level": "A1"},
+  {"day": 6, "title": "Family", "level": "A1"},
+  {"day": 7, "title": "Everyday verbs: live, work, study, speak", "level": "A1"},
+  {"day": 8, "title": "Time and days of the week", "level": "A1"},
+  {"day": 9, "title": "Food and the café: хочу́, мо́жно", "level": "A1"},
+  {"day": 10, "title": "In the city: where is…? (в / на + prepositional)", "level": "A1"},
+  {"day": 11, "title": "Going places: идти́ / е́хать + куда́?", "level": "A1"},
+  {"day": 12, "title": "What did you do? Past tense", "level": "A1"},
+  {"day": 13, "title": "Colours, clothes and adjectives", "level": "A1"},
+  {"day": 14, "title": "Shopping and money", "level": "A1"},
+  {"day": 15, "title": "Weather and seasons", "level": "A1"},
+  {"day": 16, "title": "Plans: future tense", "level": "A1"},
+  {"day": 17, "title": "Body and health: у меня́ боли́т…", "level": "A1"},
+  {"day": 18, "title": "University and studying", "level": "A1"},
+  {"day": 19, "title": "Hobbies and sport: люблю́ / игра́ть в…", "level": "A1"},
+  {"day": 20, "title": "Review: a short story with everything so far", "level": "A1"},
+  {"day": 21, "title": "Travel and transport", "level": "A2"},
+  {"day": 22, "title": "Comparing: бо́льше, лу́чше, са́мый", "level": "A2"},
+  {"day": 23, "title": "Motion verbs with prefixes: прийти́, уйти́, вы́йти", "level": "A2"},
+  {"day": 24, "title": "Instrumental in use: with, become, be interested in", "level": "A2"},
+  {"day": 25, "title": "Talking about the past: when, how long, ago (наза́д)", "level": "A2"}
+ ]
+}

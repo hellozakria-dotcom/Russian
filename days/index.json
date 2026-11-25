@@ -1,1 +1,1 @@
-{"days": [{"id": 1, "file": "days/day1.json", "title": "Day 1", "topic": "First verbs & nouns"}, {"id": 2, "file": "days/day2.json", "title": "Day 2", "topic": "The 6 cases"}]}
+{"days": [{"id": 1, "file": "days/day1.json", "title": "Day 1", "topic": "First verbs & nouns"}, {"id": 2, "file": "days/day2.json", "title": "Day 2", "topic": "The 6 cases"}, {"id": 3, "file": "days/day3.json", "title": "Day 3", "topic": "Numbers 0–100, age and prices"}, {"id": 4, "file": "days/day4.json", "title": "Day 4", "topic": "Hello! Introducing yourself"}]}

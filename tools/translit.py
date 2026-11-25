@@ -3,7 +3,7 @@ Mark stress in the input with a combining acute (U+0301) after the vowel, e.g. "
 """
 # ---------- pronunciation in English letters, stressed syllable in CAPS ----------
 VOW = "аеёиоуыэюя"
-SPECIAL = {"что": "shto", "сего́дня": "si-VOD-nya", "пожа́луйста": "pa-ZHA-lus-ta",
+SPECIAL = {"здра́вствуйте": "ZDRAST-vui-tye", "что": "shto", "сего́дня": "si-VOD-nya", "пожа́луйста": "pa-ZHA-lus-ta",
            "вчера́": "fchi-RA", "в": "v", "с": "s", "мне": "mnye", "нет": "nyet", "где": "gdye",
            "друг": "druk", "кого́": "ka-VO", "чего́": "chi-VO", "краси́вый": "kra-SI-vih", "о": "a", "не": "ni", "по": "pa", "у": "u", "волейбо́л": "va-lei-BOL", "э́то": "E-ta", "пью": "pyu", "без": "byez"}
 CON = dict(б="b", в="v", г="g", д="d", ж="zh", з="z", й="y", к="k", л="l", м="m", н="n", п="p", р="r",
@@ -22,6 +22,12 @@ def word_tr(w):
     vpos = [i for i, c in enumerate(s) if c in VOW]
     if stress is None and len(vpos) == 1: stress = vpos[0]
     if s.startswith("сд"): s = "зд" + s[2:]
+    for pat, sub in (("дц", "ц"), ("стн", "сн"), ("тьс", "ц"), ("тс", "ц")):  # how these clusters are said
+        while pat in s:
+            i = s.index(pat)
+            if stress is not None and stress > i: stress -= len(pat) - len(sub)
+            s = s[:i] + sub + s[i + len(pat):]
+    vpos = [i for i, c in enumerate(s) if c in VOW]
     if len(s) > 4 and s[-3:] in ("ого", "его") and s not in ("много", "дорого", "строго"):
         s = s[:-2] + "во" if True else s
     import re as _re
