@@ -127,7 +127,11 @@
    ],
    "id": "d4s1",
    "audio": "e6f6165a16.mp3",
-   "pr": "ZDRAST-vui-tye"
+   "pr": "ZDRAST-vui-tye",
+   "why": [
+    "Здра́вствуйте — polite “hello” (from здра́вствовать, to be healthy: “be well!”). The first в is silent: ZDRAST-vui-tye.",
+    "Use it with strangers, teachers, or several people."
+   ]
   },
   {
    "word": "d4w1",
@@ -139,7 +143,12 @@
    ],
    "id": "d4s2",
    "audio": "67643e6fe3.mp3",
-   "pr": "ZDRAST-vui-tye kak vas za-VUT"
+   "pr": "ZDRAST-vui-tye kak vas za-VUT",
+   "why": [
+    "как — “how”: Russians ask “how do they call you?”, not “what is your name?”.",
+    "вас — accusative of вы (polite you): the person being called.",
+    "зову́т — звать (to call), они́ form: “they call”. There is no subject: it means people in general."
+   ]
   },
   {
    "word": "d4w2",
@@ -151,7 +160,11 @@
    ],
    "id": "d4s3",
    "audio": "041b3f6704.mp3",
-   "pr": "pri-VYET kak di-LA"
+   "pr": "pri-VYET kak di-LA",
+   "why": [
+    "Приве́т — informal hi, for friends.",
+    "Как дела́? — literally “how are things?”. дела́ = plural of де́ло (matter, affair)."
+   ]
   },
   {
    "word": "d4w2",
@@ -163,7 +176,11 @@
    ],
    "id": "d4s4",
    "audio": "b1d1ab4b9c.mp3",
-   "pr": "kha-ra-SHO spa-SI-ba a u ti-BYA"
+   "pr": "kha-ra-SHO spa-SI-ba a u ti-BYA",
+   "why": [
+    "Хорошо́ — good / well (an adverb, not an adjective).",
+    "А у тебя́? — “and with you?”: а = and (switching to the other person), у тебя́ = by you (genitive)."
+   ]
   },
   {
    "word": "d4w3",
@@ -175,7 +192,11 @@
    ],
    "id": "d4s5",
    "audio": "81670a2e82.mp3",
-   "pr": "mi-NYA za-VUT i-VAN"
+   "pr": "mi-NYA za-VUT i-VAN",
+   "why": [
+    "Меня́ — accusative of я: “me”. Меня́ зову́т = they call me = my name is.",
+    "Ива́н — the name stays in the nominative."
+   ]
   },
   {
    "word": "d4w3",
@@ -187,7 +208,11 @@
    ],
    "id": "d4s6",
    "audio": "58c9237497.mp3",
-   "pr": "mi-NYA za-VUT A-na"
+   "pr": "mi-NYA za-VUT A-na",
+   "why": [
+    "Меня́ зову́т — “they call me”. The verb doesn't change for men or women.",
+    "А́нна — nominative."
+   ]
   },
   {
    "word": "d4w4",
@@ -199,7 +224,10 @@
    ],
    "id": "d4s7",
    "audio": "5f6526830b.mp3",
-   "pr": "kak ti-BYA za-VUT"
+   "pr": "kak ti-BYA za-VUT",
+   "why": [
+    "тебя́ — accusative of ты (informal). Use this with friends and people your age."
+   ]
   },
   {
    "word": "d4w4",
@@ -211,7 +239,10 @@
    ],
    "id": "d4s8",
    "audio": "5a2718625f.mp3",
-   "pr": "kak vas za-VUT"
+   "pr": "kak vas za-VUT",
+   "why": [
+    "вас — accusative of вы (polite or plural)."
+   ]
   },
   {
    "word": "d4w5",
@@ -222,7 +253,11 @@
    ],
    "id": "d4s9",
    "audio": "651a625a0f.mp3",
-   "pr": "O-chin' pri-YAT-na"
+   "pr": "O-chin' pri-YAT-na",
+   "why": [
+    "О́чень — very.",
+    "прия́тно — “pleasant” (an adverb form). О́чень прия́тно = nice to meet you."
+   ]
   },
   {
    "word": "d4w5",
@@ -234,7 +269,11 @@
    ],
    "id": "d4s10",
    "audio": "16f028595c.mp3",
-   "pr": "mnye TO-zhe O-chin' pri-YAT-na"
+   "pr": "mnye TO-zhe O-chin' pri-YAT-na",
+   "why": [
+    "Мне — dative of я: “to me (it is) pleasant”.",
+    "то́же — also, too."
+   ]
   },
   {
    "word": "d4w6",
@@ -246,7 +285,11 @@
    ],
    "id": "d4s11",
    "audio": "30f1cfe5c4.mp3",
-   "pr": "at-KU-da vih"
+   "pr": "at-KU-da vih",
+   "why": [
+    "Отку́да — “from where?”.",
+    "вы — polite you. No verb needed: “where (are) you from?”."
+   ]
   },
   {
    "word": "d4w6",
@@ -258,7 +301,10 @@
    ],
    "id": "d4s12",
    "audio": "099753837e.mp3",
-   "pr": "at-KU-da tih"
+   "pr": "at-KU-da tih",
+   "why": [
+    "ты — informal you. Same question for a friend."
+   ]
   },
   {
    "word": "d4w7",
@@ -270,7 +316,10 @@
    ],
    "id": "d4s13",
    "audio": "606f70bc1b.mp3",
-   "pr": "spa-SI-ba bal'-SHO-ye"
+   "pr": "spa-SI-ba bal'-SHO-ye",
+   "why": [
+    "Спаси́бо большо́е — “thank you very much”. большо́е (big) agrees with спаси́бо, which is neuter."
+   ]
   },
   {
    "word": "d4w8",
@@ -281,7 +330,11 @@
    ],
    "id": "d4s14",
    "audio": "20ff108edc.mp3",
-   "pr": "KO-fye pa-ZHA-lus-ta"
+   "pr": "KO-fye pa-ZHA-lus-ta",
+   "why": [
+    "Ко́фе — masculine, but it never changes its ending.",
+    "пожа́луйста — please."
+   ]
   },
   {
    "word": "d4w8",
@@ -293,7 +346,10 @@
    ],
    "id": "d4s15",
    "audio": "9ca2f34be4.mp3",
-   "pr": "spa-SI-ba pa-ZHA-lus-ta"
+   "pr": "spa-SI-ba pa-ZHA-lus-ta",
+   "why": [
+    "Пожа́луйста — here it means “you're welcome”, the answer to спаси́бо."
+   ]
   },
   {
    "word": "d4w9",
@@ -305,7 +361,12 @@
    ],
    "id": "d4s16",
    "audio": "d32f6f8f06.mp3",
-   "pr": "iz-vi-NI-tye gdye mit-RO"
+   "pr": "iz-vi-NI-tye gdye mit-RO",
+   "why": [
+    "Извини́те — polite “excuse me” (command form of извини́ть, to excuse).",
+    "где — where (location).",
+    "метро́ — never changes."
+   ]
   },
   {
    "word": "d4w10",
@@ -317,7 +378,11 @@
    ],
    "id": "d4s17",
    "audio": "d05daf6343.mp3",
-   "pr": "do svi-DA-ni-ya do ZAVT-ra"
+   "pr": "do svi-DA-ni-ya do ZAVT-ra",
+   "why": [
+    "До свида́ния — goodbye: до (until) + genitive of свида́ние (meeting) = until we meet again.",
+    "До за́втра — until tomorrow."
+   ]
   },
   {
    "word": "d4w11",
@@ -329,7 +394,11 @@
    ],
    "id": "d4s18",
    "audio": "93d587f522.mp3",
-   "pr": "pa-KA do VYE-chi-ra"
+   "pr": "pa-KA do VYE-chi-ra",
+   "why": [
+    "Пока́ — informal bye.",
+    "До ве́чера — until the evening: до + genitive (ве́чер → ве́чера)."
+   ]
   },
   {
    "mk": "Я из {Ли́ви|и}.",
@@ -342,7 +411,11 @@
    "id": "d4s19",
    "ru": "Я из Ли́вии.",
    "audio": "28ae1cac54.mp3",
-   "pr": "ya is LI-vi-i"
+   "pr": "ya is LI-vi-i",
+   "why": [
+    "из + genitive = from.",
+    "Ли́вии — genitive of Ли́вия: countries in -ия change -я → -и."
+   ]
   },
   {
    "mk": "Он из {Росси́|и}.",
@@ -356,7 +429,10 @@
    "id": "d4s20",
    "ru": "Он из Росси́и.",
    "audio": "1871b90850.mp3",
-   "pr": "on is ra-SI-i"
+   "pr": "on is ra-SI-i",
+   "why": [
+    "из Росси́и — Росси́я → Росси́и (-ия → -ии)."
+   ]
   },
   {
    "mk": "Она́ из {Ла́тви|и}.",
@@ -370,7 +446,10 @@
    "id": "d4s21",
    "ru": "Она́ из Ла́твии.",
    "audio": "f536dae105.mp3",
-   "pr": "a-NA is LAT-vi-i"
+   "pr": "a-NA is LAT-vi-i",
+   "why": [
+    "из Ла́твии — Ла́твия → Ла́твии."
+   ]
   },
   {
    "mk": "Мы из {Кана́д|ы}.",
@@ -383,7 +462,10 @@
    "id": "d4s22",
    "ru": "Мы из Кана́ды.",
    "audio": "ada5787bd9.mp3",
-   "pr": "mih is ka-NA-dih"
+   "pr": "mih is ka-NA-dih",
+   "why": [
+    "из Кана́ды — Кана́да ends in -а, so the genitive is -ы (after д you write ы)."
+   ]
   },
   {
    "mk": "Я живу́ в {Ри́г|е}.",
@@ -397,7 +479,11 @@
    "id": "d4s23",
    "ru": "Я живу́ в Ри́ге.",
    "audio": "b67efaf1f5.mp3",
-   "pr": "ya zhi-VU v RI-gye"
+   "pr": "ya zhi-VU v RI-gye",
+   "why": [
+    "живу́ — жить, я form.",
+    "в + prepositional = where: Ри́га → Ри́ге (-а → -е)."
+   ]
   },
   {
    "mk": "Я студе́нт. Я учу́сь в {университе́т|е}.",
@@ -411,7 +497,12 @@
    "id": "d4s24",
    "ru": "Я студе́нт. Я учу́сь в университе́те.",
    "audio": "a4a9ad82b9.mp3",
-   "pr": "ya stu-DYENT ya u-CHUS' v u-ni-vir-si-TYE-tye"
+   "pr": "ya stu-DYENT ya u-CHUS' v u-ni-vir-si-TYE-tye",
+   "why": [
+    "студе́нт — no word for “am”: “I student”.",
+    "учу́сь — учи́ться (to study at a school/uni), я form.",
+    "в университе́те — в + prepositional (-е)."
+   ]
   }
  ],
  "notes": [

@@ -195,7 +195,11 @@
    ],
    "id": "d3s1",
    "audio": "b6971ca8d3.mp3",
-   "pr": "na U-li-tse nol' GRA-du-saf"
+   "pr": "na U-li-tse nol' GRA-du-saf",
+   "why": [
+    "На у́лице — “in the street” = outside. на + prepositional (у́лица → у́лице).",
+    "ноль гра́дусов — after ноль (and 5+) the noun goes into the genitive plural: гра́дус → гра́дусов."
+   ]
   },
   {
    "word": "d3w2",
@@ -207,7 +211,12 @@
    ],
    "id": "d3s2",
    "audio": "257f5e5c52.mp3",
-   "pr": "u mi-NYA a-DIN brat"
+   "pr": "u mi-NYA a-DIN brat",
+   "why": [
+    "У меня́ — I have.",
+    "оди́н — masculine form of “one”, agreeing with брат.",
+    "брат — after 1 the noun stays in the nominative singular."
+   ]
   },
   {
    "word": "d3w2",
@@ -219,7 +228,11 @@
    ],
    "id": "d3s3",
    "audio": "029d5344b9.mp3",
-   "pr": "u mi-NYA ad-NA sist-RA"
+   "pr": "u mi-NYA ad-NA sist-RA",
+   "why": [
+    "одна́ — feminine “one”, because сестра́ is feminine.",
+    "сестра́ — nominative after 1."
+   ]
   },
   {
    "word": "d3w3",
@@ -231,7 +244,11 @@
    ],
    "id": "d3s4",
    "audio": "4e6533fcb4.mp3",
-   "pr": "dva KO-fye pa-ZHA-lus-ta"
+   "pr": "dva KO-fye pa-ZHA-lus-ta",
+   "why": [
+    "Два — masculine/neuter “two” (ко́фе is masculine).",
+    "ко́фе — a foreign word that never changes, so it looks the same after два."
+   ]
   },
   {
    "word": "d3w3",
@@ -243,7 +260,11 @@
    ],
    "id": "d3s5",
    "audio": "32e0910409.mp3",
-   "pr": "u mi-NYA dvye KOSH-ki"
+   "pr": "u mi-NYA dvye KOSH-ki",
+   "why": [
+    "две — feminine “two”, because ко́шка is feminine.",
+    "ко́шки — after 2–4 the noun is in the genitive singular: ко́шка → ко́шки."
+   ]
   },
   {
    "word": "d3w4",
@@ -255,7 +276,11 @@
    ],
    "id": "d3s6",
    "audio": "d5195e6a96.mp3",
-   "pr": "u nas tri KOM-na-tih"
+   "pr": "u nas tri KOM-na-tih",
+   "why": [
+    "У нас — we have.",
+    "три ко́мнаты — after 3: genitive singular (ко́мната → ко́мнаты). From 3 up there is no gender difference."
+   ]
   },
   {
    "word": "d3w5",
@@ -267,7 +292,11 @@
    ],
    "id": "d3s7",
    "audio": "de24c5e7c0.mp3",
-   "pr": "na sta-LYE chi-TIH-rye KNI-gi"
+   "pr": "na sta-LYE chi-TIH-rye KNI-gi",
+   "why": [
+    "На столе́ — “on the table”: на + prepositional of стол (-е, stress moves to the end).",
+    "четы́ре кни́ги — after 4: genitive singular."
+   ]
   },
   {
    "word": "d3w6",
@@ -279,7 +308,10 @@
    ],
    "id": "d3s8",
    "audio": "2fc5e07c85.mp3",
-   "pr": "pyat' mi-NUT"
+   "pr": "pyat' mi-NUT",
+   "why": [
+    "Пять мину́т — after 5: genitive plural. мину́та → мину́т (feminine words lose the ending)."
+   ]
   },
   {
    "word": "d3w7",
@@ -291,7 +323,11 @@
    ],
    "id": "d3s9",
    "audio": "2f37251a17.mp3",
-   "pr": "ya vsta-YU v shest' cha-SOF"
+   "pr": "ya vsta-YU v shest' cha-SOF",
+   "why": [
+    "встаю́ — встава́ть (to get up), я form: встаю́, встаёшь… (the ва disappears in the present).",
+    "в шесть часо́в — at six o'clock: в + time; after 6 → genitive plural часо́в."
+   ]
   },
   {
    "word": "d3w8",
@@ -303,7 +339,11 @@
    ],
    "id": "d3s10",
    "audio": "9a98f198cb.mp3",
-   "pr": "v ni-DYE-lye syem' dnyei"
+   "pr": "v ni-DYE-lye syem' dnyei",
+   "why": [
+    "В неде́ле — “in a week”: в + prepositional (неде́ля → неде́ле).",
+    "семь дней — after 7: genitive plural; день → дней (the е drops out)."
+   ]
   },
   {
    "word": "d3w9",
@@ -315,7 +355,11 @@
    ],
    "id": "d3s11",
    "audio": "cec60be96f.mp3",
-   "pr": "u mi-NYA u-ROK v VO-sim'"
+   "pr": "u mi-NYA u-ROK v VO-sim'",
+   "why": [
+    "У меня́ уро́к — I have a lesson.",
+    "в во́семь — at eight (o'clock); “часо́в” can be left out when it's clear."
+   ]
   },
   {
    "word": "d3w10",
@@ -327,7 +371,11 @@
    ],
    "id": "d3s12",
    "audio": "148124bb5d.mp3",
-   "pr": "DYE-vyat' plyus a-DIN DYE-syat'"
+   "pr": "DYE-vyat' plyus a-DIN DYE-syat'",
+   "why": [
+    "Де́вять плюс оди́н — maths is said like English.",
+    "— (dash) stands for “is / equals”: де́сять."
+   ]
   },
   {
    "word": "d3w11",
@@ -339,7 +387,11 @@
    ],
    "id": "d3s13",
    "audio": "f13feabe61.mp3",
-   "pr": "E-ta STO-it DYE-syat' YEV-ra"
+   "pr": "E-ta STO-it DYE-syat' YEV-ra",
+   "why": [
+    "сто́ит — сто́ить (to cost), он/оно́ form. Stress on сто́-.",
+    "де́сять е́вро — е́вро never changes, so no genitive ending appears."
+   ]
   },
   {
    "word": "d3w12",
@@ -351,7 +403,11 @@
    ],
    "id": "d3s14",
    "audio": "2db0ae8849.mp3",
-   "pr": "mnye DVA-tsat' lyet"
+   "pr": "mnye DVA-tsat' lyet",
+   "why": [
+    "Мне — dative of я. Age in Russian: “to me … years”.",
+    "два́дцать лет — after 20: genitive plural лет (a special plural of год)."
+   ]
   },
   {
    "word": "d3w13",
@@ -362,7 +418,10 @@
    ],
    "id": "d3s15",
    "audio": "a971cc929e.mp3",
-   "pr": "sto pra-TSEN-taf"
+   "pr": "sto pra-TSEN-taf",
+   "why": [
+    "Сто проце́нтов — after 100: genitive plural (проце́нт → проце́нтов)."
+   ]
   },
   {
    "word": "d3w14",
@@ -374,7 +433,11 @@
    ],
    "id": "d3s16",
    "audio": "cf876fa12c.mp3",
-   "pr": "SKOL'-ka E-ta STO-it"
+   "pr": "SKOL'-ka E-ta STO-it",
+   "why": [
+    "Ско́лько — how much / how many.",
+    "сто́ит — costs. Word order: question word first."
+   ]
   },
   {
    "word": "d3w14",
@@ -386,7 +449,11 @@
    ],
    "id": "d3s17",
    "audio": "470b3f8800.mp3",
-   "pr": "SKOL'-ka ti-BYE lyet"
+   "pr": "SKOL'-ka ti-BYE lyet",
+   "why": [
+    "Ско́лько тебе́ лет? — literally “how many years to you?”. тебе́ = dative of ты.",
+    "лет — genitive plural of год, used after ско́лько."
+   ]
   },
   {
    "word": "d3w15",
@@ -398,7 +465,11 @@
    ],
    "id": "d3s18",
    "audio": "a299d2d4d1.mp3",
-   "pr": "mnye di-vyat-NA-tsat' lyet"
+   "pr": "mnye di-vyat-NA-tsat' lyet",
+   "why": [
+    "Мне — dative: age belongs “to” a person.",
+    "девятна́дцать лет — 19 → genitive plural лет."
+   ]
   },
   {
    "word": "d3w15",
@@ -410,7 +481,11 @@
    ],
    "id": "d3s19",
    "audio": "5d2dd332dc.mp3",
-   "pr": "ye-MU tri GO-da"
+   "pr": "ye-MU tri GO-da",
+   "why": [
+    "Ему́ — dative of он (“to him”).",
+    "три го́да — after 3: genitive singular го́да."
+   ]
   },
   {
    "mk": "У меня́ оди́н {брат}.",
@@ -424,7 +499,10 @@
    "id": "d3s20",
    "ru": "У меня́ оди́н брат.",
    "audio": "257f5e5c52.mp3",
-   "pr": "u mi-NYA a-DIN brat"
+   "pr": "u mi-NYA a-DIN brat",
+   "why": [
+    "оди́н брат — after 1 (and 21, 31…): nominative singular, no change."
+   ]
   },
   {
    "mk": "У меня́ две {сестр|ы́}.",
@@ -438,7 +516,10 @@
    "id": "d3s21",
    "ru": "У меня́ две сестры́.",
    "audio": "491731fb15.mp3",
-   "pr": "u mi-NYA dvye sist-RIH"
+   "pr": "u mi-NYA dvye sist-RIH",
+   "why": [
+    "две сестры́ — after 2–4: genitive singular (-а → -ы). Feminine nouns take две, not два."
+   ]
   },
   {
    "mk": "У нас три {кот|а́}.",
@@ -452,7 +533,10 @@
    "id": "d3s22",
    "ru": "У нас три кота́.",
    "audio": "bbf2745fea.mp3",
-   "pr": "u nas tri ka-TA"
+   "pr": "u nas tri ka-TA",
+   "why": [
+    "три кота́ — after 3: genitive singular of кот (-а), stress on the ending."
+   ]
   },
   {
    "mk": "У нас пять {кот|о́в}.",
@@ -466,7 +550,10 @@
    "id": "d3s23",
    "ru": "У нас пять кото́в.",
    "audio": "eac9bb2448.mp3",
-   "pr": "u nas pyat' ka-TOF"
+   "pr": "u nas pyat' ka-TOF",
+   "why": [
+    "пять кото́в — after 5–20: genitive plural; masculine nouns add -ов."
+   ]
   },
   {
    "mk": "На столе́ де́сять {книг}.",
@@ -480,7 +567,11 @@
    "id": "d3s24",
    "ru": "На столе́ де́сять книг.",
    "audio": "d5e3bb9025.mp3",
-   "pr": "na sta-LYE DYE-syat' knik"
+   "pr": "na sta-LYE DYE-syat' knik",
+   "why": [
+    "На столе́ — on the table.",
+    "де́сять книг — after 10: genitive plural. кни́га → книг: feminine nouns in -а simply lose the ending."
+   ]
   },
   {
    "mk": "Два́дцать оди́н {год}.",
@@ -494,7 +585,10 @@
    "id": "d3s25",
    "ru": "Два́дцать оди́н год.",
    "audio": "742cdcccee.mp3",
-   "pr": "DVA-tsat' a-DIN got"
+   "pr": "DVA-tsat' a-DIN got",
+   "why": [
+    "Два́дцать оди́н год — the LAST digit decides: 21 ends in 1, so nominative singular год (not лет)."
+   ]
   }
  ],
  "notes": [

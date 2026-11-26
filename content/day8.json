@@ -197,7 +197,11 @@
    ],
    "id": "d8s1",
    "audio": "3c743a08ab.mp3",
-   "pr": "ka-TO-rih chas sii-CHAS tri cha-SA"
+   "pr": "ka-TO-rih chas sii-CHAS tri cha-SA",
+   "why": [
+    "Кото́рый час? — literally “which hour?” = what time is it?",
+    "три часа́ — after 3: genitive singular часа́ (stress on the ending)."
+   ]
   },
   {
    "word": "d8w1",
@@ -209,7 +213,11 @@
    ],
    "id": "d8s2",
    "audio": "40df1f781c.mp3",
-   "pr": "u-ROK v pyat' cha-SOF"
+   "pr": "u-ROK v pyat' cha-SOF",
+   "why": [
+    "Уро́к — the subject.",
+    "в пять часо́в — at five o'clock: в + time; after 5 → genitive plural часо́в."
+   ]
   },
   {
    "word": "d8w1",
@@ -221,7 +229,12 @@
    ],
    "id": "d8s3",
    "audio": "71533f6751.mp3",
-   "pr": "ya ra-BO-ta-yu VO-sim' cha-SOF v dyen'"
+   "pr": "ya ra-BO-ta-yu VO-sim' cha-SOF v dyen'",
+   "why": [
+    "рабо́таю — рабо́тать, я form.",
+    "во́семь часо́в — 8 hours: genitive plural after 5–20.",
+    "в день — per day (в + accusative)."
+   ]
   },
   {
    "word": "d8w2",
@@ -233,7 +246,11 @@
    ],
    "id": "d8s4",
    "audio": "9f35095ed8.mp3",
-   "pr": "pa-dazh-DI-tye mi-NU-tu pa-ZHA-lus-ta"
+   "pr": "pa-dazh-DI-tye mi-NU-tu pa-ZHA-lus-ta",
+   "why": [
+    "Подожди́те — polite command of подожда́ть (to wait).",
+    "мину́ту — accusative of мину́та: “for a minute” (length of time uses the accusative)."
+   ]
   },
   {
    "word": "d8w2",
@@ -245,7 +262,11 @@
    ],
    "id": "d8s5",
    "audio": "f529edd520.mp3",
-   "pr": "ye-SHCHO pyat' mi-NUT"
+   "pr": "ye-SHCHO pyat' mi-NUT",
+   "why": [
+    "Ещё — still / more: “five more minutes”.",
+    "пять мину́т — after 5: genitive plural; мину́та loses its ending → мину́т."
+   ]
   },
   {
    "word": "d8w3",
@@ -257,7 +278,11 @@
    ],
    "id": "d8s6",
    "audio": "194b96c1a0.mp3",
-   "pr": "shto tih DYE-la-yesh' si-VOD-nya"
+   "pr": "shto tih DYE-la-yesh' si-VOD-nya",
+   "why": [
+    "де́лаешь — де́лать, ты form.",
+    "сего́дня — today (said si-VOD-nya)."
+   ]
   },
   {
    "word": "d8w3",
@@ -269,7 +294,10 @@
    ],
    "id": "d8s7",
    "audio": "487b4ecf86.mp3",
-   "pr": "si-VOD-nya pa-ni-DYEL'-nik"
+   "pr": "si-VOD-nya pa-ni-DYEL'-nik",
+   "why": [
+    "понеде́льник — nominative: “today (is) Monday”. Days are written with a small letter."
+   ]
   },
   {
    "word": "d8w4",
@@ -281,7 +309,10 @@
    ],
    "id": "d8s8",
    "audio": "0e862b7eb6.mp3",
-   "pr": "do ZAVT-ra"
+   "pr": "do ZAVT-ra",
+   "why": [
+    "До за́втра — until tomorrow (за́втра never changes)."
+   ]
   },
   {
    "word": "d8w4",
@@ -293,7 +324,10 @@
    ],
    "id": "d8s9",
    "audio": "313fec3179.mp3",
-   "pr": "ZAVT-ra ya ra-BO-ta-yu"
+   "pr": "ZAVT-ra ya ra-BO-ta-yu",
+   "why": [
+    "За́втра — tomorrow. The present tense рабо́таю can talk about planned future actions, like English “I'm working tomorrow”."
+   ]
   },
   {
    "word": "d8w5",
@@ -305,7 +339,11 @@
    ],
    "id": "d8s10",
    "audio": "5cb0491453.mp3",
-   "pr": "fchi-RA ya bihl DO-ma"
+   "pr": "fchi-RA ya bihl DO-ma",
+   "why": [
+    "был — past of быть (to be), masculine. In the past tense you DO need the verb “to be” (был, была́, бы́ли).",
+    "до́ма — at home."
+   ]
   },
   {
    "word": "d8w6",
@@ -317,7 +355,12 @@
    ],
    "id": "d8s11",
    "audio": "1c7969c490.mp3",
-   "pr": "UT-ram ya pyu KO-fye"
+   "pr": "UT-ram ya pyu KO-fye",
+   "why": [
+    "У́тром — in the morning (instrumental of у́тро used as an adverb).",
+    "пью — пить, я form.",
+    "ко́фе — accusative, unchanged."
+   ]
   },
   {
    "word": "d8w7",
@@ -329,7 +372,11 @@
    ],
    "id": "d8s12",
    "audio": "8b28e0b9d2.mp3",
-   "pr": "VYE-chi-ram ya chi-TA-yu"
+   "pr": "VYE-chi-ram ya chi-TA-yu",
+   "why": [
+    "Ве́чером — in the evening.",
+    "чита́ю — I read. Time words usually come first."
+   ]
   },
   {
    "word": "d8w7",
@@ -341,7 +388,10 @@
    ],
    "id": "d8s13",
    "audio": "6a1e349480.mp3",
-   "pr": "shto tih DYE-la-yesh' VYE-chi-ram"
+   "pr": "shto tih DYE-la-yesh' VYE-chi-ram",
+   "why": [
+    "Что ты де́лаешь ве́чером? — the present tense for plans: what are you doing tonight?"
+   ]
   },
   {
    "word": "d8w8",
@@ -353,7 +403,11 @@
    ],
    "id": "d8s14",
    "audio": "9a98f198cb.mp3",
-   "pr": "v ni-DYE-lye syem' dnyei"
+   "pr": "v ni-DYE-lye syem' dnyei",
+   "why": [
+    "В неде́ле — в + prepositional of неде́ля.",
+    "семь дней — genitive plural of день after 7 (день → дней)."
+   ]
   },
   {
    "word": "d8w8",
@@ -365,7 +419,12 @@
    ],
    "id": "d8s15",
    "audio": "feb7ec88db.mp3",
-   "pr": "ya u-CHU RUS-kiy KAZH-du-yu ni-DYE-lyu"
+   "pr": "ya u-CHU RUS-kiy KAZH-du-yu ni-DYE-lyu",
+   "why": [
+    "учу́ — учи́ть (to learn something), я form. Compare учу́сь (I study, am a student).",
+    "ру́сский — short for ру́сский язы́к.",
+    "ка́ждую неде́лю — every week: accusative of time (feminine -ую, -ю)."
+   ]
   },
   {
    "word": "d8w9",
@@ -377,7 +436,11 @@
    ],
    "id": "d8s16",
    "audio": "5f2ec87e19.mp3",
-   "pr": "v pa-ni-DYEL'-nik u mi-NYA u-ROK"
+   "pr": "v pa-ni-DYEL'-nik u mi-NYA u-ROK",
+   "why": [
+    "В понеде́льник — в + accusative for “on (a day)”; masculine days don't change.",
+    "у меня́ уро́к — I have a lesson (есть can be left out when the focus is on what you have)."
+   ]
   },
   {
    "word": "d8w10",
@@ -389,7 +452,10 @@
    ],
    "id": "d8s17",
    "audio": "92f6c65fd3.mp3",
-   "pr": "vo VTOR-nik ya ra-BO-ta-yu"
+   "pr": "vo VTOR-nik ya ra-BO-ta-yu",
+   "why": [
+    "Во вто́рник — во instead of в before в + consonant, to make it easier to say."
+   ]
   },
   {
    "word": "d8w11",
@@ -401,7 +467,10 @@
    ],
    "id": "d8s18",
    "audio": "80da88c6a0.mp3",
-   "pr": "si-VOD-nya sri-DA"
+   "pr": "si-VOD-nya sri-DA",
+   "why": [
+    "среда́ — nominative (today is Wednesday). Compare в сре́ду (on Wednesday): the stress moves."
+   ]
   },
   {
    "word": "d8w12",
@@ -413,7 +482,11 @@
    ],
    "id": "d8s19",
    "audio": "e2f5a5300a.mp3",
-   "pr": "v chit-VYERK mih ig-RA-yem v va-lei-BOL"
+   "pr": "v chit-VYERK mih ig-RA-yem v va-lei-BOL",
+   "why": [
+    "В четве́рг — on Thursday (masculine, no change).",
+    "игра́ем в волейбо́л — play + в + accusative."
+   ]
   },
   {
    "word": "d8w13",
@@ -425,7 +498,12 @@
    ],
    "id": "d8s20",
    "audio": "b715085c61.mp3",
-   "pr": "v PYAT-ni-tsu ya i-DU v mi-CHYET'"
+   "pr": "v PYAT-ni-tsu ya i-DU v mi-CHYET'",
+   "why": [
+    "В пя́тницу — on Friday: пя́тница → пя́тницу (feminine -а → -у).",
+    "иду́ — идти́, я form: going on foot.",
+    "в мече́ть — в + accusative = where to: мече́ть is feminine in -ь, so it doesn't change."
+   ]
   },
   {
    "word": "d8w14",
@@ -437,7 +515,12 @@
    ],
    "id": "d8s21",
    "audio": "2a59b8dc4a.mp3",
-   "pr": "v su-BO-tu ya splyu do di-sya-TI"
+   "pr": "v su-BO-tu ya splyu do di-sya-TI",
+   "why": [
+    "В суббо́ту — on Saturday (-а → -у).",
+    "сплю — спать, я form (an л appears: сплю, спишь, спит).",
+    "до десяти́ — until ten: до + genitive (де́сять → десяти́)."
+   ]
   },
   {
    "word": "d8w15",
@@ -449,7 +532,11 @@
    ],
    "id": "d8s22",
    "audio": "88c306cfbb.mp3",
-   "pr": "v vask-ri-SYE-nye ma-ga-ZIN ni ra-BO-ta-yet"
+   "pr": "v vask-ri-SYE-nye ma-ga-ZIN ni ra-BO-ta-yet",
+   "why": [
+    "В воскресе́нье — on Sunday (neuter, unchanged).",
+    "не рабо́тает — “doesn't work” = is closed."
+   ]
   },
   {
    "mk": "Встре́тимся в {сре́д|у}?",
@@ -463,7 +550,11 @@
    "id": "d8s23",
    "ru": "Встре́тимся в сре́ду?",
    "audio": "a3ce303a5c.mp3",
-   "pr": "VSTRYE-tim-sya v SRYE-du"
+   "pr": "VSTRYE-tim-sya v SRYE-du",
+   "why": [
+    "Встре́тимся — встре́титься (to meet), мы form, perfective = future: “shall we meet?”.",
+    "в сре́ду — в + accusative: среда́ → сре́ду (stress moves to the start)."
+   ]
   },
   {
    "mk": "Я свобо́ден в {суббо́т|у}.",
@@ -477,7 +568,11 @@
    "id": "d8s24",
    "ru": "Я свобо́ден в суббо́ту.",
    "audio": "a66f0852a7.mp3",
-   "pr": "ya sva-BO-din v su-BO-tu"
+   "pr": "ya sva-BO-din v su-BO-tu",
+   "why": [
+    "свобо́ден — “free”, short masculine form (a woman says свобо́дна).",
+    "в суббо́ту — on Saturday."
+   ]
   },
   {
    "mk": "Фильм в семь {час|о́в}.",
@@ -491,7 +586,10 @@
    "id": "d8s25",
    "ru": "Фильм в семь часо́в.",
    "audio": "341dca9256.mp3",
-   "pr": "fil'm v syem' cha-SOF"
+   "pr": "fil'm v syem' cha-SOF",
+   "why": [
+    "в семь часо́в — after 7: genitive plural."
+   ]
   },
   {
    "mk": "Встре́тимся в два {час|а́}.",
@@ -505,7 +603,10 @@
    "id": "d8s26",
    "ru": "Встре́тимся в два часа́.",
    "audio": "3df89f61f2.mp3",
-   "pr": "VSTRYE-tim-sya v dva cha-SA"
+   "pr": "VSTRYE-tim-sya v dva cha-SA",
+   "why": [
+    "в два часа́ — after 2: genitive singular."
+   ]
   }
  ],
  "notes": [

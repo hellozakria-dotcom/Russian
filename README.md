@@ -61,6 +61,7 @@ tools/                 build.py, translit.py, voice.py, setup.sh
    ```
    `pic` / `pics` are [Microsoft Fluent emoji](https://github.com/microsoft/fluentui-emoji/tree/main/assets)
    folder names ("Open book", "Cat"…); the build downloads and renders them.
+   Each sentence can have `why`: a list of short explanations (`"кни́гу — accusative: direct object"`), shown under the answer.
    Optional: `table` (`cols` + `rows`) and `note` on a word; `mk` (`"Я ви́жу {кот|а́}"`, which highlights the
    ending), `g` and `case` on a sentence; `tables` on the day.
 3. Video: `python3 tools/video.py N` makes `videos/dayN.mp4` (voiced, with pictures), then run the build again.

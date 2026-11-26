@@ -143,7 +143,11 @@
    ],
    "id": "d6s1",
    "audio": "4c364873c5.mp3",
-   "pr": "E-ta ma-YA si-MYA"
+   "pr": "E-ta ma-YA si-MYA",
+   "why": [
+    "моя́ — feminine, because семья́ is feminine.",
+    "семья́ — nominative."
+   ]
   },
   {
    "word": "d6w1",
@@ -155,7 +159,10 @@
    ],
    "id": "d6s2",
    "audio": "b931b08212.mp3",
-   "pr": "u mi-NYA bal'-SHA-ya si-MYA"
+   "pr": "u mi-NYA bal'-SHA-ya si-MYA",
+   "why": [
+    "больша́я — feminine adjective (stressed -а́я), agreeing with семья́."
+   ]
   },
   {
    "word": "d6w2",
@@ -167,7 +174,11 @@
    ],
    "id": "d6s3",
    "audio": "f554b684ff.mp3",
-   "pr": "MA-ma DO-ma"
+   "pr": "MA-ma DO-ma",
+   "why": [
+    "Ма́ма — subject.",
+    "до́ма — at home. No verb “is”."
+   ]
   },
   {
    "word": "d6w2",
@@ -179,7 +190,11 @@
    ],
    "id": "d6s4",
    "audio": "72aa90d9ab.mp3",
-   "pr": "ya zva-NYU MA-mye KAZH-dih dyen'"
+   "pr": "ya zva-NYU MA-mye KAZH-dih dyen'",
+   "why": [
+    "звоню́ + dative: ма́ма → ма́ме (the person you call).",
+    "ка́ждый день — every day: accusative of time, looks like the nominative for masculine words."
+   ]
   },
   {
    "word": "d6w3",
@@ -191,7 +206,12 @@
    ],
    "id": "d6s5",
    "audio": "a0ad13ed2b.mp3",
-   "pr": "moi PA-pa ra-BO-ta-yet v LI-vi-i"
+   "pr": "moi PA-pa ra-BO-ta-yet v LI-vi-i",
+   "why": [
+    "Мой па́па — па́па ends in -а but is masculine, so мой (not моя́).",
+    "рабо́тает — рабо́тать, он form.",
+    "в Ли́вии — в + prepositional: -ия → -ии."
+   ]
   },
   {
    "word": "d6w3",
@@ -203,7 +223,11 @@
    ],
    "id": "d6s6",
    "audio": "e9f1371169.mp3",
-   "pr": "PA-pa chi-TA-yet ga-ZYE-tu"
+   "pr": "PA-pa chi-TA-yet ga-ZYE-tu",
+   "why": [
+    "чита́ет — чита́ть, он form.",
+    "газе́ту — accusative of газе́та (direct object)."
+   ]
   },
   {
    "word": "d6w4",
@@ -215,7 +239,12 @@
    ],
    "id": "d6s7",
    "audio": "4429525846.mp3",
-   "pr": "ma-I ra-DI-ti-li zhi-VUT v LI-vi-i"
+   "pr": "ma-I ra-DI-ti-li zhi-VUT v LI-vi-i",
+   "why": [
+    "Мои́ — plural my (роди́тели is plural).",
+    "живу́т — жить, они́ form.",
+    "в Ли́вии — prepositional."
+   ]
   },
   {
    "word": "d6w4",
@@ -227,7 +256,11 @@
    ],
    "id": "d6s8",
    "audio": "259ac2130d.mp3",
-   "pr": "u mi-NYA kha-RO-shi-ye ra-DI-ti-li"
+   "pr": "u mi-NYA kha-RO-shi-ye ra-DI-ti-li",
+   "why": [
+    "У меня́ — I have.",
+    "хоро́шие — plural adjective (after ш: -ие)."
+   ]
   },
   {
    "word": "d6w5",
@@ -239,7 +272,11 @@
    ],
    "id": "d6s9",
    "audio": "2c15a06d74.mp3",
-   "pr": "u nikh yest' sihn"
+   "pr": "u nikh yest' sihn",
+   "why": [
+    "У них — they have (them + н after у).",
+    "сын — nominative."
+   ]
   },
   {
    "word": "d6w5",
@@ -251,7 +288,12 @@
    ],
    "id": "d6s10",
    "audio": "5bdec02d62.mp3",
-   "pr": "ikh SIH-nu pyat' lyet"
+   "pr": "ikh SIH-nu pyat' lyet",
+   "why": [
+    "Их — their (never changes).",
+    "сы́ну — dative of сын: age is “to” someone.",
+    "пять лет — 5 → genitive plural лет."
+   ]
   },
   {
    "word": "d6w6",
@@ -262,7 +304,10 @@
    ],
    "id": "d6s11",
    "audio": "4006ca8f42.mp3",
-   "pr": "E-ta ma-YA doch'"
+   "pr": "E-ta ma-YA doch'",
+   "why": [
+    "моя́ — дочь is feminine (ends in -ь)."
+   ]
   },
   {
    "word": "d6w6",
@@ -274,7 +319,12 @@
    ],
    "id": "d6s12",
    "audio": "f3c4dbc120.mp3",
-   "pr": "ye-YO doch' U-chi-tsya v SHKO-lye"
+   "pr": "ye-YO doch' U-chi-tsya v SHKO-lye",
+   "why": [
+    "Её — her (never changes).",
+    "у́чится — учи́ться, она́ form. -тся is said “tsa”.",
+    "в шко́ле — в + prepositional (шко́ла → шко́ле)."
+   ]
   },
   {
    "word": "d6w7",
@@ -286,7 +336,11 @@
    ],
    "id": "d6s13",
    "audio": "b77779552e.mp3",
-   "pr": "u nikh a-DIN ri-BYO-nak"
+   "pr": "u nikh a-DIN ri-BYO-nak",
+   "why": [
+    "оди́н — masculine one, because ребёнок is masculine.",
+    "ребёнок — nominative after 1."
+   ]
   },
   {
    "word": "d6w7",
@@ -298,7 +352,11 @@
    ],
    "id": "d6s14",
    "audio": "72543417e0.mp3",
-   "pr": "ri-BYO-nak spit"
+   "pr": "ri-BYO-nak spit",
+   "why": [
+    "Ребёнок — subject.",
+    "спит — спать (to sleep), он form: сплю, спишь, спит…"
+   ]
   },
   {
    "word": "d6w8",
@@ -310,7 +368,11 @@
    ],
    "id": "d6s15",
    "audio": "afe36692a6.mp3",
-   "pr": "u vas yest' DYE-ti"
+   "pr": "u vas yest' DYE-ti",
+   "why": [
+    "У вас — polite “do you have”.",
+    "де́ти — nominative plural (children); the singular is a different word, ребёнок."
+   ]
   },
   {
    "word": "d6w8",
@@ -322,7 +384,11 @@
    ],
    "id": "d6s16",
    "audio": "149adf948f.mp3",
-   "pr": "DYE-ti ig-RA-yut v fut-BOL"
+   "pr": "DYE-ti ig-RA-yut v fut-BOL",
+   "why": [
+    "игра́ют — игра́ть, они́ form.",
+    "в футбо́л — игра́ть в + accusative for sports and games."
+   ]
   },
   {
    "word": "d6w9",
@@ -334,7 +400,11 @@
    ],
    "id": "d6s17",
    "audio": "ac4aced0f1.mp3",
-   "pr": "BA-bush-kye VO-sim'-di-syat lyet"
+   "pr": "BA-bush-kye VO-sim'-di-syat lyet",
+   "why": [
+    "Ба́бушке — dative of ба́бушка (-а → -е): age belongs to her.",
+    "во́семьдесят лет — 80 → genitive plural лет."
+   ]
   },
   {
    "word": "d6w9",
@@ -346,7 +416,11 @@
    ],
    "id": "d6s18",
    "audio": "2b2a167392.mp3",
-   "pr": "ma-YA BA-bush-ka zhi-VYOT v GO-ra-dye"
+   "pr": "ma-YA BA-bush-ka zhi-VYOT v GO-ra-dye",
+   "why": [
+    "живёт — жить, она́ form.",
+    "в го́роде — в + prepositional."
+   ]
   },
   {
    "word": "d6w10",
@@ -358,7 +432,11 @@
    ],
    "id": "d6s19",
    "audio": "e90afca91f.mp3",
-   "pr": "moi DYE-dush-ka chi-TA-yet KNI-gi"
+   "pr": "moi DYE-dush-ka chi-TA-yet KNI-gi",
+   "why": [
+    "Мой де́душка — masculine (ends in -а but is a man).",
+    "кни́ги — accusative plural of кни́га (= nominative plural for things)."
+   ]
   },
   {
    "word": "d6w11",
@@ -370,7 +448,11 @@
    ],
    "id": "d6s20",
    "audio": "acc5216856.mp3",
-   "pr": "ye-YO mush is ra-SI-i"
+   "pr": "ye-YO mush is ra-SI-i",
+   "why": [
+    "Её муж — her husband.",
+    "из Росси́и — из + genitive."
+   ]
   },
   {
    "word": "d6w12",
@@ -382,7 +464,11 @@
    ],
    "id": "d6s21",
    "audio": "dbb1735c42.mp3",
-   "pr": "yi-VO zhe-NA is LAT-vi-i"
+   "pr": "yi-VO zhe-NA is LAT-vi-i",
+   "why": [
+    "Его́ жена́ — his wife.",
+    "из Ла́твии — из + genitive."
+   ]
   },
   {
    "mk": "Как зову́т {тво|ю́} {ма́м|у}?",
@@ -396,7 +482,12 @@
    "id": "d6s22",
    "ru": "Как зову́т твою́ ма́му?",
    "audio": "ecd7091f53.mp3",
-   "pr": "kak za-VUT tva-YU MA-mu"
+   "pr": "kak za-VUT tva-YU MA-mu",
+   "why": [
+    "Как зову́т…? — “how do they call…”: the person is the OBJECT, so accusative.",
+    "твою́ — feminine accusative of твой (-ю).",
+    "ма́му — accusative of ма́ма (-у)."
+   ]
   },
   {
    "mk": "Э́то кни́га {мо|е́й} {ма́м|ы}.",
@@ -410,7 +501,11 @@
    "id": "d6s23",
    "ru": "Э́то кни́га мое́й ма́мы.",
    "audio": "2b64c133b1.mp3",
-   "pr": "E-ta KNI-ga ma-YEI MA-mih"
+   "pr": "E-ta KNI-ga ma-YEI MA-mih",
+   "why": [
+    "кни́га — nominative.",
+    "мое́й ма́мы — genitive = whose? my mum's. Adjective -ей, noun -ы."
+   ]
   },
   {
    "mk": "Я пишу́ {па́п|е}.",
@@ -424,7 +519,11 @@
    "id": "d6s24",
    "ru": "Я пишу́ па́пе.",
    "audio": "5508994025.mp3",
-   "pr": "ya pi-SHU PA-pye"
+   "pr": "ya pi-SHU PA-pye",
+   "why": [
+    "пишу́ + dative: the person you write to.",
+    "па́пе — па́па is masculine but changes like кни́га: dative -е."
+   ]
   },
   {
    "mk": "У меня́ два {бра́т|а} и одна́ сестра́.",
@@ -438,7 +537,11 @@
    "id": "d6s25",
    "ru": "У меня́ два бра́та и одна́ сестра́.",
    "audio": "c3fdaa36d0.mp3",
-   "pr": "u mi-NYA dva BRA-ta i ad-NA sist-RA"
+   "pr": "u mi-NYA dva BRA-ta i ad-NA sist-RA",
+   "why": [
+    "два бра́та — after 2: genitive singular.",
+    "одна́ сестра́ — after 1: nominative; одна́ because сестра́ is feminine."
+   ]
   },
   {
    "mk": "Ско́лько у тебя́ {бра́ть|ев}?",
@@ -452,7 +555,11 @@
    "id": "d6s26",
    "ru": "Ско́лько у тебя́ бра́тьев?",
    "audio": "cfb8e61d00.mp3",
-   "pr": "SKOL'-ka u ti-BYA BRA-tyef"
+   "pr": "SKOL'-ka u ti-BYA BRA-tyef",
+   "why": [
+    "Ско́лько + genitive plural.",
+    "бра́тьев — genitive plural of брат (plural бра́тья → бра́тьев)."
+   ]
   }
  ],
  "notes": [

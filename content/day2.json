@@ -222,7 +222,11 @@
     "boy.png"
    ],
    "audio": "342d1ecd8f.mp3",
-   "pr": "E-ta moi brat"
+   "pr": "E-ta moi brat",
+   "why": [
+    "Э́то — this is (no word for “is”).",
+    "мой брат — nominative; мой is masculine because брат is masculine."
+   ]
   },
   {
    "id": "d2s2",
@@ -234,7 +238,12 @@
     "house.png"
    ],
    "audio": "adbf4e5bd5.mp3",
-   "pr": "u nas yest' kot"
+   "pr": "u nas yest' kot",
+   "why": [
+    "У нас — “by us” = we have (у + genitive of мы).",
+    "есть — “there is”: confirms we have it.",
+    "кот — nominative: in у … есть sentences the thing you have is the subject."
+   ]
   },
   {
    "id": "d2s3",
@@ -246,7 +255,11 @@
     "open_book.png"
    ],
    "audio": "e2621c91c2.mp3",
-   "pr": "ma-YA sist-RA chi-TA-yet"
+   "pr": "ma-YA sist-RA chi-TA-yet",
+   "why": [
+    "Моя́ — feminine “my” (сестра́ is feminine).",
+    "чита́ет — чита́ть, она́ form."
+   ]
   },
   {
    "id": "d2s4",
@@ -258,7 +271,11 @@
     "sparkles.png"
    ],
    "audio": "2bb2f92c24.mp3",
-   "pr": "E-ta NO-va-ya ma-SHI-na"
+   "pr": "E-ta NO-va-ya ma-SHI-na",
+   "why": [
+    "но́вая — feminine adjective -ая, agreeing with маши́на.",
+    "маши́на — nominative after э́то."
+   ]
   },
   {
    "id": "d2s5",
@@ -269,7 +286,11 @@
     "window.png"
    ],
    "audio": "bd2dde2ac1.mp3",
-   "pr": "ak-NO bal'-SHO-ye"
+   "pr": "ak-NO bal'-SHO-ye",
+   "why": [
+    "Окно́ — neuter noun, nominative.",
+    "большо́е — neuter adjective -о́е (stressed), agreeing with окно́. No “is” needed."
+   ]
   },
   {
    "id": "d2s6",
@@ -281,7 +302,12 @@
     "boy.png"
    ],
    "audio": "bcf6fb018d.mp3",
-   "pr": "ya pi-SHU pis'-MO BRA-tu"
+   "pr": "ya pi-SHU pis'-MO BRA-tu",
+   "why": [
+    "пишу́ — писа́ть, я form.",
+    "письмо́ — accusative (what I write), unchanged for neuter.",
+    "бра́ту — dative of брат (-у): the person you write TO."
+   ]
   },
   {
    "id": "d2s7",
@@ -293,7 +319,11 @@
     "house.png"
    ],
    "audio": "75e818f419.mp3",
-   "pr": "E-ta bal'-SHOI dom"
+   "pr": "E-ta bal'-SHOI dom",
+   "why": [
+    "большо́й — masculine adjective, ending stressed -о́й.",
+    "дом — nominative."
+   ]
   },
   {
    "id": "d2s8",
@@ -305,7 +335,11 @@
     "house.png"
    ],
    "audio": "0dfa14c01c.mp3",
-   "pr": "E-ta MA-lin'-kiy dom"
+   "pr": "E-ta MA-lin'-kiy dom",
+   "why": [
+    "ма́ленький — masculine adjective. After к you write -ий, not -ый.",
+    "дом — nominative."
+   ]
   },
   {
    "id": "d2s9",
@@ -317,7 +351,11 @@
     "sparkles.png"
    ],
    "audio": "fceace803e.mp3",
-   "pr": "u mi-NYA NO-vih ti-li-FON"
+   "pr": "u mi-NYA NO-vih ti-li-FON",
+   "why": [
+    "У меня́ — I have.",
+    "но́вый телефо́н — nominative: the thing I have. Masculine adjective -ый."
+   ]
   },
   {
    "id": "d2s10",
@@ -329,7 +367,11 @@
     "people_hugging.png"
    ],
    "audio": "69ca38f4db.mp3",
-   "pr": "on kha-RO-shiy druk"
+   "pr": "on kha-RO-shiy druk",
+   "why": [
+    "Он — he. хоро́ший — masculine adjective; after ш you write -ий.",
+    "друг — nominative (no word for “is”)."
+   ]
   },
   {
    "id": "d2s11",
@@ -344,7 +386,12 @@
     "mobile_phone.png"
    ],
    "audio": "e925f6de19.mp3",
-   "pr": "kha-RO-shiy druk zva-NIT"
+   "pr": "kha-RO-shiy druk zva-NIT",
+   "why": [
+    "Хоро́ший — nominative masculine: the friend is the subject (who is calling).",
+    "друг — nominative.",
+    "звони́т — звони́ть, он form."
+   ]
   },
   {
    "id": "d2s12",
@@ -359,7 +406,11 @@
     "sparkles.png"
    ],
    "audio": "b73c2bae2c.mp3",
-   "pr": "zdyes' NO-va-ya ma-SHI-na"
+   "pr": "zdyes' NO-va-ya ma-SHI-na",
+   "why": [
+    "Здесь — here (location).",
+    "но́вая маши́на — nominative: the subject, feminine: adjective -ая, noun -а."
+   ]
   },
   {
    "id": "d2s13",
@@ -374,7 +425,12 @@
     "house.png"
    ],
    "audio": "3616ca5131.mp3",
-   "pr": "MA-lin'-ki-ye ka-TIH DO-ma"
+   "pr": "MA-lin'-ki-ye ka-TIH DO-ma",
+   "why": [
+    "Ма́ленькие — plural adjective -ие (after к: и, not ы).",
+    "коты́ — nominative plural of кот; the stress moves to the ending.",
+    "до́ма — at home."
+   ]
   },
   {
    "id": "d2s14",
@@ -389,7 +445,12 @@
     "cross_mark.png"
    ],
    "audio": "1832e5dca4.mp3",
-   "pr": "u mi-NYA nyet bal'-SHO-va DO-ma"
+   "pr": "u mi-NYA nyet bal'-SHO-va DO-ma",
+   "why": [
+    "нет + genitive: “there isn't (a) …”.",
+    "большо́го — masculine genitive adjective -ого (said -ova).",
+    "до́ма — genitive of дом (-а). Here до́ма = “of a house”, same spelling as “at home”."
+   ]
   },
   {
    "id": "d2s15",
@@ -404,7 +465,12 @@
     "closed_book.png"
    ],
    "audio": "eefe86cc71.mp3",
-   "pr": "E-ta KNI-ga ma-YEI sist-RIH"
+   "pr": "E-ta KNI-ga ma-YEI sist-RIH",
+   "why": [
+    "кни́га — nominative (this is the book).",
+    "мое́й сестры́ — genitive = “whose?”: my sister's. Feminine adjective -ей / -ой, noun -ы.",
+    "The owner comes AFTER the thing: кни́га сестры́ = sister's book."
+   ]
   },
   {
    "id": "d2s16",
@@ -419,7 +485,12 @@
     "party_popper.png"
    ],
    "audio": "06bdf50bca.mp3",
-   "pr": "u mi-NYA MNO-ga kha-RO-shikh dru-ZYEI"
+   "pr": "u mi-NYA MNO-ga kha-RO-shikh dru-ZYEI",
+   "why": [
+    "мно́го + genitive plural.",
+    "хоро́ших — plural genitive adjective -их.",
+    "друзе́й — genitive plural of друг (irregular)."
+   ]
   },
   {
    "id": "d2s17",
@@ -434,7 +505,12 @@
     "people_hugging.png"
    ],
    "audio": "e7f2b0d9fa.mp3",
-   "pr": "ya zva-NYU kha-RO-she-mu DRU-gu"
+   "pr": "ya zva-NYU kha-RO-she-mu DRU-gu",
+   "why": [
+    "звоню́ + dative: the person you call.",
+    "хоро́шему — masculine dative adjective -ему (after ш; normally -ому).",
+    "дру́гу — dative of друг (-у)."
+   ]
   },
   {
    "id": "d2s18",
@@ -449,7 +525,12 @@
     "girl.png"
    ],
    "audio": "b29cf97b39.mp3",
-   "pr": "ya pi-SHU ma-YEI sist-RYE"
+   "pr": "ya pi-SHU ma-YEI sist-RYE",
+   "why": [
+    "пишу́ + dative: the person you write to.",
+    "мое́й — feminine dative of мой.",
+    "сестре́ — dative of сестра́ (-а → -е)."
+   ]
   },
   {
    "id": "d2s19",
@@ -464,7 +545,12 @@
     "people_hugging.png"
    ],
    "audio": "0186e99e35.mp3",
-   "pr": "ya zva-NYU NO-vihm dru-ZYAM"
+   "pr": "ya zva-NYU NO-vihm dru-ZYAM",
+   "why": [
+    "звоню́ + dative.",
+    "но́вым — plural dative adjective -ым.",
+    "друзья́м — dative plural (-ам) of друзья́."
+   ]
   },
   {
    "id": "d2s20",
@@ -479,7 +565,11 @@
     "cat.png"
    ],
    "audio": "d08a3422b3.mp3",
-   "pr": "ya VI-zhu MA-lin'-ka-va ka-TA"
+   "pr": "ya VI-zhu MA-lin'-ka-va ka-TA",
+   "why": [
+    "ви́жу — ви́деть (to see), я form (д → ж).",
+    "ма́ленького кота́ — accusative of an ANIMAL: it looks like the genitive (-ого, -а). For things it would stay like the nominative."
+   ]
   },
   {
    "id": "d2s21",
@@ -494,7 +584,12 @@
     "sparkles.png"
    ],
    "audio": "af09ac3f23.mp3",
-   "pr": "ya chi-TA-yu NO-vu-yu KNI-gu"
+   "pr": "ya chi-TA-yu NO-vu-yu KNI-gu",
+   "why": [
+    "чита́ю + accusative (what I read).",
+    "но́вую — feminine accusative adjective -ую.",
+    "кни́гу — feminine accusative -у."
+   ]
   },
   {
    "id": "d2s22",
@@ -509,7 +604,11 @@
     "popcorn.png"
    ],
    "audio": "7b25d9a7af.mp3",
-   "pr": "mih SMOT-rim NO-vih-ye FIL'-mih"
+   "pr": "mih SMOT-rim NO-vih-ye FIL'-mih",
+   "why": [
+    "смо́трим — смотре́ть, мы form.",
+    "но́вые фи́льмы — accusative plural of things = same as nominative plural (-ые, -ы)."
+   ]
   },
   {
    "id": "d2s23",
@@ -524,7 +623,12 @@
     "soccer_ball.png"
    ],
    "audio": "7feaab3317.mp3",
-   "pr": "ya ig-RA-yu s MA-lin'-kim BRA-tam"
+   "pr": "ya ig-RA-yu s MA-lin'-kim BRA-tam",
+   "why": [
+    "с + instrumental = with.",
+    "ма́леньким — masculine instrumental adjective -им (after к).",
+    "бра́том — instrumental of брат (-ом)."
+   ]
   },
   {
    "id": "d2s24",
@@ -539,7 +643,12 @@
     "open_book.png"
    ],
    "audio": "1345aa8735.mp3",
-   "pr": "ya chi-TA-yu s MA-lin'-kai sist-ROI"
+   "pr": "ya chi-TA-yu s MA-lin'-kai sist-ROI",
+   "why": [
+    "с + instrumental.",
+    "ма́ленькой — feminine instrumental -ой.",
+    "сестро́й — instrumental of сестра́ (-ой)."
+   ]
   },
   {
    "id": "d2s25",
@@ -554,7 +663,11 @@
     "volleyball.png"
    ],
    "audio": "c256ab4bd6.mp3",
-   "pr": "mih ig-RA-yem s kha-RO-shi-mi dru-ZYA-mi"
+   "pr": "mih ig-RA-yem s kha-RO-shi-mi dru-ZYA-mi",
+   "why": [
+    "игра́ем — игра́ть, мы form.",
+    "с + instrumental plural: хоро́шими (-ими), друзья́ми (-ями)."
+   ]
   },
   {
    "id": "d2s26",
@@ -569,7 +682,12 @@
     "cityscape.png"
    ],
    "audio": "c2bdb99340.mp3",
-   "pr": "ya DU-ma-yu a NO-vam GO-ra-dye"
+   "pr": "ya DU-ma-yu a NO-vam GO-ra-dye",
+   "why": [
+    "ду́маю о + prepositional = think about.",
+    "но́вом — masculine prepositional adjective -ом.",
+    "го́роде — prepositional of го́род (-е)."
+   ]
   },
   {
    "id": "d2s27",
@@ -584,7 +702,12 @@
     "automobile.png"
    ],
    "audio": "9a1716c7ed.mp3",
-   "pr": "KNI-ga v NO-vai ma-SHI-nye"
+   "pr": "KNI-ga v NO-vai ma-SHI-nye",
+   "why": [
+    "Кни́га — the subject; no “is” needed.",
+    "в + prepositional = location (in the car).",
+    "но́вой маши́не — feminine prepositional: adjective -ой, noun -е."
+   ]
   },
   {
    "id": "d2s28",
@@ -599,7 +722,11 @@
     "books.png"
    ],
    "audio": "166b754ce9.mp3",
-   "pr": "mih ga-va-RIM a kha-RO-shikh KNI-gakh"
+   "pr": "mih ga-va-RIM a kha-RO-shikh KNI-gakh",
+   "why": [
+    "говори́м о + prepositional = talk about.",
+    "хоро́ших кни́гах — prepositional plural: adjective -их, noun -ах."
+   ]
   }
  ],
  "notes": [

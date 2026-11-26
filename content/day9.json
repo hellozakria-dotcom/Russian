@@ -230,7 +230,11 @@
    ],
    "id": "d9s1",
    "audio": "0e48d73ea6.mp3",
-   "pr": "shto tih yesh' na ZAVT-rak"
+   "pr": "shto tih yesh' na ZAVT-rak",
+   "why": [
+    "ешь — есть (to eat), ты form (irregular: ем, ешь, ест, еди́м, еди́те, едя́т).",
+    "на за́втрак — for breakfast: на + accusative (за́втрак = breakfast)."
+   ]
   },
   {
    "word": "d9w1",
@@ -242,7 +246,11 @@
    ],
    "id": "d9s2",
    "audio": "07ed723b18.mp3",
-   "pr": "ya ni yem svi-NI-nu"
+   "pr": "ya ni yem svi-NI-nu",
+   "why": [
+    "не ем — I don't eat (я form of есть).",
+    "свини́ну — accusative of свини́на (pork): what I don't eat."
+   ]
   },
   {
    "word": "d9w2",
@@ -254,7 +262,12 @@
    ],
    "id": "d9s3",
    "audio": "4de6f70972.mp3",
-   "pr": "ya pyu chai byez SA-kha-ra"
+   "pr": "ya pyu chai byez SA-kha-ra",
+   "why": [
+    "пью — пить, я form.",
+    "чай — accusative, unchanged (masculine thing).",
+    "без са́хара — без + genitive (са́хар → са́хара)."
+   ]
   },
   {
    "word": "d9w2",
@@ -266,7 +279,11 @@
    ],
    "id": "d9s4",
    "audio": "4f7dfcf429.mp3",
-   "pr": "shto vih BU-di-tye pit'"
+   "pr": "shto vih BU-di-tye pit'",
+   "why": [
+    "бу́дете — future of быть (to be), вы form. Вы бу́дете + noun/verb = What will you have? (a waiter's question).",
+    "пить — infinitive."
+   ]
   },
   {
    "word": "d9w3",
@@ -278,7 +295,11 @@
    ],
    "id": "d9s5",
    "audio": "d099d436df.mp3",
-   "pr": "MOZH-na mi-NYU"
+   "pr": "MOZH-na mi-NYU",
+   "why": [
+    "Мо́жно — “is it possible” = may I / can I have…?",
+    "меню́ — never changes."
+   ]
   },
   {
    "word": "d9w3",
@@ -290,7 +311,11 @@
    ],
    "id": "d9s6",
    "audio": "6e78c5ca22.mp3",
-   "pr": "MOZH-na syest' zdyes'"
+   "pr": "MOZH-na syest' zdyes'",
+   "why": [
+    "Мо́жно + infinitive = may I…? сесть = to sit down (perfective).",
+    "здесь — here."
+   ]
   },
   {
    "word": "d9w4",
@@ -302,7 +327,10 @@
    ],
    "id": "d9s7",
    "audio": "cb0d44e718.mp3",
-   "pr": "chai s ma-la-KOM pa-ZHA-lus-ta"
+   "pr": "chai s ma-la-KOM pa-ZHA-lus-ta",
+   "why": [
+    "с молоко́м — с + instrumental (with milk): молоко́ → молоко́м."
+   ]
   },
   {
    "word": "d9w5",
@@ -314,7 +342,11 @@
    ],
    "id": "d9s8",
    "audio": "b1c1955284.mp3",
-   "pr": "ma-la-KO v kha-la-DIL'-ni-kye"
+   "pr": "ma-la-KO v kha-la-DIL'-ni-kye",
+   "why": [
+    "Молоко́ — subject.",
+    "в холоди́льнике — в + prepositional of холоди́льник (fridge)."
+   ]
   },
   {
    "word": "d9w6",
@@ -325,7 +357,11 @@
    ],
    "id": "d9s9",
    "audio": "69b0d8fb8a.mp3",
-   "pr": "ya kha-CHU a-pil'-SI-na-vih sok"
+   "pr": "ya kha-CHU a-pil'-SI-na-vih sok",
+   "why": [
+    "хочу́ + accusative: сок is masculine, so it doesn't change.",
+    "апельси́новый — “orange” (adjective from апельси́н, orange)."
+   ]
   },
   {
    "word": "d9w7",
@@ -337,7 +373,11 @@
    ],
    "id": "d9s10",
    "audio": "9bb89a149b.mp3",
-   "pr": "khlyep O-chin' SVYE-zhiy"
+   "pr": "khlyep O-chin' SVYE-zhiy",
+   "why": [
+    "Хлеб — subject.",
+    "све́жий — fresh, masculine (after ж: -ий). No “is”."
+   ]
   },
   {
    "word": "d9w8",
@@ -349,7 +389,11 @@
    ],
    "id": "d9s11",
    "audio": "c39b8d1626.mp3",
-   "pr": "si-VOD-nya sup dnya borshch"
+   "pr": "si-VOD-nya sup dnya borshch",
+   "why": [
+    "суп дня — soup of the day: дня is the genitive of день (“of the day”).",
+    "— (dash) = is: борщ."
+   ]
   },
   {
    "word": "d9w9",
@@ -361,7 +405,10 @@
    ],
    "id": "d9s12",
    "audio": "908812fac6.mp3",
-   "pr": "E-ta MYA-sa kha-LYAL'-na-ye"
+   "pr": "E-ta MYA-sa kha-LYAL'-na-ye",
+   "why": [
+    "халя́льное — neuter adjective (-ое), because мя́со (meat) is neuter."
+   ]
   },
   {
    "word": "d9w10",
@@ -373,7 +420,10 @@
    ],
    "id": "d9s13",
    "audio": "1675b6bd38.mp3",
-   "pr": "ya lyub-LYU RIH-bu"
+   "pr": "ya lyub-LYU RIH-bu",
+   "why": [
+    "люблю́ + accusative: ры́ба → ры́бу (-а → -у)."
+   ]
   },
   {
    "word": "d9w11",
@@ -385,7 +435,10 @@
    ],
    "id": "d9s14",
    "audio": "056c2b06c3.mp3",
-   "pr": "RIH-ba s RI-sam"
+   "pr": "RIH-ba s RI-sam",
+   "why": [
+    "с ри́сом — с + instrumental: рис → ри́сом (-ом)."
+   ]
   },
   {
    "word": "d9w12",
@@ -397,7 +450,12 @@
    ],
    "id": "d9s15",
    "audio": "d6bd554f97.mp3",
-   "pr": "ya yem ad-NO YAB-la-ka v dyen'"
+   "pr": "ya yem ad-NO YAB-la-ka v dyen'",
+   "why": [
+    "ем — есть, я form.",
+    "одно́ — neuter “one”, because я́блоко is neuter.",
+    "в день — per day."
+   ]
   },
   {
    "word": "d9w13",
@@ -409,7 +467,10 @@
    ],
    "id": "d9s16",
    "audio": "44ff82f539.mp3",
-   "pr": "O-chin' VKUS-nih sup"
+   "pr": "O-chin' VKUS-nih sup",
+   "why": [
+    "вку́сный — masculine adjective (суп is masculine). An exclamation: “a very tasty soup!”."
+   ]
   },
   {
    "word": "d9w13",
@@ -421,7 +482,11 @@
    ],
    "id": "d9s17",
    "audio": "7f65bef241.mp3",
-   "pr": "BIH-la O-chin' VKUS-na spa-SI-ba"
+   "pr": "BIH-la O-chin' VKUS-na spa-SI-ba",
+   "why": [
+    "Бы́ло — past of быть, neuter: “it was”.",
+    "вку́сно — the adverb form: “it was tasty” (no noun, so not вку́сный)."
+   ]
   },
   {
    "word": "d9w14",
@@ -432,7 +497,10 @@
    ],
    "id": "d9s18",
    "audio": "cfb60e0944.mp3",
-   "pr": "schot pa-ZHA-lus-ta"
+   "pr": "schot pa-ZHA-lus-ta",
+   "why": [
+    "Счёт — the bill, nominative. ё is always stressed: shchot."
+   ]
   },
   {
    "mk": "Я хочу́ {ры́б|у}.",
@@ -445,7 +513,10 @@
    "id": "d9s19",
    "ru": "Я хочу́ ры́бу.",
    "audio": "bd6512c287.mp3",
-   "pr": "ya kha-CHU RIH-bu"
+   "pr": "ya kha-CHU RIH-bu",
+   "why": [
+    "хочу́ + accusative: ры́ба → ры́бу."
+   ]
   },
   {
    "mk": "Мо́жно {во́д|у}?",
@@ -459,7 +530,10 @@
    "id": "d9s20",
    "ru": "Мо́жно во́ду?",
    "audio": "8ea3f695bf.mp3",
-   "pr": "MOZH-na VO-du"
+   "pr": "MOZH-na VO-du",
+   "why": [
+    "Мо́жно + accusative: вода́ → во́ду (stress moves)."
+   ]
   },
   {
    "mk": "Я пью ко́фе без {молок|а́}.",
@@ -473,7 +547,10 @@
    "id": "d9s21",
    "ru": "Я пью ко́фе без молока́.",
    "audio": "2966c5f9e6.mp3",
-   "pr": "ya pyu KO-fye byez ma-la-KA"
+   "pr": "ya pyu KO-fye byez ma-la-KA",
+   "why": [
+    "без + genitive: молоко́ → молока́ (-о → -а)."
+   ]
   },
   {
    "mk": "Чай с {молок|о́м}.",
@@ -487,7 +564,10 @@
    "id": "d9s22",
    "ru": "Чай с молоко́м.",
    "audio": "97eab0f5ba.mp3",
-   "pr": "chai s ma-la-KOM"
+   "pr": "chai s ma-la-KOM",
+   "why": [
+    "с + instrumental: молоко́ → молоко́м."
+   ]
   },
   {
    "mk": "Суп с {мя́с|ом} и́ли с {ры́б|ой}?",
@@ -501,7 +581,11 @@
    "id": "d9s23",
    "ru": "Суп с мя́сом и́ли с ры́бой?",
    "audio": "bea1060227.mp3",
-   "pr": "sup s MYA-sam I-li s RIH-bai"
+   "pr": "sup s MYA-sam I-li s RIH-bai",
+   "why": [
+    "с + instrumental: мя́со → мя́сом (-ом), ры́ба → ры́бой (-ой).",
+    "и́ли — or."
+   ]
   },
   {
    "mk": "У нас нет {ри́с|а}.",
@@ -515,7 +599,10 @@
    "id": "d9s24",
    "ru": "У нас нет ри́са.",
    "audio": "cb4b7a176d.mp3",
-   "pr": "u nas nyet RI-sa"
+   "pr": "u nas nyet RI-sa",
+   "why": [
+    "нет + genitive: рис → ри́са."
+   ]
   }
  ],
  "notes": [

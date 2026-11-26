@@ -203,7 +203,11 @@
    ],
    "id": "d5s1",
    "audio": "0ce8a409b6.mp3",
-   "pr": "tih stu-DYENT"
+   "pr": "tih stu-DYENT",
+   "why": [
+    "Ты — informal you.",
+    "студе́нт — no verb “are”: “you student?”. The rising voice makes it a question."
+   ]
   },
   {
    "word": "d5w1",
@@ -215,7 +219,11 @@
    ],
    "id": "d5s2",
    "audio": "fa5c01d566.mp3",
-   "pr": "tih ga-va-RISH' pa-RUS-ki"
+   "pr": "tih ga-va-RISH' pa-RUS-ki",
+   "why": [
+    "говори́шь — говори́ть, ты form (-ишь, pattern 2).",
+    "по-ру́сски — in Russian."
+   ]
   },
   {
    "word": "d5w2",
@@ -227,7 +235,11 @@
    ],
    "id": "d5s3",
    "audio": "ec117bb52c.mp3",
-   "pr": "gdye moi ti-li-FON on zdyes'"
+   "pr": "gdye moi ti-li-FON on zdyes'",
+   "why": [
+    "мой телефо́н — masculine.",
+    "Он здесь — телефо́н is masculine, so “it” is он (he). Russians use он / она́ / оно́ for things too."
+   ]
   },
   {
    "word": "d5w2",
@@ -239,7 +251,10 @@
    ],
    "id": "d5s4",
    "audio": "c50d22ee99.mp3",
-   "pr": "on is LI-vi-i"
+   "pr": "on is LI-vi-i",
+   "why": [
+    "Он из + genitive: Ли́вия → Ли́вии."
+   ]
   },
   {
    "word": "d5w3",
@@ -251,7 +266,10 @@
    ],
    "id": "d5s5",
    "audio": "79bfa265e9.mp3",
-   "pr": "a-NA stu-DYENT-ka"
+   "pr": "a-NA stu-DYENT-ka",
+   "why": [
+    "студе́нтка — female student (-ка makes it feminine)."
+   ]
   },
   {
    "word": "d5w3",
@@ -263,7 +281,11 @@
    ],
    "id": "d5s6",
    "audio": "22f72cf50e.mp3",
-   "pr": "gdye KNI-ga a-NA na sta-LYE"
+   "pr": "gdye KNI-ga a-NA na sta-LYE",
+   "why": [
+    "кни́га is feminine → “it” = она́.",
+    "на столе́ — на + prepositional of стол: on the table."
+   ]
   },
   {
    "word": "d5w4",
@@ -275,7 +297,11 @@
    ],
    "id": "d5s7",
    "audio": "04be545e6a.mp3",
-   "pr": "gdye pis'-MO a-NO zdyes'"
+   "pr": "gdye pis'-MO a-NO zdyes'",
+   "why": [
+    "письмо́ is neuter → “it” = оно́.",
+    "здесь — here."
+   ]
   },
   {
    "word": "d5w5",
@@ -287,7 +313,11 @@
    ],
    "id": "d5s8",
    "audio": "e36e521431.mp3",
-   "pr": "mih zhi-VYOM v RI-gye"
+   "pr": "mih zhi-VYOM v RI-gye",
+   "why": [
+    "живём — жить, мы form.",
+    "в Ри́ге — в + prepositional."
+   ]
   },
   {
    "word": "d5w5",
@@ -298,7 +328,10 @@
    ],
    "id": "d5s9",
    "audio": "4b43d86b9c.mp3",
-   "pr": "mih dru-ZYA"
+   "pr": "mih dru-ZYA",
+   "why": [
+    "друзья́ — irregular plural of друг. No “are”: “we friends”."
+   ]
   },
   {
    "word": "d5w6",
@@ -310,7 +343,11 @@
    ],
    "id": "d5s10",
    "audio": "1034a2da53.mp3",
-   "pr": "vih ga-va-RI-tye pa-ang-LIIS-ki"
+   "pr": "vih ga-va-RI-tye pa-ang-LIIS-ki",
+   "why": [
+    "говори́те — говори́ть, вы form (-ите).",
+    "по-англи́йски — in English."
+   ]
   },
   {
    "word": "d5w6",
@@ -322,7 +359,10 @@
    ],
    "id": "d5s11",
    "audio": "807727c546.mp3",
-   "pr": "vih stu-DYEN-tih"
+   "pr": "vih stu-DYEN-tih",
+   "why": [
+    "студе́нты — plural of студе́нт (-ы). Here вы is plural (you all)."
+   ]
   },
   {
    "word": "d5w7",
@@ -334,7 +374,11 @@
    ],
    "id": "d5s12",
    "audio": "1c661c9fe6.mp3",
-   "pr": "a-NI is LAT-vi-i"
+   "pr": "a-NI is LAT-vi-i",
+   "why": [
+    "Они́ — they.",
+    "из Ла́твии — из + genitive."
+   ]
   },
   {
    "word": "d5w7",
@@ -346,7 +390,11 @@
    ],
    "id": "d5s13",
    "audio": "fb9e7cb650.mp3",
-   "pr": "gdye a-NI a-NI DO-ma"
+   "pr": "gdye a-NI a-NI DO-ma",
+   "why": [
+    "Где они́? — where are they?",
+    "до́ма — at home."
+   ]
   },
   {
    "word": "d5w8",
@@ -358,7 +406,10 @@
    ],
    "id": "d5s14",
    "audio": "cfa53351e5.mp3",
-   "pr": "E-ta moi ti-li-FON"
+   "pr": "E-ta moi ti-li-FON",
+   "why": [
+    "мой — masculine, matching телефо́н."
+   ]
   },
   {
    "word": "d5w8",
@@ -370,7 +421,11 @@
    ],
    "id": "d5s15",
    "audio": "66284142e5.mp3",
-   "pr": "E-ta ma-I dru-ZYA"
+   "pr": "E-ta ma-I dru-ZYA",
+   "why": [
+    "мои́ — plural “my”, matching друзья́.",
+    "Э́то stays the same even for plurals: э́то = “this is / these are”."
+   ]
   },
   {
    "word": "d5w9",
@@ -382,7 +437,10 @@
    ],
    "id": "d5s16",
    "audio": "009ca7fee1.mp3",
-   "pr": "E-ta tva-YA ma-SHI-na"
+   "pr": "E-ta tva-YA ma-SHI-na",
+   "why": [
+    "твоя́ — feminine “your”, matching маши́на. Use твой for a friend (polite: ва́ша)."
+   ]
   },
   {
    "word": "d5w10",
@@ -394,7 +452,11 @@
    ],
    "id": "d5s17",
    "audio": "4852c71680.mp3",
-   "pr": "NA-sha kvar-TI-ra MA-lin'-ka-ya"
+   "pr": "NA-sha kvar-TI-ra MA-lin'-ka-ya",
+   "why": [
+    "На́ша — feminine “our”, matching кварти́ра (flat).",
+    "ма́ленькая — feminine adjective: no “is” needed."
+   ]
   },
   {
    "word": "d5w11",
@@ -406,7 +468,10 @@
    ],
    "id": "d5s18",
    "audio": "ab58b58f1e.mp3",
-   "pr": "E-ta VA-she MYES-ta"
+   "pr": "E-ta VA-she MYES-ta",
+   "why": [
+    "ва́ше — neuter “your” (polite), matching ме́сто (seat, place), which is neuter (-о)."
+   ]
   },
   {
    "word": "d5w12",
@@ -418,7 +483,10 @@
    ],
    "id": "d5s19",
    "audio": "b9f5b5a631.mp3",
-   "pr": "E-ta yi-VO kot"
+   "pr": "E-ta yi-VO kot",
+   "why": [
+    "его́ — “his”: never changes, whatever the gender of the thing. Said yi-VO."
+   ]
   },
   {
    "word": "d5w12",
@@ -430,7 +498,10 @@
    ],
    "id": "d5s20",
    "audio": "3f19fd7328.mp3",
-   "pr": "E-ta ye-YO sist-RA"
+   "pr": "E-ta ye-YO sist-RA",
+   "why": [
+    "её — “her”: never changes. Said yi-YO."
+   ]
   },
   {
    "word": "d5w12",
@@ -442,7 +513,10 @@
    ],
    "id": "d5s21",
    "audio": "43e047e2ef.mp3",
-   "pr": "E-ta ikh dom"
+   "pr": "E-ta ikh dom",
+   "why": [
+    "их — “their”: never changes."
+   ]
   },
   {
    "word": "d5w13",
@@ -454,7 +528,11 @@
    ],
    "id": "d5s22",
    "audio": "ac36a3dd5d.mp3",
-   "pr": "u ti-BYA yest' ti-li-FON da yest'"
+   "pr": "u ti-BYA yest' ti-li-FON da yest'",
+   "why": [
+    "У тебя́ есть…? — do you have…? (by you is there…?).",
+    "Да, есть — the short answer just repeats есть: “yes, there is”."
+   ]
   },
   {
    "word": "d5w14",
@@ -466,7 +544,11 @@
    ],
    "id": "d5s23",
    "audio": "a4fd6d68d8.mp3",
-   "pr": "u ti-BYA yest' ma-SHI-na nyet"
+   "pr": "u ti-BYA yest' ma-SHI-na nyet",
+   "why": [
+    "маши́на — nominative after есть.",
+    "Нет — no."
+   ]
   },
   {
    "mk": "У меня́ нет {маши́н|ы}.",
@@ -480,7 +562,10 @@
    "id": "d5s24",
    "ru": "У меня́ нет маши́ны.",
    "audio": "8fb927372f.mp3",
-   "pr": "u mi-NYA nyet ma-SHI-nih"
+   "pr": "u mi-NYA nyet ma-SHI-nih",
+   "why": [
+    "нет + genitive: маши́на → маши́ны (-а → -ы). Once you say “there is NO”, the thing goes into the genitive."
+   ]
   },
   {
    "mk": "У нас нет {хле́б|а}.",
@@ -494,7 +579,10 @@
    "id": "d5s25",
    "ru": "У нас нет хле́ба.",
    "audio": "fcac591485.mp3",
-   "pr": "u nas nyet KHLYE-ba"
+   "pr": "u nas nyet KHLYE-ba",
+   "why": [
+    "нет + genitive: хлеб → хле́ба (masculine -а)."
+   ]
   },
   {
    "mk": "У {него́} есть сестра́.",
@@ -508,7 +596,11 @@
    "id": "d5s26",
    "ru": "У него́ есть сестра́.",
    "audio": "061866f3c6.mp3",
-   "pr": "u ni-GO yest' sist-RA"
+   "pr": "u ni-GO yest' sist-RA",
+   "why": [
+    "у + genitive of он = него́: after a preposition он / она́ / они́ get an extra н.",
+    "сестра́ — nominative after есть."
+   ]
   },
   {
    "mk": "У {неё} есть кот.",
@@ -522,7 +614,11 @@
    "id": "d5s27",
    "ru": "У неё есть кот.",
    "audio": "7382e7231d.mp3",
-   "pr": "u ni-YO yest' kot"
+   "pr": "u ni-YO yest' kot",
+   "why": [
+    "у неё — her (genitive of она́ + н).",
+    "кот — nominative."
+   ]
   },
   {
    "mk": "У {них} есть дом.",
@@ -536,7 +632,11 @@
    "id": "d5s28",
    "ru": "У них есть дом.",
    "audio": "63f4386fce.mp3",
-   "pr": "u nikh yest' dom"
+   "pr": "u nikh yest' dom",
+   "why": [
+    "у них — them (genitive of они́ + н).",
+    "дом — nominative."
+   ]
   }
  ],
  "notes": [

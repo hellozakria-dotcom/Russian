@@ -175,7 +175,11 @@
    ],
    "id": "d10s1",
    "audio": "32eecc9113.mp3",
-   "pr": "gdye mit-RO"
+   "pr": "gdye mit-RO",
+   "why": [
+    "Где — where (location).",
+    "метро́ — never changes. No verb “is”."
+   ]
   },
   {
    "word": "d10w1",
@@ -187,7 +191,12 @@
    ],
    "id": "d10s2",
    "audio": "462fcdc484.mp3",
-   "pr": "iz-vi-NI-tye gdye zdyes' tu-a-LYET"
+   "pr": "iz-vi-NI-tye gdye zdyes' tu-a-LYET",
+   "why": [
+    "Извини́те — excuse me.",
+    "где здесь… — where (is there)… here: здесь makes it “around here”.",
+    "туале́т — toilet, nominative."
+   ]
   },
   {
    "word": "d10w2",
@@ -199,7 +208,11 @@
    ],
    "id": "d10s3",
    "audio": "2cb13915db.mp3",
-   "pr": "na U-li-tse KHO-lad-na"
+   "pr": "na U-li-tse KHO-lad-na",
+   "why": [
+    "На у́лице — outside: на + prepositional.",
+    "хо́лодно — “it is cold” (adverb form: no subject needed)."
+   ]
   },
   {
    "word": "d10w2",
@@ -211,7 +224,11 @@
    ],
    "id": "d10s4",
    "audio": "cbbca4b5d7.mp3",
-   "pr": "ya zhi-VU na E-tai U-li-tse"
+   "pr": "ya zhi-VU na E-tai U-li-tse",
+   "why": [
+    "живу́ — жить, я form.",
+    "на э́той у́лице — on this street: на + prepositional; э́той = feminine prepositional of э́та (this)."
+   ]
   },
   {
    "word": "d10w3",
@@ -223,7 +240,11 @@
    ],
    "id": "d10s5",
    "audio": "54b4d87053.mp3",
-   "pr": "ma-ga-ZIN ra-BO-ta-yet do di-sya-TI"
+   "pr": "ma-ga-ZIN ra-BO-ta-yet do di-sya-TI",
+   "why": [
+    "рабо́тает — “works” = is open.",
+    "до десяти́ — until ten: до + genitive."
+   ]
   },
   {
    "word": "d10w4",
@@ -235,7 +256,10 @@
    ],
    "id": "d10s6",
    "audio": "62145e223c.mp3",
-   "pr": "gdye bli-ZHAI-sha-ya ap-TYE-ka"
+   "pr": "gdye bli-ZHAI-sha-ya ap-TYE-ka",
+   "why": [
+    "ближа́йшая — the nearest (feminine, agreeing with апте́ка)."
+   ]
   },
   {
    "word": "d10w5",
@@ -247,7 +271,11 @@
    ],
    "id": "d10s7",
    "audio": "b21713a656.mp3",
-   "pr": "mnye NUZH-na v bank"
+   "pr": "mnye NUZH-na v bank",
+   "why": [
+    "Мне ну́жно — “to me (it is) necessary” = I need (dative мне).",
+    "в банк — в + accusative = where to (the verb “to go” is left out)."
+   ]
   },
   {
    "word": "d10w6",
@@ -259,7 +287,11 @@
    ],
    "id": "d10s8",
    "audio": "bbe7e575e7.mp3",
-   "pr": "BA-bush-ka v bal'-NI-tse"
+   "pr": "BA-bush-ka v bal'-NI-tse",
+   "why": [
+    "Ба́бушка — subject.",
+    "в больни́це — в + prepositional of больни́ца (-а → -е)."
+   ]
   },
   {
    "word": "d10w7",
@@ -271,7 +303,11 @@
    ],
    "id": "d10s9",
    "audio": "aff475c63e.mp3",
-   "pr": "ya zhdu na as-ta-NOV-kye"
+   "pr": "ya zhdu na as-ta-NOV-kye",
+   "why": [
+    "жду — ждать (to wait), я form.",
+    "на остано́вке — на + prepositional: остано́вка is a на-word."
+   ]
   },
   {
    "word": "d10w8",
@@ -283,7 +319,11 @@
    ],
    "id": "d10s10",
    "audio": "0073e073b2.mp3",
-   "pr": "kak da-YE-khat' do vak-ZA-la"
+   "pr": "kak da-YE-khat' do vak-ZA-la",
+   "why": [
+    "Как дое́хать до…? — how do I get to… (by transport)?",
+    "до вокза́ла — до + genitive (вокза́л → вокза́ла)."
+   ]
   },
   {
    "word": "d10w9",
@@ -295,7 +335,11 @@
    ],
    "id": "d10s11",
    "audio": "adea32833e.mp3",
-   "pr": "na RIHN-kye di-SHO-vih-ye FRUK-tih"
+   "pr": "na RIHN-kye di-SHO-vih-ye FRUK-tih",
+   "why": [
+    "На ры́нке — на + prepositional of ры́нок: the о drops out → ры́нке.",
+    "дешёвые фру́кты — cheap fruit (plural adjective + noun, nominative)."
+   ]
   },
   {
    "word": "d10w10",
@@ -307,7 +351,11 @@
    ],
    "id": "d10s12",
    "audio": "10118c0868.mp3",
-   "pr": "mih gu-LYA-yem v PAR-kye"
+   "pr": "mih gu-LYA-yem v PAR-kye",
+   "why": [
+    "гуля́ем — гуля́ть (to walk for fun), мы form.",
+    "в па́рке — в + prepositional."
+   ]
   },
   {
    "word": "d10w11",
@@ -319,7 +367,11 @@
    ],
    "id": "d10s13",
    "audio": "dede6b9336.mp3",
-   "pr": "mi-CHYET' na U-li-tse BRI-vi-bas"
+   "pr": "mi-CHYET' na U-li-tse BRI-vi-bas",
+   "why": [
+    "Мече́ть — subject (feminine).",
+    "на у́лице Бри́вибас — on Brīvības Street: the street name itself doesn't change."
+   ]
   },
   {
    "word": "d10w11",
@@ -331,7 +383,11 @@
    ],
    "id": "d10s14",
    "audio": "8dd686caa0.mp3",
-   "pr": "v PYAT-ni-tsu ya v mi-CHYE-ti"
+   "pr": "v PYAT-ni-tsu ya v mi-CHYE-ti",
+   "why": [
+    "В пя́тницу — on Friday (в + accusative).",
+    "в мече́ти — в + prepositional: feminine nouns in -ь take -и."
+   ]
   },
   {
    "word": "d10w12",
@@ -343,7 +399,10 @@
    ],
    "id": "d10s15",
    "audio": "13e3c2b4d9.mp3",
-   "pr": "ap-TYE-ka SLYE-va bank SPRA-va"
+   "pr": "ap-TYE-ka SLYE-va bank SPRA-va",
+   "why": [
+    "сле́ва / спра́ва — on the left / on the right (location). Compare нале́во / напра́во = to the left / right (direction)."
+   ]
   },
   {
    "word": "d10w13",
@@ -355,7 +414,13 @@
    ],
    "id": "d10s16",
    "audio": "a05aa54dbe.mp3",
-   "pr": "i-DI-tye PRYA-ma pa-TOM nap-RA-va"
+   "pr": "i-DI-tye PRYA-ma pa-TOM nap-RA-va",
+   "why": [
+    "Иди́те — polite command of идти́ (go on foot).",
+    "пря́мо — straight.",
+    "пото́м — then.",
+    "напра́во — to the right (direction)."
+   ]
   },
   {
    "word": "d10w14",
@@ -367,7 +432,11 @@
    ],
    "id": "d10s17",
    "audio": "07b7abb625.mp3",
-   "pr": "E-ta da-li-KO nyet O-chin' BLIZ-ka"
+   "pr": "E-ta da-li-KO nyet O-chin' BLIZ-ka",
+   "why": [
+    "далеко́ — far.",
+    "бли́зко — near. Both are adverbs: “it is far / close”."
+   ]
   },
   {
    "mk": "Я в {магази́н|е}.",
@@ -380,7 +449,10 @@
    "id": "d10s18",
    "ru": "Я в магази́не.",
    "audio": "962460e1d9.mp3",
-   "pr": "ya v ma-ga-ZI-nye"
+   "pr": "ya v ma-ga-ZI-nye",
+   "why": [
+    "в + prepositional (where?): магази́н → магази́не."
+   ]
   },
   {
    "mk": "Она́ в {апте́к|е}.",
@@ -394,7 +466,10 @@
    "id": "d10s19",
    "ru": "Она́ в апте́ке.",
    "audio": "19f192c78d.mp3",
-   "pr": "a-NA v ap-TYE-kye"
+   "pr": "a-NA v ap-TYE-kye",
+   "why": [
+    "в апте́ке — в + prepositional: -а → -е."
+   ]
   },
   {
    "mk": "Мы на {вокза́л|е}.",
@@ -407,7 +482,10 @@
    "id": "d10s20",
    "ru": "Мы на вокза́ле.",
    "audio": "7e8236d6aa.mp3",
-   "pr": "mih na vak-ZA-lye"
+   "pr": "mih na vak-ZA-lye",
+   "why": [
+    "на вокза́ле — на + prepositional: вокза́л is a на-word."
+   ]
   },
   {
    "mk": "Он на {остано́вк|е}.",
@@ -421,7 +499,10 @@
    "id": "d10s21",
    "ru": "Он на остано́вке.",
    "audio": "23f68b75ed.mp3",
-   "pr": "on na as-ta-NOV-kye"
+   "pr": "on na as-ta-NOV-kye",
+   "why": [
+    "на остано́вке — на + prepositional."
+   ]
   },
   {
    "mk": "Я иду́ в {апте́к|у}.",
@@ -435,7 +516,10 @@
    "id": "d10s22",
    "ru": "Я иду́ в апте́ку.",
    "audio": "00de5e7f2a.mp3",
-   "pr": "ya i-DU v ap-TYE-ku"
+   "pr": "ya i-DU v ap-TYE-ku",
+   "why": [
+    "иду́ в + accusative (where to?): апте́ка → апте́ку."
+   ]
   },
   {
    "mk": "Мы е́дем на {ры́нок}.",
@@ -449,7 +533,11 @@
    "id": "d10s23",
    "ru": "Мы е́дем на ры́нок.",
    "audio": "fa4161b9d7.mp3",
-   "pr": "mih YE-dim na RIH-nak"
+   "pr": "mih YE-dim na RIH-nak",
+   "why": [
+    "е́дем — е́хать (go by transport), мы form.",
+    "на ры́нок — на + accusative: masculine things don't change, so ры́нок stays the same (compare на ры́нке = at the market)."
+   ]
   }
  ],
  "notes": [

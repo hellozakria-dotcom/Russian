@@ -611,7 +611,11 @@
     "open_book.png"
    ],
    "audio": "48526fd171.mp3",
-   "pr": "ya chi-TA-yu KNI-gu"
+   "pr": "ya chi-TA-yu KNI-gu",
+   "why": [
+    "чита́ю — чита́ть (to read), я form. Imperfective: an action in progress, “I am reading”.",
+    "кни́гу — accusative of кни́га: it is the direct object (what I read). Feminine -а → -у."
+   ]
   },
   {
    "id": "d1s2",
@@ -623,7 +627,11 @@
     "check_mark_button.png"
    ],
    "audio": "2f2393d66d.mp3",
-   "pr": "ya pra-chi-TAL KNI-gu"
+   "pr": "ya pra-chi-TAL KNI-gu",
+   "why": [
+    "прочита́л — прочита́ть, past, masculine (a man says it; a woman says прочита́ла). Perfective: the reading is finished, the whole book.",
+    "кни́гу — accusative: direct object."
+   ]
   },
   {
    "id": "d1s3",
@@ -635,7 +643,11 @@
     "newspaper.png"
    ],
    "audio": "62ac46374c.mp3",
-   "pr": "on chi-TA-yet ga-ZYE-tu"
+   "pr": "on chi-TA-yet ga-ZYE-tu",
+   "why": [
+    "чита́ет — чита́ть, он form (-ет).",
+    "газе́ту — accusative of газе́та (newspaper): direct object, -а → -у."
+   ]
   },
   {
    "id": "d1s4",
@@ -647,7 +659,11 @@
     "books.png"
    ],
    "audio": "78e4af7e43.mp3",
-   "pr": "shto tih chi-TA-yesh'"
+   "pr": "shto tih chi-TA-yesh'",
+   "why": [
+    "Что — “what”, said shto.",
+    "чита́ешь — чита́ть, ты form (-ешь). Questions keep the same word order; only the voice rises."
+   ]
   },
   {
    "id": "d1s5",
@@ -660,7 +676,11 @@
     "envelope.png"
    ],
    "audio": "d5c0c9a2f3.mp3",
-   "pr": "a-NA PI-shet pis'-MO"
+   "pr": "a-NA PI-shet pis'-MO",
+   "why": [
+    "пи́шет — писа́ть, она́ form. The с of писа́ть becomes ш in all present forms.",
+    "письмо́ — accusative = nominative for neuter things, so it doesn't change."
+   ]
   },
   {
    "id": "d1s6",
@@ -672,7 +692,11 @@
     "check_mark_button.png"
    ],
    "audio": "3c19bb086f.mp3",
-   "pr": "a-NA na-pi-SA-la pis'-MO"
+   "pr": "a-NA na-pi-SA-la pis'-MO",
+   "why": [
+    "написа́ла — написа́ть, past, feminine (-ла, because она́). Perfective: the letter is finished.",
+    "письмо́ — accusative, unchanged (neuter)."
+   ]
   },
   {
    "id": "d1s7",
@@ -684,7 +708,11 @@
     "notebook.png"
    ],
    "audio": "76a8111295.mp3",
-   "pr": "ya pi-SHU pa-RUS-ki"
+   "pr": "ya pi-SHU pa-RUS-ki",
+   "why": [
+    "пишу́ — писа́ть, я form (-у after ш, not -ю).",
+    "по-ру́сски — “in Russian”: по- + language + -ски. Never changes."
+   ]
   },
   {
    "id": "d1s8",
@@ -696,7 +724,11 @@
     "speech_balloon.png"
    ],
    "audio": "09c8005a93.mp3",
-   "pr": "na-pi-SHI mnye"
+   "pr": "na-pi-SHI mnye",
+   "why": [
+    "Напиши́ — command of написа́ть, to one friend (ты). Polite/plural: напиши́те.",
+    "мне — dative of я: “to me” (the person who receives the message)."
+   ]
   },
   {
    "id": "d1s9",
@@ -708,7 +740,10 @@
     "hammer_and_wrench.png"
    ],
    "audio": "f5f9b9277c.mp3",
-   "pr": "shto tih DYE-la-yesh'"
+   "pr": "shto tih DYE-la-yesh'",
+   "why": [
+    "де́лаешь — де́лать, ты form. Что ты де́лаешь? = What are you doing? (right now or in general)."
+   ]
   },
   {
    "id": "d1s10",
@@ -720,7 +755,11 @@
     "check_mark_button.png"
    ],
    "audio": "fe0751fbd2.mp3",
-   "pr": "ya ZDYE-lal da-MASH-ni-ye za-DA-ni-ye"
+   "pr": "ya ZDYE-lal da-MASH-ni-ye za-DA-ni-ye",
+   "why": [
+    "сде́лал — сде́лать, past, masculine. Perfective: done and finished. Said ZDYE-lal (с + д sounds like з).",
+    "дома́шнее зада́ние — homework (literally “home task”). дома́шнее is a neuter adjective agreeing with зада́ние."
+   ]
   },
   {
    "id": "d1s11",
@@ -732,7 +771,11 @@
     "pizza.png"
    ],
    "audio": "c746ae8bf4.mp3",
-   "pr": "mih DYE-la-yem PI-tsu"
+   "pr": "mih DYE-la-yem PI-tsu",
+   "why": [
+    "де́лаем — де́лать, мы form (-ем). де́лать also means “to make”.",
+    "пи́ццу — accusative of пи́цца: what we make. -а → -у."
+   ]
   },
   {
    "id": "d1s12",
@@ -744,7 +787,12 @@
     "alarm_clock.png"
    ],
    "audio": "75716935b0.mp3",
-   "pr": "ZDYE-lai E-ta si-VOD-nya"
+   "pr": "ZDYE-lai E-ta si-VOD-nya",
+   "why": [
+    "Сде́лай — command of сде́лать (ты form). Perfective command: get it done.",
+    "э́то — “this / it”, accusative, unchanged.",
+    "сего́дня — “today”; the г is said like в: si-VOD-nya."
+   ]
   },
   {
    "id": "d1s13",
@@ -756,7 +804,11 @@
     "popcorn.png"
    ],
    "audio": "061ef0b138.mp3",
-   "pr": "mih SMOT-rim fil'm"
+   "pr": "mih SMOT-rim fil'm",
+   "why": [
+    "смо́трим — смотре́ть, мы form (pattern 2: -им). The stress moves: смотрю́ but смо́трим.",
+    "фильм — accusative of фильм; masculine things don't change in the accusative."
+   ]
   },
   {
    "id": "d1s14",
@@ -768,7 +820,11 @@
     "backhand_index_pointing_down.png"
    ],
    "audio": "ef5a51d9f8.mp3",
-   "pr": "pas-mat-RI syu-DA"
+   "pr": "pas-mat-RI syu-DA",
+   "why": [
+    "Посмотри́ — command of посмотре́ть (ты): “take a look”.",
+    "сюда́ — “(to) here”, direction. Location “here” is здесь."
+   ]
   },
   {
    "id": "d1s15",
@@ -780,7 +836,11 @@
     "check_mark_button.png"
    ],
    "audio": "816962154b.mp3",
-   "pr": "ya pas-mat-RYEL fil'm fchi-RA"
+   "pr": "ya pas-mat-RYEL fil'm fchi-RA",
+   "why": [
+    "посмотре́л — посмотре́ть, past, masculine. Perfective: watched it to the end.",
+    "вчера́ — yesterday. Word order is free; the new information usually goes last."
+   ]
   },
   {
    "id": "d1s16",
@@ -792,7 +852,11 @@
     "soccer_ball.png"
    ],
    "audio": "dcb2ea08bd.mp3",
-   "pr": "tih SMOT-rish' fut-BOL"
+   "pr": "tih SMOT-rish' fut-BOL",
+   "why": [
+    "смо́тришь — смотре́ть, ты form (-ишь, pattern 2).",
+    "футбо́л — accusative, unchanged (masculine thing). A yes/no question only needs a rising voice."
+   ]
   },
   {
    "id": "d1s17",
@@ -804,7 +868,11 @@
     "red_question_mark.png"
    ],
    "audio": "2e311bf5e3.mp3",
-   "pr": "ya ni pa-ni-MA-yu"
+   "pr": "ya ni pa-ni-MA-yu",
+   "why": [
+    "не — “not”, goes right before the verb.",
+    "понима́ю — понима́ть, я form (-ю). Imperfective: “I don't understand (right now)”."
+   ]
   },
   {
    "id": "d1s18",
@@ -816,7 +884,11 @@
     "light_bulb.png"
    ],
    "audio": "d4baa1857b.mp3",
-   "pr": "ti-PYER' ya PO-nyal"
+   "pr": "ti-PYER' ya PO-nyal",
+   "why": [
+    "Тепе́рь — now (= at this point, in contrast to before).",
+    "по́нял — поня́ть, past, masculine. Perfective: “I got it” (the moment of understanding). Feminine: поняла́. Note the stress: ПО-nyal."
+   ]
   },
   {
    "id": "d1s19",
@@ -828,7 +900,11 @@
     "speech_balloon.png"
    ],
    "audio": "a327ae5d0d.mp3",
-   "pr": "vih pa-ni-MA-ye-tye pa-RUS-ki"
+   "pr": "vih pa-ni-MA-ye-tye pa-RUS-ki",
+   "why": [
+    "понима́ете — понима́ть, вы form (-ете). вы = polite “you”.",
+    "по-ру́сски — “(in) Russian”, unchanged."
+   ]
   },
   {
    "id": "d1s20",
@@ -840,7 +916,11 @@
     "left_speech_bubble.png"
    ],
    "audio": "5a093ccadb.mp3",
-   "pr": "ya ti-BYA pa-ni-MA-yu"
+   "pr": "ya ti-BYA pa-ni-MA-yu",
+   "why": [
+    "тебя́ — accusative of ты: “you” as the object (whom I understand).",
+    "понима́ю — я form. In Russian the object pronoun often comes before the verb."
+   ]
   },
   {
    "id": "d1s21",
@@ -852,7 +932,11 @@
     "closed_book.png"
    ],
    "audio": "88049915f8.mp3",
-   "pr": "E-ta ma-YA KNI-ga"
+   "pr": "E-ta ma-YA KNI-ga",
+   "why": [
+    "Э́то — “this is”. There is no word for “is” in the present tense.",
+    "моя́ — feminine form of мой, because кни́га is feminine."
+   ]
   },
   {
    "id": "d1s22",
@@ -864,7 +948,12 @@
     "cross_mark.png"
    ],
    "audio": "b1362b6e52.mp3",
-   "pr": "u mi-NYA nyet KNI-gi"
+   "pr": "u mi-NYA nyet KNI-gi",
+   "why": [
+    "У меня́ — “by me” = I have (у + genitive of я).",
+    "нет — “there is no”: it needs the genitive.",
+    "кни́ги — genitive of кни́га (-а → -и, because after г you write и, not ы)."
+   ]
   },
   {
    "id": "d1s23",
@@ -876,7 +965,12 @@
     "closed_book.png"
    ],
    "audio": "ae18f28d71.mp3",
-   "pr": "ya DU-ma-yu a KNI-gye"
+   "pr": "ya DU-ma-yu a KNI-gye",
+   "why": [
+    "ду́маю — ду́мать (to think), я form.",
+    "о — “about”, always + prepositional.",
+    "кни́ге — prepositional of кни́га: -а → -е."
+   ]
   },
   {
    "id": "d1s24",
@@ -888,7 +982,11 @@
     "closed_book.png"
    ],
    "audio": "d63d620b53.mp3",
-   "pr": "gdye ma-YA KNI-ga"
+   "pr": "gdye ma-YA KNI-ga",
+   "why": [
+    "Где — where (location).",
+    "моя́ кни́га — nominative: the book is the subject. моя́ agrees with feminine кни́га."
+   ]
   },
   {
    "id": "d1s25",
@@ -900,7 +998,10 @@
     "house.png"
    ],
    "audio": "ecc3fb4a78.mp3",
-   "pr": "ya DO-ma"
+   "pr": "ya DO-ma",
+   "why": [
+    "до́ма — “at home”: a special adverb (stress on до́-). Don't confuse with дома́ = houses."
+   ]
   },
   {
    "id": "d1s26",
@@ -911,7 +1012,13 @@
     "house_with_garden.png"
    ],
    "audio": "3812e575ef.mp3",
-   "pr": "mih zhi-VYOM v bal'-SHOM DO-mye"
+   "pr": "mih zhi-VYOM v bal'-SHOM DO-mye",
+   "why": [
+    "живём — жить, мы form (живу́, живёшь, живёт, живём…).",
+    "в + prepositional = where: в большо́м до́ме.",
+    "большо́м — masculine prepositional adjective ending -ом.",
+    "до́ме — prepositional of дом (-е)."
+   ]
   },
   {
    "id": "d1s27",
@@ -923,7 +1030,11 @@
     "house.png"
    ],
    "audio": "d61258f32f.mp3",
-   "pr": "ya i-DU da-MOI"
+   "pr": "ya i-DU da-MOI",
+   "why": [
+    "иду́ — идти́ (to go on foot), я form: I'm going (right now).",
+    "домо́й — “(to) home”, direction. Compare до́ма = at home."
+   ]
   },
   {
    "id": "d1s28",
@@ -935,7 +1046,11 @@
     "house_with_garden.png"
    ],
    "audio": "4896afc26a.mp3",
-   "pr": "E-ta nash dom"
+   "pr": "E-ta nash dom",
+   "why": [
+    "наш — “our”, masculine form because дом is masculine (на́ша, на́ше, на́ши for other genders).",
+    "дом — nominative."
+   ]
   },
   {
    "id": "d1s29",
@@ -947,7 +1062,11 @@
     "droplet.png"
    ],
    "audio": "06d0219c79.mp3",
-   "pr": "ya pyu VO-du"
+   "pr": "ya pyu VO-du",
+   "why": [
+    "пью — пить (to drink), я form: пью, пьёшь, пьёт…",
+    "во́ду — accusative of вода́: what I drink. Notice the stress jumps: вода́ → во́ду."
+   ]
   },
   {
    "id": "d1s30",
@@ -959,7 +1078,12 @@
     "droplet.png"
    ],
    "audio": "b33df534a5.mp3",
-   "pr": "sta-KAN va-DIH pa-ZHA-lus-ta"
+   "pr": "sta-KAN va-DIH pa-ZHA-lus-ta",
+   "why": [
+    "Стака́н — a glass.",
+    "воды́ — genitive of вода́: “a glass OF water”. Quantities and containers take the genitive.",
+    "пожа́луйста — please. Said pa-ZHA-lus-ta."
+   ]
   },
   {
    "id": "d1s31",
@@ -971,7 +1095,11 @@
     "cold_face.png"
    ],
    "audio": "189a30a100.mp3",
-   "pr": "va-DA kha-LOD-na-ya"
+   "pr": "va-DA kha-LOD-na-ya",
+   "why": [
+    "Вода́ — nominative: the subject.",
+    "холо́дная — “cold”, feminine form of холо́дный, agreeing with вода́. No word for “is”."
+   ]
   },
   {
    "id": "d1s32",
@@ -983,7 +1111,12 @@
     "seedling.png"
    ],
    "audio": "c5f760edce.mp3",
-   "pr": "byez va-DIH nyet ZHIZ-ni"
+   "pr": "byez va-DIH nyet ZHIZ-ni",
+   "why": [
+    "Без — “without”, always + genitive.",
+    "воды́ — genitive of вода́.",
+    "нет жи́зни — “there is no life”: нет + genitive of жизнь (life)."
+   ]
   },
   {
    "id": "d1s33",
@@ -994,7 +1127,11 @@
     "people_hugging.png"
    ],
    "audio": "47273a9fad.mp3",
-   "pr": "E-ta moi druk"
+   "pr": "E-ta moi druk",
+   "why": [
+    "мой — masculine “my”, because друг is masculine.",
+    "друг — nominative. Said druk (final г sounds like к)."
+   ]
   },
   {
    "id": "d1s34",
@@ -1006,7 +1143,11 @@
     "telephone_receiver.png"
    ],
    "audio": "2b46e9504a.mp3",
-   "pr": "ya zva-NYU DRU-gu"
+   "pr": "ya zva-NYU DRU-gu",
+   "why": [
+    "звоню́ — звони́ть (to call), я form.",
+    "дру́гу — dative of друг: you call TO someone in Russian, so the person is in the dative (-у)."
+   ]
   },
   {
    "id": "d1s35",
@@ -1018,7 +1159,12 @@
     "party_popper.png"
    ],
    "audio": "ad0a1736d5.mp3",
-   "pr": "u mi-NYA MNO-ga dru-ZYEI"
+   "pr": "u mi-NYA MNO-ga dru-ZYEI",
+   "why": [
+    "У меня́ — I have.",
+    "мно́го — “many / a lot”: always + genitive plural.",
+    "друзе́й — genitive plural of друг (irregular plural друзья́ → друзе́й)."
+   ]
   },
   {
    "id": "d1s36",
@@ -1030,7 +1176,12 @@
     "volleyball.png"
    ],
    "audio": "8fba2c9905.mp3",
-   "pr": "mih s DRU-gam ig-RA-yem v va-lei-BOL"
+   "pr": "mih s DRU-gam ig-RA-yem v va-lei-BOL",
+   "why": [
+    "Мы с дру́гом — literally “we with a friend” = my friend and I. Very common Russian construction.",
+    "с + instrumental: дру́гом (-ом).",
+    "игра́ем в + accusative = play a game: в волейбо́л."
+   ]
   },
   {
    "id": "d1s37",
@@ -1042,7 +1193,12 @@
     "sparkles.png"
    ],
    "audio": "25c8ab8232.mp3",
-   "pr": "RI-ga kra-SI-vih GO-rat"
+   "pr": "RI-ga kra-SI-vih GO-rat",
+   "why": [
+    "Ри́га — nominative, the subject.",
+    "— (dash) replaces “is” between two nouns.",
+    "краси́вый — masculine adjective, because го́род is masculine."
+   ]
   },
   {
    "id": "d1s38",
@@ -1054,7 +1210,11 @@
     "house.png"
    ],
    "audio": "9bab213708.mp3",
-   "pr": "ya zhi-VU v GO-ra-dye"
+   "pr": "ya zhi-VU v GO-ra-dye",
+   "why": [
+    "живу́ — жить, я form.",
+    "в го́роде — в + prepositional: го́род → го́роде (-е)."
+   ]
   },
   {
    "id": "d1s39",
@@ -1066,7 +1226,11 @@
     "office_building.png"
    ],
    "audio": "6422ab92ea.mp3",
-   "pr": "E-ta bal'-SHOI GO-rat"
+   "pr": "E-ta bal'-SHOI GO-rat",
+   "why": [
+    "большо́й — masculine adjective with stressed ending -о́й (otherwise it would be -ый).",
+    "го́род — nominative after э́то."
+   ]
   },
   {
    "id": "d1s40",
@@ -1078,7 +1242,12 @@
     "cityscape.png"
    ],
    "audio": "baf2d8b860.mp3",
-   "pr": "mih YE-dim v dru-GOI GO-rat"
+   "pr": "mih YE-dim v dru-GOI GO-rat",
+   "why": [
+    "е́дем — е́хать (to go by transport), мы form: е́ду, е́дешь, е́дет, е́дем…",
+    "в + accusative = direction (where to?): в друго́й го́род.",
+    "друго́й — “another”, masculine accusative (same as nominative for things)."
+   ]
   }
  ],
  "notes": [
