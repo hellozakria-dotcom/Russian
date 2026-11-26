@@ -10,10 +10,10 @@
    "g": "m",
    "ru": "брат",
    "en": "brother",
-   "pr": "brat",
    "pic": "boy.png",
    "audio": "52eed4f175.mp3",
-   "note": ""
+   "note": "",
+   "pr": "brat"
   },
   {
    "id": "d2w2",
@@ -21,10 +21,10 @@
    "g": "m",
    "ru": "кот",
    "en": "cat (male)",
-   "pr": "kot",
    "pic": "cat.png",
    "audio": "0601515e32.mp3",
-   "note": ""
+   "note": "",
+   "pr": "kot"
   },
   {
    "id": "d2w3",
@@ -32,10 +32,10 @@
    "g": "f",
    "ru": "сестра́",
    "en": "sister",
-   "pr": "sist-RA",
    "pic": "girl.png",
    "audio": "876bc80644.mp3",
-   "note": ""
+   "note": "",
+   "pr": "sist-RA"
   },
   {
    "id": "d2w4",
@@ -43,10 +43,10 @@
    "g": "f",
    "ru": "маши́на",
    "en": "car",
-   "pr": "ma-SHI-na",
    "pic": "automobile.png",
    "audio": "ee5c4501cc.mp3",
-   "note": ""
+   "note": "",
+   "pr": "ma-SHI-na"
   },
   {
    "id": "d2w5",
@@ -54,10 +54,10 @@
    "g": "n",
    "ru": "окно́",
    "en": "window",
-   "pr": "ak-NO",
    "pic": "window.png",
    "audio": "9a86408565.mp3",
-   "note": ""
+   "note": "",
+   "pr": "ak-NO"
   },
   {
    "id": "d2w6",
@@ -65,10 +65,10 @@
    "g": "n",
    "ru": "письмо́",
    "en": "letter",
-   "pr": "pis'-MO",
    "pic": "envelope.png",
    "audio": "7786b8940e.mp3",
-   "note": ""
+   "note": "",
+   "pr": "pis'-MO"
   },
   {
    "id": "d2w7",
@@ -76,7 +76,6 @@
    "g": "adj",
    "ru": "большо́й",
    "en": "big",
-   "pr": "bal'-SHOI",
    "pic": "elephant.png",
    "audio": "4680cb4088.mp3",
    "note": "",
@@ -103,7 +102,8 @@
       "больши́е"
      ]
     ]
-   }
+   },
+   "pr": "bal'-SHOI"
   },
   {
    "id": "d2w8",
@@ -111,7 +111,6 @@
    "g": "adj",
    "ru": "ма́ленький",
    "en": "small, little",
-   "pr": "MA-lin'-kiy",
    "pic": "mouse.png",
    "audio": "3688943ae4.mp3",
    "note": "",
@@ -138,7 +137,8 @@
       "ма́ленькие"
      ]
     ]
-   }
+   },
+   "pr": "MA-lin'-kiy"
   },
   {
    "id": "d2w9",
@@ -146,7 +146,6 @@
    "g": "adj",
    "ru": "но́вый",
    "en": "new",
-   "pr": "NO-vih",
    "pic": "sparkles.png",
    "audio": "773344eb6b.mp3",
    "note": "",
@@ -173,7 +172,8 @@
       "но́вые"
      ]
     ]
-   }
+   },
+   "pr": "NO-vih"
   },
   {
    "id": "d2w10",
@@ -181,7 +181,6 @@
    "g": "adj",
    "ru": "хоро́ший",
    "en": "good",
-   "pr": "kha-RO-shiy",
    "pic": "thumbs_up.png",
    "audio": "48032a8ba8.mp3",
    "note": "",
@@ -208,7 +207,8 @@
       "хоро́шие"
      ]
     ]
-   }
+   },
+   "pr": "kha-RO-shiy"
   }
  ],
  "sentences": [
@@ -217,119 +217,119 @@
    "word": "d2w1",
    "ru": "Э́то мой брат.",
    "en": "This is my brother.",
-   "pr": "E-ta moi brat",
    "pics": [
     "man.png",
     "boy.png"
    ],
-   "audio": "342d1ecd8f.mp3"
+   "audio": "342d1ecd8f.mp3",
+   "pr": "E-ta moi brat"
   },
   {
    "id": "d2s2",
    "word": "d2w2",
    "ru": "У нас есть кот.",
    "en": "We have a cat.",
-   "pr": "u nas yest' kot",
    "pics": [
     "cat.png",
     "house.png"
    ],
-   "audio": "adbf4e5bd5.mp3"
+   "audio": "adbf4e5bd5.mp3",
+   "pr": "u nas yest' kot"
   },
   {
    "id": "d2s3",
    "word": "d2w3",
    "ru": "Моя́ сестра́ чита́ет.",
    "en": "My sister is reading.",
-   "pr": "ma-YA sist-RA chi-TA-yet",
    "pics": [
     "girl.png",
     "open_book.png"
    ],
-   "audio": "e2621c91c2.mp3"
+   "audio": "e2621c91c2.mp3",
+   "pr": "ma-YA sist-RA chi-TA-yet"
   },
   {
    "id": "d2s4",
    "word": "d2w4",
    "ru": "Э́то но́вая маши́на.",
    "en": "This is a new car.",
-   "pr": "E-ta NO-va-ya ma-SHI-na",
    "pics": [
     "automobile.png",
     "sparkles.png"
    ],
-   "audio": "2bb2f92c24.mp3"
+   "audio": "2bb2f92c24.mp3",
+   "pr": "E-ta NO-va-ya ma-SHI-na"
   },
   {
    "id": "d2s5",
    "word": "d2w5",
    "ru": "Окно́ большо́е.",
    "en": "The window is big.",
-   "pr": "ak-NO bal'-SHO-ye",
    "pics": [
     "window.png"
    ],
-   "audio": "bd2dde2ac1.mp3"
+   "audio": "bd2dde2ac1.mp3",
+   "pr": "ak-NO bal'-SHO-ye"
   },
   {
    "id": "d2s6",
    "word": "d2w6",
    "ru": "Я пишу́ письмо́ бра́ту.",
    "en": "I'm writing a letter to my brother.",
-   "pr": "ya pi-SHU pis'-MO BRA-tu",
    "pics": [
     "envelope.png",
     "boy.png"
    ],
-   "audio": "bcf6fb018d.mp3"
+   "audio": "bcf6fb018d.mp3",
+   "pr": "ya pi-SHU pis'-MO BRA-tu"
   },
   {
    "id": "d2s7",
    "word": "d2w7",
    "ru": "Э́то большо́й дом.",
    "en": "This is a big house.",
-   "pr": "E-ta bal'-SHOI dom",
    "pics": [
     "elephant.png",
     "house.png"
    ],
-   "audio": "75e818f419.mp3"
+   "audio": "75e818f419.mp3",
+   "pr": "E-ta bal'-SHOI dom"
   },
   {
    "id": "d2s8",
    "word": "d2w8",
    "ru": "Э́то ма́ленький дом.",
    "en": "This is a small house.",
-   "pr": "E-ta MA-lin'-kiy dom",
    "pics": [
     "mouse.png",
     "house.png"
    ],
-   "audio": "0dfa14c01c.mp3"
+   "audio": "0dfa14c01c.mp3",
+   "pr": "E-ta MA-lin'-kiy dom"
   },
   {
    "id": "d2s9",
    "word": "d2w9",
    "ru": "У меня́ но́вый телефо́н.",
    "en": "I have a new phone.",
-   "pr": "u mi-NYA NO-vih ti-li-FON",
    "pics": [
     "mobile_phone.png",
     "sparkles.png"
    ],
-   "audio": "fceace803e.mp3"
+   "audio": "fceace803e.mp3",
+   "pr": "u mi-NYA NO-vih ti-li-FON"
   },
   {
    "id": "d2s10",
    "word": "d2w10",
    "ru": "Он хоро́ший друг.",
    "en": "He is a good friend.",
-   "pr": "on kha-RO-shiy druk",
    "pics": [
     "thumbs_up.png",
     "people_hugging.png"
    ],
-   "audio": "69ca38f4db.mp3"
+   "audio": "69ca38f4db.mp3",
+   "pr": "on kha-RO-shiy druk"
   },
   {
    "id": "d2s11",
@@ -339,12 +339,12 @@
    "g": "m",
    "case": "Nominative",
    "en": "A good friend is calling.",
-   "pr": "kha-RO-shiy druk zva-NIT",
    "pics": [
     "people_hugging.png",
     "mobile_phone.png"
    ],
-   "audio": "e925f6de19.mp3"
+   "audio": "e925f6de19.mp3",
+   "pr": "kha-RO-shiy druk zva-NIT"
   },
   {
    "id": "d2s12",
@@ -354,12 +354,12 @@
    "g": "f",
    "case": "Nominative",
    "en": "Here is a new car.",
-   "pr": "zdyes' NO-va-ya ma-SHI-na",
    "pics": [
     "automobile.png",
     "sparkles.png"
    ],
-   "audio": "b73c2bae2c.mp3"
+   "audio": "b73c2bae2c.mp3",
+   "pr": "zdyes' NO-va-ya ma-SHI-na"
   },
   {
    "id": "d2s13",
@@ -369,12 +369,12 @@
    "g": "pl",
    "case": "Nominative",
    "en": "The little cats are at home.",
-   "pr": "MA-lin'-ki-ye ka-TIH DO-ma",
    "pics": [
     "cat.png",
     "house.png"
    ],
-   "audio": "3616ca5131.mp3"
+   "audio": "3616ca5131.mp3",
+   "pr": "MA-lin'-ki-ye ka-TIH DO-ma"
   },
   {
    "id": "d2s14",
@@ -384,12 +384,12 @@
    "g": "m",
    "case": "Genitive",
    "en": "I don't have a big house.",
-   "pr": "u mi-NYA nyet bal'-SHO-va DO-ma",
    "pics": [
     "house.png",
     "cross_mark.png"
    ],
-   "audio": "1832e5dca4.mp3"
+   "audio": "1832e5dca4.mp3",
+   "pr": "u mi-NYA nyet bal'-SHO-va DO-ma"
   },
   {
    "id": "d2s15",
@@ -399,12 +399,12 @@
    "g": "f",
    "case": "Genitive",
    "en": "This is my sister's book.",
-   "pr": "E-ta KNI-ga ma-YEI sist-RIH",
    "pics": [
     "girl.png",
     "closed_book.png"
    ],
-   "audio": "eefe86cc71.mp3"
+   "audio": "eefe86cc71.mp3",
+   "pr": "E-ta KNI-ga ma-YEI sist-RIH"
   },
   {
    "id": "d2s16",
@@ -414,12 +414,12 @@
    "g": "pl",
    "case": "Genitive",
    "en": "I have many good friends.",
-   "pr": "u mi-NYA MNO-ga kha-RO-shikh dru-ZYEI",
    "pics": [
     "people_hugging.png",
     "party_popper.png"
    ],
-   "audio": "06bdf50bca.mp3"
+   "audio": "06bdf50bca.mp3",
+   "pr": "u mi-NYA MNO-ga kha-RO-shikh dru-ZYEI"
   },
   {
    "id": "d2s17",
@@ -429,12 +429,12 @@
    "g": "m",
    "case": "Dative",
    "en": "I'm calling a good friend.",
-   "pr": "ya zva-NYU kha-RO-she-mu DRU-gu",
    "pics": [
     "mobile_phone.png",
     "people_hugging.png"
    ],
-   "audio": "e7f2b0d9fa.mp3"
+   "audio": "e7f2b0d9fa.mp3",
+   "pr": "ya zva-NYU kha-RO-she-mu DRU-gu"
   },
   {
    "id": "d2s18",
@@ -444,12 +444,12 @@
    "g": "f",
    "case": "Dative",
    "en": "I'm writing to my sister.",
-   "pr": "ya pi-SHU ma-YEI sist-RYE",
    "pics": [
     "writing_hand.png",
     "girl.png"
    ],
-   "audio": "b29cf97b39.mp3"
+   "audio": "b29cf97b39.mp3",
+   "pr": "ya pi-SHU ma-YEI sist-RYE"
   },
   {
    "id": "d2s19",
@@ -459,12 +459,12 @@
    "g": "pl",
    "case": "Dative",
    "en": "I'm calling new friends.",
-   "pr": "ya zva-NYU NO-vihm dru-ZYAM",
    "pics": [
     "telephone_receiver.png",
     "people_hugging.png"
    ],
-   "audio": "0186e99e35.mp3"
+   "audio": "0186e99e35.mp3",
+   "pr": "ya zva-NYU NO-vihm dru-ZYAM"
   },
   {
    "id": "d2s20",
@@ -474,12 +474,12 @@
    "g": "m",
    "case": "Accusative",
    "en": "I see a little cat.",
-   "pr": "ya VI-zhu MA-lin'-ka-va ka-TA",
    "pics": [
     "eyes.png",
     "cat.png"
    ],
-   "audio": "d08a3422b3.mp3"
+   "audio": "d08a3422b3.mp3",
+   "pr": "ya VI-zhu MA-lin'-ka-va ka-TA"
   },
   {
    "id": "d2s21",
@@ -489,12 +489,12 @@
    "g": "f",
    "case": "Accusative",
    "en": "I'm reading a new book.",
-   "pr": "ya chi-TA-yu NO-vu-yu KNI-gu",
    "pics": [
     "open_book.png",
     "sparkles.png"
    ],
-   "audio": "af09ac3f23.mp3"
+   "audio": "af09ac3f23.mp3",
+   "pr": "ya chi-TA-yu NO-vu-yu KNI-gu"
   },
   {
    "id": "d2s22",
@@ -504,12 +504,12 @@
    "g": "pl",
    "case": "Accusative",
    "en": "We watch new films.",
-   "pr": "mih SMOT-rim NO-vih-ye FIL'-mih",
    "pics": [
     "television.png",
     "popcorn.png"
    ],
-   "audio": "7b25d9a7af.mp3"
+   "audio": "7b25d9a7af.mp3",
+   "pr": "mih SMOT-rim NO-vih-ye FIL'-mih"
   },
   {
    "id": "d2s23",
@@ -519,12 +519,12 @@
    "g": "m",
    "case": "Instrumental",
    "en": "I'm playing with my little brother.",
-   "pr": "ya ig-RA-yu s MA-lin'-kim BRA-tam",
    "pics": [
     "boy.png",
     "soccer_ball.png"
    ],
-   "audio": "7feaab3317.mp3"
+   "audio": "7feaab3317.mp3",
+   "pr": "ya ig-RA-yu s MA-lin'-kim BRA-tam"
   },
   {
    "id": "d2s24",
@@ -534,12 +534,12 @@
    "g": "f",
    "case": "Instrumental",
    "en": "I'm reading with my little sister.",
-   "pr": "ya chi-TA-yu s MA-lin'-kai sist-ROI",
    "pics": [
     "girl.png",
     "open_book.png"
    ],
-   "audio": "1345aa8735.mp3"
+   "audio": "1345aa8735.mp3",
+   "pr": "ya chi-TA-yu s MA-lin'-kai sist-ROI"
   },
   {
    "id": "d2s25",
@@ -549,12 +549,12 @@
    "g": "pl",
    "case": "Instrumental",
    "en": "We play with good friends.",
-   "pr": "mih ig-RA-yem s kha-RO-shi-mi dru-ZYA-mi",
    "pics": [
     "people_hugging.png",
     "volleyball.png"
    ],
-   "audio": "c256ab4bd6.mp3"
+   "audio": "c256ab4bd6.mp3",
+   "pr": "mih ig-RA-yem s kha-RO-shi-mi dru-ZYA-mi"
   },
   {
    "id": "d2s26",
@@ -564,12 +564,12 @@
    "g": "m",
    "case": "Prepositional",
    "en": "I'm thinking about the new city.",
-   "pr": "ya DU-ma-yu a NO-vam GO-ra-dye",
    "pics": [
     "thinking_face.png",
     "cityscape.png"
    ],
-   "audio": "c2bdb99340.mp3"
+   "audio": "c2bdb99340.mp3",
+   "pr": "ya DU-ma-yu a NO-vam GO-ra-dye"
   },
   {
    "id": "d2s27",
@@ -579,12 +579,12 @@
    "g": "f",
    "case": "Prepositional",
    "en": "The book is in the new car.",
-   "pr": "KNI-ga v NO-vai ma-SHI-nye",
    "pics": [
     "closed_book.png",
     "automobile.png"
    ],
-   "audio": "9a1716c7ed.mp3"
+   "audio": "9a1716c7ed.mp3",
+   "pr": "KNI-ga v NO-vai ma-SHI-nye"
   },
   {
    "id": "d2s28",
@@ -594,12 +594,12 @@
    "g": "pl",
    "case": "Prepositional",
    "en": "We're talking about good books.",
-   "pr": "mih ga-va-RIM a kha-RO-shikh KNI-gakh",
    "pics": [
     "speech_balloon.png",
     "books.png"
    ],
-   "audio": "166b754ce9.mp3"
+   "audio": "166b754ce9.mp3",
+   "pr": "mih ga-va-RIM a kha-RO-shikh KNI-gakh"
   }
  ],
  "notes": [

@@ -1,64 +1,349 @@
 {
- "id": 4, "kind": "conversation", "title": "Знако́мство", "en": "Meeting someone new", "level": "A1", "after": 5, "pic": "Handshake",
- "speakers": {"n": {"name": "А́нна", "en": "Anna", "pic": "Woman"}, "a": {"name": "Али́", "en": "Ali", "pic": "Man", "me": true}},
+ "id": 4,
+ "kind": "conversation",
+ "title": "Знако́мство",
+ "en": "Meeting someone new",
+ "level": "A1",
+ "after": 5,
+ "pic": "Handshake",
+ "speakers": {
+  "n": {
+   "name": "А́нна",
+   "en": "Anna",
+   "pic": "Woman"
+  },
+  "a": {
+   "name": "Али́",
+   "en": "Ali",
+   "pic": "Man",
+   "me": true
+  }
+ },
  "sentences": [
-  {"sp": "n", "ru": "Приве́т! Ты но́вый студе́нт?", "en": "Hi! Are you a new student?"},
-  {"sp": "a", "ru": "Да. Меня́ зову́т Али́. А тебя́?", "en": "Yes. My name is Ali. And yours?"},
-  {"sp": "n", "ru": "Я А́нна. О́чень прия́тно!", "en": "I'm Anna. Nice to meet you!"},
-  {"sp": "a", "ru": "Мне то́же. Ты из Ри́ги?", "en": "Me too. Are you from Riga?"},
-  {"sp": "n", "ru": "Да, я из Ри́ги. А ты отку́да?", "en": "Yes, I'm from Riga. And where are you from?"},
-  {"sp": "a", "ru": "Я из Ли́вии.", "en": "I'm from Libya."},
-  {"sp": "n", "ru": "Здо́рово! Ты говори́шь по-ру́сски?", "en": "Cool! Do you speak Russian?"},
-  {"sp": "a", "ru": "Немно́го. Я ещё учу́ ру́сский.", "en": "A little. I'm still learning Russian."},
-  {"sp": "n", "ru": "Ты хорошо́ говори́шь!", "en": "You speak well!"},
-  {"sp": "a", "ru": "Спаси́бо! Како́й у тебя́ но́мер телефо́на?", "en": "Thanks! What's your phone number?"},
-  {"sp": "n", "ru": "Два, три, пять, во́семь, ноль, оди́н, де́вять, де́вять.", "en": "Two, three, five, eight, zero, one, nine, nine."},
-  {"sp": "a", "ru": "Спаси́бо! Пока́!", "en": "Thanks! Bye!"},
-  {"sp": "n", "ru": "Пока́! До за́втра!", "en": "Bye! See you tomorrow!"}
+  {
+   "sp": "n",
+   "ru": "Приве́т! Ты но́вый студе́нт?",
+   "en": "Hi! Are you a new student?"
+  },
+  {
+   "sp": "a",
+   "ru": "Да. Меня́ зову́т Али́. А тебя́?",
+   "en": "Yes. My name is Ali. And yours?"
+  },
+  {
+   "sp": "n",
+   "ru": "Я А́нна. О́чень прия́тно!",
+   "en": "I'm Anna. Nice to meet you!"
+  },
+  {
+   "sp": "a",
+   "ru": "Мне то́же. Ты из Ри́ги?",
+   "en": "Me too. Are you from Riga?"
+  },
+  {
+   "sp": "n",
+   "ru": "Да, я из Ри́ги. А ты отку́да?",
+   "en": "Yes, I'm from Riga. And where are you from?"
+  },
+  {
+   "sp": "a",
+   "ru": "Я из Ли́вии.",
+   "en": "I'm from Libya."
+  },
+  {
+   "sp": "n",
+   "ru": "Здо́рово! Ты говори́шь по-ру́сски?",
+   "en": "Cool! Do you speak Russian?"
+  },
+  {
+   "sp": "a",
+   "ru": "Немно́го. Я ещё учу́ ру́сский.",
+   "en": "A little. I'm still learning Russian."
+  },
+  {
+   "sp": "n",
+   "ru": "Ты хорошо́ говори́шь!",
+   "en": "You speak well!"
+  },
+  {
+   "sp": "a",
+   "ru": "Спаси́бо! Како́й у тебя́ но́мер телефо́на?",
+   "en": "Thanks! What's your phone number?"
+  },
+  {
+   "sp": "n",
+   "ru": "Два, три, пять, во́семь, ноль, оди́н, де́вять, де́вять.",
+   "en": "Two, three, five, eight, zero, one, nine, nine."
+  },
+  {
+   "sp": "a",
+   "ru": "Спаси́бо! Пока́!",
+   "en": "Thanks! Bye!"
+  },
+  {
+   "sp": "n",
+   "ru": "Пока́! До за́втра!",
+   "en": "Bye! See you tomorrow!"
+  }
  ],
  "gloss": {
-  "привет": {"w": "приве́т", "lemma": "приве́т", "en": "hi", "info": "greeting, to a friend"},
-  "ты": {"w": "ты", "lemma": "ты", "en": "you (one friend)", "info": "pronoun (polite: вы)"},
-  "новый": {"w": "но́вый", "lemma": "но́вый", "en": "new", "info": "adjective, masculine (Day 2)"},
-  "студент": {"w": "студе́нт", "lemma": "студе́нт", "en": "student", "info": "noun, masculine (female: студе́нтка)"},
-  "да": {"w": "да", "lemma": "да", "en": "yes", "info": "opposite: нет"},
-  "меня": {"w": "меня́", "lemma": "я", "en": "me", "info": "я in the accusative. Меня́ зову́т… = my name is…"},
-  "зовут": {"w": "зову́т", "lemma": "звать", "en": "(they) call", "info": "verb звать, они́ form"},
-  "али": {"w": "Али́", "lemma": "Али́", "en": "Ali (a name)", "info": "male name"},
-  "а": {"w": "а", "lemma": "а", "en": "and · but (contrast)", "info": "А тебя́? = And you? Used to switch to the other person or a new point"},
-  "тебя": {"w": "тебя́", "lemma": "ты", "en": "you", "info": "ты in the accusative/genitive: тебя́ зову́т, у тебя́"},
-  "я": {"w": "я", "lemma": "я", "en": "I", "info": "pronoun"},
-  "анна": {"w": "А́нна", "lemma": "А́нна", "en": "Anna (a name)", "info": "female name"},
-  "очень": {"w": "о́чень", "lemma": "о́чень", "en": "very", "info": "adverb"},
-  "приятно": {"w": "прия́тно", "lemma": "прия́тно", "en": "pleasant, nice", "info": "О́чень прия́тно = Nice to meet you"},
-  "мне": {"w": "мне", "lemma": "я", "en": "to me", "info": "я in the dative. Мне то́же = me too"},
-  "тоже": {"w": "то́же", "lemma": "то́же", "en": "too, also", "info": "adverb"},
-  "из": {"w": "из", "lemma": "из", "en": "from", "info": "preposition + genitive"},
-  "риги": {"w": "Ри́ги", "lemma": "Ри́га", "en": "Riga", "info": "Ри́га in the genitive: из Ри́ги"},
-  "откуда": {"w": "отку́да", "lemma": "отку́да", "en": "where from", "info": "question word (Day 4)"},
-  "ливии": {"w": "Ли́вии", "lemma": "Ли́вия", "en": "Libya", "info": "Ли́вия in the genitive: из Ли́вии"},
-  "здорово": {"w": "здо́рово", "lemma": "здо́рово", "en": "great! cool!", "info": "informal exclamation"},
-  "говоришь": {"w": "говори́шь", "lemma": "говори́ть", "en": "(you) speak", "info": "verb говори́ть, ты form: говорю́, говори́шь, говори́т…"},
-  "по-русски": {"w": "по-ру́сски", "lemma": "по-ру́сски", "en": "in Russian", "info": "говори́ть по-ру́сски = to speak Russian"},
-  "немного": {"w": "немно́го", "lemma": "немно́го", "en": "a little", "info": "adverb (не + мно́го)"},
-  "ещё": {"w": "ещё", "lemma": "ещё", "en": "still", "info": "adverb"},
-  "учу": {"w": "учу́", "lemma": "учи́ть", "en": "(I) learn", "info": "verb учи́ть, я form"},
-  "русский": {"w": "ру́сский", "lemma": "ру́сский", "en": "Russian (language)", "info": "учу́ ру́сский (язы́к) = I'm learning Russian"},
-  "хорошо": {"w": "хорошо́", "lemma": "хорошо́", "en": "well, good", "info": "adverb (opposite: пло́хо)"},
-  "спасибо": {"w": "спаси́бо", "lemma": "спаси́бо", "en": "thank you", "info": "Day 4"},
-  "какой": {"w": "како́й", "lemma": "како́й", "en": "what, which", "info": "question word, changes like an adjective: како́й, кака́я, како́е, каки́е"},
-  "у": {"w": "у", "lemma": "у", "en": "at, by", "info": "Како́й у тебя́ но́мер? = what number do you have?"},
-  "номер": {"w": "но́мер", "lemma": "но́мер", "en": "number", "info": "noun, masculine"},
-  "телефона": {"w": "телефо́на", "lemma": "телефо́н", "en": "(of) phone", "info": "телефо́н in the genitive: но́мер телефо́на = phone number"},
-  "два": {"w": "два", "lemma": "два", "en": "two", "info": "number 2"},
-  "три": {"w": "три", "lemma": "три", "en": "three", "info": "number 3"},
-  "пять": {"w": "пять", "lemma": "пять", "en": "five", "info": "number 5"},
-  "восемь": {"w": "во́семь", "lemma": "во́семь", "en": "eight", "info": "number 8"},
-  "ноль": {"w": "ноль", "lemma": "ноль", "en": "zero", "info": "number 0"},
-  "один": {"w": "оди́н", "lemma": "оди́н", "en": "one", "info": "number 1"},
-  "девять": {"w": "де́вять", "lemma": "де́вять", "en": "nine", "info": "number 9"},
-  "пока": {"w": "пока́", "lemma": "пока́", "en": "bye", "info": "to a friend"},
-  "до": {"w": "до", "lemma": "до", "en": "until", "info": "До за́втра = see you tomorrow"},
-  "завтра": {"w": "за́втра", "lemma": "за́втра", "en": "tomorrow", "info": "adverb"}
+  "привет": {
+   "w": "приве́т",
+   "lemma": "приве́т",
+   "en": "hi",
+   "info": "greeting, to a friend"
+  },
+  "ты": {
+   "w": "ты",
+   "lemma": "ты",
+   "en": "you (one friend)",
+   "info": "pronoun (polite: вы)"
+  },
+  "новый": {
+   "w": "но́вый",
+   "lemma": "но́вый",
+   "en": "new",
+   "info": "adjective, masculine (Day 2)"
+  },
+  "студент": {
+   "w": "студе́нт",
+   "lemma": "студе́нт",
+   "en": "student",
+   "info": "noun, masculine (female: студе́нтка)"
+  },
+  "да": {
+   "w": "да",
+   "lemma": "да",
+   "en": "yes",
+   "info": "opposite: нет"
+  },
+  "меня": {
+   "w": "меня́",
+   "lemma": "я",
+   "en": "me",
+   "info": "я in the accusative. Меня́ зову́т… = my name is…"
+  },
+  "зовут": {
+   "w": "зову́т",
+   "lemma": "звать",
+   "en": "(they) call",
+   "info": "verb звать, они́ form"
+  },
+  "али": {
+   "w": "Али́",
+   "lemma": "Али́",
+   "en": "Ali (a name)",
+   "info": "male name"
+  },
+  "а": {
+   "w": "а",
+   "lemma": "а",
+   "en": "and · but (contrast)",
+   "info": "А тебя́? = And you? Used to switch to the other person or a new point"
+  },
+  "тебя": {
+   "w": "тебя́",
+   "lemma": "ты",
+   "en": "you",
+   "info": "ты in the accusative/genitive: тебя́ зову́т, у тебя́"
+  },
+  "я": {
+   "w": "я",
+   "lemma": "я",
+   "en": "I",
+   "info": "pronoun"
+  },
+  "анна": {
+   "w": "А́нна",
+   "lemma": "А́нна",
+   "en": "Anna (a name)",
+   "info": "female name"
+  },
+  "очень": {
+   "w": "о́чень",
+   "lemma": "о́чень",
+   "en": "very",
+   "info": "adverb"
+  },
+  "приятно": {
+   "w": "прия́тно",
+   "lemma": "прия́тно",
+   "en": "pleasant, nice",
+   "info": "О́чень прия́тно = Nice to meet you"
+  },
+  "мне": {
+   "w": "мне",
+   "lemma": "я",
+   "en": "to me",
+   "info": "я in the dative. Мне то́же = me too"
+  },
+  "тоже": {
+   "w": "то́же",
+   "lemma": "то́же",
+   "en": "too, also",
+   "info": "adverb"
+  },
+  "из": {
+   "w": "из",
+   "lemma": "из",
+   "en": "from",
+   "info": "preposition + genitive"
+  },
+  "риги": {
+   "w": "Ри́ги",
+   "lemma": "Ри́га",
+   "en": "Riga",
+   "info": "Ри́га in the genitive: из Ри́ги"
+  },
+  "откуда": {
+   "w": "отку́да",
+   "lemma": "отку́да",
+   "en": "where from",
+   "info": "question word (Day 4)"
+  },
+  "ливии": {
+   "w": "Ли́вии",
+   "lemma": "Ли́вия",
+   "en": "Libya",
+   "info": "Ли́вия in the genitive: из Ли́вии"
+  },
+  "здорово": {
+   "w": "здо́рово",
+   "lemma": "здо́рово",
+   "en": "great! cool!",
+   "info": "informal exclamation"
+  },
+  "говоришь": {
+   "w": "говори́шь",
+   "lemma": "говори́ть",
+   "en": "(you) speak",
+   "info": "verb говори́ть, ты form: говорю́, говори́шь, говори́т…"
+  },
+  "по-русски": {
+   "w": "по-ру́сски",
+   "lemma": "по-ру́сски",
+   "en": "in Russian",
+   "info": "говори́ть по-ру́сски = to speak Russian"
+  },
+  "немного": {
+   "w": "немно́го",
+   "lemma": "немно́го",
+   "en": "a little",
+   "info": "adverb (не + мно́го)"
+  },
+  "ещё": {
+   "w": "ещё",
+   "lemma": "ещё",
+   "en": "still",
+   "info": "adverb"
+  },
+  "учу": {
+   "w": "учу́",
+   "lemma": "учи́ть",
+   "en": "(I) learn",
+   "info": "verb учи́ть, я form"
+  },
+  "русский": {
+   "w": "ру́сский",
+   "lemma": "ру́сский",
+   "en": "Russian (language)",
+   "info": "учу́ ру́сский (язы́к) = I'm learning Russian"
+  },
+  "хорошо": {
+   "w": "хорошо́",
+   "lemma": "хорошо́",
+   "en": "well, good",
+   "info": "adverb (opposite: пло́хо)"
+  },
+  "спасибо": {
+   "w": "спаси́бо",
+   "lemma": "спаси́бо",
+   "en": "thank you",
+   "info": "Day 4"
+  },
+  "какой": {
+   "w": "како́й",
+   "lemma": "како́й",
+   "en": "what, which",
+   "info": "question word, changes like an adjective: како́й, кака́я, како́е, каки́е"
+  },
+  "у": {
+   "w": "у",
+   "lemma": "у",
+   "en": "at, by",
+   "info": "Како́й у тебя́ но́мер? = what number do you have?"
+  },
+  "номер": {
+   "w": "но́мер",
+   "lemma": "но́мер",
+   "en": "number",
+   "info": "noun, masculine"
+  },
+  "телефона": {
+   "w": "телефо́на",
+   "lemma": "телефо́н",
+   "en": "(of) phone",
+   "info": "телефо́н in the genitive: но́мер телефо́на = phone number"
+  },
+  "два": {
+   "w": "два",
+   "lemma": "два",
+   "en": "two",
+   "info": "number 2"
+  },
+  "три": {
+   "w": "три",
+   "lemma": "три",
+   "en": "three",
+   "info": "number 3"
+  },
+  "пять": {
+   "w": "пять",
+   "lemma": "пять",
+   "en": "five",
+   "info": "number 5"
+  },
+  "восемь": {
+   "w": "во́семь",
+   "lemma": "во́семь",
+   "en": "eight",
+   "info": "number 8"
+  },
+  "ноль": {
+   "w": "ноль",
+   "lemma": "ноль",
+   "en": "zero",
+   "info": "number 0"
+  },
+  "один": {
+   "w": "оди́н",
+   "lemma": "оди́н",
+   "en": "one",
+   "info": "number 1"
+  },
+  "девять": {
+   "w": "де́вять",
+   "lemma": "де́вять",
+   "en": "nine",
+   "info": "number 9"
+  },
+  "пока": {
+   "w": "пока́",
+   "lemma": "пока́",
+   "en": "bye",
+   "info": "to a friend"
+  },
+  "до": {
+   "w": "до",
+   "lemma": "до",
+   "en": "until",
+   "info": "До за́втра = see you tomorrow"
+  },
+  "завтра": {
+   "w": "за́втра",
+   "lemma": "за́втра",
+   "en": "tomorrow",
+   "info": "adverb"
+  }
  }
 }

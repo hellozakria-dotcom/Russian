@@ -1,0 +1,292 @@
+{
+ "id": 7,
+ "kind": "conversation",
+ "title": "Что ты лю́бишь де́лать?",
+ "en": "What do you like doing?",
+ "level": "A1",
+ "after": 7,
+ "pic": "Red heart",
+ "speakers": {
+  "n": {
+   "name": "А́нна",
+   "en": "Anna",
+   "pic": "Woman"
+  },
+  "a": {
+   "name": "Али́",
+   "en": "Ali",
+   "pic": "Man",
+   "me": true
+  }
+ },
+ "sentences": [
+  {
+   "sp": "n",
+   "ru": "Али́, ты рабо́таешь и́ли у́чишься?",
+   "en": "Ali, do you work or study?"
+  },
+  {
+   "sp": "a",
+   "ru": "Я учу́сь. А ещё я рабо́таю в кафе́ в суббо́ту.",
+   "en": "I study. And I also work in a café on Saturdays."
+  },
+  {
+   "sp": "n",
+   "ru": "Здо́рово! А что ты лю́бишь де́лать?",
+   "en": "Cool! And what do you like doing?"
+  },
+  {
+   "sp": "a",
+   "ru": "Я люблю́ игра́ть в волейбо́л и смотре́ть фи́льмы.",
+   "en": "I like playing volleyball and watching films."
+  },
+  {
+   "sp": "n",
+   "ru": "Я то́же люблю́ волейбо́л! Но я пло́хо игра́ю.",
+   "en": "I love volleyball too! But I play badly."
+  },
+  {
+   "sp": "a",
+   "ru": "Ничего́. Хо́чешь игра́ть с на́ми?",
+   "en": "No problem. Do you want to play with us?"
+  },
+  {
+   "sp": "n",
+   "ru": "Да, коне́чно! А где вы игра́ете?",
+   "en": "Yes, of course! And where do you play?"
+  },
+  {
+   "sp": "a",
+   "ru": "В па́рке, о́коло университе́та.",
+   "en": "In the park, near the university."
+  },
+  {
+   "sp": "n",
+   "ru": "Я не зна́ю, где э́то. Ты мо́жешь сказа́ть а́дрес?",
+   "en": "I don't know where that is. Can you tell me the address?"
+  },
+  {
+   "sp": "a",
+   "ru": "Коне́чно. Я напишу́ тебе́.",
+   "en": "Of course. I'll text you."
+  }
+ ],
+ "gloss": {
+  "ты": {
+   "w": "ты",
+   "lemma": "ты",
+   "en": "you",
+   "info": ""
+  },
+  "работаешь": {
+   "w": "работаешь",
+   "lemma": "рабо́тать",
+   "en": "(you) work",
+   "info": "рабо́тать, ты form (Day 7)"
+  },
+  "или": {
+   "w": "или",
+   "lemma": "и́ли",
+   "en": "or",
+   "info": ""
+  },
+  "учишься": {
+   "w": "учишься",
+   "lemma": "учи́ться",
+   "en": "(you) study",
+   "info": "учи́ться, ты form (Day 7)"
+  },
+  "еще": {
+   "w": "ещё",
+   "lemma": "ещё",
+   "en": "also, as well",
+   "info": "here: а ещё = and also"
+  },
+  "в": {
+   "w": "в",
+   "lemma": "в",
+   "en": "in · on (a day)",
+   "info": "в кафе́ = in a café; в суббо́ту = on Saturday"
+  },
+  "кафе": {
+   "w": "кафе",
+   "lemma": "кафе́",
+   "en": "café",
+   "info": "never changes"
+  },
+  "субботу": {
+   "w": "субботу",
+   "lemma": "суббо́та",
+   "en": "(on) Saturday",
+   "info": "в + accusative: в суббо́ту (Day 8)"
+  },
+  "что": {
+   "w": "что",
+   "lemma": "что",
+   "en": "what",
+   "info": ""
+  },
+  "любишь": {
+   "w": "любишь",
+   "lemma": "люби́ть",
+   "en": "(you) like, love",
+   "info": "люби́ть, ты form (Day 7)"
+  },
+  "делать": {
+   "w": "делать",
+   "lemma": "де́лать",
+   "en": "to do",
+   "info": "infinitive (Day 1)"
+  },
+  "люблю": {
+   "w": "люблю",
+   "lemma": "люби́ть",
+   "en": "(I) like, love",
+   "info": "люби́ть, я form: люблю́ (extra л)"
+  },
+  "играть": {
+   "w": "играть",
+   "lemma": "игра́ть",
+   "en": "to play",
+   "info": "infinitive. игра́ть в + game: игра́ть в волейбо́л"
+  },
+  "волейбол": {
+   "w": "волейбол",
+   "lemma": "волейбо́л",
+   "en": "volleyball",
+   "info": "noun, masculine"
+  },
+  "смотреть": {
+   "w": "смотреть",
+   "lemma": "смотре́ть",
+   "en": "to watch",
+   "info": "infinitive (Day 1)"
+  },
+  "фильмы": {
+   "w": "фильмы",
+   "lemma": "фильм",
+   "en": "films",
+   "info": "accusative plural"
+  },
+  "играю": {
+   "w": "играю",
+   "lemma": "игра́ть",
+   "en": "(I) play",
+   "info": "игра́ть, я form"
+  },
+  "ничего": {
+   "w": "ничего",
+   "lemma": "ничего́",
+   "en": "no problem · nothing",
+   "info": "said ni-chi-VO. Ничего́! = never mind, it's fine"
+  },
+  "хочешь": {
+   "w": "хочешь",
+   "lemma": "хоте́ть",
+   "en": "(you) want",
+   "info": "хоте́ть, ты form (Day 7)"
+  },
+  "с": {
+   "w": "с",
+   "lemma": "с",
+   "en": "with",
+   "info": "+ instrumental"
+  },
+  "нами": {
+   "w": "нами",
+   "lemma": "мы",
+   "en": "us",
+   "info": "мы in the instrumental: с на́ми = with us"
+  },
+  "конечно": {
+   "w": "конечно",
+   "lemma": "коне́чно",
+   "en": "of course",
+   "info": "said ka-NYESH-na (чн = шн here)"
+  },
+  "где": {
+   "w": "где",
+   "lemma": "где",
+   "en": "where",
+   "info": ""
+  },
+  "вы": {
+   "w": "вы",
+   "lemma": "вы",
+   "en": "you (plural)",
+   "info": ""
+  },
+  "играете": {
+   "w": "играете",
+   "lemma": "игра́ть",
+   "en": "(you) play",
+   "info": "игра́ть, вы form"
+  },
+  "парке": {
+   "w": "парке",
+   "lemma": "парк",
+   "en": "park",
+   "info": "в па́рке = in the park (prepositional)"
+  },
+  "около": {
+   "w": "около",
+   "lemma": "о́коло",
+   "en": "near",
+   "info": "+ genitive: о́коло университе́та"
+  },
+  "университета": {
+   "w": "университета",
+   "lemma": "университе́т",
+   "en": "university",
+   "info": "genitive after о́коло"
+  },
+  "знаю": {
+   "w": "знаю",
+   "lemma": "знать",
+   "en": "(I) know",
+   "info": "знать, я form: Я не зна́ю = I don't know"
+  },
+  "это": {
+   "w": "это",
+   "lemma": "э́то",
+   "en": "this, it",
+   "info": ""
+  },
+  "можешь": {
+   "w": "можешь",
+   "lemma": "мочь",
+   "en": "(you) can",
+   "info": "мочь, ты form (Day 7)"
+  },
+  "сказать": {
+   "w": "сказать",
+   "lemma": "сказа́ть",
+   "en": "to say, tell",
+   "info": "perfective of говори́ть (Day 7)"
+  },
+  "адрес": {
+   "w": "адрес",
+   "lemma": "а́дрес",
+   "en": "address",
+   "info": "noun, masculine"
+  },
+  "напишу": {
+   "w": "напишу",
+   "lemma": "написа́ть",
+   "en": "(I) will write",
+   "info": "написа́ть, я form = future (perfective, Day 1)"
+  },
+  "тебе": {
+   "w": "тебе",
+   "lemma": "ты",
+   "en": "to you",
+   "info": "ты in the dative"
+  },
+  "работаю": {
+   "w": "рабо́таю",
+   "lemma": "рабо́тать",
+   "en": "(I) work",
+   "info": "рабо́тать, я form"
+  }
+ }
+}

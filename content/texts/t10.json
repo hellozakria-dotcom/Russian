@@ -1,0 +1,275 @@
+{
+ "id": 10,
+ "kind": "conversation",
+ "title": "Где апте́ка?",
+ "en": "Where is the pharmacy?",
+ "level": "A1",
+ "after": 10,
+ "pic": "Pill",
+ "speakers": {
+  "p": {
+   "name": "Же́нщина",
+   "en": "woman",
+   "pic": "Old woman"
+  },
+  "a": {
+   "name": "Али́",
+   "en": "Ali",
+   "pic": "Man",
+   "me": true
+  }
+ },
+ "sentences": [
+  {
+   "sp": "a",
+   "ru": "Извини́те, вы не зна́ете, где здесь апте́ка?",
+   "en": "Excuse me, do you know where there's a pharmacy here?"
+  },
+  {
+   "sp": "p",
+   "ru": "Апте́ка? Да, зна́ю. Э́то недалеко́.",
+   "en": "A pharmacy? Yes, I know. It's not far."
+  },
+  {
+   "sp": "p",
+   "ru": "Иди́те пря́мо, пото́м напра́во.",
+   "en": "Go straight, then to the right."
+  },
+  {
+   "sp": "a",
+   "ru": "Пря́мо и напра́во. А пото́м?",
+   "en": "Straight and to the right. And then?"
+  },
+  {
+   "sp": "p",
+   "ru": "Пото́м вы уви́дите банк. Апте́ка сле́ва от ба́нка.",
+   "en": "Then you'll see a bank. The pharmacy is to the left of the bank."
+  },
+  {
+   "sp": "a",
+   "ru": "А э́то далеко́? Мо́жно дойти́ пешко́м?",
+   "en": "And is it far? Can I walk there?"
+  },
+  {
+   "sp": "p",
+   "ru": "Да, коне́чно. Пять мину́т пешко́м.",
+   "en": "Yes, of course. Five minutes on foot."
+  },
+  {
+   "sp": "a",
+   "ru": "Большо́е спаси́бо!",
+   "en": "Thank you very much!"
+  },
+  {
+   "sp": "p",
+   "ru": "Не́ за что. Всего́ хоро́шего!",
+   "en": "You're welcome. All the best!"
+  }
+ ],
+ "gloss": {
+  "вы": {
+   "w": "вы",
+   "lemma": "вы",
+   "en": "you",
+   "info": ""
+  },
+  "не": {
+   "w": "не",
+   "lemma": "не",
+   "en": "not",
+   "info": "Вы не зна́ете…? = Do you happen to know…? (polite)"
+  },
+  "знаете": {
+   "w": "знаете",
+   "lemma": "знать",
+   "en": "(you) know",
+   "info": "знать, вы form"
+  },
+  "где": {
+   "w": "где",
+   "lemma": "где",
+   "en": "where",
+   "info": ""
+  },
+  "здесь": {
+   "w": "здесь",
+   "lemma": "здесь",
+   "en": "here",
+   "info": ""
+  },
+  "аптека": {
+   "w": "аптека",
+   "lemma": "апте́ка",
+   "en": "pharmacy",
+   "info": "Day 10"
+  },
+  "да": {
+   "w": "да",
+   "lemma": "да",
+   "en": "yes",
+   "info": ""
+  },
+  "знаю": {
+   "w": "знаю",
+   "lemma": "знать",
+   "en": "(I) know",
+   "info": ""
+  },
+  "это": {
+   "w": "это",
+   "lemma": "э́то",
+   "en": "it, this",
+   "info": ""
+  },
+  "недалеко": {
+   "w": "недалеко",
+   "lemma": "недалеко́",
+   "en": "not far",
+   "info": "не + далеко́"
+  },
+  "идите": {
+   "w": "идите",
+   "lemma": "идти́",
+   "en": "go",
+   "info": "polite command of идти́ (to go on foot)"
+  },
+  "прямо": {
+   "w": "прямо",
+   "lemma": "пря́мо",
+   "en": "straight ahead",
+   "info": ""
+  },
+  "потом": {
+   "w": "потом",
+   "lemma": "пото́м",
+   "en": "then, after that",
+   "info": ""
+  },
+  "направо": {
+   "w": "направо",
+   "lemma": "напра́во",
+   "en": "to the right",
+   "info": "нале́во = to the left"
+  },
+  "и": {
+   "w": "и",
+   "lemma": "и",
+   "en": "and",
+   "info": ""
+  },
+  "а": {
+   "w": "а",
+   "lemma": "а",
+   "en": "and",
+   "info": ""
+  },
+  "увидите": {
+   "w": "увидите",
+   "lemma": "уви́деть",
+   "en": "(you) will see",
+   "info": "perfective of ви́деть, вы form = future"
+  },
+  "банк": {
+   "w": "банк",
+   "lemma": "банк",
+   "en": "bank",
+   "info": ""
+  },
+  "слева": {
+   "w": "слева",
+   "lemma": "сле́ва",
+   "en": "on the left",
+   "info": "сле́ва от + genitive = to the left of"
+  },
+  "от": {
+   "w": "от",
+   "lemma": "от",
+   "en": "from, of",
+   "info": ""
+  },
+  "банка": {
+   "w": "банка",
+   "lemma": "банк",
+   "en": "bank",
+   "info": "genitive after от"
+  },
+  "далеко": {
+   "w": "далеко",
+   "lemma": "далеко́",
+   "en": "far",
+   "info": ""
+  },
+  "можно": {
+   "w": "можно",
+   "lemma": "мо́жно",
+   "en": "is it possible",
+   "info": ""
+  },
+  "дойти": {
+   "w": "дойти",
+   "lemma": "дойти́",
+   "en": "to get to (on foot)",
+   "info": "perfective: reach by walking"
+  },
+  "пешком": {
+   "w": "пешком",
+   "lemma": "пешко́м",
+   "en": "on foot",
+   "info": ""
+  },
+  "конечно": {
+   "w": "конечно",
+   "lemma": "коне́чно",
+   "en": "of course",
+   "info": ""
+  },
+  "пять": {
+   "w": "пять",
+   "lemma": "пять",
+   "en": "five",
+   "info": ""
+  },
+  "минут": {
+   "w": "минут",
+   "lemma": "мину́та",
+   "en": "minutes",
+   "info": ""
+  },
+  "большое": {
+   "w": "большое",
+   "lemma": "большо́й",
+   "en": "big",
+   "info": "Большо́е спаси́бо = thank you very much"
+  },
+  "спасибо": {
+   "w": "спасибо",
+   "lemma": "спаси́бо",
+   "en": "thank you",
+   "info": ""
+  },
+  "за": {
+   "w": "за",
+   "lemma": "за",
+   "en": "for",
+   "info": "Не́ за что = you're welcome (lit. not for anything)"
+  },
+  "что": {
+   "w": "что",
+   "lemma": "что",
+   "en": "what",
+   "info": ""
+  },
+  "всего": {
+   "w": "всего",
+   "lemma": "всё",
+   "en": "everything",
+   "info": "Всего́ хоро́шего = all the best (genitive)"
+  },
+  "хорошего": {
+   "w": "хорошего",
+   "lemma": "хоро́ший",
+   "en": "good",
+   "info": "genitive: всего́ хоро́шего"
+  }
+ }
+}

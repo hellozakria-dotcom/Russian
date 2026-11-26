@@ -10,8 +10,8 @@
    "en": "zero · 0",
    "pic": "num_0.png",
    "id": "d3w1",
-   "pr": "nol'",
-   "audio": "28d7990a06.mp3"
+   "audio": "28d7990a06.mp3",
+   "pr": "nol'"
   },
   {
    "kind": "num",
@@ -21,11 +21,11 @@
    "pic": "num_1.png",
    "note": "One changes with gender: оди́н брат, одна́ сестра́, одно́ окно́.",
    "id": "d3w2",
-   "pr": "a-DIN / ad-NA / ad-NO",
    "audio": "87e87e51e6.mp3",
    "lemmas": [
     "оди́н"
-   ]
+   ],
+   "pr": "a-DIN / ad-NA / ad-NO"
   },
   {
    "kind": "num",
@@ -35,11 +35,11 @@
    "pic": "num_2.png",
    "note": "два for masculine and neuter, две for feminine: два бра́та, две сестры́.",
    "id": "d3w3",
-   "pr": "dva / dvye",
    "audio": "d31de24b7c.mp3",
    "lemmas": [
     "два"
-   ]
+   ],
+   "pr": "dva / dvye"
   },
   {
    "kind": "num",
@@ -48,8 +48,8 @@
    "en": "three · 3",
    "pic": "num_3.png",
    "id": "d3w4",
-   "pr": "tri",
-   "audio": "a529074d31.mp3"
+   "audio": "a529074d31.mp3",
+   "pr": "tri"
   },
   {
    "kind": "num",
@@ -58,8 +58,8 @@
    "en": "four · 4",
    "pic": "num_4.png",
    "id": "d3w5",
-   "pr": "chi-TIH-rye",
-   "audio": "44fb6bdb4e.mp3"
+   "audio": "44fb6bdb4e.mp3",
+   "pr": "chi-TIH-rye"
   },
   {
    "kind": "num",
@@ -68,8 +68,8 @@
    "en": "five · 5",
    "pic": "num_5.png",
    "id": "d3w6",
-   "pr": "pyat'",
-   "audio": "ee1064bc89.mp3"
+   "audio": "ee1064bc89.mp3",
+   "pr": "pyat'"
   },
   {
    "kind": "num",
@@ -78,8 +78,8 @@
    "en": "six · 6",
    "pic": "num_6.png",
    "id": "d3w7",
-   "pr": "shest'",
-   "audio": "999ec60248.mp3"
+   "audio": "999ec60248.mp3",
+   "pr": "shest'"
   },
   {
    "kind": "num",
@@ -88,8 +88,8 @@
    "en": "seven · 7",
    "pic": "num_7.png",
    "id": "d3w8",
-   "pr": "syem'",
-   "audio": "a91ab39f07.mp3"
+   "audio": "a91ab39f07.mp3",
+   "pr": "syem'"
   },
   {
    "kind": "num",
@@ -98,8 +98,8 @@
    "en": "eight · 8",
    "pic": "num_8.png",
    "id": "d3w9",
-   "pr": "VO-sim'",
-   "audio": "69858625c9.mp3"
+   "audio": "69858625c9.mp3",
+   "pr": "VO-sim'"
   },
   {
    "kind": "num",
@@ -108,8 +108,8 @@
    "en": "nine · 9",
    "pic": "num_9.png",
    "id": "d3w10",
-   "pr": "DYE-vyat'",
-   "audio": "ec4f1f872b.mp3"
+   "audio": "ec4f1f872b.mp3",
+   "pr": "DYE-vyat'"
   },
   {
    "kind": "num",
@@ -118,8 +118,8 @@
    "en": "ten · 10",
    "pic": "num_10.png",
    "id": "d3w11",
-   "pr": "DYE-syat'",
-   "audio": "aff211a157.mp3"
+   "audio": "aff211a157.mp3",
+   "pr": "DYE-syat'"
   },
   {
    "kind": "num",
@@ -128,8 +128,8 @@
    "en": "twenty · 20",
    "pic": "num_20.png",
    "id": "d3w12",
-   "pr": "DVA-tsat'",
-   "audio": "a0a633d7f6.mp3"
+   "audio": "a0a633d7f6.mp3",
+   "pr": "DVA-tsat'"
   },
   {
    "kind": "num",
@@ -138,8 +138,8 @@
    "en": "one hundred · 100",
    "pic": "num_100.png",
    "id": "d3w13",
-   "pr": "sto",
-   "audio": "c4ab4c1ee8.mp3"
+   "audio": "c4ab4c1ee8.mp3",
+   "pr": "sto"
   },
   {
    "kind": "word",
@@ -149,8 +149,8 @@
    "pic": "red_question_mark.png",
    "say": "Ско́лько?",
    "id": "d3w14",
-   "pr": "SKOL'-ka?",
-   "audio": "db89929aec.mp3"
+   "audio": "db89929aec.mp3",
+   "pr": "SKOL'-ka?"
   },
   {
    "kind": "noun",
@@ -180,8 +180,8 @@
     ]
    },
    "id": "d3w15",
-   "pr": "got",
-   "audio": "279d3fa54e.mp3"
+   "audio": "279d3fa54e.mp3",
+   "pr": "got"
   }
  ],
  "sentences": [
@@ -194,8 +194,8 @@
     "snowflake.png"
    ],
    "id": "d3s1",
-   "pr": "na U-li-tse nol' GRA-du-saf",
-   "audio": "b6971ca8d3.mp3"
+   "audio": "b6971ca8d3.mp3",
+   "pr": "na U-li-tse nol' GRA-du-saf"
   },
   {
    "word": "d3w2",
@@ -206,8 +206,8 @@
     "boy.png"
    ],
    "id": "d3s2",
-   "pr": "u mi-NYA a-DIN brat",
-   "audio": "257f5e5c52.mp3"
+   "audio": "257f5e5c52.mp3",
+   "pr": "u mi-NYA a-DIN brat"
   },
   {
    "word": "d3w2",
@@ -218,8 +218,8 @@
     "girl.png"
    ],
    "id": "d3s3",
-   "pr": "u mi-NYA ad-NA sist-RA",
-   "audio": "029d5344b9.mp3"
+   "audio": "029d5344b9.mp3",
+   "pr": "u mi-NYA ad-NA sist-RA"
   },
   {
    "word": "d3w3",
@@ -230,8 +230,8 @@
     "hot_beverage.png"
    ],
    "id": "d3s4",
-   "pr": "dva KO-fye pa-ZHA-lus-ta",
-   "audio": "4e6533fcb4.mp3"
+   "audio": "4e6533fcb4.mp3",
+   "pr": "dva KO-fye pa-ZHA-lus-ta"
   },
   {
    "word": "d3w3",
@@ -242,8 +242,8 @@
     "cat.png"
    ],
    "id": "d3s5",
-   "pr": "u mi-NYA dvye KOSH-ki",
-   "audio": "32e0910409.mp3"
+   "audio": "32e0910409.mp3",
+   "pr": "u mi-NYA dvye KOSH-ki"
   },
   {
    "word": "d3w4",
@@ -254,8 +254,8 @@
     "house.png"
    ],
    "id": "d3s6",
-   "pr": "u nas tri KOM-na-tih",
-   "audio": "d5195e6a96.mp3"
+   "audio": "d5195e6a96.mp3",
+   "pr": "u nas tri KOM-na-tih"
   },
   {
    "word": "d3w5",
@@ -266,8 +266,8 @@
     "books.png"
    ],
    "id": "d3s7",
-   "pr": "na sta-LYE chi-TIH-rye KNI-gi",
-   "audio": "de24c5e7c0.mp3"
+   "audio": "de24c5e7c0.mp3",
+   "pr": "na sta-LYE chi-TIH-rye KNI-gi"
   },
   {
    "word": "d3w6",
@@ -278,8 +278,8 @@
     "stopwatch.png"
    ],
    "id": "d3s8",
-   "pr": "pyat' mi-NUT",
-   "audio": "2fc5e07c85.mp3"
+   "audio": "2fc5e07c85.mp3",
+   "pr": "pyat' mi-NUT"
   },
   {
    "word": "d3w7",
@@ -290,8 +290,8 @@
     "alarm_clock.png"
    ],
    "id": "d3s9",
-   "pr": "ya vsta-YU v shest' cha-SOF",
-   "audio": "2f37251a17.mp3"
+   "audio": "2f37251a17.mp3",
+   "pr": "ya vsta-YU v shest' cha-SOF"
   },
   {
    "word": "d3w8",
@@ -302,8 +302,8 @@
     "spiral_calendar.png"
    ],
    "id": "d3s10",
-   "pr": "v ni-DYE-lye syem' dnyei",
-   "audio": "9a98f198cb.mp3"
+   "audio": "9a98f198cb.mp3",
+   "pr": "v ni-DYE-lye syem' dnyei"
   },
   {
    "word": "d3w9",
@@ -314,8 +314,8 @@
     "books.png"
    ],
    "id": "d3s11",
-   "pr": "u mi-NYA u-ROK v VO-sim'",
-   "audio": "cec60be96f.mp3"
+   "audio": "cec60be96f.mp3",
+   "pr": "u mi-NYA u-ROK v VO-sim'"
   },
   {
    "word": "d3w10",
@@ -326,8 +326,8 @@
     "num_10.png"
    ],
    "id": "d3s12",
-   "pr": "DYE-vyat' plyus a-DIN DYE-syat'",
-   "audio": "148124bb5d.mp3"
+   "audio": "148124bb5d.mp3",
+   "pr": "DYE-vyat' plyus a-DIN DYE-syat'"
   },
   {
    "word": "d3w11",
@@ -338,8 +338,8 @@
     "euro_banknote.png"
    ],
    "id": "d3s13",
-   "pr": "E-ta STO-it DYE-syat' YEV-ra",
-   "audio": "f13feabe61.mp3"
+   "audio": "f13feabe61.mp3",
+   "pr": "E-ta STO-it DYE-syat' YEV-ra"
   },
   {
    "word": "d3w12",
@@ -350,8 +350,8 @@
     "birthday_cake.png"
    ],
    "id": "d3s14",
-   "pr": "mnye DVA-tsat' lyet",
-   "audio": "2db0ae8849.mp3"
+   "audio": "2db0ae8849.mp3",
+   "pr": "mnye DVA-tsat' lyet"
   },
   {
    "word": "d3w13",
@@ -361,8 +361,8 @@
     "hundred_points.png"
    ],
    "id": "d3s15",
-   "pr": "sto pra-TSEN-taf",
-   "audio": "a971cc929e.mp3"
+   "audio": "a971cc929e.mp3",
+   "pr": "sto pra-TSEN-taf"
   },
   {
    "word": "d3w14",
@@ -373,8 +373,8 @@
     "money_bag.png"
    ],
    "id": "d3s16",
-   "pr": "SKOL'-ka E-ta STO-it",
-   "audio": "cf876fa12c.mp3"
+   "audio": "cf876fa12c.mp3",
+   "pr": "SKOL'-ka E-ta STO-it"
   },
   {
    "word": "d3w14",
@@ -385,8 +385,8 @@
     "birthday_cake.png"
    ],
    "id": "d3s17",
-   "pr": "SKOL'-ka ti-BYE lyet",
-   "audio": "470b3f8800.mp3"
+   "audio": "470b3f8800.mp3",
+   "pr": "SKOL'-ka ti-BYE lyet"
   },
   {
    "word": "d3w15",
@@ -397,8 +397,8 @@
     "birthday_cake.png"
    ],
    "id": "d3s18",
-   "pr": "mnye di-vyat-NA-tsat' lyet",
-   "audio": "a299d2d4d1.mp3"
+   "audio": "a299d2d4d1.mp3",
+   "pr": "mnye di-vyat-NA-tsat' lyet"
   },
   {
    "word": "d3w15",
@@ -409,8 +409,8 @@
     "baby.png"
    ],
    "id": "d3s19",
-   "pr": "ye-MU tri GO-da",
-   "audio": "5d2dd332dc.mp3"
+   "audio": "5d2dd332dc.mp3",
+   "pr": "ye-MU tri GO-da"
   },
   {
    "mk": "У меня́ оди́н {брат}.",
@@ -423,8 +423,8 @@
    ],
    "id": "d3s20",
    "ru": "У меня́ оди́н брат.",
-   "pr": "u mi-NYA a-DIN brat",
-   "audio": "257f5e5c52.mp3"
+   "audio": "257f5e5c52.mp3",
+   "pr": "u mi-NYA a-DIN brat"
   },
   {
    "mk": "У меня́ две {сестр|ы́}.",
@@ -437,8 +437,8 @@
    ],
    "id": "d3s21",
    "ru": "У меня́ две сестры́.",
-   "pr": "u mi-NYA dvye sist-RIH",
-   "audio": "491731fb15.mp3"
+   "audio": "491731fb15.mp3",
+   "pr": "u mi-NYA dvye sist-RIH"
   },
   {
    "mk": "У нас три {кот|а́}.",
@@ -451,8 +451,8 @@
    ],
    "id": "d3s22",
    "ru": "У нас три кота́.",
-   "pr": "u nas tri ka-TA",
-   "audio": "bbf2745fea.mp3"
+   "audio": "bbf2745fea.mp3",
+   "pr": "u nas tri ka-TA"
   },
   {
    "mk": "У нас пять {кот|о́в}.",
@@ -465,8 +465,8 @@
    ],
    "id": "d3s23",
    "ru": "У нас пять кото́в.",
-   "pr": "u nas pyat' ka-TOF",
-   "audio": "eac9bb2448.mp3"
+   "audio": "eac9bb2448.mp3",
+   "pr": "u nas pyat' ka-TOF"
   },
   {
    "mk": "На столе́ де́сять {книг}.",
@@ -479,8 +479,8 @@
    ],
    "id": "d3s24",
    "ru": "На столе́ де́сять книг.",
-   "pr": "na sta-LYE DYE-syat' knik",
-   "audio": "d5e3bb9025.mp3"
+   "audio": "d5e3bb9025.mp3",
+   "pr": "na sta-LYE DYE-syat' knik"
   },
   {
    "mk": "Два́дцать оди́н {год}.",
@@ -493,8 +493,8 @@
    ],
    "id": "d3s25",
    "ru": "Два́дцать оди́н год.",
-   "pr": "DVA-tsat' a-DIN got",
-   "audio": "742cdcccee.mp3"
+   "audio": "742cdcccee.mp3",
+   "pr": "DVA-tsat' a-DIN got"
   }
  ],
  "notes": [

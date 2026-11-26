@@ -11,8 +11,8 @@
    "pic": "index_pointing_at_the_viewer.png",
    "note": "Polite or plural: вы.",
    "id": "d5w1",
-   "pr": "tih",
-   "audio": "6421a53c53.mp3"
+   "audio": "6421a53c53.mp3",
+   "pr": "tih"
   },
   {
    "kind": "pron",
@@ -22,8 +22,8 @@
    "pic": "man.png",
    "note": "он also means “it” for masculine things: Где дом? — Он там.",
    "id": "d5w2",
-   "pr": "on",
-   "audio": "e7e72986e0.mp3"
+   "audio": "e7e72986e0.mp3",
+   "pr": "on"
   },
   {
    "kind": "pron",
@@ -33,8 +33,8 @@
    "pic": "woman.png",
    "note": "Где кни́га? — Она́ здесь. (It is here.)",
    "id": "d5w3",
-   "pr": "a-NA",
-   "audio": "05a1a8210f.mp3"
+   "audio": "05a1a8210f.mp3",
+   "pr": "a-NA"
   },
   {
    "kind": "pron",
@@ -44,8 +44,8 @@
    "pic": "window.png",
    "note": "For neuter nouns: окно́, письмо́ → оно́.",
    "id": "d5w4",
-   "pr": "a-NO",
-   "audio": "4d4aa364e9.mp3"
+   "audio": "4d4aa364e9.mp3",
+   "pr": "a-NO"
   },
   {
    "kind": "pron",
@@ -54,8 +54,8 @@
    "en": "we",
    "pic": "people_hugging.png",
    "id": "d5w5",
-   "pr": "mih",
-   "audio": "78ee86abec.mp3"
+   "audio": "78ee86abec.mp3",
+   "pr": "mih"
   },
   {
    "kind": "pron",
@@ -64,8 +64,8 @@
    "en": "you (polite, or more than one)",
    "pic": "busts_in_silhouette.png",
    "id": "d5w6",
-   "pr": "vih",
-   "audio": "5ddf8ec8a4.mp3"
+   "audio": "5ddf8ec8a4.mp3",
+   "pr": "vih"
   },
   {
    "kind": "pron",
@@ -74,8 +74,8 @@
    "en": "they",
    "pic": "houses.png",
    "id": "d5w7",
-   "pr": "a-NI",
-   "audio": "0f47b9d266.mp3"
+   "audio": "0f47b9d266.mp3",
+   "pr": "a-NI"
   },
   {
    "kind": "poss",
@@ -111,8 +111,8 @@
     ]
    },
    "id": "d5w8",
-   "pr": "moi / ma-YA / ma-YO / ma-I",
-   "audio": "578a09191a.mp3"
+   "audio": "578a09191a.mp3",
+   "pr": "moi / ma-YA / ma-YO / ma-I"
   },
   {
    "kind": "poss",
@@ -124,8 +124,8 @@
    "en": "your (one friend)",
    "pic": "index_pointing_at_the_viewer.png",
    "id": "d5w9",
-   "pr": "tvoi / tva-YA / tva-YO / tva-I",
-   "audio": "2678b335ee.mp3"
+   "audio": "2678b335ee.mp3",
+   "pr": "tvoi / tva-YA / tva-YO / tva-I"
   },
   {
    "kind": "poss",
@@ -137,8 +137,8 @@
    "en": "our",
    "pic": "house.png",
    "id": "d5w10",
-   "pr": "nash / NA-sha / NA-she / NA-shi",
-   "audio": "29b5a495a8.mp3"
+   "audio": "29b5a495a8.mp3",
+   "pr": "nash / NA-sha / NA-she / NA-shi"
   },
   {
    "kind": "poss",
@@ -150,8 +150,8 @@
    "en": "your (polite / plural)",
    "pic": "briefcase.png",
    "id": "d5w11",
-   "pr": "vash / VA-sha / VA-she / VA-shi",
-   "audio": "23f426e100.mp3"
+   "audio": "23f426e100.mp3",
+   "pr": "vash / VA-sha / VA-she / VA-shi"
   },
   {
    "kind": "poss",
@@ -166,8 +166,8 @@
    "pic": "busts_in_silhouette.png",
    "note": "These never change: его́ брат, его́ сестра́, его́ друзья́. Said yi-VO, yi-YO, ikh.",
    "id": "d5w12",
-   "pr": "yi-VO / ye-YO / ikh",
-   "audio": "660675c51d.mp3"
+   "audio": "660675c51d.mp3",
+   "pr": "yi-VO / ye-YO / ikh"
   },
   {
    "kind": "word",
@@ -177,8 +177,8 @@
    "pic": "check_mark_button.png",
    "note": "У меня́ есть… = I have… (literally: by me there is…).",
    "id": "d5w13",
-   "pr": "yest'",
-   "audio": "12fe235616.mp3"
+   "audio": "12fe235616.mp3",
+   "pr": "yest'"
   },
   {
    "kind": "word",
@@ -188,8 +188,8 @@
    "pic": "cross_mark.png",
    "note": "У меня́ нет + genitive: нет маши́ны, нет бра́та.",
    "id": "d5w14",
-   "pr": "nyet",
-   "audio": "53cb3ac6a1.mp3"
+   "audio": "53cb3ac6a1.mp3",
+   "pr": "nyet"
   }
  ],
  "sentences": [
@@ -202,8 +202,8 @@
     "graduation_cap.png"
    ],
    "id": "d5s1",
-   "pr": "tih stu-DYENT",
-   "audio": "0ce8a409b6.mp3"
+   "audio": "0ce8a409b6.mp3",
+   "pr": "tih stu-DYENT"
   },
   {
    "word": "d5w1",
@@ -214,8 +214,8 @@
     "speech_balloon.png"
    ],
    "id": "d5s2",
-   "pr": "tih ga-va-RISH' pa-RUS-ki",
-   "audio": "fa5c01d566.mp3"
+   "audio": "fa5c01d566.mp3",
+   "pr": "tih ga-va-RISH' pa-RUS-ki"
   },
   {
    "word": "d5w2",
@@ -226,8 +226,8 @@
     "backhand_index_pointing_down.png"
    ],
    "id": "d5s3",
-   "pr": "gdye moi ti-li-FON on zdyes'",
-   "audio": "ec117bb52c.mp3"
+   "audio": "ec117bb52c.mp3",
+   "pr": "gdye moi ti-li-FON on zdyes'"
   },
   {
    "word": "d5w2",
@@ -238,8 +238,8 @@
     "globe_showing_europe-africa.png"
    ],
    "id": "d5s4",
-   "pr": "on is LI-vi-i",
-   "audio": "c50d22ee99.mp3"
+   "audio": "c50d22ee99.mp3",
+   "pr": "on is LI-vi-i"
   },
   {
    "word": "d5w3",
@@ -250,8 +250,8 @@
     "graduation_cap.png"
    ],
    "id": "d5s5",
-   "pr": "a-NA stu-DYENT-ka",
-   "audio": "79bfa265e9.mp3"
+   "audio": "79bfa265e9.mp3",
+   "pr": "a-NA stu-DYENT-ka"
   },
   {
    "word": "d5w3",
@@ -262,8 +262,8 @@
     "chair.png"
    ],
    "id": "d5s6",
-   "pr": "gdye KNI-ga a-NA na sta-LYE",
-   "audio": "22f72cf50e.mp3"
+   "audio": "22f72cf50e.mp3",
+   "pr": "gdye KNI-ga a-NA na sta-LYE"
   },
   {
    "word": "d5w4",
@@ -274,8 +274,8 @@
     "backhand_index_pointing_down.png"
    ],
    "id": "d5s7",
-   "pr": "gdye pis'-MO a-NO zdyes'",
-   "audio": "04be545e6a.mp3"
+   "audio": "04be545e6a.mp3",
+   "pr": "gdye pis'-MO a-NO zdyes'"
   },
   {
    "word": "d5w5",
@@ -286,8 +286,8 @@
     "cityscape.png"
    ],
    "id": "d5s8",
-   "pr": "mih zhi-VYOM v RI-gye",
-   "audio": "e36e521431.mp3"
+   "audio": "e36e521431.mp3",
+   "pr": "mih zhi-VYOM v RI-gye"
   },
   {
    "word": "d5w5",
@@ -297,8 +297,8 @@
     "people_hugging.png"
    ],
    "id": "d5s9",
-   "pr": "mih dru-ZYA",
-   "audio": "4b43d86b9c.mp3"
+   "audio": "4b43d86b9c.mp3",
+   "pr": "mih dru-ZYA"
   },
   {
    "word": "d5w6",
@@ -309,8 +309,8 @@
     "speech_balloon.png"
    ],
    "id": "d5s10",
-   "pr": "vih ga-va-RI-tye pa-ang-LIIS-ki",
-   "audio": "1034a2da53.mp3"
+   "audio": "1034a2da53.mp3",
+   "pr": "vih ga-va-RI-tye pa-ang-LIIS-ki"
   },
   {
    "word": "d5w6",
@@ -321,8 +321,8 @@
     "graduation_cap.png"
    ],
    "id": "d5s11",
-   "pr": "vih stu-DYEN-tih",
-   "audio": "807727c546.mp3"
+   "audio": "807727c546.mp3",
+   "pr": "vih stu-DYEN-tih"
   },
   {
    "word": "d5w7",
@@ -333,8 +333,8 @@
     "globe_showing_europe-africa.png"
    ],
    "id": "d5s12",
-   "pr": "a-NI is LAT-vi-i",
-   "audio": "1c661c9fe6.mp3"
+   "audio": "1c661c9fe6.mp3",
+   "pr": "a-NI is LAT-vi-i"
   },
   {
    "word": "d5w7",
@@ -345,8 +345,8 @@
     "house.png"
    ],
    "id": "d5s13",
-   "pr": "gdye a-NI a-NI DO-ma",
-   "audio": "fb9e7cb650.mp3"
+   "audio": "fb9e7cb650.mp3",
+   "pr": "gdye a-NI a-NI DO-ma"
   },
   {
    "word": "d5w8",
@@ -357,8 +357,8 @@
     "mobile_phone.png"
    ],
    "id": "d5s14",
-   "pr": "E-ta moi ti-li-FON",
-   "audio": "cfa53351e5.mp3"
+   "audio": "cfa53351e5.mp3",
+   "pr": "E-ta moi ti-li-FON"
   },
   {
    "word": "d5w8",
@@ -369,8 +369,8 @@
     "people_hugging.png"
    ],
    "id": "d5s15",
-   "pr": "E-ta ma-I dru-ZYA",
-   "audio": "66284142e5.mp3"
+   "audio": "66284142e5.mp3",
+   "pr": "E-ta ma-I dru-ZYA"
   },
   {
    "word": "d5w9",
@@ -381,8 +381,8 @@
     "automobile.png"
    ],
    "id": "d5s16",
-   "pr": "E-ta tva-YA ma-SHI-na",
-   "audio": "009ca7fee1.mp3"
+   "audio": "009ca7fee1.mp3",
+   "pr": "E-ta tva-YA ma-SHI-na"
   },
   {
    "word": "d5w10",
@@ -393,8 +393,8 @@
     "mouse.png"
    ],
    "id": "d5s17",
-   "pr": "NA-sha kvar-TI-ra MA-lin'-ka-ya",
-   "audio": "4852c71680.mp3"
+   "audio": "4852c71680.mp3",
+   "pr": "NA-sha kvar-TI-ra MA-lin'-ka-ya"
   },
   {
    "word": "d5w11",
@@ -405,8 +405,8 @@
     "red_question_mark.png"
    ],
    "id": "d5s18",
-   "pr": "E-ta VA-she MYES-ta",
-   "audio": "ab58b58f1e.mp3"
+   "audio": "ab58b58f1e.mp3",
+   "pr": "E-ta VA-she MYES-ta"
   },
   {
    "word": "d5w12",
@@ -417,8 +417,8 @@
     "cat.png"
    ],
    "id": "d5s19",
-   "pr": "E-ta yi-VO kot",
-   "audio": "b9f5b5a631.mp3"
+   "audio": "b9f5b5a631.mp3",
+   "pr": "E-ta yi-VO kot"
   },
   {
    "word": "d5w12",
@@ -429,8 +429,8 @@
     "girl.png"
    ],
    "id": "d5s20",
-   "pr": "E-ta ye-YO sist-RA",
-   "audio": "3f19fd7328.mp3"
+   "audio": "3f19fd7328.mp3",
+   "pr": "E-ta ye-YO sist-RA"
   },
   {
    "word": "d5w12",
@@ -441,8 +441,8 @@
     "house_with_garden.png"
    ],
    "id": "d5s21",
-   "pr": "E-ta ikh dom",
-   "audio": "43e047e2ef.mp3"
+   "audio": "43e047e2ef.mp3",
+   "pr": "E-ta ikh dom"
   },
   {
    "word": "d5w13",
@@ -453,8 +453,8 @@
     "check_mark_button.png"
    ],
    "id": "d5s22",
-   "pr": "u ti-BYA yest' ti-li-FON da yest'",
-   "audio": "ac36a3dd5d.mp3"
+   "audio": "ac36a3dd5d.mp3",
+   "pr": "u ti-BYA yest' ti-li-FON da yest'"
   },
   {
    "word": "d5w14",
@@ -465,8 +465,8 @@
     "cross_mark.png"
    ],
    "id": "d5s23",
-   "pr": "u ti-BYA yest' ma-SHI-na nyet",
-   "audio": "a4fd6d68d8.mp3"
+   "audio": "a4fd6d68d8.mp3",
+   "pr": "u ti-BYA yest' ma-SHI-na nyet"
   },
   {
    "mk": "У меня́ нет {маши́н|ы}.",
@@ -479,8 +479,8 @@
    ],
    "id": "d5s24",
    "ru": "У меня́ нет маши́ны.",
-   "pr": "u mi-NYA nyet ma-SHI-nih",
-   "audio": "8fb927372f.mp3"
+   "audio": "8fb927372f.mp3",
+   "pr": "u mi-NYA nyet ma-SHI-nih"
   },
   {
    "mk": "У нас нет {хле́б|а}.",
@@ -493,8 +493,8 @@
    ],
    "id": "d5s25",
    "ru": "У нас нет хле́ба.",
-   "pr": "u nas nyet KHLYE-ba",
-   "audio": "fcac591485.mp3"
+   "audio": "fcac591485.mp3",
+   "pr": "u nas nyet KHLYE-ba"
   },
   {
    "mk": "У {него́} есть сестра́.",
@@ -507,8 +507,8 @@
    ],
    "id": "d5s26",
    "ru": "У него́ есть сестра́.",
-   "pr": "u ni-GO yest' sist-RA",
-   "audio": "061866f3c6.mp3"
+   "audio": "061866f3c6.mp3",
+   "pr": "u ni-GO yest' sist-RA"
   },
   {
    "mk": "У {неё} есть кот.",
@@ -521,8 +521,8 @@
    ],
    "id": "d5s27",
    "ru": "У неё есть кот.",
-   "pr": "u ni-YO yest' kot",
-   "audio": "7382e7231d.mp3"
+   "audio": "7382e7231d.mp3",
+   "pr": "u ni-YO yest' kot"
   },
   {
    "mk": "У {них} есть дом.",
@@ -535,8 +535,8 @@
    ],
    "id": "d5s28",
    "ru": "У них есть дом.",
-   "pr": "u nikh yest' dom",
-   "audio": "63f4386fce.mp3"
+   "audio": "63f4386fce.mp3",
+   "pr": "u nikh yest' dom"
   }
  ],
  "notes": [

@@ -1,0 +1,735 @@
+{
+ "id": 7,
+ "title": "Day 7",
+ "topic": "Everyday verbs: live, work, study, speak",
+ "words": [
+  {
+   "kind": "verb",
+   "g": "verb",
+   "ru": "жить",
+   "en": "to live",
+   "pic": "house.png",
+   "note": "Pattern 1 with a в: живу́, живёшь… Past: жил, жила́, жи́ли.",
+   "table": {
+    "cols": [
+     "",
+     "present"
+    ],
+    "rows": [
+     [
+      "я",
+      "живу́"
+     ],
+     [
+      "ты",
+      "живёшь"
+     ],
+     [
+      "он / она́",
+      "живёт"
+     ],
+     [
+      "мы",
+      "живём"
+     ],
+     [
+      "вы",
+      "живёте"
+     ],
+     [
+      "они́",
+      "живу́т"
+     ]
+    ]
+   },
+   "id": "d7w1",
+   "audio": "a97d51b335.mp3",
+   "pr": "zhit'"
+  },
+  {
+   "kind": "verb",
+   "g": "verb",
+   "ru": "рабо́тать",
+   "en": "to work",
+   "pic": "briefcase.png",
+   "note": "Pattern 1, like чита́ть.",
+   "table": {
+    "cols": [
+     "",
+     "present"
+    ],
+    "rows": [
+     [
+      "я",
+      "рабо́таю"
+     ],
+     [
+      "ты",
+      "рабо́таешь"
+     ],
+     [
+      "он / она́",
+      "рабо́тает"
+     ],
+     [
+      "мы",
+      "рабо́таем"
+     ],
+     [
+      "вы",
+      "рабо́таете"
+     ],
+     [
+      "они́",
+      "рабо́тают"
+     ]
+    ]
+   },
+   "id": "d7w2",
+   "audio": "94cfd4a2f1.mp3",
+   "pr": "ra-BO-tat'"
+  },
+  {
+   "kind": "noun",
+   "g": "f",
+   "ru": "рабо́та",
+   "en": "work, job",
+   "pic": "office_building.png",
+   "note": "на рабо́те = at work, на рабо́ту = to work (на, not в!).",
+   "id": "d7w3",
+   "audio": "8a453dff4c.mp3",
+   "pr": "ra-BO-ta"
+  },
+  {
+   "kind": "verb",
+   "g": "verb",
+   "ru": "учи́ться",
+   "en": "to study (be a student)",
+   "pic": "school.png",
+   "note": "-ся verbs add -сь after a vowel, -ся after a consonant: учу́сь, у́чишься. Where? → в + prepositional.",
+   "table": {
+    "cols": [
+     "",
+     "present"
+    ],
+    "rows": [
+     [
+      "я",
+      "учу́сь"
+     ],
+     [
+      "ты",
+      "у́чишься"
+     ],
+     [
+      "он / она́",
+      "у́чится"
+     ],
+     [
+      "мы",
+      "у́чимся"
+     ],
+     [
+      "вы",
+      "у́читесь"
+     ],
+     [
+      "они́",
+      "у́чатся"
+     ]
+    ]
+   },
+   "id": "d7w4",
+   "audio": "45ca94f4cd.mp3",
+   "pr": "u-CHI-tsya"
+  },
+  {
+   "kind": "verb",
+   "g": "verb",
+   "ru": "говори́ть / сказа́ть",
+   "en": "to speak, talk / to say, tell",
+   "pic": "speaking_head.png",
+   "note": "Aspect pair made of two different verbs. говори́ть = speak / be saying; сказа́ть = say (once, done).",
+   "table": {
+    "cols": [
+     "",
+     "говори́ть (now)",
+     "сказа́ть (future)"
+    ],
+    "rows": [
+     [
+      "я",
+      "говорю́",
+      "скажу́"
+     ],
+     [
+      "ты",
+      "говори́шь",
+      "ска́жешь"
+     ],
+     [
+      "он / она́",
+      "говори́т",
+      "ска́жет"
+     ],
+     [
+      "мы",
+      "говори́м",
+      "ска́жем"
+     ],
+     [
+      "вы",
+      "говори́те",
+      "ска́жете"
+     ],
+     [
+      "они́",
+      "говоря́т",
+      "ска́жут"
+     ]
+    ]
+   },
+   "id": "d7w5",
+   "audio": "5b4157aa49.mp3",
+   "pr": "ga-va-RIT' / ska-ZAT'"
+  },
+  {
+   "kind": "verb",
+   "g": "verb",
+   "ru": "знать",
+   "en": "to know",
+   "pic": "brain.png",
+   "note": "Pattern 1. Я не зна́ю = I don't know (very useful!).",
+   "table": {
+    "cols": [
+     "",
+     "present"
+    ],
+    "rows": [
+     [
+      "я",
+      "зна́ю"
+     ],
+     [
+      "ты",
+      "зна́ешь"
+     ],
+     [
+      "он / она́",
+      "зна́ет"
+     ],
+     [
+      "мы",
+      "зна́ем"
+     ],
+     [
+      "вы",
+      "зна́ете"
+     ],
+     [
+      "они́",
+      "зна́ют"
+     ]
+    ]
+   },
+   "id": "d7w6",
+   "audio": "7be2ebe29d.mp3",
+   "pr": "znat'"
+  },
+  {
+   "kind": "verb",
+   "g": "verb",
+   "ru": "люби́ть",
+   "en": "to love, to like",
+   "pic": "red_heart.png",
+   "note": "Pattern 2, with an extra л in the я form: люблю́, лю́бишь. + infinitive: люблю́ чита́ть.",
+   "table": {
+    "cols": [
+     "",
+     "present"
+    ],
+    "rows": [
+     [
+      "я",
+      "люблю́"
+     ],
+     [
+      "ты",
+      "лю́бишь"
+     ],
+     [
+      "он / она́",
+      "лю́бит"
+     ],
+     [
+      "мы",
+      "лю́бим"
+     ],
+     [
+      "вы",
+      "лю́бите"
+     ],
+     [
+      "они́",
+      "лю́бят"
+     ]
+    ]
+   },
+   "id": "d7w7",
+   "audio": "8a1c59514d.mp3",
+   "pr": "lyu-BIT'"
+  },
+  {
+   "kind": "verb",
+   "g": "verb",
+   "ru": "хоте́ть",
+   "en": "to want",
+   "pic": "smiling_face_with_heart-eyes.png",
+   "note": "Irregular: singular like pattern 1 (хочу́, хо́чешь, хо́чет), plural like pattern 2 (хоти́м, хоти́те, хотя́т).",
+   "table": {
+    "cols": [
+     "",
+     "present"
+    ],
+    "rows": [
+     [
+      "я",
+      "хочу́"
+     ],
+     [
+      "ты",
+      "хо́чешь"
+     ],
+     [
+      "он / она́",
+      "хо́чет"
+     ],
+     [
+      "мы",
+      "хоти́м"
+     ],
+     [
+      "вы",
+      "хоти́те"
+     ],
+     [
+      "они́",
+      "хотя́т"
+     ]
+    ]
+   },
+   "id": "d7w8",
+   "audio": "0b59fef563.mp3",
+   "pr": "kha-TYET'"
+  },
+  {
+   "kind": "verb",
+   "g": "verb",
+   "ru": "мочь",
+   "en": "can, to be able",
+   "pic": "flexed_biceps.png",
+   "note": "Irregular: г / ж swap: могу́, мо́жешь, мо́жет… мо́гут. + infinitive: Я могу́ помо́чь.",
+   "table": {
+    "cols": [
+     "",
+     "present"
+    ],
+    "rows": [
+     [
+      "я",
+      "могу́"
+     ],
+     [
+      "ты",
+      "мо́жешь"
+     ],
+     [
+      "он / она́",
+      "мо́жет"
+     ],
+     [
+      "мы",
+      "мо́жем"
+     ],
+     [
+      "вы",
+      "мо́жете"
+     ],
+     [
+      "они́",
+      "мо́гут"
+     ]
+    ]
+   },
+   "id": "d7w9",
+   "audio": "75db1d60df.mp3",
+   "pr": "moch'"
+  },
+  {
+   "kind": "word",
+   "g": "x",
+   "ru": "по-англи́йски",
+   "en": "in English",
+   "pic": "speech_balloon.png",
+   "note": "по- + language + -ски: по-ру́сски, по-англи́йски, по-ара́бски, по-латы́шски.",
+   "id": "d7w10",
+   "audio": "dd5dfaffd6.mp3",
+   "pr": "pa-ang-LIIS-ki"
+  },
+  {
+   "kind": "word",
+   "g": "x",
+   "ru": "по-ара́бски",
+   "en": "in Arabic",
+   "pic": "globe_showing_europe-africa.png",
+   "id": "d7w11",
+   "audio": "50a4f7c9a6.mp3",
+   "pr": "pa-a-RABS-ki"
+  }
+ ],
+ "sentences": [
+  {
+   "word": "d7w1",
+   "ru": "Где ты живёшь?",
+   "en": "Where do you live?",
+   "pics": [
+    "house.png",
+    "red_question_mark.png"
+   ],
+   "id": "d7s1",
+   "audio": "211321928b.mp3",
+   "pr": "gdye tih zhi-VYOSH'"
+  },
+  {
+   "word": "d7w1",
+   "ru": "Мы живём в це́нтре.",
+   "en": "We live in the centre.",
+   "pics": [
+    "cityscape.png",
+    "house.png"
+   ],
+   "id": "d7s2",
+   "audio": "3ec984b56d.mp3",
+   "pr": "mih zhi-VYOM v TSENT-rye"
+  },
+  {
+   "word": "d7w2",
+   "ru": "Мой брат рабо́тает в ба́нке.",
+   "en": "My brother works at a bank.",
+   "pics": [
+    "boy.png",
+    "bank.png"
+   ],
+   "id": "d7s3",
+   "audio": "68dcd4c07b.mp3",
+   "pr": "moi brat ra-BO-ta-yet v BAN-kye"
+  },
+  {
+   "word": "d7w2",
+   "ru": "Где вы рабо́таете?",
+   "en": "Where do you work? (polite)",
+   "pics": [
+    "briefcase.png",
+    "red_question_mark.png"
+   ],
+   "id": "d7s4",
+   "audio": "2fb1b74381.mp3",
+   "pr": "gdye vih ra-BO-ta-ye-tye"
+  },
+  {
+   "word": "d7w3",
+   "ru": "Па́па на рабо́те.",
+   "en": "Dad is at work.",
+   "pics": [
+    "man.png",
+    "office_building.png"
+   ],
+   "id": "d7s5",
+   "audio": "0c21eb5d9b.mp3",
+   "pr": "PA-pa na ra-BO-tye"
+  },
+  {
+   "word": "d7w3",
+   "ru": "У меня́ хоро́шая рабо́та.",
+   "en": "I have a good job.",
+   "pics": [
+    "briefcase.png",
+    "thumbs_up.png"
+   ],
+   "id": "d7s6",
+   "audio": "fd2ed1095a.mp3",
+   "pr": "u mi-NYA kha-RO-sha-ya ra-BO-ta"
+  },
+  {
+   "word": "d7w4",
+   "ru": "Я учу́сь в университе́те.",
+   "en": "I study at university.",
+   "pics": [
+    "graduation_cap.png",
+    "school.png"
+   ],
+   "id": "d7s7",
+   "audio": "e0dd2c5710.mp3",
+   "pr": "ya u-CHUS' v u-ni-vir-si-TYE-tye"
+  },
+  {
+   "word": "d7w4",
+   "ru": "Где у́чится твоя́ сестра́?",
+   "en": "Where does your sister study?",
+   "pics": [
+    "girl.png",
+    "school.png"
+   ],
+   "id": "d7s8",
+   "audio": "c5c317c854.mp3",
+   "pr": "gdye U-chi-tsya tva-YA sist-RA"
+  },
+  {
+   "word": "d7w5",
+   "ru": "Я говорю́ по-ара́бски и по-англи́йски.",
+   "en": "I speak Arabic and English.",
+   "pics": [
+    "speaking_head.png",
+    "globe_showing_europe-africa.png"
+   ],
+   "id": "d7s9",
+   "audio": "dadabd571f.mp3",
+   "pr": "ya ga-va-RYU pa-a-RABS-ki i pa-ang-LIIS-ki"
+  },
+  {
+   "word": "d7w5",
+   "ru": "Скажи́те, пожа́луйста, где метро́?",
+   "en": "Tell me please, where is the metro?",
+   "pics": [
+    "speaking_head.png",
+    "metro.png"
+   ],
+   "id": "d7s10",
+   "audio": "9e0eddef31.mp3",
+   "pr": "ska-ZHI-tye pa-ZHA-lus-ta gdye mit-RO"
+  },
+  {
+   "word": "d7w5",
+   "ru": "Что он сказа́л?",
+   "en": "What did he say?",
+   "pics": [
+    "man.png",
+    "speech_balloon.png"
+   ],
+   "id": "d7s11",
+   "audio": "72175a95d5.mp3",
+   "pr": "shto on ska-ZAL"
+  },
+  {
+   "word": "d7w6",
+   "ru": "Я не зна́ю.",
+   "en": "I don't know.",
+   "pics": [
+    "person_tipping_hand.png",
+    "brain.png"
+   ],
+   "id": "d7s12",
+   "audio": "f47fcc7768.mp3",
+   "pr": "ya ni ZNA-yu"
+  },
+  {
+   "word": "d7w6",
+   "ru": "Ты зна́ешь, где апте́ка?",
+   "en": "Do you know where the pharmacy is?",
+   "pics": [
+    "brain.png",
+    "pill.png"
+   ],
+   "id": "d7s13",
+   "audio": "7478208221.mp3",
+   "pr": "tih ZNA-yesh' gdye ap-TYE-ka"
+  },
+  {
+   "word": "d7w7",
+   "ru": "Я люблю́ волейбо́л.",
+   "en": "I love volleyball.",
+   "pics": [
+    "red_heart.png",
+    "volleyball.png"
+   ],
+   "id": "d7s14",
+   "audio": "06bbc525f0.mp3",
+   "pr": "ya lyub-LYU va-lei-BOL"
+  },
+  {
+   "word": "d7w7",
+   "ru": "Она́ лю́бит чита́ть.",
+   "en": "She loves reading.",
+   "pics": [
+    "woman.png",
+    "open_book.png"
+   ],
+   "id": "d7s15",
+   "audio": "ab934032e1.mp3",
+   "pr": "a-NA LYU-bit chi-TAT'"
+  },
+  {
+   "word": "d7w8",
+   "ru": "Я хочу́ ко́фе.",
+   "en": "I want a coffee.",
+   "pics": [
+    "hot_beverage.png"
+   ],
+   "id": "d7s16",
+   "audio": "8974ec2621.mp3",
+   "pr": "ya kha-CHU KO-fye"
+  },
+  {
+   "word": "d7w8",
+   "ru": "Что вы хоти́те?",
+   "en": "What would you like?",
+   "pics": [
+    "thinking_face.png",
+    "red_question_mark.png"
+   ],
+   "id": "d7s17",
+   "audio": "e8322c58c6.mp3",
+   "pr": "shto vih kha-TI-tye"
+  },
+  {
+   "word": "d7w9",
+   "ru": "Я могу́ помо́чь.",
+   "en": "I can help.",
+   "pics": [
+    "flexed_biceps.png",
+    "handshake.png"
+   ],
+   "id": "d7s18",
+   "audio": "7d1b10a027.mp3",
+   "pr": "ya ma-GU pa-MOCH'"
+  },
+  {
+   "word": "d7w9",
+   "ru": "Вы мо́жете повтори́ть?",
+   "en": "Can you repeat that?",
+   "pics": [
+    "speaking_head.png",
+    "red_question_mark.png"
+   ],
+   "id": "d7s19",
+   "audio": "9f181cf6a0.mp3",
+   "pr": "vih MO-zhe-tye pav-ta-RIT'"
+  },
+  {
+   "word": "d7w10",
+   "ru": "Вы говори́те по-англи́йски?",
+   "en": "Do you speak English?",
+   "pics": [
+    "speech_balloon.png",
+    "red_question_mark.png"
+   ],
+   "id": "d7s20",
+   "audio": "1034a2da53.mp3",
+   "pr": "vih ga-va-RI-tye pa-ang-LIIS-ki"
+  },
+  {
+   "word": "d7w11",
+   "ru": "Моя́ ма́ма говори́т то́лько по-ара́бски.",
+   "en": "My mum only speaks Arabic.",
+   "pics": [
+    "woman.png",
+    "speech_balloon.png"
+   ],
+   "id": "d7s21",
+   "audio": "74e0537139.mp3",
+   "pr": "ma-YA MA-ma ga-va-RIT TOL'-ka pa-a-RABS-ki"
+  },
+  {
+   "mk": "Я хочу́ {чита́ть}.",
+   "g": "x",
+   "case": "хочу́ / люблю́ / могу́ + infinitive",
+   "en": "I want to read.",
+   "pics": [
+    "open_book.png"
+   ],
+   "id": "d7s22",
+   "ru": "Я хочу́ чита́ть.",
+   "audio": "2a41bc3d3c.mp3",
+   "pr": "ya kha-CHU chi-TAT'"
+  },
+  {
+   "mk": "Я люблю́ {игра́ть} в волейбо́л.",
+   "g": "x",
+   "case": "хочу́ / люблю́ / могу́ + infinitive",
+   "en": "I love playing volleyball.",
+   "pics": [
+    "volleyball.png"
+   ],
+   "id": "d7s23",
+   "ru": "Я люблю́ игра́ть в волейбо́л.",
+   "audio": "e0d2bac07e.mp3",
+   "pr": "ya lyub-LYU ig-RAT' v va-lei-BOL"
+  },
+  {
+   "mk": "Я сейча́с {на} {рабо́т|е}.",
+   "g": "f",
+   "case": "на + prepositional: where?",
+   "en": "I'm at work now.",
+   "pics": [
+    "office_building.png"
+   ],
+   "id": "d7s24",
+   "ru": "Я сейча́с на рабо́те.",
+   "audio": "37885c008e.mp3",
+   "pr": "ya sii-CHAS na ra-BO-tye"
+  },
+  {
+   "mk": "Я люблю́ {Ри́г|у}.",
+   "g": "f",
+   "case": "люби́ть + accusative",
+   "en": "I love Riga.",
+   "pics": [
+    "red_heart.png",
+    "cityscape.png"
+   ],
+   "id": "d7s25",
+   "ru": "Я люблю́ Ри́гу.",
+   "audio": "4e3d8b6359.mp3",
+   "pr": "ya lyub-LYU RI-gu"
+  }
+ ],
+ "notes": [
+  {
+   "h": "Two patterns, a few rebels",
+   "lines": [
+    "Pattern 1 (-ешь): рабо́тать, знать, жить (живу́, живёшь).",
+    "Pattern 2 (-ишь): говори́ть, люби́ть, учи́ться.",
+    "Rebels you just learn: хоте́ть (хочу́, хо́чешь… хоти́м, хотя́т) and мочь (могу́, мо́жешь… мо́гут)."
+   ]
+  },
+  {
+   "h": "Verbs + infinitive",
+   "lines": [
+    "хочу́ / люблю́ / могу́ + infinitive: Я хочу́ спать. Я люблю́ чита́ть. Я могу́ помо́чь.",
+    "люби́ть + noun in the accusative: Я люблю́ Ри́гу, я люблю́ ко́фе."
+   ]
+  },
+  {
+   "h": "-ся verbs",
+   "lines": [
+    "учи́ться ends in -ся: it adds -сь after a vowel and -ся after a consonant: учу́сь, у́чишься, у́чится.",
+    "Say -тся / -ться as “tsa”: у́чится = U-chi-tsa."
+   ]
+  },
+  {
+   "h": "Languages",
+   "lines": [
+    "говори́ть по-ру́сски / по-англи́йски / по-ара́бски / по-латы́шски = speak Russian / English / Arabic / Latvian.",
+    "But учи́ть ру́сский язы́к = learn the Russian language."
+   ]
+  },
+  {
+   "h": "Where do you work?",
+   "lines": [
+    "в + prepositional for most places: в ба́нке, в университе́те, в шко́ле.",
+    "на for some: на рабо́те (at work), на у́лице (outside)."
+   ]
+  }
+ ],
+ "video": "videos/day7.mp4"
+}

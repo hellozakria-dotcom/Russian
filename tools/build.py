@@ -37,7 +37,8 @@ TILE_COLORS = [(46, 98, 160), (196, 64, 112), (46, 140, 90), (120, 80, 170), (20
 def tile(text):
     """A picture for a number or short text: 'num:21' -> big 21 on a coloured tile, with dots for 1-10."""
     from PIL import Image, ImageDraw
-    fn = "num_" + re.sub(r"[^0-9a-z]+", "_", text.lower()) + ".png"
+    safe = re.sub(r"[^0-9a-z]+", "_", text.lower())
+    fn = "num_" + (safe if safe.strip("_") and safe == text.lower() else hashlib.md5(text.encode()).hexdigest()[:8]) + ".png"
     out = os.path.join("pics", fn)
     if os.path.exists(out): return fn
     S = 480; im = Image.new("RGBA", (S, S), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
@@ -131,8 +132,14 @@ os.makedirs("texts", exist_ok=True)
 norm = lambda w: w.lower().replace("\u0301", "").replace("ё", "е")
 WORD_RE = re.compile(r"[А-Яа-яЁё\u0301]+(?:-[А-Яа-яЁё\u0301]+)*")
 tindex = []
+POOL = {}  # glosses shared between texts: a form explained in one text is reused in the others
+for path in glob.glob("content/texts/t*.json"):
+    for k, v in json.load(open(path, encoding="utf-8"))["gloss"].items(): POOL.setdefault(norm(k), v)
 for path in sorted(glob.glob("content/texts/t*.json"), key=lambda p: int(re.findall(r"\d+", p)[-1])):
     t = json.load(open(path, encoding="utf-8"))
+    for s in t["sentences"]:
+        for tok in WORD_RE.findall(s["ru"]):
+            if norm(tok) not in {norm(k) for k in t["gloss"]} and norm(tok) in POOL: t["gloss"][norm(tok)] = dict(POOL[norm(tok)])
     print(f"Text {t['id']}: {t['title']}")
     gloss = {norm(k): v for k, v in t["gloss"].items()}
     missing = set()
@@ -141,6 +148,11 @@ for path in sorted(glob.glob("content/texts/t*.json"), key=lambda p: int(re.find
         for tok in WORD_RE.findall(s["ru"]):
             if norm(tok) not in gloss: missing.add(tok)
     if missing: raise SystemExit(f"  words without a gloss in {path}: {sorted(missing)}")
+    seen_forms = {norm(tok): tok for s in t["sentences"] for tok in WORD_RE.findall(s["ru"])}
+    for key, g in gloss.items():
+        if "\u0301" not in g["w"] and "\u0301" in seen_forms.get(key, ""):  # take the stressed spelling from the text
+            g["w"] = seen_forms[key].lower() if not g["w"][:1].isupper() else seen_forms[key]
+            g.pop("pr", None)
     for g in gloss.values():
         g["pr"] = g.get("pr") or word_tr(g["w"])
         g["audio"] = audio(g["w"])
@@ -187,6 +199,15 @@ for d in days_all:
                         for x in ws:
                             if len(ws) == 1 or norm(x)[:3] == k[:3]: form2lemma.setdefault(norm(x), k)
     json.dump(d, open(f"days/day{d['id']}.json", "w", encoding="utf-8"), ensure_ascii=False)
+# forms seen in a word's own example sentences: same stem as the dictionary word
+for d in days_all:
+    wl = {w["id"]: w["lemmas"] for w in d["words"]}
+    for s in d["sentences"]:
+        for l in wl.get(s.get("word"), []):
+            ln = norm(l).split(" ")[0]
+            stem = ln[:max(3, len(ln) - 2)]
+            for tkn in toks(s["ru"]):
+                if tkn.startswith(stem) and len(tkn) >= len(stem): form2lemma.setdefault(tkn, norm(l))
 texts_all = [json.load(open(f"texts/t{x['id']}.json", encoding="utf-8")) for x in tindex]
 for t in texts_all:
     for f, g in t["gloss"].items():

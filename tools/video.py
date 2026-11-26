@@ -56,7 +56,7 @@ def hires(fn, size):
     return Image.open(out).convert("RGBA")
 
 def picture(fn, size):
-    if fn.startswith("num_"):
+    if fn.startswith("num_") and re.fullmatch(r"num_[0-9a-z_]+\.png", fn) and not re.fullmatch(r"num_[0-9a-f]{8}\.png", fn):
         out = f"{HIRES}/{size}_{fn}"
         if not os.path.exists(out):
             text = fn[4:-4]

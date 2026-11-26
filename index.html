@@ -249,8 +249,8 @@ function wordTr(w) {
       if (VOW.includes(c)) {
         let v;
         if (c === 'а') v = 'a'; else if (c === 'о') v = st ? 'o' : 'a'; else if (c === 'у') v = 'u'; else if (c === 'ы') v = 'ih';
-        else if (c === 'и') v = 'i'; else if (c === 'э') v = 'e'; else if (c === 'ё') v = HARD.includes(prev) ? 'o' : 'yo';
-        else if (c === 'ю') v = HARD.includes(prev) ? 'u' : 'yu'; else if (c === 'я') v = 'ya';
+        else if (c === 'и') v = 'i'; else if (c === 'э') v = 'e'; else if (c === 'ё') v = (HARD + 'чщ').includes(prev) ? 'o' : 'yo';
+        else if (c === 'ю') v = (HARD + 'чщ').includes(prev) ? 'u' : 'yu'; else if (c === 'я') v = 'ya';
         else { // е
           if (HARD.includes(prev)) v = 'e'; else if (!afterCons) v = 'ye'; else v = st ? 'ye' : 'i';
           if (!st && afterCons && i === s.length - 1) v = HARD.includes(prev) ? 'e' : 'ye';

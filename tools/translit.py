@@ -59,8 +59,8 @@ def word_tr(w):
                 elif c == "ы": v = "ih"
                 elif c == "и": v = "i"
                 elif c == "э": v = "e"
-                elif c == "ё": v = "o" if prev in HARD else ("yo")
-                elif c == "ю": v = "u" if prev in HARD else "yu"
+                elif c == "ё": v = "o" if prev in (HARD | set("чщ")) else ("yo")
+                elif c == "ю": v = "u" if prev in (HARD | set("чщ")) else "yu"
                 elif c == "я": v = "ya"
                 elif c == "е":
                     if prev in HARD: v = "e"

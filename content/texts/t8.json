@@ -1,0 +1,274 @@
+{
+ "id": 8,
+ "kind": "conversation",
+ "title": "Когда́ встре́тимся?",
+ "en": "When shall we meet?",
+ "level": "A1",
+ "after": 8,
+ "pic": "Spiral calendar",
+ "speakers": {
+  "n": {
+   "name": "А́нна",
+   "en": "Anna",
+   "pic": "Woman"
+  },
+  "a": {
+   "name": "Али́",
+   "en": "Ali",
+   "pic": "Man",
+   "me": true
+  }
+ },
+ "sentences": [
+  {
+   "sp": "a",
+   "ru": "Приве́т! Что ты де́лаешь за́втра?",
+   "en": "Hi! What are you doing tomorrow?"
+  },
+  {
+   "sp": "n",
+   "ru": "За́втра вто́рник… У́тром у меня́ уро́к, а днём я рабо́таю.",
+   "en": "Tomorrow is Tuesday… In the morning I have a lesson, and in the afternoon I work."
+  },
+  {
+   "sp": "a",
+   "ru": "А ве́чером?",
+   "en": "And in the evening?"
+  },
+  {
+   "sp": "n",
+   "ru": "Ве́чером я свобо́дна. Ты хо́чешь встре́титься?",
+   "en": "In the evening I'm free. Do you want to meet?"
+  },
+  {
+   "sp": "a",
+   "ru": "Да. Дава́й в кафе́ в семь часо́в?",
+   "en": "Yes. Let's meet at the café at seven?"
+  },
+  {
+   "sp": "n",
+   "ru": "В семь я не могу́. Мо́жет быть, в во́семь?",
+   "en": "I can't at seven. Maybe at eight?"
+  },
+  {
+   "sp": "a",
+   "ru": "Хорошо́, в во́семь. А где?",
+   "en": "OK, at eight. And where?"
+  },
+  {
+   "sp": "n",
+   "ru": "В кафе́ на у́лице Бри́вибас. Э́то бли́зко от метро́.",
+   "en": "At the café on Brīvības Street. It's close to the metro."
+  },
+  {
+   "sp": "a",
+   "ru": "Отли́чно! Кото́рый час сейча́с?",
+   "en": "Great! What time is it now?"
+  },
+  {
+   "sp": "n",
+   "ru": "Сейча́с пять мину́т пе́рвого. Мне пора́! До за́втра!",
+   "en": "It's five past twelve. I have to go! See you tomorrow!"
+  }
+ ],
+ "gloss": {
+  "когда": {
+   "w": "когда́",
+   "lemma": "когда́",
+   "en": "when",
+   "info": ""
+  },
+  "встретимся": {
+   "w": "встре́тимся",
+   "lemma": "встре́титься",
+   "en": "(we) will meet",
+   "info": "встре́титься (to meet), мы form = future/“shall we”"
+  },
+  "встретиться": {
+   "w": "встретиться",
+   "lemma": "встре́титься",
+   "en": "to meet",
+   "info": "perfective verb, infinitive"
+  },
+  "завтра": {
+   "w": "завтра",
+   "lemma": "за́втра",
+   "en": "tomorrow",
+   "info": ""
+  },
+  "вторник": {
+   "w": "вторник",
+   "lemma": "вто́рник",
+   "en": "Tuesday",
+   "info": "Day 8"
+  },
+  "утром": {
+   "w": "утром",
+   "lemma": "у́тром",
+   "en": "in the morning",
+   "info": ""
+  },
+  "урок": {
+   "w": "урок",
+   "lemma": "уро́к",
+   "en": "lesson",
+   "info": "noun, masculine"
+  },
+  "днем": {
+   "w": "днём",
+   "lemma": "днём",
+   "en": "in the afternoon",
+   "info": ""
+  },
+  "вечером": {
+   "w": "вечером",
+   "lemma": "ве́чером",
+   "en": "in the evening",
+   "info": ""
+  },
+  "свободна": {
+   "w": "свободна",
+   "lemma": "свобо́дный",
+   "en": "free",
+   "info": "short form, feminine: я свобо́дна (a man says свобо́ден)"
+  },
+  "давай": {
+   "w": "давай",
+   "lemma": "дава́й",
+   "en": "let's",
+   "info": "Дава́й + verb/plan = let's…"
+  },
+  "часов": {
+   "w": "часов",
+   "lemma": "час",
+   "en": "o'clock",
+   "info": "genitive plural after 5–20: в семь часо́в"
+  },
+  "семь": {
+   "w": "семь",
+   "lemma": "семь",
+   "en": "seven",
+   "info": ""
+  },
+  "могу": {
+   "w": "могу",
+   "lemma": "мочь",
+   "en": "(I) can",
+   "info": "мочь, я form"
+  },
+  "может": {
+   "w": "может",
+   "lemma": "мочь",
+   "en": "may",
+   "info": "Мо́жет быть = maybe"
+  },
+  "быть": {
+   "w": "быть",
+   "lemma": "быть",
+   "en": "to be",
+   "info": "Мо́жет быть = maybe"
+  },
+  "восемь": {
+   "w": "восемь",
+   "lemma": "во́семь",
+   "en": "eight",
+   "info": ""
+  },
+  "хорошо": {
+   "w": "хорошо",
+   "lemma": "хорошо́",
+   "en": "OK, good",
+   "info": ""
+  },
+  "улице": {
+   "w": "улице",
+   "lemma": "у́лица",
+   "en": "street",
+   "info": "на у́лице = on the street (prepositional)"
+  },
+  "бривибас": {
+   "w": "бривибас",
+   "lemma": "Бри́вибас",
+   "en": "Brīvības (street name)",
+   "info": "Latvian name"
+  },
+  "близко": {
+   "w": "близко",
+   "lemma": "бли́зко",
+   "en": "close, near",
+   "info": "бли́зко от + genitive = close to"
+  },
+  "от": {
+   "w": "от",
+   "lemma": "от",
+   "en": "from",
+   "info": "+ genitive"
+  },
+  "метро": {
+   "w": "метро",
+   "lemma": "метро́",
+   "en": "metro",
+   "info": "never changes"
+  },
+  "отлично": {
+   "w": "отлично",
+   "lemma": "отли́чно",
+   "en": "great, excellent",
+   "info": ""
+  },
+  "который": {
+   "w": "который",
+   "lemma": "кото́рый",
+   "en": "which",
+   "info": "Кото́рый час? = What time is it?"
+  },
+  "час": {
+   "w": "час",
+   "lemma": "час",
+   "en": "hour, o'clock",
+   "info": ""
+  },
+  "сейчас": {
+   "w": "сейчас",
+   "lemma": "сейча́с",
+   "en": "now",
+   "info": ""
+  },
+  "пять": {
+   "w": "пять",
+   "lemma": "пять",
+   "en": "five",
+   "info": ""
+  },
+  "минут": {
+   "w": "минут",
+   "lemma": "мину́та",
+   "en": "minutes",
+   "info": "genitive plural after 5"
+  },
+  "первого": {
+   "w": "первого",
+   "lemma": "пе́рвый",
+   "en": "of the first (hour)",
+   "info": "пять мину́т пе́рвого = five minutes into the first hour = 12:05"
+  },
+  "мне": {
+   "w": "мне",
+   "lemma": "я",
+   "en": "to me",
+   "info": "Мне пора́ = it's time for me (to go)"
+  },
+  "пора": {
+   "w": "пора",
+   "lemma": "пора́",
+   "en": "it's time",
+   "info": "Мне пора́! = I have to go!"
+  },
+  "делаешь": {
+   "w": "де́лаешь",
+   "lemma": "де́лать",
+   "en": "(you) do",
+   "info": "де́лать, ты form. Что ты де́лаешь? = What are you doing?"
+  }
+ }
+}

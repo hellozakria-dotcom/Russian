@@ -1,50 +1,267 @@
 {
- "id": 5, "kind": "conversation", "title": "В магази́не", "en": "At the shop", "level": "A1", "after": 5, "pic": "Shopping cart",
- "speakers": {"s": {"name": "Продаве́ц", "en": "shop assistant", "pic": "Man"}, "a": {"name": "Али́", "en": "Ali", "pic": "Man", "me": true}},
+ "id": 5,
+ "kind": "conversation",
+ "title": "В магази́не",
+ "en": "At the shop",
+ "level": "A1",
+ "after": 5,
+ "pic": "Shopping cart",
+ "speakers": {
+  "s": {
+   "name": "Продаве́ц",
+   "en": "shop assistant",
+   "pic": "Man"
+  },
+  "a": {
+   "name": "Али́",
+   "en": "Ali",
+   "pic": "Man",
+   "me": true
+  }
+ },
  "sentences": [
-  {"sp": "a", "ru": "Здра́вствуйте! У вас есть хлеб?", "en": "Hello! Do you have bread?"},
-  {"sp": "s", "ru": "Здра́вствуйте! Да, есть.", "en": "Hello! Yes, we do."},
-  {"sp": "a", "ru": "Да́йте, пожа́луйста, оди́н хлеб.", "en": "One loaf of bread, please."},
-  {"sp": "s", "ru": "Что ещё?", "en": "Anything else?"},
-  {"sp": "a", "ru": "У вас есть молоко́?", "en": "Do you have milk?"},
-  {"sp": "s", "ru": "Нет, молока́ сейча́с нет. Есть вода́ и сок.", "en": "No, there's no milk right now. There's water and juice."},
-  {"sp": "a", "ru": "Хорошо́, тогда́ сок, пожа́луйста.", "en": "OK, then juice, please."},
-  {"sp": "a", "ru": "Ско́лько всё сто́ит?", "en": "How much is everything?"},
-  {"sp": "s", "ru": "Хлеб — оди́н е́вро, сок — два е́вро. Всего́ три е́вро.", "en": "Bread is one euro, juice two euros. Three euros in total."},
-  {"sp": "a", "ru": "Вот, пожа́луйста.", "en": "Here you are."},
-  {"sp": "s", "ru": "Спаси́бо! До свида́ния!", "en": "Thank you! Goodbye!"}
+  {
+   "sp": "a",
+   "ru": "Здра́вствуйте! У вас есть хлеб?",
+   "en": "Hello! Do you have bread?"
+  },
+  {
+   "sp": "s",
+   "ru": "Здра́вствуйте! Да, есть.",
+   "en": "Hello! Yes, we do."
+  },
+  {
+   "sp": "a",
+   "ru": "Да́йте, пожа́луйста, оди́н хлеб.",
+   "en": "One loaf of bread, please."
+  },
+  {
+   "sp": "s",
+   "ru": "Что ещё?",
+   "en": "Anything else?"
+  },
+  {
+   "sp": "a",
+   "ru": "У вас есть молоко́?",
+   "en": "Do you have milk?"
+  },
+  {
+   "sp": "s",
+   "ru": "Нет, молока́ сейча́с нет. Есть вода́ и сок.",
+   "en": "No, there's no milk right now. There's water and juice."
+  },
+  {
+   "sp": "a",
+   "ru": "Хорошо́, тогда́ сок, пожа́луйста.",
+   "en": "OK, then juice, please."
+  },
+  {
+   "sp": "a",
+   "ru": "Ско́лько всё сто́ит?",
+   "en": "How much is everything?"
+  },
+  {
+   "sp": "s",
+   "ru": "Хлеб — оди́н е́вро, сок — два е́вро. Всего́ три е́вро.",
+   "en": "Bread is one euro, juice two euros. Three euros in total."
+  },
+  {
+   "sp": "a",
+   "ru": "Вот, пожа́луйста.",
+   "en": "Here you are."
+  },
+  {
+   "sp": "s",
+   "ru": "Спаси́бо! До свида́ния!",
+   "en": "Thank you! Goodbye!"
+  }
  ],
  "gloss": {
-  "здравствуйте": {"w": "здра́вствуйте", "lemma": "здра́вствуйте", "en": "hello", "info": "polite greeting"},
-  "у": {"w": "у", "lemma": "у", "en": "at, by", "info": "У вас есть…? = Do you have…?"},
-  "вас": {"w": "вас", "lemma": "вы", "en": "you", "info": "вы in the genitive (after у)"},
-  "есть": {"w": "есть", "lemma": "есть", "en": "there is / (you) have", "info": "Да, есть = yes, there is / we have"},
-  "хлеб": {"w": "хлеб", "lemma": "хлеб", "en": "bread", "info": "noun, masculine"},
-  "да": {"w": "да", "lemma": "да", "en": "yes", "info": ""},
-  "дайте": {"w": "да́йте", "lemma": "дать", "en": "give (please)", "info": "command form of дать (to give), polite: Да́йте, пожа́луйста… = Can I have…, please"},
-  "пожалуйста": {"w": "пожа́луйста", "lemma": "пожа́луйста", "en": "please · here you are", "info": "Day 4"},
-  "один": {"w": "оди́н", "lemma": "оди́н", "en": "one", "info": "number 1, masculine (хлеб)"},
-  "что": {"w": "что", "lemma": "что", "en": "what", "info": "Что ещё? = what else?"},
-  "ещё": {"w": "ещё", "lemma": "ещё", "en": "else, more", "info": "adverb"},
-  "молоко": {"w": "молоко́", "lemma": "молоко́", "en": "milk", "info": "noun, neuter"},
-  "нет": {"w": "нет", "lemma": "нет", "en": "no · there is no", "info": "нет + genitive: молока́ нет"},
-  "молока": {"w": "молока́", "lemma": "молоко́", "en": "(no) milk", "info": "молоко́ in the genitive, after нет"},
-  "сейчас": {"w": "сейча́с", "lemma": "сейча́с", "en": "now", "info": "adverb"},
-  "вода": {"w": "вода́", "lemma": "вода́", "en": "water", "info": "Day 1"},
-  "и": {"w": "и", "lemma": "и", "en": "and", "info": ""},
-  "сок": {"w": "сок", "lemma": "сок", "en": "juice", "info": "noun, masculine"},
-  "хорошо": {"w": "хорошо́", "lemma": "хорошо́", "en": "good, OK", "info": "adverb"},
-  "тогда": {"w": "тогда́", "lemma": "тогда́", "en": "then (in that case)", "info": "adverb"},
-  "сколько": {"w": "ско́лько", "lemma": "ско́лько", "en": "how much", "info": "Day 3"},
-  "всё": {"w": "всё", "lemma": "всё", "en": "everything", "info": "pronoun"},
-  "стоит": {"w": "сто́ит", "lemma": "сто́ить", "en": "costs", "info": "verb сто́ить, он/она́/оно́ form"},
-  "евро": {"w": "е́вро", "lemma": "е́вро", "en": "euro(s)", "info": "never changes"},
-  "два": {"w": "два", "lemma": "два", "en": "two", "info": "number 2"},
-  "всего": {"w": "всего́", "lemma": "всего́", "en": "in total", "info": "said fsi-VO"},
-  "три": {"w": "три", "lemma": "три", "en": "three", "info": "number 3"},
-  "вот": {"w": "вот", "lemma": "вот", "en": "here (is)", "info": "Вот, пожа́луйста = here you are"},
-  "спасибо": {"w": "спаси́бо", "lemma": "спаси́бо", "en": "thank you", "info": ""},
-  "до": {"w": "до", "lemma": "до", "en": "until", "info": ""},
-  "свидания": {"w": "свида́ния", "lemma": "свида́ние", "en": "meeting", "info": "До свида́ния = goodbye"}
+  "здравствуйте": {
+   "w": "здра́вствуйте",
+   "lemma": "здра́вствуйте",
+   "en": "hello",
+   "info": "polite greeting"
+  },
+  "у": {
+   "w": "у",
+   "lemma": "у",
+   "en": "at, by",
+   "info": "У вас есть…? = Do you have…?"
+  },
+  "вас": {
+   "w": "вас",
+   "lemma": "вы",
+   "en": "you",
+   "info": "вы in the genitive (after у)"
+  },
+  "есть": {
+   "w": "есть",
+   "lemma": "есть",
+   "en": "there is / (you) have",
+   "info": "Да, есть = yes, there is / we have"
+  },
+  "хлеб": {
+   "w": "хлеб",
+   "lemma": "хлеб",
+   "en": "bread",
+   "info": "noun, masculine"
+  },
+  "да": {
+   "w": "да",
+   "lemma": "да",
+   "en": "yes",
+   "info": ""
+  },
+  "дайте": {
+   "w": "да́йте",
+   "lemma": "дать",
+   "en": "give (please)",
+   "info": "command form of дать (to give), polite: Да́йте, пожа́луйста… = Can I have…, please"
+  },
+  "пожалуйста": {
+   "w": "пожа́луйста",
+   "lemma": "пожа́луйста",
+   "en": "please · here you are",
+   "info": "Day 4"
+  },
+  "один": {
+   "w": "оди́н",
+   "lemma": "оди́н",
+   "en": "one",
+   "info": "number 1, masculine (хлеб)"
+  },
+  "что": {
+   "w": "что",
+   "lemma": "что",
+   "en": "what",
+   "info": "Что ещё? = what else?"
+  },
+  "ещё": {
+   "w": "ещё",
+   "lemma": "ещё",
+   "en": "else, more",
+   "info": "adverb"
+  },
+  "молоко": {
+   "w": "молоко́",
+   "lemma": "молоко́",
+   "en": "milk",
+   "info": "noun, neuter"
+  },
+  "нет": {
+   "w": "нет",
+   "lemma": "нет",
+   "en": "no · there is no",
+   "info": "нет + genitive: молока́ нет"
+  },
+  "молока": {
+   "w": "молока́",
+   "lemma": "молоко́",
+   "en": "(no) milk",
+   "info": "молоко́ in the genitive, after нет"
+  },
+  "сейчас": {
+   "w": "сейча́с",
+   "lemma": "сейча́с",
+   "en": "now",
+   "info": "adverb"
+  },
+  "вода": {
+   "w": "вода́",
+   "lemma": "вода́",
+   "en": "water",
+   "info": "Day 1"
+  },
+  "и": {
+   "w": "и",
+   "lemma": "и",
+   "en": "and",
+   "info": ""
+  },
+  "сок": {
+   "w": "сок",
+   "lemma": "сок",
+   "en": "juice",
+   "info": "noun, masculine"
+  },
+  "хорошо": {
+   "w": "хорошо́",
+   "lemma": "хорошо́",
+   "en": "good, OK",
+   "info": "adverb"
+  },
+  "тогда": {
+   "w": "тогда́",
+   "lemma": "тогда́",
+   "en": "then (in that case)",
+   "info": "adverb"
+  },
+  "сколько": {
+   "w": "ско́лько",
+   "lemma": "ско́лько",
+   "en": "how much",
+   "info": "Day 3"
+  },
+  "всё": {
+   "w": "всё",
+   "lemma": "всё",
+   "en": "everything",
+   "info": "pronoun"
+  },
+  "стоит": {
+   "w": "сто́ит",
+   "lemma": "сто́ить",
+   "en": "costs",
+   "info": "verb сто́ить, он/она́/оно́ form"
+  },
+  "евро": {
+   "w": "е́вро",
+   "lemma": "е́вро",
+   "en": "euro(s)",
+   "info": "never changes"
+  },
+  "два": {
+   "w": "два",
+   "lemma": "два",
+   "en": "two",
+   "info": "number 2"
+  },
+  "всего": {
+   "w": "всего́",
+   "lemma": "всего́",
+   "en": "in total",
+   "info": "said fsi-VO"
+  },
+  "три": {
+   "w": "три",
+   "lemma": "три",
+   "en": "three",
+   "info": "number 3"
+  },
+  "вот": {
+   "w": "вот",
+   "lemma": "вот",
+   "en": "here (is)",
+   "info": "Вот, пожа́луйста = here you are"
+  },
+  "спасибо": {
+   "w": "спаси́бо",
+   "lemma": "спаси́бо",
+   "en": "thank you",
+   "info": ""
+  },
+  "до": {
+   "w": "до",
+   "lemma": "до",
+   "en": "until",
+   "info": ""
+  },
+  "свидания": {
+   "w": "свида́ния",
+   "lemma": "свида́ние",
+   "en": "meeting",
+   "info": "До свида́ния = goodbye"
+  }
  }
 }

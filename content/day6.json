@@ -10,8 +10,8 @@
    "en": "family",
    "pic": "house_with_garden.png",
    "id": "d6w1",
-   "pr": "si-MYA",
-   "audio": "c41a5e1388.mp3"
+   "audio": "c41a5e1388.mp3",
+   "pr": "si-MYA"
   },
   {
    "kind": "noun",
@@ -21,8 +21,8 @@
    "pic": "woman.png",
    "note": "Formal word: мать (gen. ма́тери).",
    "id": "d6w2",
-   "pr": "MA-ma",
-   "audio": "85fd157b70.mp3"
+   "audio": "85fd157b70.mp3",
+   "pr": "MA-ma"
   },
   {
    "kind": "noun",
@@ -32,8 +32,8 @@
    "pic": "man.png",
    "note": "Masculine, but it changes like кни́га: па́пы, па́пе, па́пу. Formal word: оте́ц (gen. отца́).",
    "id": "d6w3",
-   "pr": "PA-pa",
-   "audio": "30d6b55a04.mp3"
+   "audio": "30d6b55a04.mp3",
+   "pr": "PA-pa"
   },
   {
    "kind": "noun",
@@ -43,8 +43,8 @@
    "pic": "wedding.png",
    "note": "Only used in the plural.",
    "id": "d6w4",
-   "pr": "ra-DI-ti-li",
-   "audio": "cd5813ecfb.mp3"
+   "audio": "cd5813ecfb.mp3",
+   "pr": "ra-DI-ti-li"
   },
   {
    "kind": "noun",
@@ -54,8 +54,8 @@
    "pic": "boy.png",
    "note": "Plural: сыновья́.",
    "id": "d6w5",
-   "pr": "sihn",
-   "audio": "dd0da91961.mp3"
+   "audio": "dd0da91961.mp3",
+   "pr": "sihn"
   },
   {
    "kind": "noun",
@@ -65,8 +65,8 @@
    "pic": "girl.png",
    "note": "Irregular: до́чери (gen.), до́чери (pl.).",
    "id": "d6w6",
-   "pr": "doch'",
-   "audio": "7281fd2a86.mp3"
+   "audio": "7281fd2a86.mp3",
+   "pr": "doch'"
   },
   {
    "kind": "noun",
@@ -76,8 +76,8 @@
    "pic": "baby.png",
    "note": "Plural is a different word: де́ти.",
    "id": "d6w7",
-   "pr": "ri-BYO-nak",
-   "audio": "db5d9d5da7.mp3"
+   "audio": "db5d9d5da7.mp3",
+   "pr": "ri-BYO-nak"
   },
   {
    "kind": "noun",
@@ -87,8 +87,8 @@
    "pic": "child.png",
    "note": "Genitive: дете́й (5 дете́й, у нас нет дете́й).",
    "id": "d6w8",
-   "pr": "DYE-ti",
-   "audio": "46c6b827b6.mp3"
+   "audio": "46c6b827b6.mp3",
+   "pr": "DYE-ti"
   },
   {
    "kind": "noun",
@@ -97,8 +97,8 @@
    "en": "grandmother",
    "pic": "old_woman.png",
    "id": "d6w9",
-   "pr": "BA-bush-ka",
-   "audio": "c572cdbead.mp3"
+   "audio": "c572cdbead.mp3",
+   "pr": "BA-bush-ka"
   },
   {
    "kind": "noun",
@@ -108,8 +108,8 @@
    "pic": "old_man.png",
    "note": "Masculine, but it changes like кни́га (like па́па).",
    "id": "d6w10",
-   "pr": "DYE-dush-ka",
-   "audio": "6348207558.mp3"
+   "audio": "6348207558.mp3",
+   "pr": "DYE-dush-ka"
   },
   {
    "kind": "noun",
@@ -118,8 +118,8 @@
    "en": "husband",
    "pic": "man_in_tuxedo.png",
    "id": "d6w11",
-   "pr": "mush",
-   "audio": "8934af3be7.mp3"
+   "audio": "8934af3be7.mp3",
+   "pr": "mush"
   },
   {
    "kind": "noun",
@@ -128,8 +128,8 @@
    "en": "wife",
    "pic": "woman_with_veil.png",
    "id": "d6w12",
-   "pr": "zhe-NA",
-   "audio": "ae1a00b2c8.mp3"
+   "audio": "ae1a00b2c8.mp3",
+   "pr": "zhe-NA"
   }
  ],
  "sentences": [
@@ -142,8 +142,8 @@
     "people_hugging.png"
    ],
    "id": "d6s1",
-   "pr": "E-ta ma-YA si-MYA",
-   "audio": "4c364873c5.mp3"
+   "audio": "4c364873c5.mp3",
+   "pr": "E-ta ma-YA si-MYA"
   },
   {
    "word": "d6w1",
@@ -154,8 +154,8 @@
     "elephant.png"
    ],
    "id": "d6s2",
-   "pr": "u mi-NYA bal'-SHA-ya si-MYA",
-   "audio": "b931b08212.mp3"
+   "audio": "b931b08212.mp3",
+   "pr": "u mi-NYA bal'-SHA-ya si-MYA"
   },
   {
    "word": "d6w2",
@@ -166,8 +166,8 @@
     "house.png"
    ],
    "id": "d6s3",
-   "pr": "MA-ma DO-ma",
-   "audio": "f554b684ff.mp3"
+   "audio": "f554b684ff.mp3",
+   "pr": "MA-ma DO-ma"
   },
   {
    "word": "d6w2",
@@ -178,8 +178,8 @@
     "woman.png"
    ],
    "id": "d6s4",
-   "pr": "ya zva-NYU MA-mye KAZH-dih dyen'",
-   "audio": "72aa90d9ab.mp3"
+   "audio": "72aa90d9ab.mp3",
+   "pr": "ya zva-NYU MA-mye KAZH-dih dyen'"
   },
   {
    "word": "d6w3",
@@ -190,8 +190,8 @@
     "briefcase.png"
    ],
    "id": "d6s5",
-   "pr": "moi PA-pa ra-BO-ta-yet v LI-vi-i",
-   "audio": "a0ad13ed2b.mp3"
+   "audio": "a0ad13ed2b.mp3",
+   "pr": "moi PA-pa ra-BO-ta-yet v LI-vi-i"
   },
   {
    "word": "d6w3",
@@ -202,8 +202,8 @@
     "newspaper.png"
    ],
    "id": "d6s6",
-   "pr": "PA-pa chi-TA-yet ga-ZYE-tu",
-   "audio": "e9f1371169.mp3"
+   "audio": "e9f1371169.mp3",
+   "pr": "PA-pa chi-TA-yet ga-ZYE-tu"
   },
   {
    "word": "d6w4",
@@ -214,8 +214,8 @@
     "man.png"
    ],
    "id": "d6s7",
-   "pr": "ma-I ra-DI-ti-li zhi-VUT v LI-vi-i",
-   "audio": "4429525846.mp3"
+   "audio": "4429525846.mp3",
+   "pr": "ma-I ra-DI-ti-li zhi-VUT v LI-vi-i"
   },
   {
    "word": "d6w4",
@@ -226,8 +226,8 @@
     "thumbs_up.png"
    ],
    "id": "d6s8",
-   "pr": "u mi-NYA kha-RO-shi-ye ra-DI-ti-li",
-   "audio": "259ac2130d.mp3"
+   "audio": "259ac2130d.mp3",
+   "pr": "u mi-NYA kha-RO-shi-ye ra-DI-ti-li"
   },
   {
    "word": "d6w5",
@@ -238,8 +238,8 @@
     "boy.png"
    ],
    "id": "d6s9",
-   "pr": "u nikh yest' sihn",
-   "audio": "2c15a06d74.mp3"
+   "audio": "2c15a06d74.mp3",
+   "pr": "u nikh yest' sihn"
   },
   {
    "word": "d6w5",
@@ -250,8 +250,8 @@
     "num_5.png"
    ],
    "id": "d6s10",
-   "pr": "ikh SIH-nu pyat' lyet",
-   "audio": "5bdec02d62.mp3"
+   "audio": "5bdec02d62.mp3",
+   "pr": "ikh SIH-nu pyat' lyet"
   },
   {
    "word": "d6w6",
@@ -261,8 +261,8 @@
     "girl.png"
    ],
    "id": "d6s11",
-   "pr": "E-ta ma-YA doch'",
-   "audio": "4006ca8f42.mp3"
+   "audio": "4006ca8f42.mp3",
+   "pr": "E-ta ma-YA doch'"
   },
   {
    "word": "d6w6",
@@ -273,8 +273,8 @@
     "school.png"
    ],
    "id": "d6s12",
-   "pr": "ye-YO doch' U-chi-tsya v SHKO-lye",
-   "audio": "f3c4dbc120.mp3"
+   "audio": "f3c4dbc120.mp3",
+   "pr": "ye-YO doch' U-chi-tsya v SHKO-lye"
   },
   {
    "word": "d6w7",
@@ -285,8 +285,8 @@
     "baby.png"
    ],
    "id": "d6s13",
-   "pr": "u nikh a-DIN ri-BYO-nak",
-   "audio": "b77779552e.mp3"
+   "audio": "b77779552e.mp3",
+   "pr": "u nikh a-DIN ri-BYO-nak"
   },
   {
    "word": "d6w7",
@@ -297,8 +297,8 @@
     "bed.png"
    ],
    "id": "d6s14",
-   "pr": "ri-BYO-nak spit",
-   "audio": "72543417e0.mp3"
+   "audio": "72543417e0.mp3",
+   "pr": "ri-BYO-nak spit"
   },
   {
    "word": "d6w8",
@@ -309,8 +309,8 @@
     "red_question_mark.png"
    ],
    "id": "d6s15",
-   "pr": "u vas yest' DYE-ti",
-   "audio": "afe36692a6.mp3"
+   "audio": "afe36692a6.mp3",
+   "pr": "u vas yest' DYE-ti"
   },
   {
    "word": "d6w8",
@@ -321,8 +321,8 @@
     "soccer_ball.png"
    ],
    "id": "d6s16",
-   "pr": "DYE-ti ig-RA-yut v fut-BOL",
-   "audio": "149adf948f.mp3"
+   "audio": "149adf948f.mp3",
+   "pr": "DYE-ti ig-RA-yut v fut-BOL"
   },
   {
    "word": "d6w9",
@@ -333,8 +333,8 @@
     "birthday_cake.png"
    ],
    "id": "d6s17",
-   "pr": "BA-bush-kye VO-sim'-di-syat lyet",
-   "audio": "ac4aced0f1.mp3"
+   "audio": "ac4aced0f1.mp3",
+   "pr": "BA-bush-kye VO-sim'-di-syat lyet"
   },
   {
    "word": "d6w9",
@@ -345,8 +345,8 @@
     "cityscape.png"
    ],
    "id": "d6s18",
-   "pr": "ma-YA BA-bush-ka zhi-VYOT v GO-ra-dye",
-   "audio": "2b2a167392.mp3"
+   "audio": "2b2a167392.mp3",
+   "pr": "ma-YA BA-bush-ka zhi-VYOT v GO-ra-dye"
   },
   {
    "word": "d6w10",
@@ -357,8 +357,8 @@
     "books.png"
    ],
    "id": "d6s19",
-   "pr": "moi DYE-dush-ka chi-TA-yet KNI-gi",
-   "audio": "e90afca91f.mp3"
+   "audio": "e90afca91f.mp3",
+   "pr": "moi DYE-dush-ka chi-TA-yet KNI-gi"
   },
   {
    "word": "d6w11",
@@ -369,8 +369,8 @@
     "globe_showing_europe-africa.png"
    ],
    "id": "d6s20",
-   "pr": "ye-YO mush is ra-SI-i",
-   "audio": "acc5216856.mp3"
+   "audio": "acc5216856.mp3",
+   "pr": "ye-YO mush is ra-SI-i"
   },
   {
    "word": "d6w12",
@@ -381,8 +381,8 @@
     "globe_showing_europe-africa.png"
    ],
    "id": "d6s21",
-   "pr": "yi-VO zhe-NA is LAT-vi-i",
-   "audio": "dbb1735c42.mp3"
+   "audio": "dbb1735c42.mp3",
+   "pr": "yi-VO zhe-NA is LAT-vi-i"
   },
   {
    "mk": "Как зову́т {тво|ю́} {ма́м|у}?",
@@ -395,8 +395,8 @@
    ],
    "id": "d6s22",
    "ru": "Как зову́т твою́ ма́му?",
-   "pr": "kak za-VUT tva-YU MA-mu",
-   "audio": "ecd7091f53.mp3"
+   "audio": "ecd7091f53.mp3",
+   "pr": "kak za-VUT tva-YU MA-mu"
   },
   {
    "mk": "Э́то кни́га {мо|е́й} {ма́м|ы}.",
@@ -409,8 +409,8 @@
    ],
    "id": "d6s23",
    "ru": "Э́то кни́га мое́й ма́мы.",
-   "pr": "E-ta KNI-ga ma-YEI MA-mih",
-   "audio": "2b64c133b1.mp3"
+   "audio": "2b64c133b1.mp3",
+   "pr": "E-ta KNI-ga ma-YEI MA-mih"
   },
   {
    "mk": "Я пишу́ {па́п|е}.",
@@ -423,8 +423,8 @@
    ],
    "id": "d6s24",
    "ru": "Я пишу́ па́пе.",
-   "pr": "ya pi-SHU PA-pye",
-   "audio": "5508994025.mp3"
+   "audio": "5508994025.mp3",
+   "pr": "ya pi-SHU PA-pye"
   },
   {
    "mk": "У меня́ два {бра́т|а} и одна́ сестра́.",
@@ -437,8 +437,8 @@
    ],
    "id": "d6s25",
    "ru": "У меня́ два бра́та и одна́ сестра́.",
-   "pr": "u mi-NYA dva BRA-ta i ad-NA sist-RA",
-   "audio": "c3fdaa36d0.mp3"
+   "audio": "c3fdaa36d0.mp3",
+   "pr": "u mi-NYA dva BRA-ta i ad-NA sist-RA"
   },
   {
    "mk": "Ско́лько у тебя́ {бра́ть|ев}?",
@@ -451,8 +451,8 @@
    ],
    "id": "d6s26",
    "ru": "Ско́лько у тебя́ бра́тьев?",
-   "pr": "SKOL'-ka u ti-BYA BRA-tyef",
-   "audio": "cfb8e61d00.mp3"
+   "audio": "cfb8e61d00.mp3",
+   "pr": "SKOL'-ka u ti-BYA BRA-tyef"
   }
  ],
  "notes": [
