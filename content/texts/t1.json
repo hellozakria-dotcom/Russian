@@ -1,69 +1,361 @@
 {
- "id": 1, "title": "Приве́т! Меня́ зову́т Али́.", "en": "Hi! My name is Ali.", "level": "A1", "after": 4, "pic": "Waving hand",
+ "id": 1,
+ "title": "Приве́т! Меня́ зову́т Али́.",
+ "en": "Hi! My name is Ali.",
+ "level": "A1",
+ "after": 4,
+ "pic": "Waving hand",
  "sentences": [
-  {"ru": "Приве́т! Меня́ зову́т Али́.", "en": "Hi! My name is Ali."},
-  {"ru": "Мне девятна́дцать лет.", "en": "I am nineteen (years old)."},
-  {"ru": "Я из Ли́вии, но сейча́с я живу́ в Ри́ге.", "en": "I'm from Libya, but now I live in Riga."},
-  {"ru": "Я студе́нт. Я учу́сь в университе́те.", "en": "I'm a student. I study at university."},
-  {"ru": "Ри́га — краси́вый го́род.", "en": "Riga is a beautiful city."},
-  {"ru": "У меня́ есть брат и сестра́.", "en": "I have a brother and a sister."},
-  {"ru": "Мой брат живёт в Ли́вии.", "en": "My brother lives in Libya."},
-  {"ru": "Ему́ два́дцать три го́да.", "en": "He is twenty-three."},
-  {"ru": "Моя́ сестра́ ма́ленькая, ей пять лет.", "en": "My sister is little, she is five."},
-  {"ru": "Я чита́ю кни́ги и смотрю́ фи́льмы по-ру́сски.", "en": "I read books and watch films in Russian."},
-  {"ru": "Я ещё пло́хо понима́ю, но я учу́ ру́сский язы́к ка́ждый день.", "en": "I still understand poorly, but I learn Russian every day."},
-  {"ru": "Пока́!", "en": "Bye!"}
+  {
+   "ru": "Приве́т! Меня́ зову́т Али́.",
+   "en": "Hi! My name is Ali."
+  },
+  {
+   "ru": "Мне девятна́дцать лет.",
+   "en": "I am nineteen (years old)."
+  },
+  {
+   "ru": "Я из Ли́вии, но сейча́с я живу́ в Ри́ге.",
+   "en": "I'm from Libya, but now I live in Riga."
+  },
+  {
+   "ru": "Я студе́нт. Я учу́сь в университе́те.",
+   "en": "I'm a student. I study at university."
+  },
+  {
+   "ru": "Ри́га — краси́вый го́род.",
+   "en": "Riga is a beautiful city."
+  },
+  {
+   "ru": "У меня́ есть брат и сестра́.",
+   "en": "I have a brother and a sister."
+  },
+  {
+   "ru": "Мой брат живёт в Ли́вии.",
+   "en": "My brother lives in Libya."
+  },
+  {
+   "ru": "Ему́ два́дцать три го́да.",
+   "en": "He is twenty-three."
+  },
+  {
+   "ru": "Моя́ сестра́ ма́ленькая, ей пять лет.",
+   "en": "My sister is little, she is five."
+  },
+  {
+   "ru": "Я чита́ю кни́ги и смотрю́ фи́льмы по-ру́сски.",
+   "en": "I read books and watch films in Russian."
+  },
+  {
+   "ru": "Я ещё пло́хо понима́ю, но я учу́ ру́сский язы́к ка́ждый день.",
+   "en": "I still understand poorly, but I learn Russian every day."
+  },
+  {
+   "ru": "Пока́!",
+   "en": "Bye!"
+  }
  ],
  "gloss": {
-  "привет": {"w": "приве́т", "lemma": "приве́т", "en": "hi", "info": "greeting, to a friend (polite: здра́вствуйте)"},
-  "меня": {"w": "меня́", "lemma": "я", "en": "me", "info": "pronoun я (I) in the accusative/genitive. Меня́ зову́т… = my name is…"},
-  "зовут": {"w": "зову́т", "lemma": "звать", "en": "(they) call", "info": "verb звать (to call), они́ form. Меня́ зову́т = they call me → my name is"},
-  "али": {"w": "Али́", "lemma": "Али́", "en": "Ali (a name)", "info": "male name; foreign names in -и don't change"},
-  "мне": {"w": "мне", "lemma": "я", "en": "to me", "info": "pronoun я in the dative. Мне … лет = I am … years old"},
-  "девятнадцать": {"w": "девятна́дцать", "lemma": "девятна́дцать", "en": "nineteen", "info": "number 19 (де́вять + на́дцать)"},
-  "лет": {"w": "лет", "lemma": "год", "en": "years", "info": "genitive plural of год, used after 5–20: пять лет"},
-  "я": {"w": "я", "lemma": "я", "en": "I", "info": "personal pronoun"},
-  "из": {"w": "из", "lemma": "из", "en": "from (out of)", "info": "preposition + genitive: из Ли́вии"},
-  "ливии": {"w": "Ли́вии", "lemma": "Ли́вия", "en": "Libya", "info": "Ли́вия in the genitive (из Ли́вии) or prepositional (в Ли́вии)"},
-  "но": {"w": "но", "lemma": "но", "en": "but", "info": "conjunction"},
-  "сейчас": {"w": "сейча́с", "lemma": "сейча́с", "en": "now", "info": "adverb"},
-  "живу": {"w": "живу́", "lemma": "жить", "en": "(I) live", "info": "verb жить (to live), я form: живу́, живёшь, живёт, живём, живёте, живу́т"},
-  "в": {"w": "в", "lemma": "в", "en": "in, at · to, into", "info": "preposition: + prepositional = where (в Ри́ге); + accusative = where to"},
-  "риге": {"w": "Ри́ге", "lemma": "Ри́га", "en": "(in) Riga", "info": "Ри́га in the prepositional: в Ри́ге = in Riga"},
-  "студент": {"w": "студе́нт", "lemma": "студе́нт", "en": "student (male)", "info": "noun, masculine (female: студе́нтка)"},
-  "учусь": {"w": "учу́сь", "lemma": "учи́ться", "en": "(I) study", "info": "verb учи́ться (to study, be a student), я form: учу́сь, у́чишься, у́чится…"},
-  "университете": {"w": "университе́те", "lemma": "университе́т", "en": "(at) university", "info": "университе́т in the prepositional: в университе́те"},
-  "рига": {"w": "Ри́га", "lemma": "Ри́га", "en": "Riga", "info": "city name, feminine"},
-  "красивый": {"w": "краси́вый", "lemma": "краси́вый", "en": "beautiful", "info": "adjective, masculine nominative (f: краси́вая, n: краси́вое)"},
-  "город": {"w": "го́род", "lemma": "го́род", "en": "city", "info": "noun, masculine (Day 1)"},
-  "у": {"w": "у", "lemma": "у", "en": "at, by (someone)", "info": "preposition + genitive. У меня́ есть… = I have…"},
-  "есть": {"w": "есть", "lemma": "есть", "en": "there is / (I) have", "info": "У меня́ есть брат = I have a brother (lit. by me there is a brother)"},
-  "брат": {"w": "брат", "lemma": "брат", "en": "brother", "info": "noun, masculine (Day 2)"},
-  "и": {"w": "и", "lemma": "и", "en": "and", "info": "conjunction"},
-  "сестра": {"w": "сестра́", "lemma": "сестра́", "en": "sister", "info": "noun, feminine (Day 2)"},
-  "мой": {"w": "мой", "lemma": "мой", "en": "my", "info": "possessive, masculine (f: моя́, n: моё, pl: мои́)"},
-  "живёт": {"w": "живёт", "lemma": "жить", "en": "(he) lives", "info": "verb жить, он/она́ form"},
-  "ему": {"w": "ему́", "lemma": "он", "en": "to him", "info": "pronoun он in the dative. Ему́ … го́да = he is … years old"},
-  "двадцать": {"w": "два́дцать", "lemma": "два́дцать", "en": "twenty", "info": "number 20"},
-  "три": {"w": "три", "lemma": "три", "en": "three", "info": "number 3; after it: genitive singular (три го́да)"},
-  "года": {"w": "го́да", "lemma": "год", "en": "years", "info": "genitive singular of год, used after 2–4 (and 23): три го́да"},
-  "моя": {"w": "моя́", "lemma": "мой", "en": "my", "info": "possessive, feminine"},
-  "маленькая": {"w": "ма́ленькая", "lemma": "ма́ленький", "en": "little, small", "info": "adjective, feminine nominative"},
-  "ей": {"w": "ей", "lemma": "она́", "en": "to her", "info": "pronoun она́ in the dative. Ей пять лет = she is five"},
-  "пять": {"w": "пять", "lemma": "пять", "en": "five", "info": "number 5; after it: genitive plural (пять лет)"},
-  "читаю": {"w": "чита́ю", "lemma": "чита́ть", "en": "(I) read", "info": "verb чита́ть, я form (Day 1)"},
-  "книги": {"w": "кни́ги", "lemma": "кни́га", "en": "books", "info": "кни́га, accusative plural (= nominative plural for things)"},
-  "смотрю": {"w": "смотрю́", "lemma": "смотре́ть", "en": "(I) watch", "info": "verb смотре́ть, я form (Day 1)"},
-  "фильмы": {"w": "фи́льмы", "lemma": "фильм", "en": "films", "info": "фильм, accusative plural"},
-  "по-русски": {"w": "по-ру́сски", "lemma": "по-ру́сски", "en": "in Russian", "info": "adverb: говорю́ / пишу́ по-ру́сски"},
-  "ещё": {"w": "ещё", "lemma": "ещё", "en": "still · more", "info": "adverb"},
-  "плохо": {"w": "пло́хо", "lemma": "пло́хо", "en": "badly, poorly", "info": "adverb (opposite: хорошо́)"},
-  "понимаю": {"w": "понима́ю", "lemma": "понима́ть", "en": "(I) understand", "info": "verb понима́ть, я form (Day 1)"},
-  "учу": {"w": "учу́", "lemma": "учи́ть", "en": "(I) learn", "info": "verb учи́ть (to learn something), я form: учу́ ру́сский = I'm learning Russian"},
-  "русский": {"w": "ру́сский", "lemma": "ру́сский", "en": "Russian", "info": "adjective, masculine. ру́сский язы́к = the Russian language"},
-  "язык": {"w": "язы́к", "lemma": "язы́к", "en": "language · tongue", "info": "noun, masculine"},
-  "каждый": {"w": "ка́ждый", "lemma": "ка́ждый", "en": "every, each", "info": "adjective, masculine. ка́ждый день = every day"},
-  "день": {"w": "день", "lemma": "день", "en": "day", "info": "noun, masculine (ends in -ь)"},
-  "пока": {"w": "пока́", "lemma": "пока́", "en": "bye", "info": "to a friend (polite: до свида́ния)"}
- }
+  "привет": {
+   "w": "приве́т",
+   "lemma": "приве́т",
+   "en": "hi",
+   "info": "greeting, to a friend (polite: здра́вствуйте)"
+  },
+  "меня": {
+   "w": "меня́",
+   "lemma": "я",
+   "en": "me",
+   "info": "pronoun я (I) in the accusative/genitive. Меня́ зову́т… = my name is…"
+  },
+  "зовут": {
+   "w": "зову́т",
+   "lemma": "звать",
+   "en": "(they) call",
+   "info": "verb звать (to call), они́ form. Меня́ зову́т = they call me → my name is"
+  },
+  "али": {
+   "w": "Али́",
+   "lemma": "Али́",
+   "en": "Ali (a name)",
+   "info": "male name; foreign names in -и don't change"
+  },
+  "мне": {
+   "w": "мне",
+   "lemma": "я",
+   "en": "to me",
+   "info": "pronoun я in the dative. Мне … лет = I am … years old"
+  },
+  "девятнадцать": {
+   "w": "девятна́дцать",
+   "lemma": "девятна́дцать",
+   "en": "nineteen",
+   "info": "number 19 (де́вять + на́дцать)"
+  },
+  "лет": {
+   "w": "лет",
+   "lemma": "год",
+   "en": "years",
+   "info": "genitive plural of год, used after 5–20: пять лет"
+  },
+  "я": {
+   "w": "я",
+   "lemma": "я",
+   "en": "I",
+   "info": "personal pronoun"
+  },
+  "из": {
+   "w": "из",
+   "lemma": "из",
+   "en": "from (out of)",
+   "info": "preposition + genitive: из Ли́вии"
+  },
+  "ливии": {
+   "w": "Ли́вии",
+   "lemma": "Ли́вия",
+   "en": "Libya",
+   "info": "Ли́вия in the genitive (из Ли́вии) or prepositional (в Ли́вии)"
+  },
+  "но": {
+   "w": "но",
+   "lemma": "но",
+   "en": "but",
+   "info": "conjunction"
+  },
+  "сейчас": {
+   "w": "сейча́с",
+   "lemma": "сейча́с",
+   "en": "now",
+   "info": "adverb"
+  },
+  "живу": {
+   "w": "живу́",
+   "lemma": "жить",
+   "en": "(I) live",
+   "info": "verb жить (to live), я form: живу́, живёшь, живёт, живём, живёте, живу́т"
+  },
+  "в": {
+   "w": "в",
+   "lemma": "в",
+   "en": "in, at · to, into",
+   "info": "preposition: + prepositional = where (в Ри́ге); + accusative = where to"
+  },
+  "риге": {
+   "w": "Ри́ге",
+   "lemma": "Ри́га",
+   "en": "(in) Riga",
+   "info": "Ри́га in the prepositional: в Ри́ге = in Riga"
+  },
+  "студент": {
+   "w": "студе́нт",
+   "lemma": "студе́нт",
+   "en": "student (male)",
+   "info": "noun, masculine (female: студе́нтка)"
+  },
+  "учусь": {
+   "w": "учу́сь",
+   "lemma": "учи́ться",
+   "en": "(I) study",
+   "info": "verb учи́ться (to study, be a student), я form: учу́сь, у́чишься, у́чится…"
+  },
+  "университете": {
+   "w": "университе́те",
+   "lemma": "университе́т",
+   "en": "(at) university",
+   "info": "университе́т in the prepositional: в университе́те"
+  },
+  "рига": {
+   "w": "Ри́га",
+   "lemma": "Ри́га",
+   "en": "Riga",
+   "info": "city name, feminine"
+  },
+  "красивый": {
+   "w": "краси́вый",
+   "lemma": "краси́вый",
+   "en": "beautiful",
+   "info": "adjective, masculine nominative (f: краси́вая, n: краси́вое)"
+  },
+  "город": {
+   "w": "го́род",
+   "lemma": "го́род",
+   "en": "city",
+   "info": "noun, masculine (Day 1)"
+  },
+  "у": {
+   "w": "у",
+   "lemma": "у",
+   "en": "at, by (someone)",
+   "info": "preposition + genitive. У меня́ есть… = I have…"
+  },
+  "есть": {
+   "w": "есть",
+   "lemma": "есть",
+   "en": "there is / (I) have",
+   "info": "У меня́ есть брат = I have a brother (lit. by me there is a brother)"
+  },
+  "брат": {
+   "w": "брат",
+   "lemma": "брат",
+   "en": "brother",
+   "info": "noun, masculine (Day 2)"
+  },
+  "и": {
+   "w": "и",
+   "lemma": "и",
+   "en": "and",
+   "info": "conjunction"
+  },
+  "сестра": {
+   "w": "сестра́",
+   "lemma": "сестра́",
+   "en": "sister",
+   "info": "noun, feminine (Day 2)"
+  },
+  "мой": {
+   "w": "мой",
+   "lemma": "мой",
+   "en": "my",
+   "info": "possessive, masculine (f: моя́, n: моё, pl: мои́)"
+  },
+  "живёт": {
+   "w": "живёт",
+   "lemma": "жить",
+   "en": "(he) lives",
+   "info": "verb жить, он/она́ form"
+  },
+  "ему": {
+   "w": "ему́",
+   "lemma": "он",
+   "en": "to him",
+   "info": "pronoun он in the dative. Ему́ … го́да = he is … years old"
+  },
+  "двадцать": {
+   "w": "два́дцать",
+   "lemma": "два́дцать",
+   "en": "twenty",
+   "info": "number 20"
+  },
+  "три": {
+   "w": "три",
+   "lemma": "три",
+   "en": "three",
+   "info": "number 3; after it: genitive singular (три го́да)"
+  },
+  "года": {
+   "w": "го́да",
+   "lemma": "год",
+   "en": "years",
+   "info": "genitive singular of год, used after 2–4 (and 23): три го́да"
+  },
+  "моя": {
+   "w": "моя́",
+   "lemma": "мой",
+   "en": "my",
+   "info": "possessive, feminine"
+  },
+  "маленькая": {
+   "w": "ма́ленькая",
+   "lemma": "ма́ленький",
+   "en": "little, small",
+   "info": "adjective, feminine nominative"
+  },
+  "ей": {
+   "w": "ей",
+   "lemma": "она́",
+   "en": "to her",
+   "info": "pronoun она́ in the dative. Ей пять лет = she is five"
+  },
+  "пять": {
+   "w": "пять",
+   "lemma": "пять",
+   "en": "five",
+   "info": "number 5; after it: genitive plural (пять лет)"
+  },
+  "читаю": {
+   "w": "чита́ю",
+   "lemma": "чита́ть",
+   "en": "(I) read",
+   "info": "verb чита́ть, я form (Day 1)"
+  },
+  "книги": {
+   "w": "кни́ги",
+   "lemma": "кни́га",
+   "en": "books",
+   "info": "кни́га, accusative plural (= nominative plural for things)"
+  },
+  "смотрю": {
+   "w": "смотрю́",
+   "lemma": "смотре́ть",
+   "en": "(I) watch",
+   "info": "verb смотре́ть, я form (Day 1)"
+  },
+  "фильмы": {
+   "w": "фи́льмы",
+   "lemma": "фильм",
+   "en": "films",
+   "info": "фильм, accusative plural"
+  },
+  "по-русски": {
+   "w": "по-ру́сски",
+   "lemma": "по-ру́сски",
+   "en": "in Russian",
+   "info": "adverb: говорю́ / пишу́ по-ру́сски"
+  },
+  "ещё": {
+   "w": "ещё",
+   "lemma": "ещё",
+   "en": "still · more",
+   "info": "adverb"
+  },
+  "плохо": {
+   "w": "пло́хо",
+   "lemma": "пло́хо",
+   "en": "badly, poorly",
+   "info": "adverb (opposite: хорошо́)"
+  },
+  "понимаю": {
+   "w": "понима́ю",
+   "lemma": "понима́ть",
+   "en": "(I) understand",
+   "info": "verb понима́ть, я form (Day 1)"
+  },
+  "учу": {
+   "w": "учу́",
+   "lemma": "учи́ть",
+   "en": "(I) learn",
+   "info": "verb учи́ть (to learn something), я form: учу́ ру́сский = I'm learning Russian"
+  },
+  "русский": {
+   "w": "ру́сский",
+   "lemma": "ру́сский",
+   "en": "Russian",
+   "info": "adjective, masculine. ру́сский язы́к = the Russian language"
+  },
+  "язык": {
+   "w": "язы́к",
+   "lemma": "язы́к",
+   "en": "language · tongue",
+   "info": "noun, masculine"
+  },
+  "каждый": {
+   "w": "ка́ждый",
+   "lemma": "ка́ждый",
+   "en": "every, each",
+   "info": "adjective, masculine. ка́ждый день = every day"
+  },
+  "день": {
+   "w": "день",
+   "lemma": "день",
+   "en": "day",
+   "info": "noun, masculine (ends in -ь)"
+  },
+  "пока": {
+   "w": "пока́",
+   "lemma": "пока́",
+   "en": "bye",
+   "info": "to a friend (polite: до свида́ния)"
+  }
+ },
+ "kind": "story"
 }

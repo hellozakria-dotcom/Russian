@@ -22,7 +22,10 @@
    "note": "One changes with gender: оди́н брат, одна́ сестра́, одно́ окно́.",
    "id": "d3w2",
    "pr": "a-DIN / ad-NA / ad-NO",
-   "audio": "87e87e51e6.mp3"
+   "audio": "87e87e51e6.mp3",
+   "lemmas": [
+    "оди́н"
+   ]
   },
   {
    "kind": "num",
@@ -33,7 +36,10 @@
    "note": "два for masculine and neuter, две for feminine: два бра́та, две сестры́.",
    "id": "d3w3",
    "pr": "dva / dvye",
-   "audio": "d31de24b7c.mp3"
+   "audio": "d31de24b7c.mp3",
+   "lemmas": [
+    "два"
+   ]
   },
   {
    "kind": "num",

@@ -146,10 +146,93 @@ for path in sorted(glob.glob("content/texts/t*.json"), key=lambda p: int(re.find
         g["audio"] = audio(g["w"])
     t["gloss"] = gloss
     if t.get("pic"): t["pic"] = pic(t["pic"])
+    for sp in (t.get("speakers") or {}).values():
+        if sp.get("pic"): sp["pic"] = pic(sp["pic"])
     json.dump(t, open(f"texts/t{t['id']}.json", "w", encoding="utf-8"), ensure_ascii=False)
-    tindex.append(dict(id=t["id"], file=f"texts/t{t['id']}.json", title=t["title"], en=t.get("en", ""), level=t.get("level", ""),
+    tindex.append(dict(id=t["id"], kind=t.get("kind", "story"), file=f"texts/t{t['id']}.json", title=t["title"], en=t.get("en", ""), level=t.get("level", ""),
                        after=t.get("after", 0), pic=t.get("pic"), words=len(gloss), sentences=len(t["sentences"])))
 json.dump(dict(texts=tindex), open("texts/index.json", "w", encoding="utf-8"), ensure_ascii=False)
+
+# ---- lexicon: one entry per dictionary word (lemma), with usage examples from all lessons and texts ----
+WR = re.compile(r"[А-Яа-яЁё́]+(?:-[А-Яа-яЁё́]+)*")
+toks = lambda s: [norm(x) for x in WR.findall(plain(s))]
+lex = {}            # key -> entry
+form2lemma = {}     # norm form -> lemma key
+override = json.load(open("content/lexicon.json", encoding="utf-8")) if os.path.exists("content/lexicon.json") else {}
+def lemma_entry(lem, en=None, src=None, card=None, pos=None):
+    k = norm(lem)
+    e = lex.setdefault(k, {"l": lem, "en": None, "src": src, "cards": [], "pos": pos})
+    if en and not e["en"]: e["en"] = en
+    if card and card not in e["cards"]: e["cards"].append(card)
+    if pos and not e.get("pos"): e["pos"] = pos
+    form2lemma.setdefault(k, k)
+    return k
+def lesson_lemmas(w):
+    if w.get("lemmas"): return w["lemmas"]
+    return [x.strip().strip("…?!.").strip() for x in w["ru"].split("/") if x.strip()]
+days_all = [json.load(open(f"days/day{x['id']}.json", encoding="utf-8")) for x in index]
+for d in days_all:
+    for w in d["words"]:
+        ls = lesson_lemmas(w)
+        keys = [lemma_entry(l, w["en"], d["title"], w["id"], w.get("g")) for l in ls]
+        w["lemmas"] = ls
+        tb = w.get("table")
+        if tb:
+            for r in tb["rows"]:
+                for j, cell in enumerate(r[1:], 1):
+                    k = keys[min(j - 1, len(keys) - 1)] if len(keys) > 1 else keys[0]
+                    for part in re.split(r" · |/", cell):
+                        part = re.sub(r"[()*]|\bо\b|\bоб\b", " ", part).strip()
+                        ws = WR.findall(part)
+                        for x in ws:
+                            if len(ws) == 1 or norm(x)[:3] == k[:3]: form2lemma.setdefault(norm(x), k)
+    json.dump(d, open(f"days/day{d['id']}.json", "w", encoding="utf-8"), ensure_ascii=False)
+texts_all = [json.load(open(f"texts/t{x['id']}.json", encoding="utf-8")) for x in tindex]
+for t in texts_all:
+    for f, g in t["gloss"].items():
+        k = lemma_entry(g["lemma"], g["en"] if norm(g["w"]) == norm(g["lemma"]) else None, t["title"])
+        form2lemma[f] = k
+        g["k"] = k
+    json.dump(t, open(f"texts/t{t['id']}.json", "w", encoding="utf-8"), ensure_ascii=False)
+for k, o in override.items():
+    kk = lemma_entry(o.get("l", k), None)
+    if o.get("en"): lex[kk]["en"] = o["en"]
+# corpus of example sentences
+corpus = []
+for d in days_all:
+    for s in d["sentences"]: corpus.append({"ru": s["ru"], "en": s["en"], "src": d["title"]})
+for t in texts_all:
+    for s in t["sentences"]: corpus.append({"ru": s["ru"], "en": s["en"], "src": t["title"].replace("́", "")})
+for k, o in override.items():
+    for ex in o.get("ex", []): corpus.append({"ru": ex["ru"], "en": ex["en"], "src": "examples", "lemma": norm(o.get("l", k))})
+    for f in o.get("forms", []): form2lemma.setdefault(norm(f), norm(o.get("l", k)))
+seen = set(); dedup = []
+for c in corpus:
+    if norm(c["ru"]) in seen:
+        if c.get("lemma"):
+            for x in dedup:
+                if norm(x["ru"]) == norm(c["ru"]): x["lemma"] = c["lemma"]
+        continue
+    seen.add(norm(c["ru"])); dedup.append(c)
+corpus = dedup
+phrases = [k for k in lex if " " in k]
+for i, c in enumerate(corpus):
+    found = set(form2lemma[t] for t in toks(c["ru"]) if t in form2lemma)
+    flat = " ".join(toks(c["ru"]))
+    found |= {k for k in phrases if (" " + k + " ") in (" " + flat + " ")}
+    if c.get("lemma") in lex: found.add(c.pop("lemma"))
+    c.pop("lemma", None)
+    for k in found: lex[k].setdefault("ex", []).append(i)
+    c["audio"] = audio(c["ru"])
+weak = [e["l"] for k, e in lex.items() if len(e.get("ex", [])) < 2 and not re.fullmatch(r"[А-ЯЁ].*", e["l"].replace("́", "")[:1] or "x")]
+no_en = [e["l"] for e in lex.values() if not e["en"]]
+for e in lex.values():
+    e["ex"] = e.get("ex", [])[:8]
+    if not e["en"]: e["en"] = ""
+json.dump({"lemmas": lex, "forms": form2lemma, "corpus": corpus}, open("days/lexicon.json", "w", encoding="utf-8"), ensure_ascii=False)
+print(f"Lexicon: {len(lex)} dictionary words, {len(corpus)} example sentences")
+if no_en: print("  needs an English meaning in content/lexicon.json:", ", ".join(sorted(no_en)))
+if weak: print("  fewer than 2 usage examples (add some in content/lexicon.json):", ", ".join(sorted(weak)))
 
 # ---- service worker: precache everything except videos ----
 files = ["./", "index.html", "manifest.webmanifest"] + sorted(

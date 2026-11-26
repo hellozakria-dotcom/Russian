@@ -1,0 +1,346 @@
+{
+ "id": 6,
+ "kind": "conversation",
+ "title": "Фотогра́фия",
+ "en": "The family photo",
+ "level": "A1",
+ "after": 6,
+ "pic": "Framed picture",
+ "speakers": {
+  "n": {
+   "name": "А́нна",
+   "en": "Anna",
+   "pic": "Woman"
+  },
+  "a": {
+   "name": "Али́",
+   "en": "Ali",
+   "pic": "Man",
+   "me": true
+  }
+ },
+ "sentences": [
+  {
+   "sp": "n",
+   "ru": "Кто э́то на фотогра́фии?",
+   "en": "Who is that in the photo?"
+  },
+  {
+   "sp": "a",
+   "ru": "Э́то моя́ семья́. Вот мой па́па и моя́ ма́ма.",
+   "en": "This is my family. Here are my dad and my mum."
+  },
+  {
+   "sp": "n",
+   "ru": "А э́то кто?",
+   "en": "And who is this?"
+  },
+  {
+   "sp": "a",
+   "ru": "Э́то мой брат. Его́ зову́т Ома́р. Ему́ два́дцать три го́да.",
+   "en": "That's my brother. His name is Omar. He is twenty-three."
+  },
+  {
+   "sp": "n",
+   "ru": "А де́вочка?",
+   "en": "And the girl?"
+  },
+  {
+   "sp": "a",
+   "ru": "Э́то моя́ сестра́ Ле́йла. Ей пять лет.",
+   "en": "That's my sister Leila. She is five."
+  },
+  {
+   "sp": "n",
+   "ru": "Кака́я краси́вая! У тебя́ больша́я семья́.",
+   "en": "How pretty! You have a big family."
+  },
+  {
+   "sp": "a",
+   "ru": "Да. А у тебя́ есть бра́тья и́ли сёстры?",
+   "en": "Yes. And do you have brothers or sisters?"
+  },
+  {
+   "sp": "n",
+   "ru": "Нет, у меня́ нет ни бра́та, ни сестры́. Но у меня́ есть кот!",
+   "en": "No, I have neither a brother nor a sister. But I have a cat!"
+  },
+  {
+   "sp": "a",
+   "ru": "Ха-ха, кот — то́же семья́!",
+   "en": "Ha-ha, a cat is family too!"
+  }
+ ],
+ "gloss": {
+  "кто": {
+   "w": "кто",
+   "lemma": "кто",
+   "en": "who",
+   "info": "question word"
+  },
+  "это": {
+   "w": "э́то",
+   "lemma": "э́то",
+   "en": "this, that, it",
+   "info": "Э́то… = this is…"
+  },
+  "на": {
+   "w": "на",
+   "lemma": "на",
+   "en": "on, in",
+   "info": "на фотогра́фии = in the photo (на + prepositional)"
+  },
+  "фотографии": {
+   "w": "фотогра́фии",
+   "lemma": "фотогра́фия",
+   "en": "photo",
+   "info": "фотогра́фия in the prepositional"
+  },
+  "моя": {
+   "w": "моя́",
+   "lemma": "мой",
+   "en": "my",
+   "info": "feminine (семья́, ма́ма, сестра́)"
+  },
+  "семья": {
+   "w": "семья́",
+   "lemma": "семья́",
+   "en": "family",
+   "info": "noun, feminine (Day 6)"
+  },
+  "вот": {
+   "w": "вот",
+   "lemma": "вот",
+   "en": "here (is/are)",
+   "info": ""
+  },
+  "мой": {
+   "w": "мой",
+   "lemma": "мой",
+   "en": "my",
+   "info": "masculine (па́па is masculine!)"
+  },
+  "папа": {
+   "w": "па́па",
+   "lemma": "па́па",
+   "en": "dad",
+   "info": "masculine noun that changes like кни́га (Day 6)"
+  },
+  "и": {
+   "w": "и",
+   "lemma": "и",
+   "en": "and",
+   "info": ""
+  },
+  "мама": {
+   "w": "ма́ма",
+   "lemma": "ма́ма",
+   "en": "mum",
+   "info": "Day 6"
+  },
+  "а": {
+   "w": "а",
+   "lemma": "а",
+   "en": "and (what about)",
+   "info": "А э́то кто? = And who is this?"
+  },
+  "брат": {
+   "w": "брат",
+   "lemma": "брат",
+   "en": "brother",
+   "info": "Day 2"
+  },
+  "его": {
+   "w": "его́",
+   "lemma": "он",
+   "en": "him",
+   "info": "он in the accusative. Его́ зову́т… = his name is… (said yi-VO)"
+  },
+  "зовут": {
+   "w": "зову́т",
+   "lemma": "звать",
+   "en": "(they) call",
+   "info": ""
+  },
+  "омар": {
+   "w": "Ома́р",
+   "lemma": "Ома́р",
+   "en": "Omar (a name)",
+   "info": "male name"
+  },
+  "ему": {
+   "w": "ему́",
+   "lemma": "он",
+   "en": "to him",
+   "info": "он in the dative: Ему́ … лет = he is … years old"
+  },
+  "двадцать": {
+   "w": "два́дцать",
+   "lemma": "два́дцать",
+   "en": "twenty",
+   "info": ""
+  },
+  "три": {
+   "w": "три",
+   "lemma": "три",
+   "en": "three",
+   "info": "23 ends in 3 → го́да"
+  },
+  "года": {
+   "w": "го́да",
+   "lemma": "год",
+   "en": "years",
+   "info": "after 2–4: го́да"
+  },
+  "девочка": {
+   "w": "де́вочка",
+   "lemma": "де́вочка",
+   "en": "girl",
+   "info": "noun, feminine (boy: ма́льчик)"
+  },
+  "сестра": {
+   "w": "сестра́",
+   "lemma": "сестра́",
+   "en": "sister",
+   "info": ""
+  },
+  "лейла": {
+   "w": "Ле́йла",
+   "lemma": "Ле́йла",
+   "en": "Leila (a name)",
+   "info": "female name"
+  },
+  "ей": {
+   "w": "ей",
+   "lemma": "она́",
+   "en": "to her",
+   "info": "она́ in the dative: Ей пять лет"
+  },
+  "пять": {
+   "w": "пять",
+   "lemma": "пять",
+   "en": "five",
+   "info": ""
+  },
+  "лет": {
+   "w": "лет",
+   "lemma": "год",
+   "en": "years",
+   "info": "after 5–20: лет"
+  },
+  "какая": {
+   "w": "кака́я",
+   "lemma": "како́й",
+   "en": "what (a)… / how…",
+   "info": "Кака́я краси́вая! = How pretty (she is)! Feminine form of како́й"
+  },
+  "красивая": {
+   "w": "краси́вая",
+   "lemma": "краси́вый",
+   "en": "pretty, beautiful",
+   "info": "adjective, feminine"
+  },
+  "у": {
+   "w": "у",
+   "lemma": "у",
+   "en": "at, by",
+   "info": "у тебя́ = you have"
+  },
+  "тебя": {
+   "w": "тебя́",
+   "lemma": "ты",
+   "en": "you",
+   "info": "ты in the genitive after у"
+  },
+  "большая": {
+   "w": "больша́я",
+   "lemma": "большо́й",
+   "en": "big",
+   "info": "adjective, feminine"
+  },
+  "да": {
+   "w": "да",
+   "lemma": "да",
+   "en": "yes",
+   "info": ""
+  },
+  "есть": {
+   "w": "есть",
+   "lemma": "есть",
+   "en": "there is / have",
+   "info": ""
+  },
+  "братья": {
+   "w": "бра́тья",
+   "lemma": "брат",
+   "en": "brothers",
+   "info": "irregular plural of брат"
+  },
+  "или": {
+   "w": "и́ли",
+   "lemma": "и́ли",
+   "en": "or",
+   "info": ""
+  },
+  "сёстры": {
+   "w": "сёстры",
+   "lemma": "сестра́",
+   "en": "sisters",
+   "info": "plural of сестра́ (the stress moves)"
+  },
+  "нет": {
+   "w": "нет",
+   "lemma": "нет",
+   "en": "no · there is no",
+   "info": "нет + genitive"
+  },
+  "меня": {
+   "w": "меня́",
+   "lemma": "я",
+   "en": "me",
+   "info": "у меня́ = I have"
+  },
+  "ни": {
+   "w": "ни",
+   "lemma": "ни",
+   "en": "neither / nor",
+   "info": "нет ни…, ни… = neither … nor …"
+  },
+  "брата": {
+   "w": "бра́та",
+   "lemma": "брат",
+   "en": "brother",
+   "info": "брат in the genitive (after нет)"
+  },
+  "сестры": {
+   "w": "сестры́",
+   "lemma": "сестра́",
+   "en": "sister",
+   "info": "сестра́ in the genitive (after нет)"
+  },
+  "но": {
+   "w": "но",
+   "lemma": "но",
+   "en": "but",
+   "info": ""
+  },
+  "кот": {
+   "w": "кот",
+   "lemma": "кот",
+   "en": "cat",
+   "info": ""
+  },
+  "ха-ха": {
+   "w": "ха-ха",
+   "lemma": "ха-ха",
+   "en": "ha-ha",
+   "info": "laugh"
+  },
+  "тоже": {
+   "w": "то́же",
+   "lemma": "то́же",
+   "en": "too, also",
+   "info": ""
+  }
+ }
+}

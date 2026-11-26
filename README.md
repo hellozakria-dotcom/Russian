@@ -14,7 +14,9 @@ and on desktop, and has no server or account.
   Russian voice, conjugation and case tables, example sentences and the lesson video.
 - **Cards**: spaced repetition (Again / Hard / Good / Easy), Russian → English, English → Russian
   or mixed, one deck per day or everything. Keyboard: space, 1–4, P.
-- **Read**: LingQ-style graded texts. Hover (desktop) or tap (phone) any word for its meaning,
+- **Home**: daily goal ring, streak, a Continue button that picks your next step, and your path through the units.
+- **Words**: a known-words counter that counts dictionary words (all forms/cases of a word count once; the two verbs of an aspect pair count as two), with filters, search and your own words.
+- **Read**: LingQ-style graded texts, including everyday conversations shown as chat bubbles. Usage examples in the word card come from all lessons and texts (never the sentence you're reading). Hover (desktop) or tap (phone) any word for its meaning,
   pronunciation, voice, grammar and an example; add it to your cards or mark it as known.
   Blue = new, yellow = learning. Each sentence has voice and an English translation.
 - **Add**: your own words and sets (type `'` after the stressed vowel: `соба'ка`).
@@ -26,6 +28,11 @@ and on desktop, and has no server or account.
 and `gloss`: one entry per word form in the text, keyed by the form without stress
 (`"живу": {"w": "живу́", "lemma": "жить", "en": "(I) live", "info": "verb жить, я form…"}`).
 `tools/build.py` stops and lists any word that has no gloss, then makes the voice for every word and sentence.
+
+## Dictionary words and usage examples
+`tools/build.py` builds `days/lexicon.json`: one entry per dictionary word, the forms that belong to it, and example sentences from every lesson and text.
+It warns about words with no English meaning or fewer than 2 examples; add those in `content/lexicon.json` (`en`, `ex`, `forms`).
+A lesson word lists its dictionary words in `lemmas` (default: the parts split by `/`).
 
 ## Learning path
 The days follow an A1 → A2 path built on the topics of the official Russian state exam for foreigners (TORFL / ТРКИ).
