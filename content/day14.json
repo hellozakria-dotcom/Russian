@@ -1,0 +1,646 @@
+{
+ "id": 14,
+ "title": "Day 14",
+ "topic": "Shopping and money",
+ "words": [
+  {
+   "kind": "noun",
+   "g": "pl",
+   "ru": "де́ньги",
+   "en": "money",
+   "pic": "euro_banknote.png",
+   "note": "Always plural: мои́ де́ньги. Genitive: де́нег (у меня́ нет де́нег).",
+   "id": "d14w1",
+   "pr": "DYEN'-gi",
+   "audio": "a68f2c97da.mp3"
+  },
+  {
+   "kind": "verb",
+   "g": "verb",
+   "ru": "покупа́ть / купи́ть",
+   "en": "to buy",
+   "pic": "shopping_bags.png",
+   "note": "купи́ть: куплю́, ку́пишь, ку́пит… (an л appears in the я form).",
+   "table": {
+    "cols": [
+     "",
+     "покупа́ть (now)",
+     "купи́ть (future)"
+    ],
+    "rows": [
+     [
+      "я",
+      "покупа́ю",
+      "куплю́"
+     ],
+     [
+      "ты",
+      "покупа́ешь",
+      "ку́пишь"
+     ],
+     [
+      "он / она́",
+      "покупа́ет",
+      "ку́пит"
+     ],
+     [
+      "мы",
+      "покупа́ем",
+      "ку́пим"
+     ],
+     [
+      "вы",
+      "покупа́ете",
+      "ку́пите"
+     ],
+     [
+      "они́",
+      "покупа́ют",
+      "ку́пят"
+     ]
+    ]
+   },
+   "id": "d14w2",
+   "pr": "pa-ku-PAT' / ku-PIT'",
+   "audio": "b6d55f9d46.mp3"
+  },
+  {
+   "kind": "verb",
+   "g": "verb",
+   "ru": "плати́ть / заплати́ть",
+   "en": "to pay",
+   "pic": "credit_card.png",
+   "note": "плачу́, пла́тишь, пла́тит… (т → ч in the я form).",
+   "id": "d14w3",
+   "pr": "pla-TIT' / zap-la-TIT'",
+   "audio": "bf43bb5d14.mp3"
+  },
+  {
+   "kind": "adj",
+   "g": "adj",
+   "ru": "дорого́й",
+   "en": "expensive · dear",
+   "pic": "chart_increasing.png",
+   "note": "Э́то до́рого! = That's expensive! (adverb до́рого).",
+   "id": "d14w4",
+   "pr": "da-ra-GOI",
+   "audio": "86b772d0ed.mp3"
+  },
+  {
+   "kind": "adj",
+   "g": "adj",
+   "ru": "дешёвый",
+   "en": "cheap",
+   "pic": "chart_decreasing.png",
+   "note": "Adverb: дёшево.",
+   "id": "d14w5",
+   "pr": "di-SHO-vih",
+   "audio": "c3ca4d992b.mp3"
+  },
+  {
+   "kind": "noun",
+   "g": "f",
+   "ru": "ка́рта",
+   "en": "(bank) card · map",
+   "pic": "credit_card.png",
+   "note": "ка́ртой = by card (instrumental).",
+   "id": "d14w6",
+   "pr": "KAR-ta",
+   "audio": "b772d7b60d.mp3"
+  },
+  {
+   "kind": "noun",
+   "g": "pl",
+   "ru": "нали́чные",
+   "en": "cash",
+   "pic": "coin.png",
+   "note": "An adjective used as a noun, always plural: нали́чными = in cash.",
+   "id": "d14w7",
+   "pr": "na-LICH-nih-ye",
+   "audio": "2063bd6171.mp3"
+  },
+  {
+   "kind": "noun",
+   "g": "f",
+   "ru": "ски́дка",
+   "en": "discount",
+   "pic": "label.png",
+   "id": "d14w8",
+   "pr": "SKID-ka",
+   "audio": "4fa5a7fdab.mp3"
+  },
+  {
+   "kind": "noun",
+   "g": "m",
+   "ru": "разме́р",
+   "en": "size",
+   "pic": "dress.png",
+   "id": "d14w9",
+   "pr": "raz-MYER",
+   "audio": "52dbfe9ff5.mp3"
+  },
+  {
+   "kind": "noun",
+   "g": "m",
+   "ru": "чек",
+   "en": "receipt",
+   "pic": "receipt.png",
+   "id": "d14w10",
+   "pr": "chyek",
+   "audio": "d8b54557df.mp3"
+  },
+  {
+   "kind": "num",
+   "g": "num",
+   "ru": "ты́сяча",
+   "en": "a thousand · 1000",
+   "pic": "num_1000.png",
+   "note": "Feminine noun: две ты́сячи, пять ты́сяч.",
+   "id": "d14w11",
+   "pr": "TIH-sya-cha",
+   "audio": "f31ed4058d.mp3"
+  },
+  {
+   "kind": "num",
+   "g": "num",
+   "ru": "две́сти / пятьсо́т",
+   "lemmas": [
+    "две́сти",
+    "пятьсо́т"
+   ],
+   "en": "200 / 500",
+   "pic": "num_500.png",
+   "note": "Hundreds: сто, две́сти, три́ста, четы́реста, пятьсо́т, шестьсо́т, семьсо́т, восемьсо́т, девятьсо́т.",
+   "id": "d14w12",
+   "pr": "DVYES-ti / pya-TSOT",
+   "audio": "20ec992d55.mp3"
+  }
+ ],
+ "notes": [
+  {
+   "h": "Buying: покупа́ть / купи́ть",
+   "lines": [
+    "Imperfective покупа́ть = buy regularly or be buying: Я всегда́ покупа́ю хлеб здесь.",
+    "Perfective купи́ть = buy once, done: Я купи́л ку́ртку. Я куплю́ (I will buy)."
+   ]
+  },
+  {
+   "h": "Paying",
+   "lines": [
+    "плати́ть ка́ртой (by card) / нали́чными (in cash): instrumental = by what means.",
+    "Мо́жно заплати́ть ка́ртой? = Can I pay by card?"
+   ]
+  },
+  {
+   "h": "Prices",
+   "lines": [
+    "Ско́лько сто́ит…? (one thing) / Ско́лько сто́ят…? (plural).",
+    "Big numbers: сто, две́сти, три́ста, четы́реста, пятьсо́т… ты́сяча (1000), две ты́сячи, пять ты́сяч.",
+    "ты́сяча is a feminine noun: it follows the 1 / 2–4 / 5+ rule like any noun."
+   ]
+  },
+  {
+   "h": "this: э́тот, э́та, э́то, э́ти",
+   "lines": [
+    "э́тот (m) разме́р, э́та (f) ку́ртка, э́то (n) я́блоко, э́ти (pl) брю́ки.",
+    "Don't mix up: Э́то до́рого (That is expensive) vs э́то я́блоко (this apple)."
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "Hundreds and thousands",
+   "cols": [
+    "",
+    "Russian"
+   ],
+   "rows": [
+    [
+     "100",
+     "сто"
+    ],
+    [
+     "200",
+     "две́сти"
+    ],
+    [
+     "300",
+     "три́ста"
+    ],
+    [
+     "400",
+     "четы́реста"
+    ],
+    [
+     "500",
+     "пятьсо́т"
+    ],
+    [
+     "600",
+     "шестьсо́т"
+    ],
+    [
+     "700",
+     "семьсо́т"
+    ],
+    [
+     "800",
+     "восемьсо́т"
+    ],
+    [
+     "900",
+     "девятьсо́т"
+    ],
+    [
+     "1000",
+     "ты́сяча"
+    ],
+    [
+     "2000",
+     "две ты́сячи"
+    ],
+    [
+     "5000",
+     "пять ты́сяч"
+    ]
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "word": "d14w1",
+   "ru": "У меня́ нет де́нег.",
+   "en": "I have no money.",
+   "pics": [
+    "euro_banknote.png",
+    "cross_mark.png"
+   ],
+   "why": [
+    "нет + genitive: де́ньги → де́нег (genitive plural, irregular)."
+   ],
+   "id": "d14s1",
+   "pr": "u mi-NYA nyet DYE-nik",
+   "audio": "cde094e2ba.mp3"
+  },
+  {
+   "word": "d14w1",
+   "ru": "Ско́лько у тебя́ де́нег?",
+   "en": "How much money do you have?",
+   "pics": [
+    "euro_banknote.png",
+    "red_question_mark.png"
+   ],
+   "why": [
+    "Ско́лько + genitive plural: де́нег."
+   ],
+   "id": "d14s2",
+   "pr": "SKOL'-ka u ti-BYA DYE-nik",
+   "audio": "e2b1a0617f.mp3"
+  },
+  {
+   "word": "d14w2",
+   "ru": "Я хочу́ купи́ть хлеб.",
+   "en": "I want to buy bread.",
+   "pics": [
+    "bread.png",
+    "shopping_bags.png"
+   ],
+   "why": [
+    "хочу́ + infinitive: купи́ть (perfective: one purchase).",
+    "хлеб — accusative, unchanged."
+   ],
+   "id": "d14s3",
+   "pr": "ya kha-CHU ku-PIT' khlyep",
+   "audio": "e2ed8d7d5d.mp3"
+  },
+  {
+   "word": "d14w2",
+   "ru": "Что ты купи́л?",
+   "en": "What did you buy?",
+   "pics": [
+    "shopping_bags.png",
+    "red_question_mark.png"
+   ],
+   "why": [
+    "купи́л — купи́ть, past masculine: a finished purchase."
+   ],
+   "id": "d14s4",
+   "pr": "shto tih ku-PIL",
+   "audio": "a67b16966c.mp3"
+  },
+  {
+   "word": "d14w2",
+   "ru": "Я всегда́ покупа́ю фру́кты на ры́нке.",
+   "en": "I always buy fruit at the market.",
+   "pics": [
+    "grapes.png",
+    "shopping_cart.png"
+   ],
+   "why": [
+    "всегда́ — always → imperfective (покупа́ю) for repeated actions.",
+    "на ры́нке — на + prepositional."
+   ],
+   "id": "d14s5",
+   "pr": "ya vsig-DA pa-ku-PA-yu FRUK-tih na RIHN-kye",
+   "audio": "2749d21e63.mp3"
+  },
+  {
+   "word": "d14w3",
+   "ru": "Мо́жно заплати́ть ка́ртой?",
+   "en": "Can I pay by card?",
+   "pics": [
+    "credit_card.png",
+    "ok_hand.png"
+   ],
+   "why": [
+    "Мо́жно + infinitive.",
+    "ка́ртой — instrumental of ка́рта: “with a card” (the tool you pay with)."
+   ],
+   "id": "d14s6",
+   "pr": "MOZH-na zap-la-TIT' KAR-tai",
+   "audio": "4e88c3cee8.mp3"
+  },
+  {
+   "word": "d14w3",
+   "ru": "Я плачу́ нали́чными.",
+   "en": "I'm paying in cash.",
+   "pics": [
+    "coin.png"
+   ],
+   "why": [
+    "плачу́ — плати́ть, я form (т → ч).",
+    "нали́чными — instrumental plural: pay WITH cash."
+   ],
+   "id": "d14s7",
+   "pr": "ya pla-CHU na-LICH-nih-mi",
+   "audio": "3c6816e967.mp3"
+  },
+  {
+   "word": "d14w4",
+   "ru": "Э́та ку́ртка о́чень дорога́я.",
+   "en": "This jacket is very expensive.",
+   "pics": [
+    "coat.png",
+    "chart_increasing.png"
+   ],
+   "why": [
+    "дорога́я — feminine, agreeing with ку́ртка.",
+    "Э́та — feminine “this” (э́тот, э́та, э́то, э́ти)."
+   ],
+   "id": "d14s8",
+   "pr": "E-ta KURT-ka O-chin' da-ra-GA-ya",
+   "audio": "3c0b7a4766.mp3"
+  },
+  {
+   "word": "d14w4",
+   "ru": "Э́то сли́шком до́рого!",
+   "en": "That's too expensive!",
+   "pics": [
+    "money_with_wings.png",
+    "chart_increasing.png"
+   ],
+   "why": [
+    "сли́шком — too (much).",
+    "до́рого — adverb: “it is expensive” (no noun). Note the stress moves: до́рого."
+   ],
+   "id": "d14s9",
+   "pr": "E-ta SLISH-kam DO-ra-ga",
+   "audio": "17272fc0ae.mp3"
+  },
+  {
+   "word": "d14w5",
+   "ru": "На ры́нке всё дешёвое.",
+   "en": "Everything at the market is cheap.",
+   "pics": [
+    "shopping_cart.png",
+    "chart_decreasing.png"
+   ],
+   "why": [
+    "всё — everything (neuter), so дешёвое is neuter (-ое)."
+   ],
+   "id": "d14s10",
+   "pr": "na RIHN-kye vsyo di-SHO-va-ye",
+   "audio": "1ea7b47981.mp3"
+  },
+  {
+   "word": "d14w6",
+   "ru": "У вас есть ка́рта Ри́ги?",
+   "en": "Do you have a map of Riga?",
+   "pics": [
+    "world_map.png",
+    "cityscape.png"
+   ],
+   "why": [
+    "ка́рта Ри́ги — map of Riga: Ри́га in the genitive (“of”)."
+   ],
+   "id": "d14s11",
+   "pr": "u vas yest' KAR-ta RI-gi",
+   "audio": "7760c5c0c5.mp3"
+  },
+  {
+   "word": "d14w7",
+   "ru": "Нали́чные и́ли ка́рта?",
+   "en": "Cash or card?",
+   "pics": [
+    "coin.png",
+    "credit_card.png"
+   ],
+   "why": [
+    "A very common question at the till. Both nominative."
+   ],
+   "id": "d14s12",
+   "pr": "na-LICH-nih-ye I-li KAR-ta",
+   "audio": "352156b91a.mp3"
+  },
+  {
+   "word": "d14w8",
+   "ru": "Сего́дня ски́дка пятьдеся́т проце́нтов!",
+   "en": "50% off today!",
+   "pics": [
+    "label.png",
+    "num_50.png"
+   ],
+   "why": [
+    "пятьдеся́т проце́нтов — after 50: genitive plural."
+   ],
+   "id": "d14s13",
+   "pr": "si-VOD-nya SKID-ka pyat'-di-SYAT pra-TSEN-taf",
+   "audio": "186b5e2225.mp3"
+  },
+  {
+   "word": "d14w9",
+   "ru": "Како́й у вас разме́р?",
+   "en": "What size are you?",
+   "pics": [
+    "dress.png",
+    "red_question_mark.png"
+   ],
+   "why": [
+    "Како́й — which/what, masculine, agreeing with разме́р.",
+    "у вас — “by you” = your (polite)."
+   ],
+   "id": "d14s14",
+   "pr": "ka-KOI u vas raz-MYER",
+   "audio": "6138df0e1a.mp3"
+  },
+  {
+   "word": "d14w9",
+   "ru": "Э́тот разме́р мне мал.",
+   "en": "This size is too small for me.",
+   "pics": [
+    "dress.png",
+    "mouse.png"
+   ],
+   "why": [
+    "Э́тот — masculine “this”.",
+    "мал — short form of ма́ленький: “too small”. мне = for me (dative)."
+   ],
+   "id": "d14s15",
+   "pr": "E-tat raz-MYER mnye mal",
+   "audio": "3ac0f49ab4.mp3"
+  },
+  {
+   "word": "d14w10",
+   "ru": "Чек, пожа́луйста.",
+   "en": "The receipt, please.",
+   "pics": [
+    "receipt.png"
+   ],
+   "why": [
+    "Чек — nominative."
+   ],
+   "id": "d14s16",
+   "pr": "chyek pa-ZHA-lus-ta",
+   "audio": "27c5d6a078.mp3"
+  },
+  {
+   "word": "d14w11",
+   "ru": "Э́то сто́ит ты́сячу е́вро.",
+   "en": "It costs a thousand euros.",
+   "pics": [
+    "num_1000.png",
+    "euro_banknote.png"
+   ],
+   "why": [
+    "ты́сячу — accusative of ты́сяча (a feminine noun) after сто́ит: -а → -у."
+   ],
+   "id": "d14s17",
+   "pr": "E-ta STO-it TIH-sya-chu YEV-ra",
+   "audio": "ed61ac3b41.mp3"
+  },
+  {
+   "word": "d14w11",
+   "ru": "Две ты́сячи пятьсо́т.",
+   "en": "Two thousand five hundred.",
+   "pics": [
+    "num_2500.png"
+   ],
+   "why": [
+    "две ты́сячи — ты́сяча is feminine, so две; after 2: genitive singular ты́сячи."
+   ],
+   "id": "d14s18",
+   "pr": "dvye TIH-sya-chi pya-TSOT",
+   "audio": "4f212dff41.mp3"
+  },
+  {
+   "word": "d14w12",
+   "ru": "Биле́т сто́ит две́сти е́вро.",
+   "en": "The ticket costs two hundred euros.",
+   "pics": [
+    "ticket.png",
+    "num_200.png"
+   ],
+   "why": [
+    "две́сти — 200. е́вро never changes."
+   ],
+   "id": "d14s19",
+   "pr": "bi-LYET STO-it DVYES-ti YEV-ra",
+   "audio": "54d9e54af6.mp3"
+  },
+  {
+   "mk": "Я хочу́ {купи́ть} ку́ртку.",
+   "g": "x",
+   "case": "aspect: one purchase",
+   "en": "I want to buy a jacket.",
+   "pics": [
+    "coat.png",
+    "shopping_bags.png"
+   ],
+   "why": [
+    "купи́ть — perfective: one purchase with a result."
+   ],
+   "id": "d14s20",
+   "ru": "Я хочу́ купи́ть ку́ртку.",
+   "pr": "ya kha-CHU ku-PIT' KURT-ku",
+   "audio": "14663b5d36.mp3"
+  },
+  {
+   "mk": "Я ча́сто {покупа́ю} ко́фе.",
+   "g": "x",
+   "case": "aspect: repeated",
+   "en": "I often buy coffee.",
+   "pics": [
+    "hot_beverage.png"
+   ],
+   "why": [
+    "покупа́ю — imperfective: ча́сто (often) = a repeated action."
+   ],
+   "id": "d14s21",
+   "ru": "Я ча́сто покупа́ю ко́фе.",
+   "pr": "ya CHAS-ta pa-ku-PA-yu KO-fye",
+   "audio": "89c56ef534.mp3"
+  },
+  {
+   "mk": "Я плачу́ {ка́рт|ой}.",
+   "g": "f",
+   "case": "instrumental: by what?",
+   "en": "I pay by card.",
+   "pics": [
+    "credit_card.png"
+   ],
+   "why": [
+    "Instrumental = the tool or means: ка́рта → ка́ртой."
+   ],
+   "id": "d14s22",
+   "ru": "Я плачу́ ка́ртой.",
+   "pr": "ya pla-CHU KAR-tai",
+   "audio": "354fb9822e.mp3"
+  },
+  {
+   "mk": "Ско́лько сто́ит {э́т|а} {ша́пк|а}?",
+   "g": "f",
+   "case": "subject: nominative",
+   "en": "How much is this hat?",
+   "pics": [
+    "billed_cap.png",
+    "money_bag.png"
+   ],
+   "why": [
+    "э́та ша́пка — the subject of сто́ит, nominative feminine."
+   ],
+   "id": "d14s23",
+   "ru": "Ско́лько сто́ит э́та ша́пка?",
+   "pr": "SKOL'-ka STO-it E-ta SHAP-ka",
+   "audio": "10abffd2e2.mp3"
+  },
+  {
+   "mk": "Ско́лько сто́ят {э́т|и} {брю́к|и}?",
+   "g": "pl",
+   "case": "plural subject → plural verb",
+   "en": "How much are these trousers?",
+   "pics": [
+    "jeans.png",
+    "money_bag.png"
+   ],
+   "why": [
+    "сто́ят — plural verb, because брю́ки is plural.",
+    "э́ти — plural “these”."
+   ],
+   "id": "d14s24",
+   "ru": "Ско́лько сто́ят э́ти брю́ки?",
+   "pr": "SKOL'-ka STO-yat E-ti BRYU-ki",
+   "audio": "469b40c6fd.mp3"
+  }
+ ],
+ "video": "videos/day14.mp4"
+}

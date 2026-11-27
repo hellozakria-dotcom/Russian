@@ -1,0 +1,246 @@
+{
+ "id": 12,
+ "kind": "conversation",
+ "title": "Как прошли́ выходны́е?",
+ "en": "How was your weekend?",
+ "level": "A1",
+ "after": 12,
+ "pic": "Calendar",
+ "speakers": {
+  "n": {
+   "name": "А́нна",
+   "en": "Anna",
+   "pic": "Woman"
+  },
+  "a": {
+   "name": "Али́",
+   "en": "Ali",
+   "pic": "Man",
+   "me": true
+  }
+ },
+ "sentences": [
+  {
+   "sp": "n",
+   "ru": "Приве́т, Али́! Как прошли́ выходны́е?",
+   "en": "Hi Ali! How was your weekend?"
+  },
+  {
+   "sp": "a",
+   "ru": "Хорошо́! В суббо́ту я рабо́тал, а в воскресе́нье мы игра́ли в волейбо́л.",
+   "en": "Good! On Saturday I worked, and on Sunday we played volleyball."
+  },
+  {
+   "sp": "n",
+   "ru": "Здо́рово! Вы вы́играли?",
+   "en": "Great! Did you win?"
+  },
+  {
+   "sp": "a",
+   "ru": "Нет, мы проигра́ли. Но бы́ло ве́село. А ты что де́лала?",
+   "en": "No, we lost. But it was fun. And what did you do?"
+  },
+  {
+   "sp": "n",
+   "ru": "Я была́ у ба́бушки. Мы гото́вили и смотре́ли ста́рые фотогра́фии.",
+   "en": "I was at my grandma's. We cooked and looked at old photos."
+  },
+  {
+   "sp": "a",
+   "ru": "Как ми́ло! А ты прочита́ла кни́гу, кото́рую я тебе́ дал?",
+   "en": "How nice! And did you finish the book I gave you?"
+  },
+  {
+   "sp": "n",
+   "ru": "Ещё нет. Я чита́ла её вчера́ ве́чером, но усну́ла!",
+   "en": "Not yet. I was reading it last night, but I fell asleep!"
+  },
+  {
+   "sp": "a",
+   "ru": "Ха-ха! Ничего́, ещё прочита́ешь.",
+   "en": "Ha-ha! Never mind, you'll still finish it."
+  }
+ ],
+ "gloss": {
+  "как": {
+   "w": "как",
+   "lemma": "как",
+   "en": "how",
+   "info": ""
+  },
+  "прошли": {
+   "w": "прошли",
+   "lemma": "пройти́",
+   "en": "went, passed",
+   "info": "Как прошли́ выходны́е? = how did the weekend go? (past of пройти́)"
+  },
+  "выходные": {
+   "w": "выходные",
+   "lemma": "выходны́е",
+   "en": "weekend",
+   "info": "adjective used as a noun, plural"
+  },
+  "субботу": {
+   "w": "субботу",
+   "lemma": "суббо́та",
+   "en": "Saturday",
+   "info": "в суббо́ту = on Saturday"
+  },
+  "работал": {
+   "w": "работал",
+   "lemma": "рабо́тать",
+   "en": "(I) worked",
+   "info": "past, masculine"
+  },
+  "воскресенье": {
+   "w": "воскресенье",
+   "lemma": "воскресе́нье",
+   "en": "Sunday",
+   "info": ""
+  },
+  "играли": {
+   "w": "играли",
+   "lemma": "игра́ть",
+   "en": "(we) played",
+   "info": "past, plural"
+  },
+  "выиграли": {
+   "w": "выиграли",
+   "lemma": "вы́играть",
+   "en": "won",
+   "info": "past plural of вы́играть (to win)"
+  },
+  "проиграли": {
+   "w": "проиграли",
+   "lemma": "проигра́ть",
+   "en": "lost",
+   "info": "past plural of проигра́ть (to lose a game)"
+  },
+  "было": {
+   "w": "было",
+   "lemma": "быть",
+   "en": "(it) was",
+   "info": ""
+  },
+  "весело": {
+   "w": "весело",
+   "lemma": "ве́село",
+   "en": "fun, merry",
+   "info": "Бы́ло ве́село = it was fun"
+  },
+  "делала": {
+   "w": "делала",
+   "lemma": "де́лать",
+   "en": "(you) did",
+   "info": "past feminine: talking to a woman"
+  },
+  "была": {
+   "w": "была",
+   "lemma": "быть",
+   "en": "(I) was",
+   "info": "past feminine"
+  },
+  "бабушки": {
+   "w": "бабушки",
+   "lemma": "ба́бушка",
+   "en": "grandma",
+   "info": "у + genitive: у ба́бушки = at grandma's place"
+  },
+  "готовили": {
+   "w": "готовили",
+   "lemma": "гото́вить",
+   "en": "cooked",
+   "info": "past plural of гото́вить (to cook)"
+  },
+  "смотрели": {
+   "w": "смотрели",
+   "lemma": "смотре́ть",
+   "en": "looked at",
+   "info": "past plural"
+  },
+  "старые": {
+   "w": "старые",
+   "lemma": "ста́рый",
+   "en": "old",
+   "info": "plural adjective"
+  },
+  "фотографии": {
+   "w": "фотографии",
+   "lemma": "фотогра́фия",
+   "en": "photos",
+   "info": "accusative plural"
+  },
+  "мило": {
+   "w": "мило",
+   "lemma": "ми́ло",
+   "en": "nice, sweet",
+   "info": "Как ми́ло! = how nice!"
+  },
+  "прочитала": {
+   "w": "прочитала",
+   "lemma": "прочита́ть",
+   "en": "(you) finished reading",
+   "info": "perfective past, feminine"
+  },
+  "книгу": {
+   "w": "книгу",
+   "lemma": "кни́га",
+   "en": "book",
+   "info": "accusative"
+  },
+  "которую": {
+   "w": "которую",
+   "lemma": "кото́рый",
+   "en": "which, that",
+   "info": "кото́рую = feminine accusative: the book that…"
+  },
+  "дал": {
+   "w": "дал",
+   "lemma": "дать",
+   "en": "gave",
+   "info": "past masculine of дать (to give)"
+  },
+  "читала": {
+   "w": "читала",
+   "lemma": "чита́ть",
+   "en": "(I) was reading",
+   "info": "imperfective past, feminine: the process"
+  },
+  "ее": {
+   "w": "её",
+   "lemma": "она́",
+   "en": "it (the book)",
+   "info": "accusative of она́ (кни́га is feminine)"
+  },
+  "вчера": {
+   "w": "вчера",
+   "lemma": "вчера́",
+   "en": "yesterday",
+   "info": ""
+  },
+  "вечером": {
+   "w": "вечером",
+   "lemma": "ве́чером",
+   "en": "in the evening",
+   "info": ""
+  },
+  "уснула": {
+   "w": "уснула",
+   "lemma": "усну́ть",
+   "en": "fell asleep",
+   "info": "past feminine of усну́ть"
+  },
+  "прочитаешь": {
+   "w": "прочитаешь",
+   "lemma": "прочита́ть",
+   "en": "(you) will finish reading",
+   "info": "perfective, ты form = future"
+  },
+  "мы": {
+   "w": "мы",
+   "lemma": "мы",
+   "en": "we",
+   "info": "pronoun (Day 5)"
+  }
+ }
+}

@@ -1,0 +1,185 @@
+{
+ "id": 11,
+ "kind": "conversation",
+ "title": "На остано́вке",
+ "en": "At the bus stop",
+ "level": "A1",
+ "after": 11,
+ "pic": "Bus stop",
+ "speakers": {
+  "m": {
+   "name": "Мужчи́на",
+   "en": "a man",
+   "pic": "Old man"
+  },
+  "a": {
+   "name": "Али́",
+   "en": "Ali",
+   "pic": "Man",
+   "me": true
+  }
+ },
+ "sentences": [
+  {
+   "sp": "a",
+   "ru": "Извини́те, како́й авто́бус идёт в центр?",
+   "en": "Excuse me, which bus goes to the centre?"
+  },
+  {
+   "sp": "m",
+   "ru": "Тре́тий и́ли пя́тый.",
+   "en": "The number three or five."
+  },
+  {
+   "sp": "a",
+   "ru": "А трамва́й?",
+   "en": "And the tram?"
+  },
+  {
+   "sp": "m",
+   "ru": "Трамва́й то́же идёт, но ме́дленно.",
+   "en": "The tram goes there too, but slowly."
+  },
+  {
+   "sp": "a",
+   "ru": "Где мо́жно купи́ть биле́т?",
+   "en": "Where can I buy a ticket?"
+  },
+  {
+   "sp": "m",
+   "ru": "В авто́бусе и́ли в приложе́нии.",
+   "en": "On the bus or in the app."
+  },
+  {
+   "sp": "a",
+   "ru": "Спаси́бо! А вы то́же е́дете в центр?",
+   "en": "Thanks! Are you going to the centre too?"
+  },
+  {
+   "sp": "m",
+   "ru": "Нет, я е́ду домо́й. Смотри́те, ваш авто́бус!",
+   "en": "No, I'm going home. Look, your bus!"
+  },
+  {
+   "sp": "a",
+   "ru": "Ой, спаси́бо! Всего́ до́брого!",
+   "en": "Oh, thanks! All the best!"
+  }
+ ],
+ "gloss": {
+  "какой": {
+   "w": "какой",
+   "lemma": "како́й",
+   "en": "which, what",
+   "info": ""
+  },
+  "автобус": {
+   "w": "автобус",
+   "lemma": "авто́бус",
+   "en": "bus",
+   "info": ""
+  },
+  "идет": {
+   "w": "идёт",
+   "lemma": "идти́",
+   "en": "goes",
+   "info": "идти́, он form: for buses and trams Russians also say идёт"
+  },
+  "центр": {
+   "w": "центр",
+   "lemma": "центр",
+   "en": "centre",
+   "info": "в центр = to the centre (accusative)"
+  },
+  "третий": {
+   "w": "третий",
+   "lemma": "тре́тий",
+   "en": "third",
+   "info": "here: bus number three"
+  },
+  "пятый": {
+   "w": "пятый",
+   "lemma": "пя́тый",
+   "en": "fifth",
+   "info": "bus number five"
+  },
+  "трамвай": {
+   "w": "трамвай",
+   "lemma": "трамва́й",
+   "en": "tram",
+   "info": ""
+  },
+  "медленно": {
+   "w": "медленно",
+   "lemma": "ме́дленно",
+   "en": "slowly",
+   "info": ""
+  },
+  "купить": {
+   "w": "купить",
+   "lemma": "купи́ть",
+   "en": "to buy",
+   "info": "perfective (Day 14)"
+  },
+  "билет": {
+   "w": "билет",
+   "lemma": "биле́т",
+   "en": "ticket",
+   "info": ""
+  },
+  "автобусе": {
+   "w": "автобусе",
+   "lemma": "авто́бус",
+   "en": "bus",
+   "info": "в авто́бусе = on the bus (prepositional)"
+  },
+  "приложении": {
+   "w": "приложении",
+   "lemma": "приложе́ние",
+   "en": "app",
+   "info": "в приложе́нии = in the app (prepositional)"
+  },
+  "едете": {
+   "w": "едете",
+   "lemma": "е́хать",
+   "en": "(you) are going",
+   "info": "е́хать, вы form"
+  },
+  "еду": {
+   "w": "еду",
+   "lemma": "е́хать",
+   "en": "(I) am going",
+   "info": "е́хать, я form"
+  },
+  "домой": {
+   "w": "домой",
+   "lemma": "домо́й",
+   "en": "(to) home",
+   "info": ""
+  },
+  "смотрите": {
+   "w": "смотрите",
+   "lemma": "смотре́ть",
+   "en": "look!",
+   "info": "polite command of смотре́ть"
+  },
+  "ваш": {
+   "w": "ваш",
+   "lemma": "ваш",
+   "en": "your",
+   "info": ""
+  },
+  "ой": {
+   "w": "ой",
+   "lemma": "ой",
+   "en": "oh!",
+   "info": "exclamation"
+  },
+  "доброго": {
+   "w": "доброго",
+   "lemma": "до́брый",
+   "en": "good",
+   "info": "Всего́ до́брого = all the best"
+  }
+ }
+}

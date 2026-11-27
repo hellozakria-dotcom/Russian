@@ -1,0 +1,262 @@
+{
+ "id": 14,
+ "kind": "conversation",
+ "title": "В магази́не оде́жды",
+ "en": "In the clothes shop",
+ "level": "A1",
+ "after": 14,
+ "pic": "Shopping bags",
+ "speakers": {
+  "s": {
+   "name": "Продавщи́ца",
+   "en": "shop assistant",
+   "pic": "Woman"
+  },
+  "a": {
+   "name": "Али́",
+   "en": "Ali",
+   "pic": "Man",
+   "me": true
+  }
+ },
+ "sentences": [
+  {
+   "sp": "s",
+   "ru": "Здра́вствуйте! Вам помо́чь?",
+   "en": "Hello! Can I help you?"
+  },
+  {
+   "sp": "a",
+   "ru": "Да, пожа́луйста. Я ищу́ зи́мнюю ку́ртку.",
+   "en": "Yes, please. I'm looking for a winter jacket."
+  },
+  {
+   "sp": "s",
+   "ru": "Како́й у вас разме́р?",
+   "en": "What size are you?"
+  },
+  {
+   "sp": "a",
+   "ru": "Пятидеся́тый, наве́рное.",
+   "en": "Fifty, probably."
+  },
+  {
+   "sp": "s",
+   "ru": "Вот, посмотри́те. Э́та зелёная о́чень тёплая.",
+   "en": "Here, have a look. This green one is very warm."
+  },
+  {
+   "sp": "a",
+   "ru": "Краси́вая! Ско́лько она́ сто́ит?",
+   "en": "Nice! How much does it cost?"
+  },
+  {
+   "sp": "s",
+   "ru": "Сто два́дцать е́вро, но сего́дня ски́дка два́дцать проце́нтов.",
+   "en": "A hundred and twenty euros, but today there's twenty percent off."
+  },
+  {
+   "sp": "a",
+   "ru": "Зна́чит, девяно́сто шесть. Хорошо́, я её возьму́!",
+   "en": "So ninety-six. OK, I'll take it!"
+  },
+  {
+   "sp": "s",
+   "ru": "Отли́чно! Ка́ртой и́ли нали́чными?",
+   "en": "Great! By card or in cash?"
+  },
+  {
+   "sp": "a",
+   "ru": "Ка́ртой. И мо́жно чек, пожа́луйста?",
+   "en": "By card. And can I have the receipt, please?"
+  }
+ ],
+ "gloss": {
+  "одежды": {
+   "w": "одежды",
+   "lemma": "оде́жда",
+   "en": "clothes",
+   "info": "genitive: магази́н оде́жды = clothes shop"
+  },
+  "вам": {
+   "w": "вам",
+   "lemma": "вы",
+   "en": "to you",
+   "info": "dative: Вам помо́чь? = (may I) help you?"
+  },
+  "помочь": {
+   "w": "помочь",
+   "lemma": "помо́чь",
+   "en": "to help",
+   "info": "+ dative"
+  },
+  "ищу": {
+   "w": "ищу",
+   "lemma": "иска́ть",
+   "en": "(I) am looking for",
+   "info": "иска́ть (to look for), я form: ищу́, и́щешь…"
+  },
+  "зимнюю": {
+   "w": "зимнюю",
+   "lemma": "зи́мний",
+   "en": "winter (adj.)",
+   "info": ""
+  },
+  "куртку": {
+   "w": "куртку",
+   "lemma": "ку́ртка",
+   "en": "jacket",
+   "info": ""
+  },
+  "какой": {
+   "w": "какой",
+   "lemma": "како́й",
+   "en": "what, which",
+   "info": ""
+  },
+  "размер": {
+   "w": "размер",
+   "lemma": "разме́р",
+   "en": "size",
+   "info": ""
+  },
+  "пятидесятый": {
+   "w": "пятидесятый",
+   "lemma": "пятидеся́тый",
+   "en": "fiftieth",
+   "info": "sizes are ordinal numbers: size 50"
+  },
+  "наверное": {
+   "w": "наверное",
+   "lemma": "наве́рное",
+   "en": "probably",
+   "info": ""
+  },
+  "посмотрите": {
+   "w": "посмотрите",
+   "lemma": "посмотре́ть",
+   "en": "have a look",
+   "info": "polite command"
+  },
+  "эта": {
+   "w": "эта",
+   "lemma": "э́тот",
+   "en": "this",
+   "info": "feminine"
+  },
+  "зеленая": {
+   "w": "зелёная",
+   "lemma": "зелёный",
+   "en": "green",
+   "info": "feminine"
+  },
+  "теплая": {
+   "w": "тёплая",
+   "lemma": "тёплый",
+   "en": "warm",
+   "info": ""
+  },
+  "красивая": {
+   "w": "красивая",
+   "lemma": "краси́вый",
+   "en": "beautiful, nice",
+   "info": ""
+  },
+  "она": {
+   "w": "она",
+   "lemma": "она́",
+   "en": "it (the jacket)",
+   "info": ""
+  },
+  "стоит": {
+   "w": "стоит",
+   "lemma": "сто́ить",
+   "en": "costs",
+   "info": ""
+  },
+  "сто": {
+   "w": "сто",
+   "lemma": "сто",
+   "en": "hundred",
+   "info": ""
+  },
+  "двадцать": {
+   "w": "двадцать",
+   "lemma": "два́дцать",
+   "en": "twenty",
+   "info": ""
+  },
+  "евро": {
+   "w": "евро",
+   "lemma": "е́вро",
+   "en": "euros",
+   "info": ""
+  },
+  "скидка": {
+   "w": "скидка",
+   "lemma": "ски́дка",
+   "en": "discount",
+   "info": ""
+  },
+  "процентов": {
+   "w": "процентов",
+   "lemma": "проце́нт",
+   "en": "percent",
+   "info": "genitive plural after 20"
+  },
+  "значит": {
+   "w": "значит",
+   "lemma": "зна́чит",
+   "en": "so, that means",
+   "info": ""
+  },
+  "девяносто": {
+   "w": "девяносто",
+   "lemma": "девяно́сто",
+   "en": "ninety",
+   "info": ""
+  },
+  "шесть": {
+   "w": "шесть",
+   "lemma": "шесть",
+   "en": "six",
+   "info": ""
+  },
+  "ее": {
+   "w": "её",
+   "lemma": "она́",
+   "en": "it",
+   "info": "accusative of она́ (the jacket)"
+  },
+  "возьму": {
+   "w": "возьму",
+   "lemma": "взять",
+   "en": "(I) will take",
+   "info": "взять (to take), perfective future: возьму́, возьмёшь…"
+  },
+  "отлично": {
+   "w": "отлично",
+   "lemma": "отли́чно",
+   "en": "great",
+   "info": ""
+  },
+  "картой": {
+   "w": "картой",
+   "lemma": "ка́рта",
+   "en": "by card",
+   "info": "instrumental"
+  },
+  "наличными": {
+   "w": "наличными",
+   "lemma": "нали́чные",
+   "en": "in cash",
+   "info": "instrumental"
+  },
+  "чек": {
+   "w": "чек",
+   "lemma": "чек",
+   "en": "receipt",
+   "info": ""
+  }
+ }
+}

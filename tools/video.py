@@ -125,11 +125,13 @@ def text(d, y, t, f, c, lh=None, maxw=W - 160, x0=None):
     put(cur, y); return y + lh
 
 def chip(d, cx, y, label, col):
+    label = label.replace("\u0301", "")
     f = F("SemiBold", 38); w = tw(d, label, f)
     d.rounded_rectangle((cx - w / 2 - 26, y, cx + w / 2 + 26, y + 66), 33, fill=col)
     d.text((cx - w / 2, y + 10), label, font=f, fill=(255, 255, 255))
 
 def header(d, left, right):
+    left, right = left.replace("\u0301", ""), right.replace("\u0301", "")
     d.text((70, 80), left, font=F("SemiBold", 40), fill=SOFT)
     d.text((W - 70 - tw(d, right, F("Regular", 38)), 82), right, font=F("Regular", 38), fill=SOFT)
 

@@ -1,0 +1,672 @@
+{
+ "id": 11,
+ "title": "Day 11",
+ "topic": "Going places: идти́ / е́хать + куда́?",
+ "words": [
+  {
+   "kind": "verb",
+   "g": "verb",
+   "ru": "идти́ / пойти́",
+   "en": "to go on foot (now) / to set off",
+   "pic": "person_walking.png",
+   "note": "идти́ = be walking somewhere right now. пойти́ = set off, go (one time); its present-looking forms mean the future: я пойду́ = I'll go.",
+   "table": {
+    "cols": [
+     "",
+     "идти́ (now)",
+     "пойти́ (future)"
+    ],
+    "rows": [
+     [
+      "я",
+      "иду́",
+      "пойду́"
+     ],
+     [
+      "ты",
+      "идёшь",
+      "пойдёшь"
+     ],
+     [
+      "он / она́",
+      "идёт",
+      "пойдёт"
+     ],
+     [
+      "мы",
+      "идём",
+      "пойдём"
+     ],
+     [
+      "вы",
+      "идёте",
+      "пойдёте"
+     ],
+     [
+      "они́",
+      "иду́т",
+      "пойду́т"
+     ]
+    ]
+   },
+   "id": "d11w1",
+   "pr": "id-TI / pai-TI",
+   "audio": "d31040c669.mp3"
+  },
+  {
+   "kind": "verb",
+   "g": "verb",
+   "ru": "е́хать / пое́хать",
+   "en": "to go by transport (now) / to set off",
+   "pic": "bus.png",
+   "note": "е́хать = travel by bus, car, train… right now. пое́хать = set off (future: пое́ду).",
+   "table": {
+    "cols": [
+     "",
+     "е́хать (now)",
+     "пое́хать (future)"
+    ],
+    "rows": [
+     [
+      "я",
+      "е́ду",
+      "пое́ду"
+     ],
+     [
+      "ты",
+      "е́дешь",
+      "пое́дешь"
+     ],
+     [
+      "он / она́",
+      "е́дет",
+      "пое́дет"
+     ],
+     [
+      "мы",
+      "е́дем",
+      "пое́дем"
+     ],
+     [
+      "вы",
+      "е́дете",
+      "пое́дете"
+     ],
+     [
+      "они́",
+      "е́дут",
+      "пое́дут"
+     ]
+    ]
+   },
+   "id": "d11w2",
+   "pr": "YE-khat' / pa-YE-khat'",
+   "audio": "5c88b1b80f.mp3"
+  },
+  {
+   "kind": "word",
+   "g": "x",
+   "ru": "куда́",
+   "en": "where to?",
+   "pic": "round_pushpin.png",
+   "note": "куда́? asks about direction (→ в / на + accusative). где? asks about location (→ в / на + prepositional).",
+   "id": "d11w3",
+   "pr": "ku-DA",
+   "audio": "351af59789.mp3"
+  },
+  {
+   "kind": "word",
+   "g": "x",
+   "ru": "домо́й",
+   "en": "(to) home",
+   "pic": "house.png",
+   "note": "Direction: иду́ домо́й. Location: я до́ма.",
+   "id": "d11w4",
+   "pr": "da-MOI",
+   "audio": "e683eba1fd.mp3"
+  },
+  {
+   "kind": "word",
+   "g": "x",
+   "ru": "сюда́ / туда́",
+   "lemmas": [
+    "сюда́",
+    "туда́"
+   ],
+   "en": "(to) here / (to) there",
+   "pic": "left-right_arrow.png",
+   "note": "Direction words. Location: здесь (here), там (there).",
+   "id": "d11w5",
+   "pr": "syu-DA / tu-DA",
+   "audio": "bd1efdb41f.mp3"
+  },
+  {
+   "kind": "noun",
+   "g": "m",
+   "ru": "авто́бус",
+   "en": "bus",
+   "pic": "bus.png",
+   "note": "на авто́бусе = by bus (на + prepositional).",
+   "id": "d11w6",
+   "pr": "av-TO-bus",
+   "audio": "a1fecce8f0.mp3"
+  },
+  {
+   "kind": "noun",
+   "g": "m",
+   "ru": "трамва́й",
+   "en": "tram",
+   "pic": "tram.png",
+   "note": "на трамва́е = by tram.",
+   "id": "d11w7",
+   "pr": "tram-VAI",
+   "audio": "19ce5d59fe.mp3"
+  },
+  {
+   "kind": "noun",
+   "g": "m",
+   "ru": "по́езд",
+   "en": "train",
+   "pic": "train.png",
+   "note": "на по́езде = by train. Plural: поезда́.",
+   "id": "d11w8",
+   "pr": "PO-yezt",
+   "audio": "463b117396.mp3"
+  },
+  {
+   "kind": "noun",
+   "g": "n",
+   "ru": "такси́",
+   "en": "taxi",
+   "pic": "taxi.png",
+   "note": "Never changes: на такси́.",
+   "id": "d11w9",
+   "pr": "tak-SI",
+   "audio": "370c114f09.mp3"
+  },
+  {
+   "kind": "noun",
+   "g": "m",
+   "ru": "самолёт",
+   "en": "plane",
+   "pic": "airplane.png",
+   "note": "на самолёте = by plane.",
+   "id": "d11w10",
+   "pr": "sa-ma-LYOT",
+   "audio": "adc6a9d6d8.mp3"
+  },
+  {
+   "kind": "noun",
+   "g": "m",
+   "ru": "биле́т",
+   "en": "ticket",
+   "pic": "ticket.png",
+   "note": "биле́т на авто́бус = a bus ticket.",
+   "id": "d11w11",
+   "pr": "bi-LYET",
+   "audio": "e689ec60da.mp3"
+  }
+ ],
+ "notes": [
+  {
+   "h": "where? vs where to?",
+   "lines": [
+    "где? (location) → в / на + prepositional: Я в па́рке. Я на рабо́те.",
+    "куда́? (direction) → в / на + accusative: Я иду́ в парк. Я е́ду на рабо́ту.",
+    "Same for here/there: здесь / там (location) vs сюда́ / туда́ (direction); до́ма vs домо́й."
+   ]
+  },
+  {
+   "h": "идти́ or е́хать?",
+   "lines": [
+    "идти́ = on foot. е́хать = by any transport (bus, car, train, bike).",
+    "Both mean you are going right now, in one direction: Я иду́ домо́й. Я е́ду в Ри́гу."
+   ]
+  },
+  {
+   "h": "Future: пойти́ / пое́хать",
+   "lines": [
+    "по- + verb = set off; the present-looking forms mean the future: я пойду́ (I'll go), мы пое́дем (we'll go).",
+    "Пойдём! = Let's go! (on foot). Пое́хали! = Let's go! (by transport; a famous word, Gagarin said it in space)."
+   ]
+  },
+  {
+   "h": "By bus, by tram",
+   "lines": [
+    "на + prepositional: на авто́бусе, на трамва́е, на по́езде, на самолёте, на такси́.",
+    "On foot = пешко́м."
+   ]
+  }
+ ],
+ "tables": [
+  {
+   "title": "где? / куда́?",
+   "cols": [
+    "",
+    "где? (location)",
+    "куда́? (direction)"
+   ],
+   "rows": [
+    [
+     "park",
+     "в па́рке",
+     "в парк"
+    ],
+    [
+     "school",
+     "в шко́ле",
+     "в шко́лу"
+    ],
+    [
+     "work",
+     "на рабо́те",
+     "на рабо́ту"
+    ],
+    [
+     "market",
+     "на ры́нке",
+     "на ры́нок"
+    ],
+    [
+     "home",
+     "до́ма",
+     "домо́й"
+    ],
+    [
+     "here",
+     "здесь",
+     "сюда́"
+    ],
+    [
+     "there",
+     "там",
+     "туда́"
+    ]
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "word": "d11w1",
+   "ru": "Куда́ ты идёшь?",
+   "en": "Where are you going?",
+   "pics": [
+    "person_walking.png",
+    "red_question_mark.png"
+   ],
+   "why": [
+    "Куда́ — where to? (direction).",
+    "идёшь — идти́, ты form: you are walking (right now)."
+   ],
+   "id": "d11s1",
+   "pr": "ku-DA tih i-DYOSH'",
+   "audio": "3e24db043c.mp3"
+  },
+  {
+   "word": "d11w1",
+   "ru": "Я иду́ в университе́т.",
+   "en": "I'm going to the university.",
+   "pics": [
+    "person_walking.png",
+    "school.png"
+   ],
+   "why": [
+    "иду́ — идти́, я form.",
+    "в университе́т — в + accusative = where to; masculine things don't change."
+   ],
+   "id": "d11s2",
+   "pr": "ya i-DU v u-ni-vir-si-TYET",
+   "audio": "5725fbaacf.mp3"
+  },
+  {
+   "word": "d11w1",
+   "ru": "За́втра я пойду́ в банк.",
+   "en": "Tomorrow I'll go to the bank.",
+   "pics": [
+    "sunrise.png",
+    "bank.png"
+   ],
+   "why": [
+    "пойду́ — пойти́, я form. Perfective, so it means the future: I will go.",
+    "в банк — в + accusative (direction)."
+   ],
+   "id": "d11s3",
+   "pr": "ZAVT-ra ya pai-DU v bank",
+   "audio": "c5e92a6e70.mp3"
+  },
+  {
+   "word": "d11w1",
+   "ru": "Пойдём в кафе́!",
+   "en": "Let's go to the café!",
+   "pics": [
+    "person_walking.png",
+    "hot_beverage.png"
+   ],
+   "why": [
+    "Пойдём — пойти́, мы form, used as “let's go!”.",
+    "в кафе́ — кафе́ never changes."
+   ],
+   "id": "d11s4",
+   "pr": "pai-DYOM v ka-FYE",
+   "audio": "97a8f728a8.mp3"
+  },
+  {
+   "word": "d11w2",
+   "ru": "Я е́ду на рабо́ту.",
+   "en": "I'm going to work (by transport).",
+   "pics": [
+    "bus.png",
+    "briefcase.png"
+   ],
+   "why": [
+    "е́ду — е́хать, я form: travelling by transport right now.",
+    "на рабо́ту — на + accusative (рабо́та is a на-word): -а → -у."
+   ],
+   "id": "d11s5",
+   "pr": "ya YE-du na ra-BO-tu",
+   "audio": "d7391935d7.mp3"
+  },
+  {
+   "word": "d11w2",
+   "ru": "Ле́том мы пое́дем в Ли́вию.",
+   "en": "In summer we'll go to Libya.",
+   "pics": [
+    "airplane.png",
+    "globe_showing_europe-africa.png"
+   ],
+   "why": [
+    "Ле́том — in summer (like у́тром, ве́чером).",
+    "пое́дем — пое́хать, мы form = future.",
+    "в Ли́вию — в + accusative: Ли́вия → Ли́вию (-я → -ю)."
+   ],
+   "id": "d11s6",
+   "pr": "LYE-tam mih pa-YE-dim v LI-vi-yu",
+   "audio": "f597630f66.mp3"
+  },
+  {
+   "word": "d11w3",
+   "ru": "Куда́ вы е́дете?",
+   "en": "Where are you going? (by transport)",
+   "pics": [
+    "bus.png",
+    "red_question_mark.png"
+   ],
+   "why": [
+    "Куда́ — where to.",
+    "е́дете — е́хать, вы form."
+   ],
+   "id": "d11s7",
+   "pr": "ku-DA vih YE-di-tye",
+   "audio": "21100574c8.mp3"
+  },
+  {
+   "word": "d11w4",
+   "ru": "Я иду́ домо́й.",
+   "en": "I'm going home.",
+   "pics": [
+    "person_walking.png",
+    "house.png"
+   ],
+   "why": [
+    "домо́й — direction (to home). No preposition needed.",
+    "Compare: Я до́ма = I'm at home."
+   ],
+   "id": "d11s8",
+   "pr": "ya i-DU da-MOI",
+   "audio": "d61258f32f.mp3"
+  },
+  {
+   "word": "d11w5",
+   "ru": "Иди́ сюда́!",
+   "en": "Come here!",
+   "pics": [
+    "person_walking.png",
+    "backhand_index_pointing_down.png"
+   ],
+   "why": [
+    "Иди́ — command of идти́ (ты).",
+    "сюда́ — (to) here: direction, because of the movement verb."
+   ],
+   "id": "d11s9",
+   "pr": "i-DI syu-DA",
+   "audio": "8571c4dbba.mp3"
+  },
+  {
+   "word": "d11w5",
+   "ru": "Мы е́дем туда́ на такси́.",
+   "en": "We're going there by taxi.",
+   "pics": [
+    "taxi.png",
+    "round_pushpin.png"
+   ],
+   "why": [
+    "туда́ — (to) there: direction.",
+    "на такси́ — by taxi: на + prepositional; такси́ never changes."
+   ],
+   "id": "d11s10",
+   "pr": "mih YE-dim tu-DA na tak-SI",
+   "audio": "f268d0d22d.mp3"
+  },
+  {
+   "word": "d11w6",
+   "ru": "Я е́ду на авто́бусе.",
+   "en": "I'm going by bus.",
+   "pics": [
+    "bus.png"
+   ],
+   "why": [
+    "на авто́бусе — by bus: на + prepositional of авто́бус (-е). Transport = на."
+   ],
+   "id": "d11s11",
+   "pr": "ya YE-du na av-TO-bu-sye",
+   "audio": "3c96d41c74.mp3"
+  },
+  {
+   "word": "d11w6",
+   "ru": "Где остано́вка авто́буса?",
+   "en": "Where is the bus stop?",
+   "pics": [
+    "bus_stop.png",
+    "red_question_mark.png"
+   ],
+   "why": [
+    "остано́вка авто́буса — “the stop of the bus”: авто́бус in the genitive (-а)."
+   ],
+   "id": "d11s12",
+   "pr": "gdye as-ta-NOV-ka av-TO-bu-sa",
+   "audio": "3d325a9c7c.mp3"
+  },
+  {
+   "word": "d11w7",
+   "ru": "В Ри́ге мно́го трамва́ев.",
+   "en": "There are many trams in Riga.",
+   "pics": [
+    "tram.png",
+    "cityscape.png"
+   ],
+   "why": [
+    "мно́го + genitive plural: трамва́й → трамва́ев (-й → -ев)."
+   ],
+   "id": "d11s13",
+   "pr": "v RI-gye MNO-ga tram-VA-yef",
+   "audio": "a853cb596c.mp3"
+  },
+  {
+   "word": "d11w7",
+   "ru": "Я е́ду на трамва́е.",
+   "en": "I'm going by tram.",
+   "pics": [
+    "tram.png"
+   ],
+   "why": [
+    "на трамва́е — на + prepositional: трамва́й → трамва́е (-й → -е)."
+   ],
+   "id": "d11s14",
+   "pr": "ya YE-du na tram-VA-ye",
+   "audio": "411d274569.mp3"
+  },
+  {
+   "word": "d11w8",
+   "ru": "По́езд в Та́ллин в во́семь часо́в.",
+   "en": "The train to Tallinn is at eight.",
+   "pics": [
+    "train.png",
+    "num_8.png"
+   ],
+   "why": [
+    "в Та́ллин — direction: в + accusative (unchanged).",
+    "в во́семь часо́в — at eight: after 8, genitive plural."
+   ],
+   "id": "d11s15",
+   "pr": "PO-yezt v TA-lin v VO-sim' cha-SOF",
+   "audio": "06ef00b470.mp3"
+  },
+  {
+   "word": "d11w9",
+   "ru": "Вы́зовите, пожа́луйста, такси́.",
+   "en": "Please call a taxi.",
+   "pics": [
+    "taxi.png",
+    "mobile_phone.png"
+   ],
+   "why": [
+    "Вы́зовите — polite command of вы́звать (to call / order a car).",
+    "такси́ — accusative, never changes."
+   ],
+   "id": "d11s16",
+   "pr": "VIH-za-vi-tye pa-ZHA-lus-ta tak-SI",
+   "audio": "199440d54b.mp3"
+  },
+  {
+   "word": "d11w10",
+   "ru": "Мы лети́м на самолёте.",
+   "en": "We're flying by plane.",
+   "pics": [
+    "airplane.png"
+   ],
+   "why": [
+    "лети́м — лете́ть (to fly), мы form.",
+    "на самолёте — на + prepositional (-е); ё is always stressed."
+   ],
+   "id": "d11s17",
+   "pr": "mih li-TIM na sa-ma-LYO-tye",
+   "audio": "4caf80bf67.mp3"
+  },
+  {
+   "word": "d11w11",
+   "ru": "Оди́н биле́т, пожа́луйста.",
+   "en": "One ticket, please.",
+   "pics": [
+    "ticket.png",
+    "num_1.png"
+   ],
+   "why": [
+    "оди́н биле́т — after 1: nominative; оди́н because биле́т is masculine."
+   ],
+   "id": "d11s18",
+   "pr": "a-DIN bi-LYET pa-ZHA-lus-ta",
+   "audio": "0e84629e6f.mp3"
+  },
+  {
+   "word": "d11w11",
+   "ru": "Ско́лько сто́ит биле́т?",
+   "en": "How much is a ticket?",
+   "pics": [
+    "ticket.png",
+    "money_bag.png"
+   ],
+   "why": [
+    "биле́т — nominative, the subject of сто́ит (costs)."
+   ],
+   "id": "d11s19",
+   "pr": "SKOL'-ka STO-it bi-LYET",
+   "audio": "46f10c6676.mp3"
+  },
+  {
+   "mk": "Где ты? — Я в {па́рк|е}.",
+   "g": "m",
+   "case": "где? → prepositional",
+   "en": "Where are you? — In the park.",
+   "pics": [
+    "round_pushpin.png",
+    "deciduous_tree.png"
+   ],
+   "why": [
+    "где? = location → в + prepositional: парк → па́рке."
+   ],
+   "id": "d11s20",
+   "ru": "Где ты? — Я в па́рке.",
+   "pr": "gdye tih ya v PAR-kye",
+   "audio": "52ad9c61ae.mp3"
+  },
+  {
+   "mk": "Куда́ ты идёшь? — В {парк}.",
+   "g": "m",
+   "case": "куда́? → accusative",
+   "en": "Where are you going? — To the park.",
+   "pics": [
+    "person_walking.png",
+    "deciduous_tree.png"
+   ],
+   "why": [
+    "куда́? = direction → в + accusative: парк stays парк (masculine thing)."
+   ],
+   "id": "d11s21",
+   "ru": "Куда́ ты идёшь? — В парк.",
+   "pr": "ku-DA tih i-DYOSH' v park",
+   "audio": "89acee6f1a.mp3"
+  },
+  {
+   "mk": "Я иду́ в {шко́л|у}.",
+   "g": "f",
+   "case": "куда́? → accusative",
+   "en": "I'm going to school.",
+   "pics": [
+    "person_walking.png",
+    "school.png"
+   ],
+   "why": [
+    "куда́? → в + accusative: шко́ла → шко́лу (-а → -у)."
+   ],
+   "id": "d11s22",
+   "ru": "Я иду́ в шко́лу.",
+   "pr": "ya i-DU v SHKO-lu",
+   "audio": "4bc74aeba3.mp3"
+  },
+  {
+   "mk": "Я в {шко́л|е}.",
+   "g": "f",
+   "case": "где? → prepositional",
+   "en": "I'm at school.",
+   "pics": [
+    "school.png"
+   ],
+   "why": [
+    "где? → в + prepositional: шко́ла → шко́ле (-а → -е)."
+   ],
+   "id": "d11s23",
+   "ru": "Я в шко́ле.",
+   "pr": "ya v SHKO-lye",
+   "audio": "5d509eb361.mp3"
+  },
+  {
+   "mk": "Мы е́дем на {авто́бус|е} на {ры́нок}.",
+   "g": "m",
+   "case": "transport vs direction",
+   "en": "We're going by bus to the market.",
+   "pics": [
+    "bus.png",
+    "shopping_cart.png"
+   ],
+   "why": [
+    "на авто́бусе — HOW: transport, на + prepositional.",
+    "на ры́нок — WHERE TO: на + accusative (unchanged)."
+   ],
+   "id": "d11s24",
+   "ru": "Мы е́дем на авто́бусе на ры́нок.",
+   "pr": "mih YE-dim na av-TO-bu-sye na RIH-nak",
+   "audio": "7378be6953.mp3"
+  }
+ ],
+ "video": "videos/day11.mp4"
+}
